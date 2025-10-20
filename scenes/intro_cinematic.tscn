@@ -1,0 +1,43 @@
+[gd_scene load_steps=5 format=3 uid="uid://b4uxosx0d71hq"]
+
+[ext_resource type="Texture2D" uid="uid://jipftv4iorno" path="res://imagenes/izoh9I (1).jpg" id="1_v4rfw"]
+[ext_resource type="Texture2D" uid="uid://dnoj8px3mla7c" path="res://imagenes/walk.png" id="2_jqqea"]
+[ext_resource type="Script" uid="uid://lix40ads5ipi" path="res://scripts/movimiento.gd" id="3_0rngq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_31033"]
+
+[node name="IntroCinematic" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1920.0
+offset_top = -1079.5
+offset_right = 1920.0
+offset_bottom = 1079.5
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_v4rfw")
+
+[node name="presi" type="Node2D" parent="."]
+
+[node name="dialoguebox" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1.0
+offset_right = 41.0
+offset_bottom = 40.0
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("2_jqqea")
+hframes = 9
+vframes = 4
+script = ExtResource("3_0rngq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/Sprite2D"]
+position = Vector2(0, 7)
+shape = SubResource("RectangleShape2D_31033")
