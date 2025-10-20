@@ -9,7 +9,6 @@
 [node name="IntroCinematic" type="Node2D"]
 
 [node name="TextureRect" type="TextureRect" parent="."]
-visible = false
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -31,12 +30,12 @@ offset_right = 41.0
 offset_bottom = 40.0
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("3_0rngq")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 texture = ExtResource("2_jqqea")
 hframes = 9
 vframes = 4
-script = ExtResource("3_0rngq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, 7)
