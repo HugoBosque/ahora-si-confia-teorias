@@ -1,0 +1,23 @@
+extends CharacterBody2D
+
+@export var speed: float = 200.0
+
+func _physics_process(delta: float) -> void:
+	var input_vector = Vector2.ZERO
+
+	# Leer input (WASD o flechas)
+	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
+	input_vector.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
+
+	# Normalizar para evitar movimiento más rápido en diagonal
+	input_vector = input_vector.normalized()
+
+	velocity = input_vector * speed
+	move_and_slide()
+
+	# Si usas animaciones
+	if $AnimatedSprite2D:
+		if input_vector == Vector2.ZERO:
+			$AnimatedSprite2D.stop()
+		else:
+			$AnimatedSprite2D.play("walk")  # nombre de tu animación
