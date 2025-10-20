@@ -38,6 +38,6 @@ hframes = 9
 vframes = 4
 script = ExtResource("3_0rngq")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/Sprite2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, 7)
 shape = SubResource("RectangleShape2D_31033")
