@@ -5,6 +5,20 @@ extends CharacterBody2D
 func _physics_process(delta: float) -> void:
 	var input_vector = Vector2.ZERO
 
+<<<<<<< HEAD
+	if Input.is_action_pressed("move_up"):
+		input_vector.y -= 1
+	if Input.is_action_pressed("move_down"):
+		input_vector.y += 1
+	if Input.is_action_pressed("move_left"):
+		input_vector.x -= 1
+	if Input.is_action_pressed("move_right"):
+		input_vector.x += 1
+
+	input_vector = input_vector.normalized()
+	velocity = input_vector * speed
+	move_and_slide()
+=======
 	# Leer input (WASD o flechas)
 	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
 	input_vector.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
@@ -21,3 +35,4 @@ func _physics_process(delta: float) -> void:
 			$AnimatedSprite2D.stop()
 		else:
 			$AnimatedSprite2D.play("walk")  # nombre de tu animación
+>>>>>>> 0a533591bf4275e270905c6ec211dfbf6b4c3a6b

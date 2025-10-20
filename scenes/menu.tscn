@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://jipftv4iorno" path="res://imagenes/izoh9I (1).jpg" id="2_con2f"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0e48y"]
-bg_color = Color(0, 0, 0, 1)
+bg_color = Color(0, 0.60784316, 0, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_epypp"]
 
@@ -12,7 +12,7 @@ bg_color = Color(0, 0, 0, 1)
 bg_color = Color(0.16470589, 0.16470589, 0.16470589, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q6r6c"]
-bg_color = Color(0, 0, 0, 1)
+bg_color = Color(0.688705, 0, 0, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kdubu"]
 bg_color = Color(0.52906674, 0.52906674, 0.52906656, 1)
