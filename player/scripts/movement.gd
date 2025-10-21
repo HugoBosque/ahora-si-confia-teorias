@@ -58,3 +58,4 @@ func anim_direction() -> String:
 	elif cardinal_direction == Vector2.RIGHT:
 		return "right"
 	return "down"
+	
