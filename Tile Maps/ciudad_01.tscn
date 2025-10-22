@@ -42336,4 +42336,10 @@ sources/7 = SubResource("TileSetAtlasSource_1r0qp")
 [node name="Ciudad01" type="TileMap"]
 tile_set = SubResource("TileSet_aoxyv")
 format = 2
-layer_0/tile_data = PackedInt32Array(2228228, 1376258, 8)
+
+[node name="Layer0" type="TileMapLayer" parent="."]
+use_parent_material = true
+tile_map_data = PackedByteArray(0, 0, 4, 0, 34, 0, 2, 0, 21, 0, 8, 0, 0, 0)
+tile_set = SubResource("TileSet_aoxyv")
+
+[node name="paredes" type="TileMapLayer" parent="."]
