@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dqx4dn8r3g2br"
+path="res://.godot/imported/Dialogo presi start.dialogue-5376a1e6847bdb737bdb7d0167100e60.tres"
+
+[deps]
+
+source_file="res://Dialogue/Dialogo presi start.dialogue"
+dest_files=["res://.godot/imported/Dialogo presi start.dialogue-5376a1e6847bdb737bdb7d0167100e60.tres"]
+
+[params]
+
+defaults=true
