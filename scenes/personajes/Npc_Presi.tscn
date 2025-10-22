@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://bv5jyatlu3rcw"]
+[gd_scene load_steps=5 format=3 uid="uid://hg3nhsq4eetv"]
 
 [ext_resource type="Script" uid="uid://bf2lxf4fwxv8f" path="res://scripts/NPC_Presi.gd" id="1_nodus"]
 [ext_resource type="Texture2D" uid="uid://d15euqdiydpd2" path="res://imagenes/walk-Presi.png" id="2_o376p"]
