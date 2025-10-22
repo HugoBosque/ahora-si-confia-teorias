@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://qpi0a34eaf1g"]
 
 [ext_resource type="PackedScene" uid="uid://bhobjfjvn12qw" path="res://Tile Maps/ciudad_01.tscn" id="1_8twys"]
-[ext_resource type="PackedScene" uid="uid://bplprou77cm47" path="res://scenes/player.tscn" id="2_r2usd"]
-[ext_resource type="Script" uid="uid://bf2lxf4fwxv8f" path="res://scripts/NPC_Presi.gd" id="3_ispqn"]
+[ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/player.tscn" id="2_r2usd"]
+[ext_resource type="Script" uid="uid://bf8bk4vobncut" path="res://scripts/DoorToTown.gd" id="3_r2usd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ispqn"]
 size = Vector2(16, 15)
@@ -17,10 +17,10 @@ position = Vector2(419, 240)
 
 [node name="DoorToTown" type="Area2D" parent="."]
 position = Vector2(249, 264)
-script = ExtResource("3_ispqn")
+script = ExtResource("3_r2usd")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToTown"]
-position = Vector2(-1, -1)
+position = Vector2(-1, 0)
 shape = SubResource("RectangleShape2D_ispqn")
 
 [node name="Spawn_From_Town" type="Marker2D" parent="DoorToTown"]
