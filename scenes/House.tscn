@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=3 uid="uid://qpi0a34eaf1g"]
 
 [ext_resource type="PackedScene" uid="uid://bhobjfjvn12qw" path="res://Tile Maps/ciudad_01.tscn" id="1_8twys"]
-[ext_resource type="PackedScene" uid="uid://bplprou77cm47" path="res://scenes/player.tscn" id="2_r2usd"]
+[ext_resource type="PackedScene" uid="uid://bplprou77cm47" path="res://scenes/Player.tscn" id="2_r2usd"]
 [ext_resource type="Script" uid="uid://bf8bk4vobncut" path="res://scripts/DoorToTown.gd" id="3_r2usd"]
-[ext_resource type="PackedScene" uid="uid://2fkx3o0s8gxk" path="res://presi/presi.tscn" id="4_ispqn"]
+[ext_resource type="PackedScene" uid="uid://2fkx3o0s8gxk" path="res://presi/Presi.tscn" id="4_ispqn"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ispqn"]
 size = Vector2(16, 15)
@@ -27,6 +27,6 @@ shape = SubResource("RectangleShape2D_ispqn")
 [node name="Spawn_From_Town" type="Marker2D" parent="DoorToTown"]
 
 [node name="Presi" parent="." instance=ExtResource("4_ispqn")]
-position = Vector2(485, 216)
+position = Vector2(528, 199)
 
 [connection signal="body_entered" from="DoorToTown" to="DoorToTown" method="_on_body_entered"]
