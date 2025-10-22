@@ -20,10 +20,9 @@ config/icon="res://icon.svg"
 Global="*res://scripts/Global.gd"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 
-[display]
+[editor_plugins]
 
-window/size/viewport_width=480
-window/size/viewport_height=270
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
 
 [editor_plugins]
 
