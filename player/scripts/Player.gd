@@ -11,13 +11,15 @@ var state: String = "idle"
 
 
 func _physics_process(delta: float) -> void:
-	# --- 1️⃣ Leer input ---
+	if GameManager.is_dialogue_active:
+		return
+		
 	direction.x = Input.get_action_strength("right") - Input.get_action_strength("left")
 	direction.y = Input.get_action_strength("down") - Input.get_action_strength("up")
 
-	# --- 2️⃣ Movimiento ---
+
 	if direction != Vector2.ZERO:
-		# Guardamos la dirección actual
+
 		direction = direction.normalized()
 		cardinal_direction = get_cardinal_direction(direction)
 		state = "walk"
