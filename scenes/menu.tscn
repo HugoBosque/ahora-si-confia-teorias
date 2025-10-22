@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://dijc0geox3vwu"]
 
 [ext_resource type="Script" uid="uid://cpxumx6o44scq" path="res://scripts/menu.gd" id="1_vjb58"]
-[ext_resource type="Texture2D" uid="uid://jipftv4iorno" path="res://imagenes/izoh9I (1).jpg" id="2_con2f"]
+[ext_resource type="Texture2D" uid="uid://ca3puj2y1mop5" path="res://imagenes/PORTADA JUEGO.png" id="2_vjb58"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0e48y"]
 bg_color = Color(0, 0.60784316, 0, 1)
@@ -45,7 +45,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_con2f")
+texture = ExtResource("2_vjb58")
 expand_mode = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="ColorRect"]
@@ -55,10 +55,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -138.375
-offset_top = -128.5
-offset_right = 138.375
-offset_bottom = 128.5
+offset_left = -355.0
+offset_top = -200.75
+offset_right = 355.0
+offset_bottom = 200.75
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 105
