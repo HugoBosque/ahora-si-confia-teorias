@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dijc0geox3vwu"]
+[gd_scene load_steps=7 format=3 uid="uid://dijc0geox3vwu"]
 
 [ext_resource type="Script" uid="uid://cpxumx6o44scq" path="res://scripts/menu.gd" id="1_vjb58"]
 [ext_resource type="Texture2D" uid="uid://ca3puj2y1mop5" path="res://imagenes/PORTADA JUEGO.png" id="2_vjb58"]
@@ -11,14 +11,8 @@ bg_color = Color(0, 0.60784316, 0, 1)
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0hol4"]
 bg_color = Color(0.16470589, 0.16470589, 0.16470589, 1)
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q6r6c"]
-bg_color = Color(0.688705, 0, 0, 1)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kdubu"]
-bg_color = Color(0.52906674, 0.52906674, 0.52906656, 1)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d21ai"]
-bg_color = Color(0.16565639, 0.16565642, 0.1656563, 1)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vjb58"]
+bg_color = Color(0.81960785, 0, 0, 1)
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -48,36 +42,55 @@ grow_vertical = 2
 texture = ExtResource("2_vjb58")
 expand_mode = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect"]
+[node name="Play" type="Button" parent="."]
 layout_mode = 1
-anchors_preset = 8
+anchors_preset = 7
 anchor_left = 0.5
-anchor_top = 0.5
+anchor_top = 1.0
 anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -355.0
-offset_top = -200.75
-offset_right = 355.0
-offset_bottom = 200.75
+anchor_bottom = 1.0
+offset_left = -124.0
+offset_top = -150.0
+offset_right = 124.0
+offset_bottom = -81.0
 grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/separation = 105
-
-[node name="Play" type="Button" parent="ColorRect/VBoxContainer"]
-layout_mode = 2
+grow_vertical = 0
 theme_override_font_sizes/font_size = 50
 theme_override_styles/normal = SubResource("StyleBoxFlat_0e48y")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_epypp")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0hol4")
 text = "JUGAR"
 
-[node name="Quit" type="Button" parent="ColorRect/VBoxContainer"]
-layout_mode = 2
+[node name="Salir" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -124.0
+offset_top = -69.0
+offset_right = 124.0
+grow_horizontal = 2
+grow_vertical = 0
 theme_override_font_sizes/font_size = 50
-theme_override_styles/normal = SubResource("StyleBoxFlat_q6r6c")
-theme_override_styles/pressed = SubResource("StyleBoxFlat_kdubu")
-theme_override_styles/hover = SubResource("StyleBoxFlat_d21ai")
+theme_override_styles/normal = SubResource("StyleBoxFlat_vjb58")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_epypp")
+theme_override_styles/hover = SubResource("StyleBoxFlat_0hol4")
 text = "SALIR"
 
-[connection signal="pressed" from="ColorRect/VBoxContainer/Play" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="ColorRect/VBoxContainer/Quit" to="." method="_on_quit_pressed"]
+[node name="LineEdit" type="LineEdit" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -575.0
+offset_right = 575.0
+offset_bottom = 169.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 60
+text = "Silencio en Plupsovia"
+alignment = 1
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Salir" to="." method="_on_play_pressed"]
