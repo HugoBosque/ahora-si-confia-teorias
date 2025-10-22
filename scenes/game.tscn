@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=4 uid="uid://cg0ysj07cxfnp"]
+[gd_scene load_steps=24 format=4 uid="uid://cg0ysj07cxfnp"]
 
 [ext_resource type="PackedScene" uid="uid://bplprou77cm47" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="PackedScene" uid="uid://bhobjfjvn12qw" path="res://Tile Maps/ciudad_01.tscn" id="1_yqjtg"]
@@ -11,6 +11,8 @@
 [ext_resource type="Texture2D" uid="uid://bj4ko22hcdj4e" path="res://Tile Maps/sprites/victorian-streets.png" id="7_ca42v"]
 [ext_resource type="Texture2D" uid="uid://dij3bau3khh78" path="res://Tile Maps/sprites/victorian-tenement.png" id="8_rysoc"]
 [ext_resource type="Texture2D" uid="uid://1at3m1l2a6wm" path="res://Tile Maps/sprites/victorian-windows-doors.png" id="9_ssvqc"]
+[ext_resource type="PackedScene" uid="uid://b2kjixa6oo16s" path="res://Tile Maps/Objects.tscn" id="10_kvuet"]
+[ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="11_trtic"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_no12j"]
 texture = ExtResource("2_kvpfn")
@@ -42352,19 +42354,24 @@ tile_set = SubResource("TileSet_aoxyv")
 
 [node name="pared" type="TileMapLayer" parent="Ciudad01"]
 
+[node name="Objects" parent="." instance=ExtResource("10_kvuet")]
+layer_0/tile_data = PackedInt32Array(5636210, 589831, 152, 5701746, 589831, 153, 5767282, 589831, 154, 5636211, 655367, 152, 5701747, 655367, 153, 5767283, 655367, 154, 5636212, 720903, 152, 5701748, 720903, 153, 5767284, 720903, 154, 5636213, 786439, 152, 5701749, 786439, 153, 5767285, 786439, 154, 5636214, 851975, 152, 5701750, 851975, 153, 5767286, 851975, 154)
+
+[node name="DetailsFront" parent="." instance=ExtResource("11_trtic")]
+
 [node name="Player" parent="." instance=ExtResource("1_uwrxv")]
 position = Vector2(761, 1077)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 
-[node name="DoorToHouse" type="Area2D" parent="."]
-position = Vector2(760, 1013)
+[node name="DoorToHouse" type="Area2D" parent="Player"]
+position = Vector2(-1, -64)
 script = ExtResource("3_lnu2h")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToHouse"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/DoorToHouse"]
 position = Vector2(-1, 13)
 shape = SubResource("RectangleShape2D_lbhrr")
 
-[node name="Sprite2D" type="Sprite2D" parent="DoorToHouse"]
+[node name="Sprite2D" type="Sprite2D" parent="Player/DoorToHouse"]
 
-[connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]
+[connection signal="body_entered" from="Player/DoorToHouse" to="Player/DoorToHouse" method="_on_body_entered"]
