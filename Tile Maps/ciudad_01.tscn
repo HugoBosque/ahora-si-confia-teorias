@@ -43391,5 +43391,4 @@ format = 2
 
 [node name="Layer1" type="TileMapLayer" parent="."]
 use_parent_material = true
-tile_map_data = PackedByteArray(0, 0, 4, 0, 34, 0, 2, 0, 21, 0, 8, 0, 0, 0)
 tile_set = SubResource("TileSet_aoxyv")
