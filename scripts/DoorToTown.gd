@@ -1,6 +1,6 @@
 extends Area2D
 
-@export var target_scene: String = "res://scenes/Game.tscn"
+@export var target_scene: String = "res://scenes/1.tscn"
 @export var target_spawn: String = "Spawn_From_House"
 
 func _on_body_entered(body):

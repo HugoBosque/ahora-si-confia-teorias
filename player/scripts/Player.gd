@@ -41,3 +41,6 @@ func get_input():
 
 func update_animation(state):
 	animated_sprite.play(state + "_" + last_direction)
+	
+func set_movement_enabled(enabled: bool):
+	GameManager.is_dialogue_active = not enabled

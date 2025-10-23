@@ -165,7 +165,6 @@ position = Vector2(0, -30)
 script = ExtResource("1_nodus")
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="."]
-visible = false
 sprite_frames = SubResource("SpriteFrames_02prc")
 animation = &"walk_left"
 

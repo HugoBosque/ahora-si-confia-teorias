@@ -25,11 +25,6 @@ GameManager="*res://scripts/Game_Manager.gd"
 
 runtime/balloon_path="res://scenes/Dialogo/balloon.tscn"
 
-[display]
-
-window/size/window_width_override=1280
-window/size/window_height_override=720
-
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
