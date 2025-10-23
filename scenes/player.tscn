@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=3 uid="uid://d14mpxdyt4fcp"]
+[gd_scene load_steps=46 format=3 uid="uid://ddmf063hheocv"]
 
 [ext_resource type="Script" uid="uid://cs4yhb2mjbo8m" path="res://player/scripts/Player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://traoig264b1v" path="res://imagenes/Personajes/Prota/standard/walk.png" id="2_g2els"]
@@ -347,8 +347,9 @@ animation = &"idle_down"
 autoplay = "idle_down"
 frame_progress = 0.9329804
 
-[node name="AreaDetector" type="Area2D" parent="."]
+[node name="AreaDetector" type="Area2D" parent="AnimatedSprite"]
+position = Vector2(0, 31)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="AreaDetector"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite/AreaDetector"]
 position = Vector2(0, -22)
 shape = SubResource("CircleShape2D_g2els")

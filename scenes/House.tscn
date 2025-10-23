@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://qpi0a34eaf1g"]
 
 [ext_resource type="PackedScene" uid="uid://bhobjfjvn12qw" path="res://Tile Maps/ciudad_01.tscn" id="1_8twys"]
-[ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/player.tscn" id="2_r2usd"]
+[ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/player.tscn" id="2_r2usd"]
 [ext_resource type="Script" uid="uid://bf8bk4vobncut" path="res://scripts/DoorToTown.gd" id="3_r2usd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ispqn"]
