@@ -1,63 +1,43 @@
 extends CharacterBody2D
 
-@export var move_speed: float = 200.0
+@onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite
 
-var direction: Vector2 = Vector2.ZERO
-var cardinal_direction: Vector2 = Vector2.DOWN
-var state: String = "idle"
-
-@onready var animation_player: AnimationPlayer = $AnimationPlayer
-@onready var sprite: Sprite2D = $Sprite2D
+var speed = 200.0
+var last_direction = "down"
 
 
-func _physics_process(delta: float) -> void:
+func _physics_process(delta):
 	if GameManager.is_dialogue_active:
 		return
-		
-	direction.x = Input.get_action_strength("right") - Input.get_action_strength("left")
-	direction.y = Input.get_action_strength("down") - Input.get_action_strength("up")
-
-
-	if direction != Vector2.ZERO:
-
-		direction = direction.normalized()
-		cardinal_direction = get_cardinal_direction(direction)
-		state = "walk"
-	else:
-		# Si no se mueve, se queda quieto Amirando hacia donde estaba
-		state = "idle"
-		direction = Vector2.ZERO
-
-	velocity = direction * move_speed
+	get_input()
 	move_and_slide()
 
-	# --- 3️⃣ Actualizar animación ---
-	update_animation()
 
-
-func get_cardinal_direction(dir: Vector2) -> Vector2:
-	if abs(dir.x) > abs(dir.y):
-		return Vector2.RIGHT if dir.x > 0 else Vector2.LEFT
-	else:
-		return Vector2.DOWN if dir.y > 0 else Vector2.UP
-
-
-func update_animation() -> void:
-	var anim_name = state + "_" + anim_direction()
-
-	# Solo cambiar si no está ya reproduciendo esa animación
-	if animation_player.current_animation != anim_name:
-		animation_player.play(anim_name)
-
-
-func anim_direction() -> String:
-	if cardinal_direction == Vector2.DOWN:
-		return "down"
-	elif cardinal_direction == Vector2.UP:
-		return "up"
-	elif cardinal_direction == Vector2.LEFT:
-		return "left"
-	elif cardinal_direction == Vector2.RIGHT:
-		return "right"
-	return "down"
+func get_input():
+	var input_direction = Input.get_vector("left", "right", "up", "down")
 	
+	if input_direction == Vector2.ZERO:
+		velocity = Vector2.ZERO
+		update_animation("idle")
+		return
+	
+	if abs(input_direction.x) > abs(input_direction.y):
+		
+		if input_direction.x > 0:
+			last_direction = "right"
+		else:
+			last_direction = "left"
+	else:
+		if input_direction.y > 0:
+			last_direction = "down"
+		else:
+			last_direction = "up"
+			
+	update_animation("walk")
+	
+	velocity = input_direction * speed
+	
+	
+
+func update_animation(state):
+	animated_sprite.play(state + "_" + last_direction)

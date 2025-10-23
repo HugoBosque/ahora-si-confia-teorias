@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bv5jyatlu3rcw"]
 
 [ext_resource type="Script" uid="uid://bf2lxf4fwxv8f" path="res://scripts/NPC_Presi.gd" id="1_nodus"]
-[ext_resource type="Texture2D" uid="uid://d15euqdiydpd2" path="res://imagenes/walk-Presi.png" id="2_o376p"]
+[ext_resource type="Texture2D" uid="uid://cak5vw54lqy1q" path="res://imagenes/Personajes/Presi/standard/walk.png" id="2_nodus"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_snyhq"]
 radius = 39.115215
@@ -14,7 +14,7 @@ position = Vector2(0, -30)
 script = ExtResource("1_nodus")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_o376p")
+texture = ExtResource("2_nodus")
 hframes = 9
 vframes = 4
 

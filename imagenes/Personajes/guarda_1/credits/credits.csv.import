@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cdvb4y82ppuai"
+
+[deps]
+
+files=["res://imagenes/Personajes/guarda_1/credits/credits.notes.translation", "res://imagenes/Personajes/guarda_1/credits/credits.authors.translation", "res://imagenes/Personajes/guarda_1/credits/credits.licenses.translation", "res://imagenes/Personajes/guarda_1/credits/credits.urls.translation"]
+
+source_file="res://imagenes/Personajes/guarda_1/credits/credits.csv"
+dest_files=["res://imagenes/Personajes/guarda_1/credits/credits.notes.translation", "res://imagenes/Personajes/guarda_1/credits/credits.authors.translation", "res://imagenes/Personajes/guarda_1/credits/credits.licenses.translation", "res://imagenes/Personajes/guarda_1/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

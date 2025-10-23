@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://di83dnig7bir5"]
 
-[ext_resource type="Texture2D" uid="uid://dr8ux0qhbj4x5" path="res://imagenes/walkguarda_2.png" id="1_fss1b"]
+[ext_resource type="Texture2D" uid="uid://2yjfp1crsjk2" path="res://imagenes/Personajes/guarda_2/standard/walkguarda_2.png" id="1_fss1b"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ud3hl"]
 size = Vector2(24, 20)
