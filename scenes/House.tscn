@@ -28,7 +28,6 @@ position = Vector2(448, 243)
 [node name="DoorToTown" type="Area2D" parent="."]
 position = Vector2(448, 280)
 script = ExtResource("3_r2usd")
-target_spawn = "Spawn_From_Town"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToTown"]
 shape = SubResource("RectangleShape2D_ispqn")
