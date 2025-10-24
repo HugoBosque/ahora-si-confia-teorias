@@ -1,7 +1,8 @@
-[gd_scene load_steps=24 format=3 uid="uid://dl5jldqdd5yu7"]
+[gd_scene load_steps=25 format=3 uid="uid://dl5jldqdd5yu7"]
 
 [ext_resource type="Texture2D" uid="uid://bimerfcvbd5wn" path="res://imagenes/Personajes/guarda_1/standard/walkguarda_1.png" id="1_i37xx"]
 [ext_resource type="Texture2D" uid="uid://bwhhy8yb6ailv" path="res://imagenes/Personajes/guarda_1/standard/idle.png" id="1_ud3hl"]
+[ext_resource type="Script" uid="uid://e0gjsrx6mfty" path="res://scripts/prueba_enseñar/guardia_1.gd" id="3_lg5yr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ud3hl"]
 atlas = ExtResource("1_ud3hl")
@@ -165,3 +166,4 @@ animations = [{
 sprite_frames = SubResource("SpriteFrames_hk5se")
 animation = &"idle_up"
 autoplay = "idle_up"
+script = ExtResource("3_lg5yr")

@@ -1,13 +1,14 @@
-[gd_scene load_steps=7 format=3 uid="uid://qpi0a34eaf1g"]
+[gd_scene load_steps=8 format=3 uid="uid://qpi0a34eaf1g"]
 
 [ext_resource type="PackedScene" uid="uid://bhobjfjvn12qw" path="res://Tile Maps/ciudad_01.tscn" id="1_8twys"]
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="2_etd6b"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="2_r2usd"]
 [ext_resource type="PackedScene" uid="uid://b2kjixa6oo16s" path="res://Tile Maps/Objects.tscn" id="3_lr155"]
 [ext_resource type="Script" uid="uid://bf8bk4vobncut" path="res://scripts/DoorToTown.gd" id="3_r2usd"]
+[ext_resource type="PackedScene" uid="uid://cnrc57uvl7y3e" path="res://scenes/cama.tscn" id="6_lr155"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ispqn"]
-size = Vector2(32, 32)
+size = Vector2(32, 48)
 
 [node name="House" type="Node2D"]
 position = Vector2(96, 101)
@@ -30,9 +31,11 @@ script = ExtResource("3_r2usd")
 target_spawn = "Spawn_From_Town"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToTown"]
-position = Vector2(0, 8)
 shape = SubResource("RectangleShape2D_ispqn")
 
 [node name="Spawn_From_Town" type="Marker2D" parent="DoorToTown"]
+
+[node name="Cama" parent="." instance=ExtResource("6_lr155")]
+position = Vector2(640, 92)
 
 [connection signal="body_entered" from="DoorToTown" to="DoorToTown" method="_on_body_entered"]

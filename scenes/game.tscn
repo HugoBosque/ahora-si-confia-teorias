@@ -42570,7 +42570,7 @@ tracks/6/keys = {
 
 [sub_resource type="Animation" id="Animation_rysoc"]
 resource_name = "presi_and_guardas_go_out"
-length = 12.1
+length = 12.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
