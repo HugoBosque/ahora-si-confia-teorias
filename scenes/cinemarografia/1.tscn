@@ -144,15 +144,15 @@ position = Vector2(575, 312)
 animation = &"idle_up"
 autoplay = "idle_up"
 
-[node name="DoorToHouse" type="Area2D" parent="."]
+[node name="Spawn_From_House_Intro" type="Area2D" parent="."]
 position = Vector2(576, 249)
 script = ExtResource("9_fbdl4")
 target_spawn = "Spawn_From_House"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToHouse"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Spawn_From_House_Intro"]
 position = Vector2(0, -1)
 shape = SubResource("RectangleShape2D_dhbug")
 
-[node name="Spawn_From_Town" type="Marker2D" parent="DoorToHouse"]
+[node name="Spawn_From_Town" type="Marker2D" parent="Spawn_From_House_Intro"]
 
-[connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]
+[connection signal="body_entered" from="Spawn_From_House_Intro" to="Spawn_From_House_Intro" method="_on_body_entered"]

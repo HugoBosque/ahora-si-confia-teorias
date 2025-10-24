@@ -12,6 +12,14 @@ func _ready():
 	DialogueManager.dialogue_started.connect(_on_dialogue_started)
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 	
+	print("🎥 Escena NPC_Presi iniciada")
+	# Aquí puedes mover el jugador al spawn indicado
+	var player = get_node_or_null("Player") # ajusta el path si está anidado
+	if player:
+		var spawn = get_node_or_null(Global.next_spawn_point)
+		if spawn:
+			player.global_position = spawn.global_position
+			print("👣 Jugador colocado en:", Global.next_spawn_point)
 	# Verifica que animation_player no sea null
 	if animation_player == null:
 		print("Error: AnimationPlayer no encontrado en la escena")
@@ -85,3 +93,7 @@ func _on_dialogue_ended(dialogue):
 		if animation_player != null:
 			print("AnimationPlayer encontrado finalmente, reproduciendo animación")
 			animation_player.play("acto1")
+			
+	print("🎞️ Cinemática terminada → yendo al mapa principal")
+	Global.next_spawn_point = "Spawn_From_House"
+	get_tree().change_scene_to_file("res://scenes/game.tscn")
