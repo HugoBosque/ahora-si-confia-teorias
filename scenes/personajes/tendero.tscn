@@ -42,6 +42,7 @@ position = Vector2(0, 28)
 shape = SubResource("CapsuleShape2D_nob4d")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(-1.9073486e-06, -39.000004)
 scale = Vector2(0.15625003, 0.14062499)
 texture = ExtResource("3_jouqq")

@@ -1,23 +1,37 @@
 extends Node2D
 
-@onready var area = $Area2D
-@onready var sprite_2d: Sprite2D = $Sprite2D
 
-var player_in_range = false
+@onready var sprite_2d_2: Sprite2D = $Sprite2D2
 
-func _ready():
-	# Oculta el signo de exclamación al iniciar
-	sprite_2d.visible = false
-	# Conecta las señales del área
-	area.body_entered.connect(_on_body_entered)
-	area.body_exited.connect(_on_body_exited)
+const TENDERO_PRIMERA = preload("uid://fq2m2hhvfcna")
 
-func _on_body_entered(body):
-	if body.is_in_group("player"): # Asegúrate de que el jugador tenga este grupo
-		player_in_range = true
-		sprite_2d.visible = true
+var player_close = false
 
-func _on_body_exited(body):
-	if body.is_in_group("player"):
-		player_in_range = false
-		sprite_2d.visible = false
+
+func _ready() -> void:
+	DialogueManager.dialogue_started.connect(_on_dialogue_started)
+	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
+	
+	
+func _process(delta):
+	if player_close and Input.is_action_just_pressed("ui_accept") and not GameManager.dialogue_active:
+		DialogueManager.show_dialogue_balloon(TENDERO_PRIMERA, "start")
+		
+		
+		
+
+
+func _on_area_entered(area):
+	sprite_2d_2.visible = true
+	player_close = true
+
+func _on_area_exited(area):
+	sprite_2d_2.visible = false
+	player_close = false
+
+func _on_dialogue_started(dialogue):
+	GameManager.dialogue_active = true
+
+func _on_dialogue_ended(dialogue):
+	await get_tree().create_timer(0.2).timeout
+	GameManager.dialogue_active = false

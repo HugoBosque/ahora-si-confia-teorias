@@ -5,13 +5,17 @@ extends CharacterBody2D
 var speed = 200.0
 var last_direction = "down"
 
+func _ready():
+	# Inicializa las variables de diálogo para evitar que el jugador quede bloqueado
+	GameManager.is_dialogue_active = false
+	GameManager.dialogue_active = false
 
 func _physics_process(delta):
-	if GameManager.is_dialogue_active:
+	if GameManager.is_dialogue_active or GameManager.dialogue_active:
 		return
+
 	get_input()
 	move_and_slide()
-
 
 func get_input():
 	var input_direction = Input.get_vector("left", "right", "up", "down")
@@ -22,7 +26,6 @@ func get_input():
 		return
 	
 	if abs(input_direction.x) > abs(input_direction.y):
-		
 		if input_direction.x > 0:
 			last_direction = "right"
 		else:
@@ -36,11 +39,9 @@ func get_input():
 	update_animation("walk")
 	
 	velocity = input_direction * speed
-	
-	
 
 func update_animation(state):
 	animated_sprite.play(state + "_" + last_direction)
-	
+
 func set_movement_enabled(enabled: bool):
 	GameManager.is_dialogue_active = not enabled

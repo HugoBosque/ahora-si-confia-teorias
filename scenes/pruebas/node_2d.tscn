@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://gx6xnpi02rqm"]
+
+[ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="2_4m7c4"]
+[ext_resource type="PackedScene" uid="uid://ct3er3tjk3h3e" path="res://scenes/pruebas/tendero_plis_funciona.tscn" id="2_082xv"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("2_4m7c4")]
+position = Vector2(427, 194)
+
+[node name="tendero plis funciona" parent="." instance=ExtResource("2_082xv")]
+position = Vector2(273, 183)
