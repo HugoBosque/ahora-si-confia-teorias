@@ -7,7 +7,7 @@
 [ext_resource type="Script" uid="uid://bf8bk4vobncut" path="res://scripts/DoorToTown.gd" id="3_r2usd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ispqn"]
-size = Vector2(32, 48)
+size = Vector2(32, 32)
 
 [node name="House" type="Node2D"]
 position = Vector2(96, 101)
@@ -30,6 +30,7 @@ script = ExtResource("3_r2usd")
 target_spawn = "Spawn_From_Town"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToTown"]
+position = Vector2(0, 8)
 shape = SubResource("RectangleShape2D_ispqn")
 
 [node name="Spawn_From_Town" type="Marker2D" parent="DoorToTown"]
