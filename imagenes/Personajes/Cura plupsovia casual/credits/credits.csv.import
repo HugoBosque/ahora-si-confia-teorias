@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://coxjfpi0hnrux"
+
+[deps]
+
+files=["res://imagenes/Personajes/Cura plupsovia casual/credits/credits.notes.translation", "res://imagenes/Personajes/Cura plupsovia casual/credits/credits.authors.translation", "res://imagenes/Personajes/Cura plupsovia casual/credits/credits.licenses.translation", "res://imagenes/Personajes/Cura plupsovia casual/credits/credits.urls.translation"]
+
+source_file="res://imagenes/Personajes/Cura plupsovia casual/credits/credits.csv"
+dest_files=["res://imagenes/Personajes/Cura plupsovia casual/credits/credits.notes.translation", "res://imagenes/Personajes/Cura plupsovia casual/credits/credits.authors.translation", "res://imagenes/Personajes/Cura plupsovia casual/credits/credits.licenses.translation", "res://imagenes/Personajes/Cura plupsovia casual/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

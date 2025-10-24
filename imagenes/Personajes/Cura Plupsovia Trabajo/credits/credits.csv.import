@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://buvc5g73serxq"
+
+[deps]
+
+files=["res://imagenes/Personajes/Cura Plupsovia Trabajo/credits/credits.notes.translation", "res://imagenes/Personajes/Cura Plupsovia Trabajo/credits/credits.authors.translation", "res://imagenes/Personajes/Cura Plupsovia Trabajo/credits/credits.licenses.translation", "res://imagenes/Personajes/Cura Plupsovia Trabajo/credits/credits.urls.translation"]
+
+source_file="res://imagenes/Personajes/Cura Plupsovia Trabajo/credits/credits.csv"
+dest_files=["res://imagenes/Personajes/Cura Plupsovia Trabajo/credits/credits.notes.translation", "res://imagenes/Personajes/Cura Plupsovia Trabajo/credits/credits.authors.translation", "res://imagenes/Personajes/Cura Plupsovia Trabajo/credits/credits.licenses.translation", "res://imagenes/Personajes/Cura Plupsovia Trabajo/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0
