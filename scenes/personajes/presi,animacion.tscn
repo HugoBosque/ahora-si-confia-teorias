@@ -155,4 +155,5 @@ animations = [{
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_wvppx")
-animation = &"walk_down"
+animation = &"idle_up"
+autoplay = "idle_up"

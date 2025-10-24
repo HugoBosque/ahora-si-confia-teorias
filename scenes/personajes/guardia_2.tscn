@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://di83dnig7bir5"]
+[gd_scene load_steps=22 format=3 uid="uid://di83dnig7bir5"]
 
 [ext_resource type="Texture2D" uid="uid://2yjfp1crsjk2" path="res://imagenes/Personajes/guarda_2/standard/walkguarda_2.png" id="1_fss1b"]
 
@@ -153,16 +153,7 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ud3hl"]
-size = Vector2(24, 20)
-
-[node name="Guardia_2" type="CharacterBody2D"]
-
-[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -30)
+[node name="Guardia_2" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_42mn3")
 animation = &"idle_up"
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -10)
-shape = SubResource("RectangleShape2D_ud3hl")
+autoplay = "idle_up"
