@@ -94,7 +94,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle_up",
-"speed": 10.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,

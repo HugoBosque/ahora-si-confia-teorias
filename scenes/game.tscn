@@ -42481,94 +42481,6 @@ sources/7 = SubResource("TileSetAtlasSource_1r0qp")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lbhrr"]
 size = Vector2(32, 48)
 
-[sub_resource type="Animation" id="Animation_rysoc"]
-resource_name = "presi_and_guardas_go_out"
-length = 5.1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("AnimatedSprite2D:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.5, 5, 5.1),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 0,
-"values": [Vector2(1567, 1552), Vector2(1567, 1552), Vector2(1567, 1804.465), Vector2(2932, 2080)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Guardia_2:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.5, 5, 5.1),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 0,
-"values": [Vector2(1534, 1543), Vector2(1534, 1543), Vector2(1534, 1778), Vector2(2926, 1993)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Guardia_1:position")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.5, 5, 5.1),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 0,
-"values": [Vector2(1601, 1543), Vector2(1601, 1543), Vector2(1601, 1778), Vector2(2925, 1883)]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("Presi:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
-"times": PackedFloat32Array(0, 0.49),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(1567, 1552), Vector2(2892, 1531)]
-}
-tracks/4/type = "value"
-tracks/4/imported = false
-tracks/4/enabled = true
-tracks/4/path = NodePath("AnimatedSprite2D:animation")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/keys = {
-"times": PackedFloat32Array(0, 0.5),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [&"idle_up", &"walk_down"]
-}
-tracks/5/type = "value"
-tracks/5/imported = false
-tracks/5/enabled = true
-tracks/5/path = NodePath("Guardia_2:animation")
-tracks/5/interp = 1
-tracks/5/loop_wrap = true
-tracks/5/keys = {
-"times": PackedFloat32Array(0, 0.5),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [&"idle_up", &"walk_down"]
-}
-tracks/6/type = "value"
-tracks/6/imported = false
-tracks/6/enabled = true
-tracks/6/path = NodePath("Guardia_1:animation")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = {
-"times": PackedFloat32Array(0, 0.5),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [&"idle_up", &"walk_down"]
-}
-
 [sub_resource type="Animation" id="Animation_ssvqc"]
 length = 0.001
 tracks/0/type = "value"
@@ -42641,7 +42553,7 @@ tracks/5/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [&"walk_down"]
+"values": [&"idle_up"]
 }
 tracks/6/type = "value"
 tracks/6/imported = false
@@ -42654,6 +42566,94 @@ tracks/6/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [&"idle_up"]
+}
+
+[sub_resource type="Animation" id="Animation_rysoc"]
+resource_name = "presi_and_guardas_go_out"
+length = 12.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 5, 5.01, 12, 12.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1567, 1552), Vector2(1567, 1552), Vector2(1567, 1761), Vector2(1567, 1761), Vector2(955, 1758), Vector2(374, 2445)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Guardia_2:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5, 5, 5.01, 12, 12.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1534, 1543), Vector2(1534, 1543), Vector2(1533, 1728), Vector2(1533, 1728), Vector2(976, 1729), Vector2(480, 2470)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Guardia_1:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5, 5, 5.01, 12, 12.1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1601, 1543), Vector2(1601, 1543), Vector2(1604, 1788), Vector2(1604, 1788), Vector2(977, 1784), Vector2(597, 2452)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Presi:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.49),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1567, 1552), Vector2(2892, 1531)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("AnimatedSprite2D:animation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.5, 5, 5.01),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [&"idle_up", &"walk_down", &"walk_down", &"walk_left"]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Guardia_2:animation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.5, 5.01),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [&"idle_up", &"walk_down", &"walk_left"]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Guardia_1:animation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.5, 5.01),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [&"idle_up", &"walk_down", &"walk_left"]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_264po"]
@@ -42705,7 +42705,6 @@ position = Vector2(1567, 1552)
 
 [node name="Guardia_2" parent="." instance=ExtResource("16_rysoc")]
 position = Vector2(1534, 1543)
-animation = &"walk_down"
 
 [node name="Guardia_1" parent="." instance=ExtResource("17_ssvqc")]
 position = Vector2(1601, 1543)
