@@ -48,6 +48,7 @@ offset_top = -129.0
 offset_right = 446.0
 offset_bottom = -129.0
 grow_horizontal = 1
+script = null
 
 [node name="mesa" parent="." instance=ExtResource("8_nwrc1")]
 position = Vector2(640, 295)
