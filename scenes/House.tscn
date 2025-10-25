@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://qpi0a34eaf1g"]
+[gd_scene load_steps=9 format=3 uid="uid://qpi0a34eaf1g"]
 
 [ext_resource type="PackedScene" uid="uid://bhobjfjvn12qw" path="res://Tile Maps/ciudad_01.tscn" id="1_8twys"]
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="2_etd6b"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://b2kjixa6oo16s" path="res://Tile Maps/Objects.tscn" id="3_lr155"]
 [ext_resource type="Script" uid="uid://bf8bk4vobncut" path="res://scripts/DoorToTown.gd" id="3_r2usd"]
 [ext_resource type="PackedScene" uid="uid://cnrc57uvl7y3e" path="res://scenes/cama.tscn" id="6_lr155"]
+[ext_resource type="PackedScene" uid="uid://dgl15x14hlkpe" path="res://scenes/cinemarografia/Estadisticas_Dia.tscn" id="7_cmj1i"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ispqn"]
 size = Vector2(32, 48)
@@ -36,5 +37,15 @@ shape = SubResource("RectangleShape2D_ispqn")
 
 [node name="Cama" parent="." instance=ExtResource("6_lr155")]
 position = Vector2(640, 92)
+
+[node name="EstadisticasDia1" parent="." instance=ExtResource("7_cmj1i")]
+visible = false
+anchors_preset = 9
+anchor_right = 0.0
+offset_left = 446.0
+offset_top = -129.0
+offset_right = 446.0
+offset_bottom = -129.0
+grow_horizontal = 1
 
 [connection signal="body_entered" from="DoorToTown" to="DoorToTown" method="_on_body_entered"]

@@ -29,5 +29,3 @@ func _on_body_exited(area) -> void:
 func _process(delta):
 	if player_in_area and Input.is_action_just_pressed("ui_accept"):
 		GameManager.dia += 1
-		get_tree().change_scene_to_packed(ESTADISTICAS_DIA)
-	
