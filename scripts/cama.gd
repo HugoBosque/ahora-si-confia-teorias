@@ -27,12 +27,13 @@ func _ready():
 
 func _process(delta):
 	if player_in_area and Input.is_action_just_pressed("ui_accept"):
-		_dormir()
+		GameManager.dia += 1
+		#_dormir()
 
-func _dormir():
-	var player = get_parent().get_node_or_null("Player")
-	if player:
-		player.set_movement_enabled(false)
+# func _dormir():
+	#var player = get_parent().get_node_or_null("Player")
+	#if player:
+		#player.set_movement_enabled(false)
 
 #	var resumen = pantalla_resumen.instantiate()
 #	get_tree().get_root().add_child(resumen)
