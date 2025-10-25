@@ -6,5 +6,6 @@ var has_done_dialogue1 = false
 
 var dia: int = 1
 
+var vida_cura: int = 0
 var satisfacion_cura: int = 0
 var preocupacion_cura: int = 0
