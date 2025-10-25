@@ -15,11 +15,7 @@ func _ready() -> void:
 	
 func _process(delta):
 	if player_close and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active:
-		if GameManager.dia == 1:
-			DialogueManager.show_dialogue_balloon(TENDERO_PRIMERA, "start")
-		if GameManager.dia == 2:
-			DialogueManager.show_dialogue_balloon(CURA, "start")
-		
+		DialogueManager.show_dialogue_balloon(TENDERO_PRIMERA, "start")
 		
 
 

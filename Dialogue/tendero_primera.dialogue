@@ -1,6 +1,6 @@
 ~ start
 if not GameManager.has_met_tendero
-	Ivan Petrovich: [shake][speed=0.1]Miquel chupa mas pollas que su madre en celo.
+	Ivan Petrovich: Que vuelva la falange española
 	set GameManager.has_met_tendero = true
 else
 	Ivan Petrovich: ¡Eh! Pero mira quién ha vuelto… Pensé que ya te habías olvidado de mi. Tranquilo, mientras haya un Petrovich en el pueblo no faltarán cotilleos ni productos.
