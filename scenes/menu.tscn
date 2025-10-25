@@ -160,4 +160,4 @@ text = "Silencio en Plupsovia"
 alignment = 1
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="Salir" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Salir" to="." method="_on_salir_pressed"]

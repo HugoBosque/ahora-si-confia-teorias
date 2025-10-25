@@ -6,12 +6,12 @@ extends Control
 func _ready() -> void:
 	# Conecta los botones (cambia los nombres si tus nodos se llaman distinto)
 	$Play.pressed.connect(_on_play_pressed)
-	$Salir.pressed.connect(_on_quit_pressed)
+	$Salir.pressed.connect(_on_salir_pressed)
 
 func _on_play_pressed() -> void:
 	# Cambia de escena al juego (rápido porque ya está precargado)
 	get_tree().change_scene_to_packed(house_scene)
 
-func _on_quit_pressed() -> void:
-	# Cierra el juego
+
+func _on_salir_pressed() -> void:
 	get_tree().quit()
