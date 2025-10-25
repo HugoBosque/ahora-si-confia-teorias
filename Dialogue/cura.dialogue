@@ -1,0 +1,17 @@
+~ start
+cura: ¿Que es lo que buscas muchacho?
+- Vengo a darte las noticias
+	cura: ¿Y que es lo que tienes?
+	- noticia 1
+		set GameManager.preocupacion_cura += 10
+		set GameManager.dia += 1
+		cura: Taiene {{GameManager.preocupacion_cura}}
+	- noticia 2
+		set GameManager.preocupacion_cura += 30
+
+	- noctia 3
+		set GameManager.preocupacion_cura += 0
+
+- Venia a hablar contigo
+	cura: De acuerdo muchacho
+=> END

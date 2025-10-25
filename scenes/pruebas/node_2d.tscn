@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://gx6xnpi02rqm"]
+[gd_scene load_steps=4 format=3 uid="uid://gx6xnpi02rqm"]
 
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="2_4m7c4"]
-[ext_resource type="PackedScene" uid="uid://ct3er3tjk3h3e" path="res://scenes/personajes/tendero_plis_funciona.tscn" id="2_082xv"]
+[ext_resource type="PackedScene" uid="uid://ct3er3tjk3h3e" path="res://scenes/personajes/tendero.tscn" id="2_082xv"]
+[ext_resource type="PackedScene" uid="uid://du7cqyabdkhix" path="res://scenes/personajes/cura.tscn" id="3_4m7c4"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -10,3 +11,6 @@ position = Vector2(427, 194)
 
 [node name="tendero plis funciona" parent="." instance=ExtResource("2_082xv")]
 position = Vector2(273, 183)
+
+[node name="AnimatedSprite2D" parent="." instance=ExtResource("3_4m7c4")]
+position = Vector2(608, 195)
