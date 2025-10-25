@@ -1,0 +1,52 @@
+[gd_scene load_steps=8 format=3 uid="uid://ct3er3tjk3h3e"]
+
+[ext_resource type="Script" uid="uid://qxk8lx7y4uxm" path="res://scripts/tendero.gd" id="1_q5jwb"]
+[ext_resource type="Texture2D" uid="uid://bhs3rxs7swk2n" path="res://imagenes/Personajes/Tendero/standard/idle.png" id="2_i3osq"]
+[ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="3_xxsrl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bf1tx"]
+atlas = ExtResource("2_i3osq")
+region = Rect2(0, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eqlc6"]
+atlas = ExtResource("2_i3osq")
+region = Rect2(64, 128, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_r4dql"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bf1tx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eqlc6")
+}],
+"loop": true,
+"name": &"idle_down",
+"speed": 3.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bf1tx"]
+radius = 35.0
+height = 122.0
+
+[node name="tendero plis funciona" type="Area2D"]
+script = ExtResource("1_q5jwb")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_r4dql")
+animation = &"idle_down"
+autoplay = "idle_down"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 33)
+shape = SubResource("CapsuleShape2D_bf1tx")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -38)
+scale = Vector2(0.123535156, 0.123535156)
+texture = ExtResource("3_xxsrl")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]

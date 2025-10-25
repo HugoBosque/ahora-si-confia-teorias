@@ -5,7 +5,7 @@ extends Node2D
 
 const TENDERO_PRIMERA = preload("uid://fq2m2hhvfcna")
 
-var player_close = false
+var player_close: bool = false
 
 
 func _ready() -> void:
@@ -14,7 +14,7 @@ func _ready() -> void:
 	
 	
 func _process(delta):
-	if player_close and Input.is_action_just_pressed("ui_accept") and not GameManager.dialogue_active:
+	if player_close and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active:
 		DialogueManager.show_dialogue_balloon(TENDERO_PRIMERA, "start")
 		
 		
@@ -30,8 +30,8 @@ func _on_area_exited(area):
 	player_close = false
 
 func _on_dialogue_started(dialogue):
-	GameManager.dialogue_active = true
+	GameManager.is_dialogue_active = true
 
 func _on_dialogue_ended(dialogue):
 	await get_tree().create_timer(0.2).timeout
-	GameManager.dialogue_active = false
+	GameManager.is_dialogue_active = false

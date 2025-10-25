@@ -44,18 +44,21 @@ func _on_dialogue_started(dialogue):
 func _on_dialogue_ended(dialogue):
 	await get_tree().create_timer(0.2).timeout
 	if not GameManager.has_done_dialogue1:
+		# 🔒 Desactiva el movimiento antes de la animación
+		player.set_movement_enabled(false)
+		GameManager.is_dialogue_active = true
 		animation_player.play("presi_and_guardas_go_out")
+
 
 func _on_animation_finished(anim_name: String):
 	if anim_name == "presi_and_guardas_go_out":
 		_hide_all_event_elements()
-
-		# ✅ Guardamos que ya se completó este evento
 		GameManager.has_done_dialogue1 = true
 
-		# Reactivar movimiento del jugador
+		# 🔓 Reactivar movimiento al finalizar la animación
 		player.set_movement_enabled(true)
 		GameManager.is_dialogue_active = false
+
 
 func _hide_all_event_elements():
 	# Oculta todos los elementos relacionados con el evento

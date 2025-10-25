@@ -8,10 +8,10 @@ var last_direction = "down"
 func _ready():
 	# Inicializa las variables de diálogo para evitar que el jugador quede bloqueado
 	GameManager.is_dialogue_active = false
-	GameManager.dialogue_active = false
+
 
 func _physics_process(delta):
-	if GameManager.is_dialogue_active or GameManager.dialogue_active:
+	if GameManager.is_dialogue_active:
 		return
 
 	get_input()
