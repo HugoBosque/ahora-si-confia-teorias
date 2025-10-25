@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dgl15x14hlkpe"]
 
-[ext_resource type="Script" uid="uid://ce24jnkgdjnjd" path="res://scripts/estadisticas_dia.gd" id="1_ndvfe"]
+[ext_resource type="Script" path="res://scripts/estadisticas_dia.gd" id="1_ndvfe"]
 
 [node name="EstadisticasDia" type="Control"]
 layout_mode = 3

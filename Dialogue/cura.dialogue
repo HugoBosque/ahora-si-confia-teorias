@@ -17,8 +17,11 @@ cura: ¿Que es lo que buscas muchacho?
 		set GameManager.preocupacion_cura += 40
 		set GameManager.satisfacion_cura -= 100
 		set GameManager.dia += 1
+	- No le das noticia
+	
 		
 - Venia a hablar contigo
+	%1 cura: Que vuelva la falange española
 	%5 cura: Viva VOX
 	%5 cura: Viva PSOE
 => END
