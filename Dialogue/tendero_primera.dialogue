@@ -1,9 +1,11 @@
 ~ start
 if not GameManager.has_met_tendero
 	Ivan Petrovich: Que vuelva la falange española
+	set GameManager.preocupacion_cura +=30
 	set GameManager.has_met_tendero = true
 else
 	Ivan Petrovich: ¡Eh! Pero mira quién ha vuelto… Pensé que ya te habías olvidado de mi. Tranquilo, mientras haya un Petrovich en el pueblo no faltarán cotilleos ni productos.
 	- No te preocupes, solo pasaba por aquí.
 	Ivan Petrovich: Bueno, cuando quieras estoy aquí ¡solo calidad!
+	set GameManager.preocupacion_cura -=70
 => END

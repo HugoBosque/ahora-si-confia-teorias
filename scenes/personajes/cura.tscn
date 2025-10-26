@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=3 uid="uid://du7cqyabdkhix"]
+[gd_scene load_steps=51 format=3 uid="uid://du7cqyabdkhix"]
 
 [ext_resource type="Script" uid="uid://cpk8gdwwymrxb" path="res://scripts/pers/cura.gd" id="1_gdqod"]
 [ext_resource type="Texture2D" uid="uid://dhrjmkxwhks7m" path="res://imagenes/Personajes/Cura plupsovia casual/standard/idle.png" id="1_h71g6"]
@@ -358,6 +358,9 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_eyda2"]
 radius = 49.0
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gdqod"]
+size = Vector2(22, 41)
+
 [node name="Cura" type="Area2D"]
 script = ExtResource("1_gdqod")
 
@@ -369,6 +372,12 @@ autoplay = "idle_down"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 7)
 shape = SubResource("CircleShape2D_eyda2")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(0, 9.5)
+shape = SubResource("RectangleShape2D_gdqod")
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="area_exited" from="." to="." method="_on_area_exited"]
