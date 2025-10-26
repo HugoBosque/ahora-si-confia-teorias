@@ -13,9 +13,6 @@ func _on_body_entered(body):
 	if not body.is_in_group("player"):
 		return
 
-	Global.next_spawn_point = target_spawn_name
-	print("➡️ Entrando a casa:", target_scene_path, "con spawn:", target_spawn_name)
-
 	# 🔹 Desactivar todas las puertas del mapa viejo para evitar teleports
 	var parent_map = get_parent()
 	if parent_map:

@@ -9,7 +9,7 @@ func _ready():
 	GameManager.connect("dia_cambiado", Callable(self, "_on_dia_cambiado"))
 	_actualizar_presencia_cura()
 
-	# 🔹 Conectar la señal de la puerta solo si el nodo existe
+	# Conectar la señal de la puerta solo si el nodo existe
 	if door_to_church:
 		door_to_church.connect("body_entered", Callable(self, "_on_door_body_entered"))
 	else:
@@ -22,13 +22,21 @@ func _actualizar_presencia_cura():
 	# Si la preocupación del cura es baja (< 50), está en el pueblo
 	var activo = GameManager.preocupacion_cura < 50
 
+	# 🔹 Visibilidad
 	cura.visible = activo
+
+	# 🔹 Activar/desactivar Area2D
 	cura.set_deferred("monitoring", activo)
 	cura.set_deferred("monitorable", activo)
 
-	for shape in cura.get_children():
-		if shape is CollisionShape2D:
-			shape.disabled = not activo
+	# 🔹 Desactivar todos los CollisionShape2D dentro del Area2D y del CharacterBody2D
+	for child in cura.get_children():
+		if child is CollisionShape2D:
+			child.disabled = not activo
+		if child is CharacterBody2D:
+			for grandchild in child.get_children():
+				if grandchild is CollisionShape2D:
+					grandchild.disabled = not activo
 
 # 🔹 Detectar cuando el jugador toca la puerta
 func _on_door_body_entered(body: Node):
