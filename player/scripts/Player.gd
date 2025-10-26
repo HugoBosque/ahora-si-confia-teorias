@@ -9,9 +9,10 @@ func _ready():
 	# Inicializa las variables de diálogo para evitar que el jugador quede bloqueado
 	GameManager.is_dialogue_active = false
 
-
 func _physics_process(delta):
 	if GameManager.is_dialogue_active:
+		velocity = Vector2.ZERO        # 🔒 Detiene cualquier movimiento
+		move_and_slide()               # 🔒 Aplica el freno inmediatamente
 		return
 
 	get_input()

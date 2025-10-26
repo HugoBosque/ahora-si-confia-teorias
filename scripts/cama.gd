@@ -4,7 +4,6 @@ extends Area2D
 
 const ESTADISTICAS_DIA = preload("res://scenes/cinemarografia/Estadisticas_Dia.tscn")
 
-
 var player_in_area = false
 
 func _ready():
@@ -17,15 +16,11 @@ func _on_body_entered(area) -> void:
 		player_in_area = true
 		exclamacion.visible = true
 
-
 func _on_body_exited(area) -> void:
 	if area.name == "Player":
 		player_in_area = false
 		exclamacion.visible = false
-		
-
-
 
 func _process(delta):
 	if player_in_area and Input.is_action_just_pressed("ui_accept"):
-		GameManager.dia += 1
+		GameManager.cambiar_dia()  # <-- ahora usamos la función del GameManager

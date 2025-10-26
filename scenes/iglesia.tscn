@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://b5vikdtoesgly"]
+
+[ext_resource type="Script" uid="uid://bogsiljxkbxhg" path="res://scripts/iglesia.gd" id="1_klach"]
+[ext_resource type="PackedScene" uid="uid://du7cqyabdkhix" path="res://scenes/personajes/cura.tscn" id="2_s8sp2"]
+[ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="3_s8sp2"]
+
+[node name="Iglesia" type="Node2D"]
+script = ExtResource("1_klach")
+
+[node name="Cura" parent="." instance=ExtResource("2_s8sp2")]
+position = Vector2(521, 217)
+
+[node name="Player" parent="." instance=ExtResource("3_s8sp2")]
+position = Vector2(318, 236)
