@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://cpw3g3r6mad0h"]
+
+[ext_resource type="Texture2D" uid="uid://2yjfp1crsjk2" path="res://imagenes/Personajes/guarda_2/standard/walkguarda_2.png" id="1_85mn2"]
+[ext_resource type="Script" uid="uid://dar53w061rand" path="res://scripts/prueba_enseñar/pers_prueba.gd" id="1_hvdks"]
+[ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="3_3fovk"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hvdks"]
+radius = 41.303753
+
+[node name="Pers_prueba" type="Area2D"]
+script = ExtResource("1_hvdks")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_85mn2")
+hframes = 9
+vframes = 4
+frame = 18
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 6)
+shape = SubResource("CircleShape2D_hvdks")
+
+[node name="Exclamacion" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("3_3fovk")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

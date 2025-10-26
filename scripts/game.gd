@@ -1,8 +1,8 @@
 extends Node
 
 @onready var cura: Area2D = $Cura
-@onready var door_to_church: Area2D = $DoorToChurch  # Ajusta el nombre EXACTO de tu nodo en la escena
-@onready var player: Node = $Player  # referencia al Player en la escena
+@onready var door_to_church: Area2D = $DoorToChurch
+@onready var player: CharacterBody2D = $Player
 
 func _ready():
 	# Conecta la señal de cambio de día
