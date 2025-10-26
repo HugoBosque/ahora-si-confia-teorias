@@ -1,8 +1,9 @@
-[gd_scene load_steps=51 format=3 uid="uid://du7cqyabdkhix"]
+[gd_scene load_steps=52 format=3 uid="uid://du7cqyabdkhix"]
 
 [ext_resource type="Script" uid="uid://cpk8gdwwymrxb" path="res://scripts/pers/cura.gd" id="1_gdqod"]
 [ext_resource type="Texture2D" uid="uid://dhrjmkxwhks7m" path="res://imagenes/Personajes/Cura plupsovia casual/standard/idle.png" id="1_h71g6"]
 [ext_resource type="Texture2D" uid="uid://5of118a33x3p" path="res://imagenes/Personajes/Cura Plupsovia Trabajo/standard/walk.png" id="2_gdqod"]
+[ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="4_u5ufc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_h71g6"]
 atlas = ExtResource("1_h71g6")
@@ -378,6 +379,12 @@ shape = SubResource("CircleShape2D_eyda2")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, 9.5)
 shape = SubResource("RectangleShape2D_gdqod")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -38)
+scale = Vector2(0.124, 0.124)
+texture = ExtResource("4_u5ufc")
 
 [connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="area_exited" from="." to="." method="_on_area_exited"]

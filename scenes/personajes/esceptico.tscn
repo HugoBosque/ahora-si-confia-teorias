@@ -1,6 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://sktvsy6v4s2r"]
+[gd_scene load_steps=8 format=3 uid="uid://sktvsy6v4s2r"]
 
 [ext_resource type="Texture2D" uid="uid://cwka73lvp661" path="res://imagenes/Personajes/Esceptico/standard/walk.png" id="1_6g02j"]
+[ext_resource type="Script" uid="uid://ohi21gymjo1x" path="res://scripts/esceptico.gd" id="1_cgpab"]
+[ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="3_wnlm7"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cgpab"]
 atlas = ExtResource("1_6g02j")
@@ -21,9 +23,10 @@ animations = [{
 radius = 45.01111
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6g02j"]
-size = Vector2(36, 69)
+size = Vector2(36, 73)
 
-[node name="Area2D" type="Area2D"]
+[node name="Esceptico" type="Area2D"]
+script = ExtResource("1_cgpab")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_wnlm7")
@@ -36,5 +39,14 @@ shape = SubResource("CircleShape2D_v5ihf")
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(0, 3.5)
+position = Vector2(0, 5.5)
 shape = SubResource("RectangleShape2D_6g02j")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -38)
+scale = Vector2(0.124, 0.124)
+texture = ExtResource("3_wnlm7")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]

@@ -1,8 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://gx6xnpi02rqm"]
+[gd_scene load_steps=7 format=3 uid="uid://gx6xnpi02rqm"]
 
 [ext_resource type="Script" uid="uid://clseiacx744iu" path="res://scripts/prueba_enseñar/node_2d.gd" id="1_veasc"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="2_4m7c4"]
 [ext_resource type="PackedScene" uid="uid://ct3er3tjk3h3e" path="res://scenes/personajes/tendero.tscn" id="2_082xv"]
+[ext_resource type="PackedScene" uid="uid://sktvsy6v4s2r" path="res://scenes/personajes/esceptico.tscn" id="4_veasc"]
+[ext_resource type="PackedScene" uid="uid://b0rf8rc1dhnu1" path="res://scenes/personajes/madre.tscn" id="5_rir3b"]
+[ext_resource type="PackedScene" uid="uid://du7cqyabdkhix" path="res://scenes/personajes/cura.tscn" id="6_n05a0"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_veasc")
@@ -18,3 +21,12 @@ position = Vector2(308, 238)
 
 [node name="tendero3" parent="." instance=ExtResource("2_082xv")]
 position = Vector2(403, 240)
+
+[node name="Esceptico" parent="." instance=ExtResource("4_veasc")]
+position = Vector2(621, 259)
+
+[node name="Madre" parent="." instance=ExtResource("5_rir3b")]
+position = Vector2(759, 260)
+
+[node name="Cura" parent="." instance=ExtResource("6_n05a0")]
+position = Vector2(520, 409)

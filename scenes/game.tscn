@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=4 uid="uid://cg0ysj07cxfnp"]
+[gd_scene load_steps=37 format=4 uid="uid://cg0ysj07cxfnp"]
 
 [ext_resource type="Script" uid="uid://dk4i6ny4oi7h3" path="res://scripts/game.gd" id="1_1kice"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="1_uwrxv"]
@@ -21,6 +21,7 @@
 [ext_resource type="PackedScene" uid="uid://dl5jldqdd5yu7" path="res://scenes/personajes/guardia_1.tscn" id="17_ssvqc"]
 [ext_resource type="PackedScene" uid="uid://du7cqyabdkhix" path="res://scenes/personajes/cura.tscn" id="20_5newe"]
 [ext_resource type="PackedScene" uid="uid://sktvsy6v4s2r" path="res://scenes/personajes/esceptico.tscn" id="21_5newe"]
+[ext_resource type="PackedScene" uid="uid://b0rf8rc1dhnu1" path="res://scenes/personajes/madre.tscn" id="22_37s47"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_no12j"]
 texture = ExtResource("2_kvpfn")
@@ -42737,5 +42738,8 @@ shape = SubResource("RectangleShape2D_37s47")
 
 [node name="Esceptico" parent="." instance=ExtResource("21_5newe")]
 position = Vector2(1599, -361)
+
+[node name="Madre" parent="." instance=ExtResource("22_37s47")]
+position = Vector2(1039, 411)
 
 [connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]

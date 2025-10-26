@@ -1,10 +1,8 @@
 extends Node2D
 
-
-
-const CURA = preload("uid://rfms3hm7305p")
-const TENDERO_PRIMERA = preload("uid://fq2m2hhvfcna")
+const MADRE = preload("uid://dmkgn5v5rlukt")
 @onready var sprite_2d: Sprite2D = $Sprite2D
+
 
 
 
@@ -18,14 +16,12 @@ func _ready() -> void:
 	
 func _process(delta):
 	if player_close and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active:
-		if GameManager.dia == 1:
-			DialogueManager.show_dialogue_balloon(CURA, "start")
-		elif GameManager.dia == 2:
-			DialogueManager.show_dialogue_balloon(TENDERO_PRIMERA, "start")
 		
-		
-		
+		DialogueManager.show_dialogue_balloon(MADRE, "start")
 
+		
+		
+		
 func _on_area_entered(area):
 	sprite_2d.visible = true
 	player_close = true

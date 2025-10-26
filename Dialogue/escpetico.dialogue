@@ -1,0 +1,7 @@
+~ start
+Alexei: [speed=0.7] ¿Se te ha perdido algo?
+- Sólo quiero hablar
+- Aquí tienes las notícias
+Alexei: [speed=0.7] No me jodas, definitivamente le deberían bajar el sueldo a Victor
+- ...
+=> END

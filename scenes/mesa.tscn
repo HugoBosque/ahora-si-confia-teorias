@@ -16,8 +16,8 @@ shape = SubResource("CircleShape2D_bru42")
 
 [node name="Exclamacion" type="Sprite2D" parent="."]
 visible = false
-position = Vector2(-7.1525574e-07, -53)
-scale = Vector2(0.14367677, 0.14367677)
+position = Vector2(0, -38)
+scale = Vector2(0.124, 0.124)
 texture = ExtResource("2_8ehb7")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
