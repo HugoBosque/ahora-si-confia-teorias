@@ -42671,7 +42671,6 @@ _data = {
 size = Vector2(60, 45)
 
 [node name="game" type="Node2D"]
-position = Vector2(-37, -23)
 script = ExtResource("1_1kice")
 
 [node name="Ciudad01" parent="." instance=ExtResource("1_yqjtg")]
@@ -42709,9 +42708,6 @@ position = Vector2(1567, 1552)
 [node name="Guardia_2" parent="." instance=ExtResource("16_rysoc")]
 position = Vector2(1534, 1543)
 
-[node name="AnimatedSprite2D" parent="." instance=ExtResource("15_ca42v")]
-position = Vector2(1567, 1552)
-
 [node name="Guardia_1" parent="." instance=ExtResource("17_ssvqc")]
 position = Vector2(1601, 1543)
 
@@ -42721,7 +42717,7 @@ libraries = {
 }
 
 [node name="Cura" parent="." instance=ExtResource("20_5newe")]
-position = Vector2(781, 167)
+position = Vector2(662, 159)
 
 [node name="DoorToChurch" type="Area2D" parent="."]
 position = Vector2(782, 116)
@@ -42737,9 +42733,12 @@ position = Vector2(1599, -361)
 position = Vector2(1039, 411)
 
 [node name="Player" parent="." instance=ExtResource("1_uwrxv")]
-position = Vector2(1567, 1548)
+position = Vector2(1567, 1551)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(0, 6)
+
+[node name="AnimatedSprite2D" parent="." instance=ExtResource("15_ca42v")]
+position = Vector2(1567, 1552)
 
 [connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]

@@ -2,6 +2,7 @@ extends Node2D
 
 const ESCPETICO = preload("uid://c8t7n2okg0gjt")
 @onready var sprite_2d: Sprite2D = $Sprite2D
+const ESCEPTICO_DIA_1_2 = preload("uid://cdfwne4l8kh1")
 
 
 
@@ -15,9 +16,10 @@ func _ready() -> void:
 	
 func _process(delta):
 	if player_close and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active:
-		
-		DialogueManager.show_dialogue_balloon(ESCPETICO, "start")
-
+		if not Global.dia1_halbar_esceptico: 
+			DialogueManager.show_dialogue_balloon(ESCPETICO, "start")
+		elif Global.dia1_halbar_esceptico:
+			DialogueManager.show_dialogue_balloon(ESCEPTICO_DIA_1_2, "start")
 		
 		
 		

@@ -17,10 +17,11 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Global="*res://scripts/Global.gd"
+Global="*res://scripts/scripts globales/Global.gd"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
-GameManager="*res://scripts/Game_Manager.gd"
+GameManager="*res://scripts/scripts globales/Game_Manager.gd"
 PersonajesDias="*res://scripts/Personajes_Dias.gd"
+SceneManager="*res://scripts/scripts globales/SceneManager.gd"
 
 [dialogue_manager]
 
@@ -69,7 +70,7 @@ accept={
 
 [internationalization]
 
-locale/translations_pot_files=PackedStringArray("res://Dialogue/my_dialogue.dialogue", "res://Dialogue/tendero_primera.dialogue", "res://Dialogue/cura.dialogue", "res://Dialogue/escpetico.dialogue", "res://Dialogue/madre.dialogue")
+locale/translations_pot_files=PackedStringArray("res://Dialogue/my_dialogue.dialogue", "res://Dialogue/cura/cura dia1_2.dialogue", "res://Dialogue/cura/cura.dialogue", "res://Dialogue/esceptico/esceptico dia1_2.dialogue", "res://Dialogue/esceptico/escpetico.dialogue", "res://Dialogue/madre/madre.dialogue", "res://Dialogue/tendero/tendero_primera.dialogue")
 
 [layer_names]
 

@@ -5,6 +5,7 @@ extends Node2D
 const CURA = preload("uid://rfms3hm7305p")
 const TENDERO_PRIMERA = preload("uid://fq2m2hhvfcna")
 @onready var sprite_2d: Sprite2D = $Sprite2D
+const CURA_DIA_1_2 = preload("uid://0dekmcfgvtm5")
 
 
 
@@ -19,7 +20,10 @@ func _ready() -> void:
 func _process(delta):
 	if player_close and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active:
 		if GameManager.dia == 1:
-			DialogueManager.show_dialogue_balloon(CURA, "start")
+			if not Global.dia1_hablar_cura:
+				DialogueManager.show_dialogue_balloon(CURA, "start")
+			elif Global.dia1_hablar_cura:
+				DialogueManager.show_dialogue_balloon(CURA_DIA_1_2, "start")
 		elif GameManager.dia == 2:
 			DialogueManager.show_dialogue_balloon(TENDERO_PRIMERA, "start")
 		

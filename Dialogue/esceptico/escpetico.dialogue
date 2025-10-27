@@ -2,6 +2,7 @@
 Alexei: [speed=0.7] ¿Se te ha perdido algo?
 
 - Vengo a darte las noticias
+	set Global.dia1_halbar_esceptico = true
 	Alexei: No me las leeré.
 	- Es importante que estés informado.
 		Alexei: Prefiero informarme yo mismo.
@@ -16,9 +17,7 @@ Alexei: [speed=0.7] ¿Se te ha perdido algo?
 			set GameManager.preocupacion_esceptico -= 20
 			set GameManager.satisfacion_esceptico += 30
 			set GameManager.vida_esceptico -=50
-		cura: Tiene {{GameManager.preocupacion_cura}} preocupacion el cura, Tiene {{GameManager.vida_cura}} de vida, Tiene {{GameManager.satisfacion_cura}} de satisfaccion
-		cura: Tiene {{GameManager.preocupacion_cura}} preocupacion el cura, Tiene {{GameManager.vida_cura}} de vida, Tiene {{GameManager.satisfacion_cura}} de satisfaccion
-		cura: Tiene {{GameManager.preocupacion_cura}} preocupacion el cura, Tiene {{GameManager.vida_cura}}
+
 - Sólo quiero hablar.
 	Alexei: [speed=0.7] No te lo tomes personal, no tengo de que hablar.
 	- Por ejemplo, ¿porque vives alejado?

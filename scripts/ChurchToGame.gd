@@ -1,13 +1,9 @@
 extends Area2D
-
-# Precargamos la escena como PackedScene
-const GAME = preload("res://scenes/game.tscn")
-
-func _ready():
-	self.body_entered.connect(_on_body_entered)
+@onready var house_scene = preload("res://scenes/House.tscn")
+@onready var town_scene = preload("res://scenes/game.tscn")
+@export var next_scene_path: String
+@export var player_target_position: Vector2 = Vector2(783, 198)
 
 func _on_body_entered(body: Node2D) -> void:
 	if body.is_in_group("player"):
-		# Cambia de escena usando PackedScene
-
-		get_tree().change_scene_to_file("res://scenes/game.tscn")
+		SceneManager.change_scene_with_player_position(next_scene_path, player_target_position)
