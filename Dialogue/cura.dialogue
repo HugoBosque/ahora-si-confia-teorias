@@ -1,6 +1,7 @@
 ~ start
 Padre Zhukov: ¿Que es lo que buscas muchacho?
 - Vengo a darte las noticias
+	set Global.dia1_hablar_cura = true
 	Padre Zhukov: ¿Y que es lo que tienes?
 	
 	
@@ -15,23 +16,6 @@ Padre Zhukov: ¿Que es lo que buscas muchacho?
 	- Entregar “Se planea una mejora en el alumbrado público”.
 		Padre Zhukov: Cuanta más luz más se parecerá al reino del cielo.
 
-
-	- Cada dia hay mas gays
-		set GameManager.preocupacion_cura += 90
-		set GameManager.satisfacion_cura -= 70
-		set GameManager.vida_cura -=50
-		Padre Zhukov: Tiene {{GameManager.preocupacion_cura}} preocupacion el cura, Tiene {{GameManager.vida_cura}} de vida, Tiene {{GameManager.satisfacion_cura}} de satisfaccion
-	- Tus padres son hermanos
-		set GameManager.preocupacion_cura -= 30
-		set GameManager.satisfacion_cura += 50
-		set GameManager.dia += 1
-		
-	- Tu novia te engaña
-		set GameManager.preocupacion_cura += 40
-		set GameManager.satisfacion_cura -= 100
-		set GameManager.dia += 1
-
-	
 - Venia a hablar contigo
 	Padre Zhukov: Dime hijo, ¿qué te preocupa?
 	- A mí nada 

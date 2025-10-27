@@ -1,6 +1,6 @@
 extends Node
 
-
+var dia1_hablar_cura =false
 var has_seen_presi_scene: bool = false
 
 func _ready():
