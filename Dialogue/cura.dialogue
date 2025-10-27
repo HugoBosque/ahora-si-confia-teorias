@@ -6,7 +6,6 @@ cura: ¿Que es lo que buscas muchacho?
 		set GameManager.preocupacion_cura += 90
 		set GameManager.satisfacion_cura -= 70
 		set GameManager.vida_cura -=50
-		set GameManager.dia += 1
 		cura: Tiene {{GameManager.preocupacion_cura}} preocupacion el cura, Tiene {{GameManager.vida_cura}} de vida, Tiene {{GameManager.satisfacion_cura}} de satisfaccion
 	- Tus padres son hermanos
 		set GameManager.preocupacion_cura -= 30

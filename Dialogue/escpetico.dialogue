@@ -1,7 +1,25 @@
 ~ start
 Alexei: [speed=0.7] ¿Se te ha perdido algo?
 - Sólo quiero hablar
-- Aquí tienes las notícias
-Alexei: [speed=0.7] No me jodas, definitivamente le deberían bajar el sueldo a Victor
+	Alexei: [speed=0.7] No me jodas, definitivamente le deberían bajar el sueldo a Victor
+	Miquel: Ya ves tio, no trabaja nada, ni siquiera le pagues
+- Vengo a darte las noticias
+	Alexei: ¿Que es lo que tienes?
+	- Tu madre no te quiere.
+		set GameManager.preocupacion_esceptico -= 20
+		set GameManager.satisfacion_esceptico += 30
+		set GameManager.vida_esceptico -=50
+		cura: Tiene {{GameManager.preocupacion_cura}} preocupacion el cura, Tiene {{GameManager.vida_cura}} de vida, Tiene {{GameManager.satisfacion_cura}} de satisfaccion
+	- Tus padres te abandornaron.
+		set GameManager.preocupacion_esceptico -= 20
+		set GameManager.satisfacion_esceptico += 30
+		set GameManager.vida_esceptico -=50
+		cura: Tiene {{GameManager.preocupacion_cura}} preocupacion el cura, Tiene {{GameManager.vida_cura}} de vida, Tiene {{GameManager.satisfacion_cura}} de satisfaccion
+	- 2cm no es mucho.
+		set GameManager.preocupacion_esceptico -= 20
+		set GameManager.satisfacion_esceptico += 30
+		set GameManager.vida_esceptico -=50
+		cura: Tiene {{GameManager.preocupacion_cura}} preocupacion el cura, Tiene {{GameManager.vida_cura}} de vida, Tiene {{GameManager.satisfacion_cura}} de satisfaccion
+	- Era broma no hay noticias.
 - ...
 => END

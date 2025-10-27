@@ -25,8 +25,8 @@ func _on_body_exited(area) -> void:
 func _process(delta):
 	if player_in_area and Input.is_action_just_pressed("ui_accept"):
 		if GameManager.dia == 1:
-			get_tree().change_scene_to_file("res://scenes/dias/dia_3.tscn")
+			get_tree().change_scene_to_file("res://scenes/dias/dia_1.tscn")
 		elif GameManager.dia == 2:
-			get_tree().change_scene_to_file("res://scenes/dias/dia_4.tscn")
+			get_tree().change_scene_to_file("res://scenes/dias/dia_2.tscn")
 
 		GameManager.cambiar_dia()  # <-- ahora usamos la función del GameManager

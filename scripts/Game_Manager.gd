@@ -7,8 +7,11 @@ var has_done_dialogue1 = false
 var dia: int = 1
 var vida_cura: int = 100
 var satisfacion_cura: int = 0
-var preocupacion_cura: int = 60
+var preocupacion_cura: int = 0
 
+var vida_esceptico: int = 100
+var satisfacion_esceptico: int = 0
+var preocupacion_esceptico: int = 0
 
 signal dia_cambiado(nuevo_dia: int)
 
