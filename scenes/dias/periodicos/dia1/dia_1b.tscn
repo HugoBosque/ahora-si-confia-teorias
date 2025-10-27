@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxn3ugmabvn13"]
+
+[ext_resource type="Script" uid="uid://cqs35527aiqvd" path="res://scripts/dias/prensa/dia1/dia_1b.gd" id="1_8elxy"]
+[ext_resource type="Texture2D" uid="uid://c3pd0bift5ikr" path="res://imagenes/FOTOS DE PRENSA/DIA 1 B.png" id="1_acmx1"]
+
+[node name="Dia1B" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8elxy")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.10747976, 0.10747973, 0.10747973, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(575.44446, 296.25003)
+scale = Vector2(0.48287043, 0.48287043)
+texture = ExtResource("1_acmx1")
+
+[node name="volver" type="Button" parent="."]
+layout_mode = 0
+offset_right = 112.0
+offset_bottom = 648.0
+theme_override_font_sizes/font_size = 50
+text = "<"
+
+[node name="seguir" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1040.0
+offset_right = 1152.0
+offset_bottom = 648.0
+theme_override_font_sizes/font_size = 50
+text = ">"
+
+[connection signal="pressed" from="volver" to="." method="_on_volver_pressed"]
+[connection signal="pressed" from="seguir" to="." method="_on_seguir_pressed"]
