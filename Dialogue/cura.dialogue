@@ -1,12 +1,26 @@
 ~ start
-cura: ¿Que es lo que buscas muchacho?
+Padre Zhukov: ¿Que es lo que buscas muchacho?
 - Vengo a darte las noticias
-	cura: ¿Y que es lo que tienes?
+	Padre Zhukov: ¿Y que es lo que tienes?
+	
+	
+	- Entregar “La carretera principal sigue bloqueada por la nieve”.
+		Padre Zhukov: Rezaré por todos ellos, gracias por esta información.
+		
+		
+	- Entregar “Llegan nuevas provisiones desde la capital”.
+		Padre Zhukov: ¡Alabado sea Dios todopoderoso!
+		
+		
+	- Entregar “Se planea una mejora en el alumbrado público”.
+		Padre Zhukov: Cuanta más luz más se parecerá al reino del cielo.
+
+
 	- Cada dia hay mas gays
 		set GameManager.preocupacion_cura += 90
 		set GameManager.satisfacion_cura -= 70
 		set GameManager.vida_cura -=50
-		cura: Tiene {{GameManager.preocupacion_cura}} preocupacion el cura, Tiene {{GameManager.vida_cura}} de vida, Tiene {{GameManager.satisfacion_cura}} de satisfaccion
+		Padre Zhukov: Tiene {{GameManager.preocupacion_cura}} preocupacion el cura, Tiene {{GameManager.vida_cura}} de vida, Tiene {{GameManager.satisfacion_cura}} de satisfaccion
 	- Tus padres son hermanos
 		set GameManager.preocupacion_cura -= 30
 		set GameManager.satisfacion_cura += 50
@@ -16,11 +30,21 @@ cura: ¿Que es lo que buscas muchacho?
 		set GameManager.preocupacion_cura += 40
 		set GameManager.satisfacion_cura -= 100
 		set GameManager.dia += 1
-	- No le das noticia
+
 	
-		
 - Venia a hablar contigo
-	%1 cura: Que vuelva la falange española
-	%5 cura: Viva VOX
-	%5 cura: Viva PSOE
+	Padre Zhukov: Dime hijo, ¿qué te preocupa?
+	- A mí nada 
+		Padre Zhukov: Me alrega saberlo, recuerda que mi igelsia está abierta para todos y para todo.
+	- Todo, no puedo más con esto.
+		Padre Zhukov: Hijo, Dios da sus mejores batallas a sus mejores soldados, si te sientes abrumado o en problemas, déjate llevar por Dios.
+	- Me preocupa mi estómago, llevo unos días...
+		Padre Zhukov: Eso es que estás expulsando al mal dentro de ti, yo también tuve una temporada complicada cuando estaba llegando a Dios.
+	- ¿Cual es su función en el pueblo exactamente, Padre?
+		Padre Zhukov: Me alegra que preguntes eso, dime, ¿crees que toda esta gente estaría tan bien si el manto del todopoderoso cubriéndolos? Les doy fe, les ayudo en su día a día, obro la palabra de Dios, esa es la función que se me ha assignado.
+- Espera, ¿porque tienes los ojos cerrados?
+	Padre Zhukov: No los tengo cerrados, estoy visualizando el reino de Dios.
+	- Mala mía, era bastante obvio.
+	Padre Zhukov: No te preocupes hijo, errar es de sabios.
+
 => END

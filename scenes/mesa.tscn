@@ -1,9 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://bv0mfc7qoi0io"]
+[gd_scene load_steps=4 format=3 uid="uid://bv0mfc7qoi0io"]
 
 [ext_resource type="Script" uid="uid://ca5on512a8trg" path="res://scripts/mesa.gd" id="1_sx2gp"]
 [ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="2_8ehb7"]
-[ext_resource type="Texture2D" uid="uid://cgyh5dwq5e0qx" path="res://imagenes/descarga.webp" id="3_bru42"]
-[ext_resource type="Texture2D" uid="uid://bfkurct5qlp63" path="res://imagenes/images.webp" id="4_12636"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_bru42"]
 radius = 65.03076
@@ -19,15 +17,3 @@ visible = false
 position = Vector2(0, -38)
 scale = Vector2(0.124, 0.124)
 texture = ExtResource("2_8ehb7")
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(88, -121)
-scale = Vector2(0.7598425, 0.7598425)
-texture = ExtResource("3_bru42")
-
-[node name="Sprite2D2" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(-98.00001, -119.00002)
-scale = Vector2(0.43719807, 0.43719807)
-texture = ExtResource("4_12636")

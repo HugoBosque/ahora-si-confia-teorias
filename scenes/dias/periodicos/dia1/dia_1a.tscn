@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1qm2717oox77"]
+
+[ext_resource type="Texture2D" uid="uid://fs3jklja5ipc" path="res://imagenes/FOTOS DE PRENSA/DIA 1 A.png" id="1_rt6l6"]
+[ext_resource type="Script" uid="uid://cdg25gh255nok" path="res://scripts/dias/prensa/dia1/dia_1a.gd" id="1_ukefm"]
+
+[node name="Dia1A" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ukefm")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.10747976, 0.10747973, 0.10747973, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(575.44446, 296.25003)
+scale = Vector2(0.48287043, 0.48287043)
+texture = ExtResource("1_rt6l6")
+
+[node name="seguir" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1040.0
+offset_right = 1152.0
+offset_bottom = 648.0
+theme_override_font_sizes/font_size = 50
+text = ">"
