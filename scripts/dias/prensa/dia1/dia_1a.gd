@@ -1,5 +1,6 @@
 extends Control
-
+@onready var house_scene = preload("res://scenes/House.tscn")
+@onready var town_scene = preload("res://scenes/game.tscn")
 
 
 @onready var seguir: Button = $seguir
