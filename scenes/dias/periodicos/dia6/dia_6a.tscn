@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://j5d54e11fw0b"]
+[gd_scene load_steps=4 format=3 uid="uid://j5d54e11fw0b"]
 
 [ext_resource type="Script" uid="uid://cqbqj2pguixib" path="res://scripts/dias/prensa/dia2/dia_2a.gd" id="1_3wxa5"]
 [ext_resource type="Texture2D" uid="uid://cisgs0iccdl2o" path="res://imagenes/FOTOS DE PRENSA/DIA 2 A.png" id="2_70j6t"]
+[ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="3_gdmec"]
 
 [node name="Dia1A" type="Control"]
 layout_mode = 3
@@ -32,6 +33,7 @@ layout_mode = 0
 offset_left = 1040.0
 offset_right = 1152.0
 offset_bottom = 648.0
+theme_override_fonts/font = ExtResource("3_gdmec")
 theme_override_font_sizes/font_size = 50
 text = ">"
 
