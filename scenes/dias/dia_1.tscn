@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://b66vhebabhf72"]
+[gd_scene load_steps=4 format=3 uid="uid://b66vhebabhf72"]
 
 [ext_resource type="Script" uid="uid://bedyne663axes" path="res://scripts/dias/continuar.gd" id="1_xvkd6"]
+[ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="2_mlbvd"]
 [ext_resource type="Script" uid="uid://b11u0xywxcgxm" path="res://scripts/dias/dia_3.gd" id="2_n33ke"]
 
 [node name="Dia1" type="Control"]
@@ -29,7 +30,8 @@ offset_top = 32.0
 offset_right = 1120.0
 offset_bottom = 77.0
 size_flags_vertical = 2
-theme_override_font_sizes/font_size = 32
+theme_override_fonts/font = ExtResource("2_mlbvd")
+theme_override_font_sizes/font_size = 40
 text = "DIA 1"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -40,8 +42,10 @@ offset_left = 32.0
 offset_top = 141.0
 offset_right = 1120.0
 offset_bottom = 216.0
+theme_override_fonts/font = ExtResource("2_mlbvd")
+theme_override_font_sizes/font_size = 20
 text = "La gente es bastate variada. He repartido algunas notícias, de momento no sospechan nada. Tengo mas control del que pensaba.
-Ma de pena MADRE, espero que su mairdo llegue bien.
+Me da pena la MADRE, espero que su marido llegue bien, por ahora no hubieron incidentes.
 "
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="."]
@@ -92,6 +96,8 @@ offset_top = -102.0
 offset_right = 89.0
 grow_horizontal = 2
 grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_mlbvd")
+theme_override_font_sizes/font_size = 30
 text = "CONTINUAR"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

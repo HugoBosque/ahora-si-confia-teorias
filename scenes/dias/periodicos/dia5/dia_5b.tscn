@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://clxbm2nr2trmj"]
+[gd_scene load_steps=4 format=3 uid="uid://clxbm2nr2trmj"]
 
 [ext_resource type="Script" uid="uid://ckuk6xodub34q" path="res://scripts/dias/prensa/dia2/dia_2b.gd" id="1_6p48k"]
 [ext_resource type="Texture2D" uid="uid://cwq7sb7lrtwlh" path="res://imagenes/FOTOS DE PRENSA/DIA 5 B.png" id="2_pks7x"]
+[ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="3_3kr3n"]
 
 [node name="Dia2B" type="Control"]
 layout_mode = 3
@@ -32,6 +33,7 @@ texture = ExtResource("2_pks7x")
 layout_mode = 0
 offset_right = 112.0
 offset_bottom = 648.0
+theme_override_fonts/font = ExtResource("3_3kr3n")
 theme_override_font_sizes/font_size = 50
 text = "<"
 
@@ -40,6 +42,7 @@ layout_mode = 0
 offset_left = 1040.0
 offset_right = 1152.0
 offset_bottom = 648.0
+theme_override_fonts/font = ExtResource("3_3kr3n")
 theme_override_font_sizes/font_size = 50
 text = ">"
 
