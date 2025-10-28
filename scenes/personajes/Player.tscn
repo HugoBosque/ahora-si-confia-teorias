@@ -348,7 +348,7 @@ animation = &"idle_down"
 autoplay = "idle_down"
 frame_progress = 0.9329804
 
-[node name="Player" type="Area2D" parent="."]
+[node name="Player" type="Area2D" parent="." groups=["player"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(0, -22)

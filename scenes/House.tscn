@@ -31,6 +31,7 @@ position = Vector2(556, 355)
 [node name="DoorToTown" type="Area2D" parent="."]
 position = Vector2(556, 387)
 script = ExtResource("3_r2usd")
+player_target_position = Vector2(1567, 1551)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToTown"]
 shape = SubResource("RectangleShape2D_ispqn")

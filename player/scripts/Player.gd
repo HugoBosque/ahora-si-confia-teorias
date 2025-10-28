@@ -12,13 +12,11 @@ func _ready():
 
 func _physics_process(delta):
 	if GameManager.is_dialogue_active or GameManager.has_animation_done:
-		print("🔒 Movimiento BLOQUEADO - Dialogue: ", GameManager.is_dialogue_active, " Animation: ", GameManager.has_animation_done)
 		velocity = Vector2.ZERO        # 🔒 Detiene cualquier movimiento
 		move_and_slide()               # 🔒 Aplica el freno inmediatamente
 		return
-	else:
-		print("🔓 Movimiento PERMITIDO")
-	
+
+
 	get_input()
 	move_and_slide()
 
