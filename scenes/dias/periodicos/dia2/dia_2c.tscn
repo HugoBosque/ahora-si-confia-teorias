@@ -11,6 +11,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ds7jj")
+anterior = "res://scenes/dias/periodicos/dia2/dia_2b.tscn"
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1

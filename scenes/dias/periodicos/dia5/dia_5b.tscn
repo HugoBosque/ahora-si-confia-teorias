@@ -1,7 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://bh8aetcx08cu2"]
+[gd_scene load_steps=3 format=3 uid="uid://clxbm2nr2trmj"]
 
-[ext_resource type="Script" uid="uid://ckuk6xodub34q" path="res://scripts/dias/prensa/dia2/dia_2b.gd" id="1_d0fcp"]
-[ext_resource type="Texture2D" uid="uid://ggp0gvgwdcym" path="res://imagenes/FOTOS DE PRENSA/DIA 2 B.png" id="2_x2s78"]
+[ext_resource type="Script" uid="uid://ckuk6xodub34q" path="res://scripts/dias/prensa/dia2/dia_2b.gd" id="1_6p48k"]
+[ext_resource type="Texture2D" uid="uid://cwq7sb7lrtwlh" path="res://imagenes/FOTOS DE PRENSA/DIA 5 B.png" id="2_pks7x"]
 
 [node name="Dia2B" type="Control"]
 layout_mode = 3
@@ -10,9 +10,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_d0fcp")
-siguiente = "res://scenes/dias/periodicos/dia2/dia_2c.tscn"
-anterior = "res://scenes/dias/periodicos/dia2/dia_2a.tscn"
+script = ExtResource("1_6p48k")
+siguiente = "res://scenes/dias/periodicos/dia5/dia_5c.tscn"
+anterior = "res://scenes/dias/periodicos/dia5/dia_5a.tscn"
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -26,7 +26,7 @@ color = Color(0.10747976, 0.10747973, 0.10747973, 1)
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(575.44446, 296.25003)
 scale = Vector2(0.48287043, 0.48287043)
-texture = ExtResource("2_x2s78")
+texture = ExtResource("2_pks7x")
 
 [node name="volver" type="Button" parent="."]
 layout_mode = 0

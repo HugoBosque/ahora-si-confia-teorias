@@ -1,6 +1,7 @@
 extends Control
 
 
+@export var siguiente: String
 
 @onready var seguir: Button = $seguir
 
@@ -12,4 +13,4 @@ func _ready() -> void:
 
 
 func _on_seguir_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/dias/periodicos/dia2/dia_2b.tscn")
+	get_tree().change_scene_to_file(siguiente)

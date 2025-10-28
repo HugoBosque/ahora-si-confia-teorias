@@ -1,18 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://bh8aetcx08cu2"]
+[gd_scene load_steps=3 format=3 uid="uid://fmij3iibwoe0"]
 
-[ext_resource type="Script" uid="uid://ckuk6xodub34q" path="res://scripts/dias/prensa/dia2/dia_2b.gd" id="1_d0fcp"]
-[ext_resource type="Texture2D" uid="uid://ggp0gvgwdcym" path="res://imagenes/FOTOS DE PRENSA/DIA 2 B.png" id="2_x2s78"]
+[ext_resource type="Script" uid="uid://dfddoyiub0fvx" path="res://scripts/dias/prensa/dia2/dia_2c.gd" id="1_4jk8b"]
+[ext_resource type="Texture2D" uid="uid://6l50syg4lquj" path="res://imagenes/FOTOS DE PRENSA/DIA 5 C.png" id="2_evyo0"]
 
-[node name="Dia2B" type="Control"]
+[node name="Dia1C" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_d0fcp")
-siguiente = "res://scenes/dias/periodicos/dia2/dia_2c.tscn"
-anterior = "res://scenes/dias/periodicos/dia2/dia_2a.tscn"
+script = ExtResource("1_4jk8b")
+anterior = "res://scenes/dias/periodicos/dia5/dia_5b.tscn"
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1
@@ -26,7 +25,7 @@ color = Color(0.10747976, 0.10747973, 0.10747973, 1)
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(575.44446, 296.25003)
 scale = Vector2(0.48287043, 0.48287043)
-texture = ExtResource("2_x2s78")
+texture = ExtResource("2_evyo0")
 
 [node name="volver" type="Button" parent="."]
 layout_mode = 0
@@ -35,13 +34,13 @@ offset_bottom = 648.0
 theme_override_font_sizes/font_size = 50
 text = "<"
 
-[node name="seguir" type="Button" parent="."]
+[node name="continuar" type="Button" parent="."]
 layout_mode = 0
-offset_left = 1040.0
+offset_top = 557.0
 offset_right = 1152.0
 offset_bottom = 648.0
-theme_override_font_sizes/font_size = 50
-text = ">"
+theme_override_font_sizes/font_size = 32
+text = "CONTINUAR"
 
 [connection signal="pressed" from="volver" to="." method="_on_volver_pressed"]
-[connection signal="pressed" from="seguir" to="." method="_on_seguir_pressed"]
+[connection signal="pressed" from="continuar" to="." method="_on_continuar_pressed"]

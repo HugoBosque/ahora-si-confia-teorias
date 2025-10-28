@@ -1,9 +1,12 @@
 extends Control
 
+@onready var house_scene = preload("res://scenes/House.tscn")
+@onready var town_scene = preload("res://scenes/game.tscn")
 @onready var volver: Button = $volver
 
 @onready var seguir: Button = $seguir
-
+@export var siguiente: String
+@export var anterior: String
 
 
 func _ready() -> void:
@@ -13,8 +16,8 @@ func _ready() -> void:
 
 
 func _on_volver_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/dias/periodicos/dia2/dia_2a.tscn")
+	get_tree().change_scene_to_file(anterior)
 
 
 func _on_seguir_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/dias/periodicos/dia2/dia_2c.tscn")
+	get_tree().change_scene_to_file(siguiente)
