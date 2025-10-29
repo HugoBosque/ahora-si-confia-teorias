@@ -4,6 +4,7 @@ Svetlana: [speed=0.6] ¿Puedo ayudarte en algo?
 	set Global.dia1_hablar_madre = true
 	Svetlana: [speed=0.6]Te lo agradezco mucho.
 	- “La carretera principal sigue bloqueada por la nieve”
+		set GameManager.preocupacion_madre += 20
 		Svetlana: No me digas eso, mi marido se encuentra de camino al frente. Ay, ¿llegará bien? Por favor, te pido, Dios, que lleguen sanos y salvos. Por favor, si pasa algo, házmelo saber de inmediato.
 		- No se preocupe, en cuanto sepa algo se lo comunico.
 		

@@ -1,11 +1,28 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+Svetlana: [speed=0.6] ¿Puedo ayudarte en algo?
+- Vengo a darte las noticias
+	set Global.dia2_hablar_madre = true
+	Svetlana: [speed=0.6]Te lo agradezco mucho.
+	- “Algunos animales salvajes fueron vistos cerca del bosque”
+		set GameManager.preocupacion_madre += 5
+		Svetlana: [speed=0.6] Animales por aquí, ¿qué raro no? No creo que se acerquen aquí, ¿verdad?
+		- No te preocupes, seguro  
+		
+	- “Pequeñas fluctuaciones eléctricas en la zona industrial”
+		Svetlana: 
+		-Tranquila señora, 
+		
+		
+	- “Medidas de mantenimiento industrial”
+		Svetlana: [speed=0.6]
+
+- Venia a hablar contigo
+	Svetlana: ¿Hay algun problema? ¿Ha pasado algo?
+	- De hecho, no, todo esta bien.
+		Svetlana: [speed=0.6]Gracias a Dios.
+	
+	- No, pero me gustaría preguntarle sobre su situación, cómo está?
+		Svetlana: [speed=0.6] La verdad es que estoy en una situación díficil, mi querido marido se ha ido a luchar en el frente por nuestro país, y, bueno, [wait=0.5] yo estoy aquí con mis dos hijos.
+
+
 => END
