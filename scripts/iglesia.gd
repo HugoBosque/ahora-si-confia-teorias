@@ -14,11 +14,18 @@ func _actualizar_presencia_cura():
 	# Si la preocupación del cura es alta (>= 50), está en la iglesia
 	var activo = GameManager.preocupacion_cura >= 50
 
+	# 🔹 Mostrar/ocultar el cura
 	cura.visible = activo
 	cura.set_deferred("monitoring", activo)   # Desactiva la detección de colisiones del Area2D
 	cura.set_deferred("monitorable", activo)  # Evita que otros nodos detecten su colisión
 
-	# Si el cura tiene colisiones hijas (CollisionShape2D o CollisionPolygon2D), las desactivamos también
-	for shape in cura.get_children():
-		if shape is CollisionShape2D:
-			shape.disabled = not activo
+	# 🔹 Desactivar todas las colisiones dentro del nodo Cura, sin importar el nivel
+	_desactivar_colisiones_recursivo(cura, not activo)
+
+# Función recursiva para desactivar CollisionShape2D y CollisionPolygon2D
+func _desactivar_colisiones_recursivo(node: Node, desactivar: bool):
+	for child in node.get_children():
+		if child is CollisionShape2D or child is CollisionPolygon2D:
+			child.disabled = desactivar
+		elif child.get_child_count() > 0:
+			_desactivar_colisiones_recursivo(child, desactivar)
