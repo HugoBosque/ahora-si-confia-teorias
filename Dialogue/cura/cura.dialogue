@@ -6,14 +6,17 @@ Padre Zhukov: ¿Que es lo que buscas muchacho?
 	
 	
 	- "La carretera principal sigue bloqueada por la nieve"
+		set GameManager.preocupacion_cura += 60
 		Padre Zhukov: Rezaré por todos ellos, gracias por esta información.
 		
 		
 	- "Llegan nuevas provisiones desde la capital"
+		set GameManager.preocupacion_cura += 60
 		Padre Zhukov: ¡Alabado sea Dios todopoderoso!
 		
 		
 	- "Se planea una mejora en el alumbrado público"
+		set GameManager.preocupacion_cura += 60
 		Padre Zhukov: Cuanta más luz más se parecerá al reino del cielo.
 
 - Venia a hablar contigo
