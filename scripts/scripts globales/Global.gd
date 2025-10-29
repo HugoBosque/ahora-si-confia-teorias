@@ -1,6 +1,7 @@
 extends Node
 
 var dia1_hablar_cura = false
+var dia1_hablar_madre = false
 var dia1_halbar_esceptico = false
 var has_seen_presi_scene: bool = false
 
