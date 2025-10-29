@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://d4g5mkdrm0mgp"
+path="res://.godot/imported/madre dia2_1.dialogue-6c3d8ae4e4aeb019be267a6dc73ace34.tres"
+
+[deps]
+
+source_file="res://Dialogue/madre/madre dia2_1.dialogue"
+dest_files=["res://.godot/imported/madre dia2_1.dialogue-6c3d8ae4e4aeb019be267a6dc73ace34.tres"]
+
+[params]
+
+defaults=true

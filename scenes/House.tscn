@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://bv0mfc7qoi0io" path="res://scenes/mesa.tscn" id="8_nwrc1"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ispqn"]
-size = Vector2(32, 48)
+size = Vector2(33, 48)
 
 [node name="House" type="Node2D"]
 
@@ -34,6 +34,7 @@ script = ExtResource("3_r2usd")
 player_target_position = Vector2(1567, 1551)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToTown"]
+position = Vector2(-0.5, 0)
 shape = SubResource("RectangleShape2D_ispqn")
 
 [node name="Spawn_From_Town" type="Marker2D" parent="DoorToTown"]

@@ -2,6 +2,19 @@ extends Node2D
 
 const MADRE = preload("uid://dmkgn5v5rlukt")
 @onready var sprite_2d: Sprite2D = $Sprite2D
+const MADRE_DIA_1_2 = preload("uid://dsg7k0ygjhpmg")
+const MADRE_DIA_2_1 = preload("uid://d4g5mkdrm0mgp")
+const MADRE_DIA_2_2 = preload("uid://d1j8aaaygmwo4")
+const MADRE_DIA_3_1 = preload("uid://btx4j7k1xpngk")
+const MADRE_DIA_3_2 = preload("uid://crqlak5ndvw7k")
+const MADRE_DIA_4_1 = preload("uid://bi1egvkia1uc3")
+const MADRE_DIA_4_2 = preload("uid://beh3gatmmxt54")
+const MADRE_DIA_5_1 = preload("uid://dgq0uh512qa10")
+const MADRE_DIA_5_2 = preload("uid://1h7eyduegt1j")
+const MADRE_DIA_6_1 = preload("uid://d3trvtqjyb5bi")
+const MADRE_DIA_6_2 = preload("uid://cbxyeb565jiqq")
+const MADRE_DIA_7_1 = preload("uid://ch6ypvtu2j8sc")
+const MADRE_DIA_7_2 = preload("uid://h73vmlalpq3t")
 
 
 
@@ -16,8 +29,24 @@ func _ready() -> void:
 	
 func _process(delta):
 	if player_close and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active:
-		
-		DialogueManager.show_dialogue_balloon(MADRE, "start")
+		if GameManager.dia == 1:
+			if not Global.dia1_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE, "start")
+			elif Global.dia1_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_1_2, "start")
+		if GameManager.dia == 2:
+			if not Global.dia2_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_2_1, "start")
+			elif Global.dia2_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_2_2, "start")
+		if GameManager.dia == 2:
+			if not Global.dia2_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_2_1, "start")
+			elif Global.dia2_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_2_2, "start")
+
+
+
 
 		
 		

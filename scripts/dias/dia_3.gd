@@ -10,10 +10,5 @@ func _process(delta):
 	$preocupacion_madre.text = "Preocupacion de la madre: " + str(GameManager.preocupacion_madre)
 	$satisfaccion_madre.text = "Satisfaccion de la madre: " + str(GameManager.satisfacion_madre)
 	$vida_madre.text = "Vida de la madre: " + str(GameManager.vida_madre)
-	$preocupacion_madre.text = "Preocupacion de la madre: " + str(GameManager.preocupacion_madre)
-	$satisfaccion_madre.text = "Satisfaccion de la madre: " + str(GameManager.satisfacion_madre)
-	$vida_madre.text = "Vida de la madre: " + str(GameManager.vida_madre)
-	$preocupacion_madre.text = "Preocupacion de la madre: " + str(GameManager.preocupacion_madre)
-	$satisfaccion_madre.text = "Satisfaccion de la madre: " + str(GameManager.satisfacion_madre)
-	$vida_madre.text = "Vida de la madre: " + str(GameManager.vida_madre)
+
 	
