@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c483t8mwvj478"
+path="res://.godot/imported/esceptico dia7_2.dialogue-99b659d29ba07e78dee40ae48edea3e1.tres"
+
+[deps]
+
+source_file="res://Dialogue/esceptico/esceptico dia7_2.dialogue"
+dest_files=["res://.godot/imported/esceptico dia7_2.dialogue-99b659d29ba07e78dee40ae48edea3e1.tres"]
+
+[params]
+
+defaults=true
