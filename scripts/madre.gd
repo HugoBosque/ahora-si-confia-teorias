@@ -39,15 +39,31 @@ func _process(delta):
 				DialogueManager.show_dialogue_balloon(MADRE_DIA_2_1, "start")
 			elif Global.dia2_hablar_madre:
 				DialogueManager.show_dialogue_balloon(MADRE_DIA_2_2, "start")
-		if GameManager.dia == 2:
-			if not Global.dia2_hablar_madre:
-				DialogueManager.show_dialogue_balloon(MADRE_DIA_2_1, "start")
-			elif Global.dia2_hablar_madre:
-				DialogueManager.show_dialogue_balloon(MADRE_DIA_2_2, "start")
-
-
-
-
+		if GameManager.dia == 3:
+			if not Global.dia3_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_3_1, "start")
+			elif Global.dia3_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_3_2, "start")
+		if GameManager.dia == 4:
+			if not Global.dia4_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_4_1, "start")
+			elif Global.dia4_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_4_2, "start")
+		if GameManager.dia == 5:
+			if not Global.dia5_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_5_1, "start")
+			elif Global.dia5_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_5_2, "start")
+		if GameManager.dia == 6:
+			if not Global.dia6_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_6_1, "start")
+			elif Global.dia6_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_6_2, "start")
+		if GameManager.dia == 7:
+			if not Global.dia7_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_7_1, "start")
+			elif Global.dia7_hablar_madre:
+				DialogueManager.show_dialogue_balloon(MADRE_DIA_7_2, "start")
 		
 		
 		
