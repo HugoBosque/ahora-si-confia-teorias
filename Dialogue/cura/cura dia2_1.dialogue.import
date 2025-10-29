@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://hfir1vwpb8ef"
+path="res://.godot/imported/cura dia2_1.dialogue-9ff3ab86a647e003c349cd1a77302cfb.tres"
+
+[deps]
+
+source_file="res://Dialogue/cura/cura dia2_1.dialogue"
+dest_files=["res://.godot/imported/cura dia2_1.dialogue-9ff3ab86a647e003c349cd1a77302cfb.tres"]
+
+[params]
+
+defaults=true

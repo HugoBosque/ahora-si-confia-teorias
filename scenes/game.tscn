@@ -42480,7 +42480,7 @@ sources/6 = SubResource("TileSetAtlasSource_6y5le")
 sources/7 = SubResource("TileSetAtlasSource_1r0qp")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lbhrr"]
-size = Vector2(32, 48)
+size = Vector2(37, 50)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_37s47"]
 size = Vector2(60, 45)
@@ -42512,7 +42512,7 @@ script = ExtResource("3_lnu2h")
 player_target_position = Vector2(556, 355)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToHouse"]
-position = Vector2(0, 14)
+position = Vector2(-0.5, 15)
 shape = SubResource("RectangleShape2D_lbhrr")
 
 [node name="Sprite2D" type="Sprite2D" parent="DoorToHouse"]
