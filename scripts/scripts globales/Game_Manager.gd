@@ -18,6 +18,8 @@ var vida_madre: int = 100
 var satisfacion_madre: int = 0
 var preocupacion_madre: int = 0
 
+
+
 signal dia_cambiado(nuevo_dia: int)
 
 func cambiar_dia():
