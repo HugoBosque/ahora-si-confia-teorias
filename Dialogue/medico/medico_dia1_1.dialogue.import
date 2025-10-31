@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dkh8f4klolknp"
+path="res://.godot/imported/medico_dia1_1.dialogue-032f274de69a63746fec450901b3fc78.tres"
+
+[deps]
+
+source_file="res://Dialogue/medico/medico_dia1_1.dialogue"
+dest_files=["res://.godot/imported/medico_dia1_1.dialogue-032f274de69a63746fec450901b3fc78.tres"]
+
+[params]
+
+defaults=true

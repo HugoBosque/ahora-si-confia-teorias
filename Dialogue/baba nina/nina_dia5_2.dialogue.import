@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dxur1dxcr2m1w"
+path="res://.godot/imported/nina_dia5_2.dialogue-fbbb001b1e2073d3b9b0809c702d122a.tres"
+
+[deps]
+
+source_file="res://Dialogue/baba nina/nina_dia5_2.dialogue"
+dest_files=["res://.godot/imported/nina_dia5_2.dialogue-fbbb001b1e2073d3b9b0809c702d122a.tres"]
+
+[params]
+
+defaults=true

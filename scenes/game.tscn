@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=4 uid="uid://cg0ysj07cxfnp"]
+[gd_scene load_steps=35 format=4 uid="uid://cg0ysj07cxfnp"]
 
 [ext_resource type="Script" uid="uid://dk4i6ny4oi7h3" path="res://scripts/game.gd" id="1_1kice"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="1_uwrxv"]
@@ -15,9 +15,14 @@
 [ext_resource type="PackedScene" uid="uid://b2kjixa6oo16s" path="res://Tile Maps/Objects.tscn" id="10_kvuet"]
 [ext_resource type="PackedScene" uid="uid://ct3er3tjk3h3e" path="res://scenes/personajes/tendero.tscn" id="10_ssvqc"]
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="11_trtic"]
+[ext_resource type="PackedScene" uid="uid://cxtpcgjg6gdb2" path="res://scenes/personajes/medico.tscn" id="19_264po"]
 [ext_resource type="PackedScene" uid="uid://du7cqyabdkhix" path="res://scenes/personajes/cura.tscn" id="20_5newe"]
+[ext_resource type="PackedScene" uid="uid://dnixgus7v1a65" path="res://scenes/personajes/viudo.tscn" id="20_bt5mj"]
 [ext_resource type="PackedScene" uid="uid://sktvsy6v4s2r" path="res://scenes/personajes/esceptico.tscn" id="21_5newe"]
+[ext_resource type="PackedScene" uid="uid://2m5ntiodhxqw" path="res://scenes/personajes/baba_nina.tscn" id="21_e1j6l"]
 [ext_resource type="PackedScene" uid="uid://b0rf8rc1dhnu1" path="res://scenes/personajes/madre.tscn" id="22_37s47"]
+[ext_resource type="PackedScene" uid="uid://b3o4e0083jnmn" path="res://scenes/personajes/Mikhail Belov.tscn" id="22_pl11u"]
+[ext_resource type="PackedScene" uid="uid://vl5po0vq2iaa" path="res://scenes/personajes/Viktor Sokolov.tscn" id="23_bhx41"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_no12j"]
 texture = ExtResource("2_kvpfn")
@@ -42538,5 +42543,20 @@ position = Vector2(1567, 1551)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(0, 6)
+
+[node name="Medico" parent="." instance=ExtResource("19_264po")]
+position = Vector2(1055, 1078)
+
+[node name="Viudo" parent="." instance=ExtResource("20_bt5mj")]
+position = Vector2(-100, 379)
+
+[node name="Viudo2" parent="." instance=ExtResource("21_e1j6l")]
+position = Vector2(385, 462)
+
+[node name="Mikhail Belov" parent="." instance=ExtResource("22_pl11u")]
+position = Vector2(1615, 672)
+
+[node name="Viktor Sokolov" parent="." instance=ExtResource("23_bhx41")]
+position = Vector2(207, 700)
 
 [connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]

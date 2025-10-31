@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c74v8n0s2e8dr"
+path="res://.godot/imported/viudo_dia2_2.dialogue-90e9fe0337785130be35692f20022764.tres"
+
+[deps]
+
+source_file="res://Dialogue/viudo/viudo_dia2_2.dialogue"
+dest_files=["res://.godot/imported/viudo_dia2_2.dialogue-90e9fe0337785130be35692f20022764.tres"]
+
+[params]
+
+defaults=true

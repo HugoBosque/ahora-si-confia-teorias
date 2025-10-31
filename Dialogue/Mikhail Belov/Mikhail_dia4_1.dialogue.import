@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dldw7nu3nxdqd"
+path="res://.godot/imported/Mikhail_dia4_1.dialogue-69803177c46f8504f0db330dd3713460.tres"
+
+[deps]
+
+source_file="res://Dialogue/Mikhail Belov/Mikhail_dia4_1.dialogue"
+dest_files=["res://.godot/imported/Mikhail_dia4_1.dialogue-69803177c46f8504f0db330dd3713460.tres"]
+
+[params]
+
+defaults=true

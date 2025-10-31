@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://l66qw6nv5f0"
+path="res://.godot/imported/Viktor_dia3_1.dialogue-3aa0439550d5b971b7d1c939bf6b6e91.tres"
+
+[deps]
+
+source_file="res://Dialogue/Viktor Sokolov/Viktor_dia3_1.dialogue"
+dest_files=["res://.godot/imported/Viktor_dia3_1.dialogue-3aa0439550d5b971b7d1c939bf6b6e91.tres"]
+
+[params]
+
+defaults=true
