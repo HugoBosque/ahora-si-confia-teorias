@@ -42550,7 +42550,7 @@ position = Vector2(1055, 1078)
 [node name="Viudo" parent="." instance=ExtResource("20_bt5mj")]
 position = Vector2(-100, 379)
 
-[node name="Viudo2" parent="." instance=ExtResource("21_e1j6l")]
+[node name="nina" parent="." instance=ExtResource("21_e1j6l")]
 position = Vector2(385, 462)
 
 [node name="Mikhail Belov" parent="." instance=ExtResource("22_pl11u")]
