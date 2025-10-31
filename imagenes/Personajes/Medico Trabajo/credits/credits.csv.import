@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b0je3nl85kc6g"
+
+[deps]
+
+files=["res://imagenes/Personajes/Medico Trabajo/credits/credits.notes.translation", "res://imagenes/Personajes/Medico Trabajo/credits/credits.authors.translation", "res://imagenes/Personajes/Medico Trabajo/credits/credits.licenses.translation", "res://imagenes/Personajes/Medico Trabajo/credits/credits.urls.translation"]
+
+source_file="res://imagenes/Personajes/Medico Trabajo/credits/credits.csv"
+dest_files=["res://imagenes/Personajes/Medico Trabajo/credits/credits.notes.translation", "res://imagenes/Personajes/Medico Trabajo/credits/credits.authors.translation", "res://imagenes/Personajes/Medico Trabajo/credits/credits.licenses.translation", "res://imagenes/Personajes/Medico Trabajo/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

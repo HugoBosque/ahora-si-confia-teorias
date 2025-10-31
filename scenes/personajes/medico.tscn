@@ -1,25 +1,86 @@
-[gd_scene load_steps=8 format=3 uid="uid://cxtpcgjg6gdb2"]
+[gd_scene load_steps=16 format=3 uid="uid://cxtpcgjg6gdb2"]
 
 [ext_resource type="Script" uid="uid://7ed2tlsndga6" path="res://scripts/pers/medico.gd" id="1_rj24f"]
-[ext_resource type="Texture2D" uid="uid://q4cbb8rb653w" path="res://imagenes/Personajes/Cura plupsovia casual/standard/walk.png" id="2_70ftq"]
+[ext_resource type="Texture2D" uid="uid://dy8m6e4xw10rw" path="res://imagenes/Personajes/Medico casual/standard/walk.png" id="2_rj24f"]
 [ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="3_qq2df"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_2a1dd"]
 radius = 57.14018
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_gbobm"]
-atlas = ExtResource("2_70ftq")
+[sub_resource type="AtlasTexture" id="AtlasTexture_70ftq"]
+atlas = ExtResource("2_rj24f")
 region = Rect2(0, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qq2df"]
+atlas = ExtResource("2_rj24f")
+region = Rect2(64, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2a1dd"]
+atlas = ExtResource("2_rj24f")
+region = Rect2(128, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gbobm"]
+atlas = ExtResource("2_rj24f")
+region = Rect2(192, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tk4db"]
+atlas = ExtResource("2_rj24f")
+region = Rect2(256, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tprqo"]
+atlas = ExtResource("2_rj24f")
+region = Rect2(320, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nk0cw"]
+atlas = ExtResource("2_rj24f")
+region = Rect2(384, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pt3l8"]
+atlas = ExtResource("2_rj24f")
+region = Rect2(448, 128, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x1rw2"]
+atlas = ExtResource("2_rj24f")
+region = Rect2(512, 128, 64, 64)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_tk4db"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_gbobm")
+"texture": SubResource("AtlasTexture_70ftq")
 }],
 "loop": true,
-"name": &"default",
+"name": &"idle_down_casual",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qq2df")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2a1dd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gbobm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tk4db")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tprqo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nk0cw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pt3l8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x1rw2")
+}],
+"loop": true,
+"name": &"walk_down_casual",
+"speed": 10.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tprqo"]
@@ -34,6 +95,7 @@ shape = SubResource("CircleShape2D_2a1dd")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_tk4db")
+animation = &"walk_down_casual"
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 
