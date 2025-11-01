@@ -1,11 +1,17 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+viktor: hola
+- noticias
+	set Global.dia1_hablar_viktor = true
+	viktor: si
+	- "noticia1"
+		set GameManager.preocupacion_viktor +=20
+		viktor: si
+	- "noticia2"
+		set GameManager.preocupacion_viktor +=20
+		viktor: si
+	- "noticia3"
+		set GameManager.preocupacion_viktor +=20
+		viktor: si
+- demas
+
 => END

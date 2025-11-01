@@ -8,15 +8,16 @@ Alexei: [speed=0.7] ¿Se te ha perdido algo?
 		Alexei: Prefiero informarme yo mismo.
 		- Como quieras, pero estoy obligado a entregarte el periódico.
 		Alexei: Si no hay más remedio...
-		- Entregar “La carretera principal sigue bloqueada por la nieve”.
+		- “La carretera principal sigue bloqueada por la nieve”.
+			set GameManager.preocupacion_esceptico -= 20
 			Alexei: Me da igual si hay mucha nieve, que la quiten.
-		- Entregar “Llegan nuevas provisiones desde la capital”.
+		- “Llegan nuevas provisiones desde la capital”.
+			set GameManager.preocupacion_esceptico -= 20
 			Alexei: Como siempre más a los que más tienen, y nosotros pasando frío y hambre aquí.
-		- Entregar “Se planea una mejora en el alumbrado público”.
+		- “Se planea una mejora en el alumbrado público”.
 			Alexei: Que me alumbren esta.
 			set GameManager.preocupacion_esceptico -= 20
-			set GameManager.satisfacion_esceptico += 30
-			set GameManager.vida_esceptico -=50
+
 
 - Sólo quiero hablar.
 	Alexei: [speed=0.7] No te lo tomes personal, no tengo de que hablar.

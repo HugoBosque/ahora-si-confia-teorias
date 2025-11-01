@@ -9,11 +9,13 @@ Svetlana: [speed=0.6] ¿Puedo ayudarte en algo?
 		- No se preocupe, en cuanto sepa algo se lo comunico.
 		
 	- “Llegan nuevas provisiones desde la capital”
+		set GameManager.preocupacion_madre += 20
 		Svetlana: [speed=0.6] Dios de nuevo desmostrando su infinita generosidad, a ver si su mano llega a nuestro pueblo, lo paso mal con mis pequeños.
 		- Tranquila señora, seguro que nuestro gobierno nos proveerá de alguna manera.
 			Svetlana: Eso espero, gracias.
 		
 	- “Se planea una mejora en el alumbrado público”
+		set GameManager.preocupacion_madre += 20
 		Svetlana: [speed=0.6]La luz nos acerca a Dios, eso tiene que ser una señal divina.
 
 - Venia a hablar contigo
