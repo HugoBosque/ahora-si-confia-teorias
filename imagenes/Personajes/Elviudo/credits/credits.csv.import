@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://img8maotddp6"
+
+[deps]
+
+files=["res://imagenes/Personajes/Elviudo/credits/credits.notes.translation", "res://imagenes/Personajes/Elviudo/credits/credits.authors.translation", "res://imagenes/Personajes/Elviudo/credits/credits.licenses.translation", "res://imagenes/Personajes/Elviudo/credits/credits.urls.translation"]
+
+source_file="res://imagenes/Personajes/Elviudo/credits/credits.csv"
+dest_files=["res://imagenes/Personajes/Elviudo/credits/credits.notes.translation", "res://imagenes/Personajes/Elviudo/credits/credits.authors.translation", "res://imagenes/Personajes/Elviudo/credits/credits.licenses.translation", "res://imagenes/Personajes/Elviudo/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

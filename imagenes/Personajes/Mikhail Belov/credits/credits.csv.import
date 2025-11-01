@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c16hujtnu7ixy"
+
+[deps]
+
+files=["res://imagenes/Personajes/Mikhail Belov/credits/credits.notes.translation", "res://imagenes/Personajes/Mikhail Belov/credits/credits.authors.translation", "res://imagenes/Personajes/Mikhail Belov/credits/credits.licenses.translation", "res://imagenes/Personajes/Mikhail Belov/credits/credits.urls.translation"]
+
+source_file="res://imagenes/Personajes/Mikhail Belov/credits/credits.csv"
+dest_files=["res://imagenes/Personajes/Mikhail Belov/credits/credits.notes.translation", "res://imagenes/Personajes/Mikhail Belov/credits/credits.authors.translation", "res://imagenes/Personajes/Mikhail Belov/credits/credits.licenses.translation", "res://imagenes/Personajes/Mikhail Belov/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

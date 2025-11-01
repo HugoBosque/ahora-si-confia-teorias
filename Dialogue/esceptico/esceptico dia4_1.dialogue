@@ -2,7 +2,7 @@
 Alexei: [speed=0.7] ¿Se te ha perdido algo?
 
 - Vengo a darte las noticias
-	set Global.dia1_halbar_esceptico = true
+	set Global.dia4_halbar_esceptico = true
 	Alexei: No me las leeré.
 	- Es importante que estés informado.
 		Alexei: Prefiero informarme yo mismo.

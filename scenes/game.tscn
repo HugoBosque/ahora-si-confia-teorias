@@ -42538,12 +42538,6 @@ position = Vector2(1599, -361)
 [node name="Madre" parent="." instance=ExtResource("22_37s47")]
 position = Vector2(1039, 411)
 
-[node name="Player" parent="." instance=ExtResource("1_uwrxv")]
-position = Vector2(1567, 1551)
-
-[node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2(0, 6)
-
 [node name="Medico" parent="." instance=ExtResource("19_264po")]
 position = Vector2(1055, 1078)
 
@@ -42558,5 +42552,11 @@ position = Vector2(1615, 672)
 
 [node name="Viktor Sokolov" parent="." instance=ExtResource("23_bhx41")]
 position = Vector2(207, 700)
+
+[node name="Player" parent="." instance=ExtResource("1_uwrxv")]
+position = Vector2(1567, 1551)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(0, 6)
 
 [connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]

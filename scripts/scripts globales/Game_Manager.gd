@@ -39,6 +39,10 @@ var vida_mikhail: int = 100
 var satisfacion_mikhail: int = 0
 var preocupacion_mikhail: int = 0
 
+var vida_tendero: int = 100
+var satisfacion_tendero: int = 0
+var preocupacion_tendero: int = 0
+
 signal dia_cambiado(nuevo_dia: int)
 
 func cambiar_dia():

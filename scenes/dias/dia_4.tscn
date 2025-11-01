@@ -1,0 +1,232 @@
+[gd_scene load_steps=6 format=3 uid="uid://pcphohalqc06"]
+
+[ext_resource type="Script" uid="uid://bedyne663axes" path="res://scripts/dias/continuar.gd" id="1_0ebuo"]
+[ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="2_f07hw"]
+[ext_resource type="Script" uid="uid://b11u0xywxcgxm" path="res://scripts/dias/dia_3.gd" id="3_a7c6p"]
+[ext_resource type="Script" uid="uid://cpr6oi278wats" path="res://scripts/dias/v_box_container_3.gd" id="4_2teb5"]
+[ext_resource type="Script" uid="uid://b65arltcjh8ac" path="res://scripts/dias/v_box_container_4.gd" id="5_3u7y8"]
+
+[node name="Dia1" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0ebuo")
+metadata/_edit_vertical_guides_ = [595.0]
+metadata/_edit_horizontal_guides_ = [234.0]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 32.0
+offset_right = 1120.0
+offset_bottom = 77.0
+size_flags_vertical = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 40
+text = "DIA 4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 141.0
+offset_right = 1120.0
+offset_bottom = 216.0
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+text = "La gente es bastate variada. He repartido algunas notícias, de momento no sospechan nada. Tengo mas control del que pensaba.
+Me da pena la MADRE, espero que su marido llegue bien, por ahora no hubieron incidentes.
+"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 157.0
+offset_top = 234.0
+offset_right = 410.0
+offset_bottom = 628.0
+size_flags_vertical = 3
+script = ExtResource("3_a7c6p")
+
+[node name="preocupacion_cura" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="satisfaccion_cura" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="vida_cura" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="preocupacion_esceptico" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="satisfaccion_esceptico" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="vida_esceptico" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="preocupacion_madre" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="satisfaccion_madre" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="vida_madre" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -87.0
+offset_top = -102.0
+offset_right = 89.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 30
+text = "CONTINUAR"
+
+[node name="VBoxContainer3" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 445.0
+offset_top = 234.0
+offset_right = 698.0
+offset_bottom = 525.0
+size_flags_vertical = 3
+script = ExtResource("4_2teb5")
+
+[node name="preocupacion_tendero" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="satisfaccion_tendero" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="vida_tendero" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="preocupacion_medico" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="satisfaccion_medico" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="vida_medico" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="preocupacion_viudo" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="satisfaccion_viudo" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="vida_viudo" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="VBoxContainer4" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 732.0
+offset_top = 235.0
+offset_right = 985.0
+offset_bottom = 636.0
+size_flags_vertical = 3
+script = ExtResource("5_3u7y8")
+
+[node name="preocupacion_nina" type="Label" parent="VBoxContainer4"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="satisfaccion_nina" type="Label" parent="VBoxContainer4"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="vida_nina" type="Label" parent="VBoxContainer4"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="preocupacion_mikhail" type="Label" parent="VBoxContainer4"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="satisfaccion_mikhail" type="Label" parent="VBoxContainer4"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="vida_mikhail" type="Label" parent="VBoxContainer4"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="preocupacion_viktor" type="Label" parent="VBoxContainer4"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="satisfaccion_viktor" type="Label" parent="VBoxContainer4"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[node name="vida_viktor" type="Label" parent="VBoxContainer4"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f07hw")
+theme_override_font_sizes/font_size = 20
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

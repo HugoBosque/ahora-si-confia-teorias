@@ -24,8 +24,22 @@ func _on_body_exited(area) -> void:
 
 func _process(delta):
 	if player_in_area and Input.is_action_just_pressed("ui_accept") and GameManager.has_done_cinematic1:
+
+
 		if GameManager.dia == 1:
 			get_tree().change_scene_to_file("res://scenes/dias/dia_1.tscn")
+		if GameManager.dia == 2:
+			get_tree().change_scene_to_file("res://scenes/dias/dia_2.tscn")
+		if GameManager.dia == 3:
+			get_tree().change_scene_to_file("res://scenes/dias/dia_3.tscn")
+		if GameManager.dia == 4:
+			get_tree().change_scene_to_file("res://scenes/dias/dia_4.tscn")
+		if GameManager.dia == 5:
+			get_tree().change_scene_to_file("res://scenes/dias/dia_5.tscn")
+		if GameManager.dia == 6:
+			get_tree().change_scene_to_file("res://scenes/dias/dia_6.tscn")
+		if GameManager.dia == 7:
+			get_tree().change_scene_to_file("res://scenes/dias/dia_7.tscn")
 
 
 		GameManager.cambiar_dia()  # <-- ahora usamos la función del GameManager

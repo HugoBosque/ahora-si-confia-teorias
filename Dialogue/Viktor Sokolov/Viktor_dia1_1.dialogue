@@ -1,7 +1,7 @@
 ~ start
 viktor: hola
 - noticias
-	set Global.dia1_hablar_viktor = true
+	set Global.dia1_hablar_Viktor = true
 	viktor: si
 	- "noticia1"
 		set GameManager.preocupacion_viktor +=20
