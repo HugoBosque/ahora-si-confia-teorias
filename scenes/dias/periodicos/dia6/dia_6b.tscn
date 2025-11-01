@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bp6mt8qkxffql"]
 
 [ext_resource type="Script" uid="uid://ckuk6xodub34q" path="res://scripts/dias/prensa/dia2/dia_2b.gd" id="1_k4s45"]
-[ext_resource type="Texture2D" uid="uid://ggp0gvgwdcym" path="res://imagenes/FOTOS DE PRENSA/DIA 2 B.png" id="2_le4rp"]
+[ext_resource type="Texture2D" uid="uid://cohjdwqwtq05x" path="res://imagenes/FOTOS DE PRENSA/DIA 6 B.png" id="2_cs8dx"]
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="3_cs8dx"]
 
 [node name="Dia2B" type="Control"]
@@ -27,7 +27,7 @@ color = Color(0.10747976, 0.10747973, 0.10747973, 1)
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(575.44446, 296.25003)
 scale = Vector2(0.48287043, 0.48287043)
-texture = ExtResource("2_le4rp")
+texture = ExtResource("2_cs8dx")
 
 [node name="volver" type="Button" parent="."]
 layout_mode = 0
