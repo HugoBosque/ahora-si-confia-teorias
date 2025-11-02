@@ -3,11 +3,18 @@ extends Node
 @onready var cura: Area2D = $Cura
 @onready var door_to_church: Area2D = $DoorToChurch
 @onready var player: CharacterBody2D = $Player
+@onready var medico_3: Area2D = $Medico3
+@onready var medico_2: Area2D = $Medico2
+@onready var medico: Area2D = $Medico
+@onready var madre_2: Area2D = $Madre2
+@onready var madre_3: Area2D = $Madre3
+@onready var madre: Area2D = $Madre
 
 func _ready():
 	# Conecta la señal de cambio de día
 	GameManager.connect("dia_cambiado", Callable(self, "_on_dia_cambiado"))
 	_actualizar_presencia_cura()
+	_actualizar_personaje_según_preocupacion()
 
 	# Conectar la señal de la puerta solo si el nodo existe
 	if door_to_church:
@@ -17,6 +24,52 @@ func _ready():
 
 func _on_dia_cambiado(nuevo_dia: int):
 	_actualizar_presencia_cura()
+
+
+
+func _actualizar_personaje_según_preocupacion():
+	var pme = GameManager.preocupacion_medico
+	var pma = GameManager.preocupacion_madre
+
+	# Decide qué tendero debe aparecer según la preocupación
+	if pme <= 33:
+		activar_medico(medico)
+	elif pme <= 66:
+		activar_medico(medico_2)
+	else:
+		activar_medico(medico_3)
+	
+	if pma <= 33:
+		activar_madre(madre)
+	elif pma <= 66:
+		activar_madre(madre_2)
+	else:
+		activar_madre(madre_3)
+
+func activar_madre(activo: Area2D):
+	var madres = [madre, madre_2, madre_3]
+	for pma in madres:
+		if pma != activo:
+			pma.queue_free()  # Elimina los tenderos que no van a usarse
+			
+			
+	# Asegúrate de que el tendero activo esté visible y listo para interactuar
+	activo.visible = true
+	activo.set_deferred("monitoring", true)  # Habilita la detección de colisiones
+	
+
+func activar_medico(activo: Area2D):
+	var medicos = [medico, medico_2, medico_3]
+
+
+	
+	for pme in medicos:
+		if pme != activo:
+			pme.queue_free()  # Elimina los tenderos que no van a usarse
+
+	# Asegúrate de que el tendero activo esté visible y listo para interactuar
+	activo.visible = true
+	activo.set_deferred("monitoring", true)  # Habilita la detección de colisiones
 
 func _actualizar_presencia_cura():
 	# Si la preocupación del cura es baja (< 50), está en el pueblo

@@ -42553,6 +42553,18 @@ position = Vector2(1615, 672)
 [node name="Viktor Sokolov" parent="." instance=ExtResource("23_bhx41")]
 position = Vector2(207, 700)
 
+[node name="Medico2" parent="." instance=ExtResource("19_264po")]
+position = Vector2(931, 1078)
+
+[node name="Medico3" parent="." instance=ExtResource("19_264po")]
+position = Vector2(818, 1082)
+
+[node name="Madre2" parent="." instance=ExtResource("22_37s47")]
+position = Vector2(1112, 466)
+
+[node name="Madre3" parent="." instance=ExtResource("22_37s47")]
+position = Vector2(1189, 517)
+
 [node name="Player" parent="." instance=ExtResource("1_uwrxv")]
 position = Vector2(1567, 1551)
 
