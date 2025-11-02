@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://gx6xnpi02rqm"]
+[gd_scene load_steps=8 format=3 uid="uid://gx6xnpi02rqm"]
 
 [ext_resource type="Script" uid="uid://clseiacx744iu" path="res://scripts/prueba_enseñar/node_2d.gd" id="1_veasc"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="2_4m7c4"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://sktvsy6v4s2r" path="res://scenes/personajes/esceptico.tscn" id="4_veasc"]
 [ext_resource type="PackedScene" uid="uid://b0rf8rc1dhnu1" path="res://scenes/personajes/madre.tscn" id="5_rir3b"]
 [ext_resource type="PackedScene" uid="uid://du7cqyabdkhix" path="res://scenes/personajes/cura.tscn" id="6_n05a0"]
+[ext_resource type="PackedScene" uid="uid://cnrc57uvl7y3e" path="res://scenes/cama.tscn" id="7_q4rka"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_veasc")
@@ -30,3 +31,6 @@ position = Vector2(759, 260)
 
 [node name="Cura" parent="." instance=ExtResource("6_n05a0")]
 position = Vector2(520, 409)
+
+[node name="Cama" parent="." instance=ExtResource("7_q4rka")]
+position = Vector2(406, 131)

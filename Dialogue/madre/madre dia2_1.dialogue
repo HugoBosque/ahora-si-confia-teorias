@@ -4,7 +4,7 @@ Svetlana: [speed=0.6] ¿Puedo ayudarte en algo?
 	set Global.dia2_hablar_madre = true
 	Svetlana: [speed=0.6]Te lo agradezco mucho.
 	- “Algunos animales salvajes fueron vistos cerca del bosque”
-		set GameManager.preocupacion_madre += 5
+		set GameManager.preocupacion_madre += 34
 		Svetlana: [speed=0.6] Animales por aquí, ¿qué raro no? No creo que se acerquen aquí, ¿verdad?
 		- No te preocupes, seguro  
 		

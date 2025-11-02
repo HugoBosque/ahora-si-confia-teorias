@@ -4,7 +4,7 @@ const CURA = preload("uid://rfms3hm7305p")
 @onready var sprite_2d_2: Sprite2D = $Sprite2D2
 
 const TENDERO_PRIMERA = preload("uid://fq2m2hhvfcna")
-const ESCEPTICO_DIA_1_2 = preload("uid://cdfwne4l8kh1")
+
 
 var player_close: bool = false
 

@@ -4,13 +4,13 @@ medico: hola
 	set Global.dia1_hablar_medico = true
 	medico: si
 	- "noticia1"
-		set GameManager.preocupacion_medico +=20
+		set GameManager.preocupacion_medico +=34
 		medico: si
 	- "noticia2"
-		set GameManager.preocupacion_medico +=20
+		set GameManager.preocupacion_medico +=34
 		medico: si
 	- "noticia3"
-		set GameManager.preocupacion_medico +=20
+		set GameManager.preocupacion_medico +=34
 		medico: si
 - demas
 

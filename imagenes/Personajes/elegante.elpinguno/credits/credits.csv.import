@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://mmg8re3hfi7n"
+
+[deps]
+
+files=["res://imagenes/Personajes/elegante.elpinguno/credits/credits.notes.translation", "res://imagenes/Personajes/elegante.elpinguno/credits/credits.authors.translation", "res://imagenes/Personajes/elegante.elpinguno/credits/credits.licenses.translation", "res://imagenes/Personajes/elegante.elpinguno/credits/credits.urls.translation"]
+
+source_file="res://imagenes/Personajes/elegante.elpinguno/credits/credits.csv"
+dest_files=["res://imagenes/Personajes/elegante.elpinguno/credits/credits.notes.translation", "res://imagenes/Personajes/elegante.elpinguno/credits/credits.authors.translation", "res://imagenes/Personajes/elegante.elpinguno/credits/credits.licenses.translation", "res://imagenes/Personajes/elegante.elpinguno/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0
