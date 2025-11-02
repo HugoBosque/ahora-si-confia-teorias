@@ -337,6 +337,7 @@ collision_mask = 255
 script = ExtResource("1_g2els")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 y_sort_enabled = true
 position = Vector2(0, -12)
 shape = SubResource("RectangleShape2D_g2els")
@@ -349,6 +350,7 @@ autoplay = "idle_down"
 frame_progress = 0.9329804
 
 [node name="Player" type="Area2D" parent="." groups=["player"]]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 position = Vector2(0, -22)

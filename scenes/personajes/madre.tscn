@@ -35,9 +35,11 @@ autoplay = "idle_down"
 frame_progress = 0.55354154
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 shape = SubResource("CircleShape2D_su488")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, 6.5)

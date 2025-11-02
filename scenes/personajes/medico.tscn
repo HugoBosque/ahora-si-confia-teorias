@@ -90,6 +90,7 @@ size = Vector2(30, 50)
 script = ExtResource("1_rj24f")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
 position = Vector2(0, 5)
 shape = SubResource("CircleShape2D_2a1dd")
 
@@ -98,6 +99,7 @@ sprite_frames = SubResource("SpriteFrames_tk4db")
 animation = &"walk_down_casual"
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, 7)
