@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://dl5jldqdd5yu7"]
+[gd_scene load_steps=24 format=3 uid="uid://dl5jldqdd5yu7"]
 
 [ext_resource type="Texture2D" uid="uid://bimerfcvbd5wn" path="res://imagenes/Personajes/guarda_1/standard/walkguarda_1.png" id="1_i37xx"]
 [ext_resource type="Texture2D" uid="uid://bwhhy8yb6ailv" path="res://imagenes/Personajes/guarda_1/standard/idle.png" id="1_ud3hl"]
@@ -7,10 +7,6 @@
 [sub_resource type="AtlasTexture" id="AtlasTexture_ud3hl"]
 atlas = ExtResource("1_ud3hl")
 region = Rect2(0, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_lg5yr"]
-atlas = ExtResource("1_ud3hl")
-region = Rect2(64, 0, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vm4e5"]
 atlas = ExtResource("1_i37xx")
@@ -89,9 +85,6 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ud3hl")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_lg5yr")
 }],
 "loop": true,
 "name": &"idle_up",

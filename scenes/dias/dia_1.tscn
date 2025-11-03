@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://b66vhebabhf72"]
+[gd_scene load_steps=6 format=3 uid="uid://cysdspvmb7255"]
 
 [ext_resource type="Script" uid="uid://bedyne663axes" path="res://scripts/dias/continuar.gd" id="1_xvkd6"]
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="2_mlbvd"]
@@ -35,7 +35,7 @@ offset_bottom = 77.0
 size_flags_vertical = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 40
-text = "DIA 1"
+text = "DIA 2"
 horizontal_alignment = 1
 vertical_alignment = 1
 
@@ -60,6 +60,11 @@ offset_bottom = 628.0
 size_flags_vertical = 3
 script = ExtResource("2_n33ke")
 
+[node name="vida_cura" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_mlbvd")
+theme_override_font_sizes/font_size = 20
+
 [node name="preocupacion_cura" type="Label" parent="VBoxContainer2"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
@@ -70,7 +75,7 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
 
-[node name="vida_cura" type="Label" parent="VBoxContainer2"]
+[node name="vida_esceptico" type="Label" parent="VBoxContainer2"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
@@ -85,7 +90,7 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
 
-[node name="vida_esceptico" type="Label" parent="VBoxContainer2"]
+[node name="vida_madre" type="Label" parent="VBoxContainer2"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
@@ -96,11 +101,6 @@ theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
 
 [node name="satisfaccion_madre" type="Label" parent="VBoxContainer2"]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_mlbvd")
-theme_override_font_sizes/font_size = 20
-
-[node name="vida_madre" type="Label" parent="VBoxContainer2"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
@@ -130,6 +130,11 @@ offset_bottom = 525.0
 size_flags_vertical = 3
 script = ExtResource("4_gtn88")
 
+[node name="vida_tendero" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_mlbvd")
+theme_override_font_sizes/font_size = 20
+
 [node name="preocupacion_tendero" type="Label" parent="VBoxContainer3"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
@@ -140,7 +145,7 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
 
-[node name="vida_tendero" type="Label" parent="VBoxContainer3"]
+[node name="vida_medico" type="Label" parent="VBoxContainer3"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
@@ -155,7 +160,7 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
 
-[node name="vida_medico" type="Label" parent="VBoxContainer3"]
+[node name="vida_viudo" type="Label" parent="VBoxContainer3"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
@@ -170,11 +175,6 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
 
-[node name="vida_viudo" type="Label" parent="VBoxContainer3"]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_mlbvd")
-theme_override_font_sizes/font_size = 20
-
 [node name="VBoxContainer4" type="VBoxContainer" parent="."]
 layout_mode = 0
 offset_left = 732.0
@@ -183,6 +183,11 @@ offset_right = 985.0
 offset_bottom = 636.0
 size_flags_vertical = 3
 script = ExtResource("5_rb7fp")
+
+[node name="vida_nina" type="Label" parent="VBoxContainer4"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_mlbvd")
+theme_override_font_sizes/font_size = 20
 
 [node name="preocupacion_nina" type="Label" parent="VBoxContainer4"]
 layout_mode = 2
@@ -194,7 +199,7 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
 
-[node name="vida_nina" type="Label" parent="VBoxContainer4"]
+[node name="vida_mikhail" type="Label" parent="VBoxContainer4"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
@@ -209,7 +214,7 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
 
-[node name="vida_mikhail" type="Label" parent="VBoxContainer4"]
+[node name="vida_viktor" type="Label" parent="VBoxContainer4"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
@@ -220,11 +225,6 @@ theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
 
 [node name="satisfaccion_viktor" type="Label" parent="VBoxContainer4"]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("2_mlbvd")
-theme_override_font_sizes/font_size = 20
-
-[node name="vida_viktor" type="Label" parent="VBoxContainer4"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
