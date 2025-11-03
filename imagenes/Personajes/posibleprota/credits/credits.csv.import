@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dc2p71ibthg04"
+
+[deps]
+
+files=["res://imagenes/Personajes/posibleprota/credits/credits.notes.translation", "res://imagenes/Personajes/posibleprota/credits/credits.authors.translation", "res://imagenes/Personajes/posibleprota/credits/credits.licenses.translation", "res://imagenes/Personajes/posibleprota/credits/credits.urls.translation"]
+
+source_file="res://imagenes/Personajes/posibleprota/credits/credits.csv"
+dest_files=["res://imagenes/Personajes/posibleprota/credits/credits.notes.translation", "res://imagenes/Personajes/posibleprota/credits/credits.authors.translation", "res://imagenes/Personajes/posibleprota/credits/credits.licenses.translation", "res://imagenes/Personajes/posibleprota/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

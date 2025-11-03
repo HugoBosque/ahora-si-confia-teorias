@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bhobjfjvn12qw" path="res://Tile Maps/ciudad_01.tscn" id="1_xpnlw"]
 [ext_resource type="PackedScene" uid="uid://b2kjixa6oo16s" path="res://Tile Maps/Objects.tscn" id="2_ar85d"]
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="3_1h47a"]
-[ext_resource type="Texture2D" uid="uid://traoig264b1v" path="res://imagenes/Personajes/Prota/standard/walk.png" id="4_85yvn"]
+[ext_resource type="Texture2D" uid="uid://bixuyd7jpvywy" path="res://imagenes/Personajes/posibleprota/standard/walk.png" id="4_ar85d"]
 [ext_resource type="PackedScene" uid="uid://dl5jldqdd5yu7" path="res://scenes/personajes/guardia_1.tscn" id="5_deh86"]
 [ext_resource type="PackedScene" uid="uid://di83dnig7bir5" path="res://scenes/personajes/guardia_2.tscn" id="6_jewvx"]
 [ext_resource type="PackedScene" uid="uid://bv5jyatlu3rcw" path="res://scenes/personajes/Npc_Presi.tscn" id="7_wdpgg"]
@@ -234,7 +234,7 @@ layer_0/tile_data = PackedInt32Array(589853, 2228225, 160, 655389, 2097153, 163,
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(576, 288)
-texture = ExtResource("4_85yvn")
+texture = ExtResource("4_ar85d")
 hframes = 9
 vframes = 4
 frame = 18

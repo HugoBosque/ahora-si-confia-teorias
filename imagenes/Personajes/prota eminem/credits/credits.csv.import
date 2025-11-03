@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cp0gh317ga6ss"
+
+[deps]
+
+files=["res://imagenes/Personajes/prota eminem/credits/credits.notes.translation", "res://imagenes/Personajes/prota eminem/credits/credits.authors.translation", "res://imagenes/Personajes/prota eminem/credits/credits.licenses.translation", "res://imagenes/Personajes/prota eminem/credits/credits.urls.translation"]
+
+source_file="res://imagenes/Personajes/prota eminem/credits/credits.csv"
+dest_files=["res://imagenes/Personajes/prota eminem/credits/credits.notes.translation", "res://imagenes/Personajes/prota eminem/credits/credits.authors.translation", "res://imagenes/Personajes/prota eminem/credits/credits.licenses.translation", "res://imagenes/Personajes/prota eminem/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -42542,13 +42542,13 @@ position = Vector2(1039, 411)
 position = Vector2(1055, 1078)
 
 [node name="Viudo" parent="." instance=ExtResource("20_bt5mj")]
-position = Vector2(-100, 379)
+position = Vector2(1615, 662)
 
 [node name="nina" parent="." instance=ExtResource("21_e1j6l")]
-position = Vector2(385, 462)
+position = Vector2(382, 456)
 
 [node name="Mikhail Belov" parent="." instance=ExtResource("22_pl11u")]
-position = Vector2(1615, 672)
+position = Vector2(-103, 384)
 
 [node name="Viktor Sokolov" parent="." instance=ExtResource("23_bhx41")]
 position = Vector2(207, 700)
