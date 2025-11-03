@@ -1,17 +1,27 @@
 ~ start
-viudo: hola
-- noticias
+Romanov Morozov: Buenas.
+- Vengo a darte las noticias
 	set Global.dia1_hablar_viudo = true
-	viudo: si
-	- "noticia1"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia2"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia3"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-- demas
+	Romanov Morozov: Lo aprecio.
+	
+	- "La carretera principal sigue bloqueada por la nieve"
+		
+		Romanov Morozov: Es una pena, aunque tampoco me gusta la guerra, mejor por ellos.
+		
+		
+	- "Llegan nuevas provisiones desde la capital"
+		
+		Romanov Morozov: Como siempre sólo miran por ellos mismos.
+		
+		
+	- "Se planea una mejora en el alumbrado público"
+		
+		Romanov Morozov: No está mal que invertan en la gente.
+
+- Venia a hablar contigo
+	Romanov Morozov: ¿Conmigo? Bueno, dime, ¿de qué quieres hablar?
+	- 
+	- ¿Cual es su función en el pueblo exactamente, Padre?
+		Romanov Morozov:
 
 => END
