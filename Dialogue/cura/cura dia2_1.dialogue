@@ -1,17 +1,27 @@
 ~ start
-cura: hola
-- noticias
-	set Global.dia1_hablar_cura = true
-	cura: si
-	- "noticia1"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-	- "noticia2"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-	- "noticia3"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-- demas
+Padre Zhukov: ¿Que te trae por aquí joven?
+- Vengo a darte las noticias
+	set Global.dia2_hablar_cura = true
+	Padre Zhukov: Un día más informado gracias a Dios.
+	
+	- Algunos animales salvajes fueron vistos cerca del bosque
+		set GameManager.preocupacion_cura += 10
+		Padre Zhukov: Los animales son guiados por Dios, se alejan del reino del hombre, un reino corrupto.
+		
+		
+	- Pequeñas fluctuaciones eléctricas en la zona industrial
 
+		Padre Zhukov: Esas cosas pueden ser peligrosas, por suerte, aquí estamos todos seguros.
+		
+		
+	- Medidas de mantenimiento industrial
+
+		Padre Zhukov: Nuestro país inverte siempre en majora, tenemos que estar agradecidos.
+
+- Venia a hablar contigo
+	Padre Zhukov: Dime hijo, ¿qué te preocupa?
+	- ¿Cree que todo el pueblo está bien?
+		Padre Zhukov: Hay de todo un poco, algunos estamos más cerca de Dios y otros.. no tanto.
+	- Ejemplo dialog
+		Padre Zhukov: Victor gay
 => END

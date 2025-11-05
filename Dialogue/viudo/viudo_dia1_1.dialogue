@@ -1,27 +1,26 @@
 ~ start
-Romanov Morozov: Buenas.
+Romanov Morozov: [speed=0.6]Buenas.
 - Vengo a darte las noticias
 	set Global.dia1_hablar_viudo = true
-	Romanov Morozov: Lo aprecio.
+	Romanov Morozov: [speed=0.6]Lo aprecio.
 	
 	- "La carretera principal sigue bloqueada por la nieve"
 		
-		Romanov Morozov: Es una pena, aunque tampoco me gusta la guerra, mejor por ellos.
+		Romanov Morozov: [speed=0.6]Es una pena, aunque tampoco me gusta la guerra, mejor por ellos.
 		
 		
 	- "Llegan nuevas provisiones desde la capital"
 		
-		Romanov Morozov: Como siempre sólo miran por ellos mismos.
+		Romanov Morozov: [speed=0.6]Como siempre sólo miran por ellos mismos.
 		
 		
 	- "Se planea una mejora en el alumbrado público"
 		
-		Romanov Morozov: No está mal que invertan en la gente.
+		Romanov Morozov: [speed=0.6]No está mal que invertan en la gente.
 
 - Venia a hablar contigo
 	Romanov Morozov: ¿Conmigo? Bueno, dime, ¿de qué quieres hablar?
-	- 
-	- ¿Cual es su función en el pueblo exactamente, Padre?
-		Romanov Morozov:
+	- ¿Cómo te sientes en este pueblo, estás... bien?
+		Romanov Morozov: Duermo poco, pero nada más, no te porecupes chico.
 
 => END
