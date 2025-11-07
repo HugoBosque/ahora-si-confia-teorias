@@ -9,4 +9,4 @@ func _ready() -> void:
 
 func _on_button_pressed() -> void:
 	# Cambiar a la escena que quieras
-	SceneManager.change_scene_with_player_position("res://scenes/House.tscn", continuar_player_position)
+	SceneManager.change_scene_with_player_position("res://scenes/video_stream_player.tscn", continuar_player_position)
