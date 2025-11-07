@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://b5vikdtoesgly"]
+[gd_scene load_steps=10 format=3 uid="uid://b5vikdtoesgly"]
 
 [ext_resource type="Script" uid="uid://bogsiljxkbxhg" path="res://scripts/iglesia.gd" id="1_klach"]
 [ext_resource type="PackedScene" uid="uid://du7cqyabdkhix" path="res://scenes/personajes/cura.tscn" id="2_s8sp2"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="3_s8sp2"]
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="4_pyn17"]
 [ext_resource type="Script" uid="uid://db3di70t8q05a" path="res://scripts/ChurchToGame.gd" id="4_uflug"]
+[ext_resource type="PackedScene" uid="uid://b0rf8rc1dhnu1" path="res://scenes/personajes/madre.tscn" id="8_s3xng"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_it0j6"]
 size = Vector2(64, 64)
@@ -31,10 +32,13 @@ position = Vector2(576, 547)
 [node name="Area2D" type="Area2D" parent="."]
 script = ExtResource("4_uflug")
 next_scene_path = "res://scenes/game.tscn"
-player_target_position = Vector2(778, 145)
+player_target_position = Vector2(779, 155)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(575, 608)
 shape = SubResource("RectangleShape2D_it0j6")
+
+[node name="Madre" parent="." instance=ExtResource("8_s3xng")]
+position = Vector2(366, 317)
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]

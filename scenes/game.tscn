@@ -42523,7 +42523,7 @@ shape = SubResource("RectangleShape2D_lbhrr")
 [node name="Sprite2D" type="Sprite2D" parent="DoorToHouse"]
 
 [node name="Cura" parent="." instance=ExtResource("20_5newe")]
-position = Vector2(662, 159)
+position = Vector2(660, 153)
 
 [node name="DoorToChurch" type="Area2D" parent="."]
 position = Vector2(782, 116)
@@ -42539,7 +42539,7 @@ position = Vector2(1599, -361)
 position = Vector2(1039, 411)
 
 [node name="Medico" parent="." instance=ExtResource("19_264po")]
-position = Vector2(1055, 1078)
+position = Vector2(1055, 1086)
 
 [node name="Viudo" parent="." instance=ExtResource("20_bt5mj")]
 position = Vector2(1615, 662)

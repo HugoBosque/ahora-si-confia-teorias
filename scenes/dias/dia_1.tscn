@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://cysdspvmb7255"]
+[gd_scene load_steps=6 format=3 uid="uid://dbswt7bkxi2ik"]
 
 [ext_resource type="Script" uid="uid://bedyne663axes" path="res://scripts/dias/continuar.gd" id="1_xvkd6"]
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="2_mlbvd"]
@@ -35,7 +35,7 @@ offset_bottom = 77.0
 size_flags_vertical = 2
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 40
-text = "DIA 2"
+text = "DIA 1"
 horizontal_alignment = 1
 vertical_alignment = 1
 

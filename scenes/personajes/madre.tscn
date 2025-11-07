@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://b0rf8rc1dhnu1"]
+[gd_scene load_steps=9 format=3 uid="uid://b0rf8rc1dhnu1"]
 
 [ext_resource type="Script" uid="uid://b7svktnh3c61n" path="res://scripts/madre.gd" id="1_oh5cb"]
 [ext_resource type="Texture2D" uid="uid://bufhcavtok6uc" path="res://imagenes/Personajes/lamadre/standard/walk.png" id="1_su488"]
@@ -8,6 +8,10 @@
 atlas = ExtResource("1_su488")
 region = Rect2(0, 128, 64, 64)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_oh5cb"]
+atlas = ExtResource("1_su488")
+region = Rect2(0, 0, 64, 64)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_oh5cb"]
 animations = [{
 "frames": [{
@@ -16,6 +20,14 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle_down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oh5cb")
+}],
+"loop": true,
+"name": &"idle_up",
 "speed": 5.0
 }]
 
@@ -32,7 +44,7 @@ script = ExtResource("1_oh5cb")
 sprite_frames = SubResource("SpriteFrames_oh5cb")
 animation = &"idle_down"
 autoplay = "idle_down"
-frame_progress = 0.55354154
+metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
