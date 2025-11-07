@@ -1,17 +1,28 @@
 ~ start
-medico: hola
-- noticias
+Dra Alina: Buenas, tu eres el de las notícias, ¿cierto?
+- Sí, ¿y tu eres la nueva médico?
 	set Global.dia1_hablar_medico = true
-	medico: si
-	- "noticia1"
-		set GameManager.preocupacion_medico +=34
-		medico: si
-	- "noticia2"
-		set GameManager.preocupacion_medico +=34
-		medico: si
-	- "noticia3"
-		set GameManager.preocupacion_medico +=34
-		medico: si
-- demas
+	Dra Alina: Sí, aunque no te prometo que dure demasiado, he visto poca cosa y no me ha gustado mucho.
+	- ¿Lo dices por algo en particular?
+	Dra Alina: Soy partidaria de que la gente piense por sí misma, no que sigan a un mesías.
+	- Es cierto que el pueblo es muy creyente pero no te preocupes.
+	Dra Alina: Tampoco me gusta mucha la gente, me limito a hacer mi trabajo.
+	- Perfecto.
+	Dra Alina: Dime, qué me traes.
+
+	- "La carretera principal sigue bloqueada por la nieve"
+		
+		Dra Alina: Luego vendrán con zonas del cuerpo congeladas...
+		
+		
+	- "Llegan nuevas provisiones desde la capital"
+		
+		Dra Alina: Yo ya voy servida de medicamentos y provosiones durante mi estancia.
+		
+	- "Se planea una mejora en el alumbrado público"
+		
+		Dra Alina: Inecesario en mi opinión.
+
+		
 
 => END
