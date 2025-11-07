@@ -96,7 +96,8 @@ shape = SubResource("CircleShape2D_2a1dd")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_tk4db")
-animation = &"walk_down"
+animation = &"idle_down"
+autoplay = "idle_down"
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 visible = false
