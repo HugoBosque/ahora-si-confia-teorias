@@ -1,17 +1,24 @@
 ~ start
-viudo: hola
-- noticias
-	set Global.dia1_hablar_viudo = true
-	viudo: si
-	- "noticia1"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia2"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia3"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-- demas
+Romanov Morozov: [speed=0.6]Buenas.
+- Vengo a darte las noticias
+	set Global.dia2_hablar_viudo = true
+	Romanov Morozov: [speed=0.6]Gracias.
+	
+
+	- Algunos animales salvajes fueron vistos cerca del bosque
+		
+		Romanov Morozov: [speed=0.6] Respuesta.
+		
+		
+	- Pequeñas fluctuaciones eléctricas en la zona industrial
+		set GameManager.preocupacion_viudo += 10
+		Romanov Morozov: [speed=0.6] Respuesta.
+		
+		
+	- Medidas de mantenimiento industrial
+
+		Romanov Morozov: [speed=0.6] Respuesta.
+		
+
 
 => END
