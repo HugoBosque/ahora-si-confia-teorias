@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://i8k8q583smpi"]
+
+[ext_resource type="Script" uid="uid://wy2lnj3pp0uh" path="res://scripts/menustop.gd" id="1_6aqup"]
+
+[node name="menustop" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6aqup")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="continuar" type="Button" parent="."]
+layout_mode = 0
+offset_left = 434.0
+offset_top = 113.0
+offset_right = 612.0
+offset_bottom = 201.0
+text = "CONTINUAR"
+
+[node name="salir" type="Button" parent="."]
+layout_mode = 0
+offset_left = 442.0
+offset_top = 327.0
+offset_right = 620.0
+offset_bottom = 415.0
+text = "GUARDAR Y SALIR"
+
+[connection signal="pressed" from="continuar" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="salir" to="." method="_on_button_3_pressed"]
