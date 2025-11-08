@@ -42545,10 +42545,10 @@ position = Vector2(1055, 1086)
 position = Vector2(1615, 662)
 
 [node name="nina" parent="." instance=ExtResource("21_e1j6l")]
-position = Vector2(382, 456)
+position = Vector2(382, 436)
 
 [node name="Mikhail Belov" parent="." instance=ExtResource("22_pl11u")]
-position = Vector2(-103, 384)
+position = Vector2(-100, 370)
 
 [node name="Viktor Sokolov" parent="." instance=ExtResource("23_bhx41")]
 position = Vector2(207, 700)
