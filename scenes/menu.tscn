@@ -141,5 +141,27 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_con2f")
 text = "Juego realizado por: Hugo Bosque, Miquel Monclús, Victor Millán"
 alignment = 1
 
+[node name="Continuar" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -474.5
+offset_top = -278.0
+offset_right = -226.5
+offset_bottom = -209.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.16078432, 0.14117648, 0.10980392, 1)
+theme_override_fonts/font = ExtResource("3_mhnvy")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxFlat_0e48y")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_epypp")
+theme_override_styles/hover = SubResource("StyleBoxFlat_0hol4")
+text = "CONTINUAR"
+
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Salir" to="." method="_on_salir_pressed"]
+[connection signal="pressed" from="Continuar" to="." method="_on_continuar_pressed"]

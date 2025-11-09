@@ -1,5 +1,9 @@
 extends Node
 
+# ============================================================
+# =============== VARIABLES DE HISTORIA Y FLAGS ===============
+# ============================================================
+
 var dia1_hablar_cura = false
 var dia2_hablar_cura = false
 var dia3_hablar_cura = false
@@ -64,9 +68,96 @@ var dia5_hablar_Viktor = false
 var dia6_hablar_Viktor = false
 var dia7_hablar_Viktor = false
 
-var has_seen_presi_scene: bool = false
+# Nodo de menú de pausa registrado por la escena actual
+var pause_menu_controller: Node = null
+var is_game_paused: bool = false
 
+var has_seen_presi_scene: bool = false
+var next_spawn: Vector2 = Vector2.ZERO
+var dia: int = 1  # día actual
 
 func _ready():
-	print("🌍 Global cargado — has_seen_presi_scene =", has_seen_presi_scene)
-	
+	print("🌍 Global cargado — preparado para guardar y cargar partidas.")
+
+# ============================================================
+# ================= FUNCIÓN NUEVA: RESET GAME STATE ==========
+# ============================================================
+
+func reset_game_state():
+	is_game_paused = false
+	print("🔄 Estado del juego reseteado - is_game_paused = false")
+
+# ============================================================
+# ================= SISTEMA DE GUARDADO ======================
+# ============================================================
+
+func save_game():
+	var save_data = {}
+
+	# Guardar todas las propiedades del Global
+	for prop in get_property_list():
+		if prop.name in ["script"]:
+			continue
+		save_data[prop.name] = get(prop.name)
+
+	# Guardar propiedades del GlobalManager
+	if Engine.has_singleton("GlobalManager"):
+		var gm = Engine.get_singleton("GlobalManager")
+		for prop in gm.get_property_list():
+			if prop.name in ["script"]:
+				continue
+			save_data["GM_" + prop.name] = gm.get(prop.name)
+
+	var file = FileAccess.open("user://savegame.dat", FileAccess.WRITE)
+	file.store_var(save_data)
+	file.close()
+	print("💾 Partida guardada correctamente:", save_data)
+
+# ============================================================
+# ================= SISTEMA DE CARGA ========================
+# ============================================================
+
+func load_game() -> bool:
+	if not FileAccess.file_exists("user://savegame.dat"):
+		print("⚠️ No hay archivo de guardado todavía.")
+		return false
+
+	var file = FileAccess.open("user://savegame.dat", FileAccess.READ)
+	var save_data = file.get_var()
+	file.close()
+
+	# Restaurar datos del Global
+	for key in save_data.keys():
+		if _property_exists(self, key):
+			set(key, save_data[key])
+
+	# Restaurar datos del GlobalManager
+	if Engine.has_singleton("GlobalManager"):
+		var gm = Engine.get_singleton("GlobalManager")
+		for key in save_data.keys():
+			if key.begins_with("GM_"):
+				var real_key = key.replace("GM_", "")
+				if _property_exists(gm, real_key):
+					gm.set(real_key, save_data[key])
+
+	print("✅ Partida cargada correctamente:", save_data)
+	return true
+
+# ============================================================
+# ================= FUNCIONES AUXILIARES ====================
+# ============================================================
+
+func _property_exists(obj: Object, prop_name: String) -> bool:
+	for prop in obj.get_property_list():
+		if prop.name == prop_name:
+			return true
+	return false
+
+# ============================================================
+# ================= INPUT GLOBAL (ESC) ======================
+# ============================================================
+
+func _input(event: InputEvent) -> void:
+	if event.is_action_pressed("cancel"):  # "cancel" = Esc
+		if pause_menu_controller:
+			pause_menu_controller.toggle_pause_menu()

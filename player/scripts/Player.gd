@@ -11,11 +11,15 @@ func _ready():
 	GameManager.has_animation_done = false
 
 func _physics_process(delta):
-	if GameManager.is_dialogue_active or GameManager.has_animation_done:
+	# Verificación adicional para asegurar que no esté en menú principal
+	var current_scene = get_tree().current_scene
+	if current_scene and ("menu" in current_scene.name or "Menu" in current_scene.name):
+		return
+		
+	if GameManager.is_dialogue_active or Global.is_game_paused:
 		velocity = Vector2.ZERO        # 🔒 Detiene cualquier movimiento
 		move_and_slide()               # 🔒 Aplica el freno inmediatamente
 		return
-
 
 	get_input()
 	move_and_slide()

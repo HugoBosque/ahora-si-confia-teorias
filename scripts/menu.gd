@@ -1,19 +1,53 @@
 extends Control
 
-# Precargamos la escena del juego (ajusta la ruta si tu archivo está en otra carpeta)
+# Precargamos las escenas del juego (ajusta las rutas según tu proyecto)
 @onready var house_scene = preload("res://scenes/House.tscn")
 @onready var town_scene = preload("res://scenes/game.tscn")
 
+# Botones
+@onready var play_button = $Play
+@onready var continuar_button = $Continuar
+@onready var salir_button = $Salir
 
 func _ready() -> void:
-	# Conecta los botones (cambia los nombres si tus nodos se llaman distinto)
-	$Play.pressed.connect(_on_play_pressed)
-	$Salir.pressed.connect(_on_salir_pressed)
+	# Conectar botones
+	play_button.pressed.connect(_on_play_pressed)
+	continuar_button.pressed.connect(_on_continuar_pressed)
+	salir_button.pressed.connect(_on_salir_pressed)
 
+	# Resetear estado global al cargar el menú
+	Global.reset_game_state()
+	GameManager.is_dialogue_active = false
+	GameManager.has_animation_done = false
+
+	# Cargar partida al iniciar (solo para comprobar que existe)
+	if Global.load_game():
+		print("✅ Partida anterior cargada.")
+	else:
+		print("🌱 No se encontró partida guardada.")
+
+# --- BOTONES ---
 func _on_play_pressed() -> void:
-	# Cambia de escena al juego (rápido porque ya está precargado)
+	# Resetear estado antes de cambiar de escena
+	Global.reset_game_state()
+	GameManager.is_dialogue_active = false
+	GameManager.has_animation_done = false
 	get_tree().change_scene_to_packed(house_scene)
 
+func _on_continuar_pressed() -> void:
+	if not Global.load_game():
+		print("⚠️ No hay partida guardada, empieza un juego nuevo.")
+		return
+
+	# Resetear el estado del juego ANTES de cambiar de escena
+	Global.reset_game_state()
+	GameManager.is_dialogue_active = false
+	GameManager.has_animation_done = false
+
+	# ⚠️ SIEMPRE empezar en House.tscn, independientemente del día guardado
+	print("🏠 Cargando partida guardada - Iniciando en House.tscn (Día ", Global.dia, ")")
+	get_tree().change_scene_to_packed(house_scene)
 
 func _on_salir_pressed() -> void:
+	Global.save_game()  # Guardar antes de salir
 	get_tree().quit()

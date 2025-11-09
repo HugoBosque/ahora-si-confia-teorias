@@ -1,6 +1,7 @@
-[gd_scene load_steps=9 format=3 uid="uid://qpi0a34eaf1g"]
+[gd_scene load_steps=10 format=3 uid="uid://qpi0a34eaf1g"]
 
 [ext_resource type="PackedScene" uid="uid://bhobjfjvn12qw" path="res://Tile Maps/ciudad_01.tscn" id="1_8twys"]
+[ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="1_nwrc1"]
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="2_etd6b"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="2_r2usd"]
 [ext_resource type="PackedScene" uid="uid://b2kjixa6oo16s" path="res://Tile Maps/Objects.tscn" id="3_lr155"]
@@ -12,6 +13,8 @@
 size = Vector2(33, 48)
 
 [node name="House" type="Node2D"]
+
+[node name="menustop" parent="." instance=ExtResource("1_nwrc1")]
 
 [node name="Ciudad01" parent="." instance=ExtResource("1_8twys")]
 position = Vector2(107, 107)

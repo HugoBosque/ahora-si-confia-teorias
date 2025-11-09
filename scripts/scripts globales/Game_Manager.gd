@@ -52,7 +52,6 @@ func cambiar_dia():
 	actualizar_cura()
 	verificar_condiciones_dia()
 
-
 func actualizar_cura():
 	"""
 	Define la ubicación del cura según su nivel de preocupación.
@@ -61,7 +60,6 @@ func actualizar_cura():
 		print("→ El cura está en la iglesia.")
 	else:
 		print("→ El cura está en el pueblo.")
-
 
 func verificar_condiciones_dia():
 	"""
