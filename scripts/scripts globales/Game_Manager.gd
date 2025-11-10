@@ -13,6 +13,7 @@ var dia: int = 1
 # -------------------- VARIABLES DE PERSONAJES --------------------
 var vida_cura: int = 100
 var preocupacion_cura: int = 0
+var cura_en_iglesia: bool = false  # 🔹 NUEVA VARIABLE GLOBAL DE UBICACIÓN DEL CURA
 
 var vida_esceptico: int = 100
 var preocupacion_esceptico: int = 0
@@ -48,18 +49,26 @@ func cambiar_dia():
 	"""
 	dia += 1
 	print("📆 Día cambiado a:", dia)
-	emit_signal("dia_cambiado", dia)
+
 	actualizar_cura()
 	verificar_condiciones_dia()
+
+	emit_signal("dia_cambiado", dia)
+
+	# 🔹 Aseguramos que la escena actual se actualice aunque no esté conectada
+	var escena = get_tree().current_scene
+	if escena and escena.has_method("_on_dia_cambiado"):
+		escena._on_dia_cambiado(dia)
 
 func actualizar_cura():
 	"""
 	Define la ubicación del cura según su nivel de preocupación.
 	"""
-	if preocupacion_cura >= 50:
-		print("→ El cura está en la iglesia.")
+	cura_en_iglesia = (preocupacion_cura >= 50)
+	if cura_en_iglesia:
+		print("⛪ El cura ahora está en la iglesia.")
 	else:
-		print("→ El cura está en el pueblo.")
+		print("🏘️ El cura ahora está en el pueblo.")
 
 func verificar_condiciones_dia():
 	"""

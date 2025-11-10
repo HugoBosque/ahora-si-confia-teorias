@@ -18,20 +18,21 @@ func _ready():
 	if door_to_church:
 		door_to_church.connect("body_entered", Callable(self, "_on_door_body_entered"))
 	else:
-		print("ERROR: door_to_church es null. Revisa el nombre del nodo.")
+		print("❌ ERROR: door_to_church es null. Revisa el nombre del nodo.")
 
 
 func _on_dia_cambiado(nuevo_dia: int):
+	print("🌅 Día cambiado en Game (pueblo):", nuevo_dia)
 	_actualizar_presencia_cura()
 	_actualizar_personaje_según_preocupacion()
-
 
 # -------------------- PERSONAJES --------------------
 func _actualizar_personaje_según_preocupacion():
 	var pme = GameManager.preocupacion_medico
 	var pma = GameManager.preocupacion_madre
 
-	print("🟢 Actualizando personajes (día: %s, preoc. madre: %s, preoc. médico: %s)" % [GameManager.dia, pma, pme])
+	print("🟢 Actualizando personajes (día: %s, preoc. madre: %s, preoc. médico: %s)" %
+		[GameManager.dia, pma, pme])
 
 	# 🔹 Limpieza previa
 	desactivar_todas_madres()
@@ -56,7 +57,6 @@ func _actualizar_personaje_según_preocupacion():
 	else:
 		activar_medico(medico_3)
 
-
 # -------------------- FUNCIONES DE ACTIVACIÓN --------------------
 func desactivar_todas_madres():
 	var madres = [madre, madre_2, madre_3]
@@ -75,7 +75,6 @@ func activar_madre(activo: Area2D):
 	if anim and anim.sprite_frames.has_animation("idle_down"):
 		anim.play("idle_down")
 
-
 func desactivar_todos_medicos():
 	var medicos = [medico, medico_2, medico_3]
 	for m in medicos:
@@ -87,7 +86,6 @@ func activar_medico(activo: Area2D):
 		if m != activo:
 			_set_personaje_activo(m, false)
 	_set_personaje_activo(activo, true)
-
 
 # 🔹 Función genérica para activar o desactivar un personaje (madre o médico)
 func _set_personaje_activo(personaje: Area2D, activo: bool):
@@ -107,12 +105,12 @@ func _set_personaje_activo(personaje: Area2D, activo: bool):
 				if grandchild is CollisionShape2D:
 					grandchild.disabled = not activo
 
-
 # -------------------- CURA --------------------
 func _actualizar_presencia_cura():
-	var activo = GameManager.preocupacion_cura < 50
+	# 🔹 Ahora el cura está en el pueblo si NO está en la iglesia globalmente
+	var activo = not GameManager.cura_en_iglesia
+	print("✝ Actualizando cura en el pueblo → activo:", activo)
 	_set_personaje_activo(cura, activo)
-
 
 # -------------------- PUERTA --------------------
 func _on_door_body_entered(body: Node):
