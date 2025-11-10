@@ -12,6 +12,14 @@ var dia5_hablar_cura = false
 var dia6_hablar_cura = false
 var dia7_hablar_cura = false
 
+var dia1_hablar_yerik = false
+var dia2_hablar_yerik = false
+var dia3_hablar_yerik = false
+var dia4_hablar_yerik = false
+var dia5_hablar_yerik = false
+var dia6_hablar_yerik = false
+var dia7_hablar_yerik = false
+
 var dia1_hablar_madre = false
 var dia2_hablar_madre = false
 var dia3_hablar_madre = false

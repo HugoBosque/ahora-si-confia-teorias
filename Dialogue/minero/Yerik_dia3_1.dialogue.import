@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bfprlg4ihermo"
+path="res://.godot/imported/Yerik_dia3_1.dialogue-31c5e4d251a7fb57900ed3aa4fc660da.tres"
+
+[deps]
+
+source_file="res://Dialogue/minero/Yerik_dia3_1.dialogue"
+dest_files=["res://.godot/imported/Yerik_dia3_1.dialogue-31c5e4d251a7fb57900ed3aa4fc660da.tres"]
+
+[params]
+
+defaults=true
