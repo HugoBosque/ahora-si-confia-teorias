@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=4 uid="uid://cg0ysj07cxfnp"]
+[gd_scene load_steps=37 format=4 uid="uid://cg0ysj07cxfnp"]
 
 [ext_resource type="Script" uid="uid://dk4i6ny4oi7h3" path="res://scripts/game.gd" id="1_1kice"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="1_uwrxv"]
@@ -24,6 +24,7 @@
 [ext_resource type="PackedScene" uid="uid://b3o4e0083jnmn" path="res://scenes/personajes/Mikhail Belov.tscn" id="22_pl11u"]
 [ext_resource type="PackedScene" uid="uid://vl5po0vq2iaa" path="res://scenes/personajes/Viktor Sokolov.tscn" id="23_bhx41"]
 [ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="24_e1j6l"]
+[ext_resource type="PackedScene" uid="uid://mf0qdfkoab6f" path="res://scenes/personajes/minero.tscn" id="25_pl11u"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_no12j"]
 texture = ExtResource("2_kvpfn")
@@ -42573,5 +42574,8 @@ position = Vector2(1567, 1551)
 position = Vector2(0, 6)
 
 [node name="menustop" parent="." instance=ExtResource("24_e1j6l")]
+
+[node name="Mikhail Belov2" parent="." instance=ExtResource("25_pl11u")]
+position = Vector2(1100, -355)
 
 [connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]
