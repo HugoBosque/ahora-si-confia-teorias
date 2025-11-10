@@ -1,11 +1,10 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+Yerik:[speed=0.5] palonavo
+- Buenas, vengo a traer el informe del día.
+	set Global.dia2_hablar_yerik = true
+	
+	
+- Has descubierto algo de los ruidos extraños?
+	
+	
 => END

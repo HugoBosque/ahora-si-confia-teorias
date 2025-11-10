@@ -1,23 +1,22 @@
 ~ start
-Yerik: Acércate, no muerdo. Este frío ya es bastante para todos nosotros.
+Yerik:[speed=0.5] Acércate, no muerdo. Este frío ya es bastante para todos nosotros.
 - Buenas, vengo a traer el informe del día.
 	set Global.dia1_hablar_yerik = true
 	Yerik: ¿Qué traes hoy?
 	- "La carretera principal sigue bloqueada por la nieve"
-		set GameManager.preocupacion_yerik += 20
-		Yerik: Otra vez… ya me lo imaginaba. Si la carretera sigue cerrada, el convoy de suministros no podrá pasar. Tendremos que racionar mejor, ya sabes… antes de que alguien empiece a ponerse nervioso.
-		
-		
+		set GameManager.preocupacion_yerik += 10
+		Yerik:[speed=0.6] Otra vez… ya me lo imaginaba. Si la carretera sigue cerrada, el convoy de suministros no podrá pasar. Tendremos que racionar mejor, ya sabes… antes de que alguien empiece a ponerse nervioso.
 	- "Llegan nuevas provisiones desde la capital"
-		set GameManager.preocupacion_yerik += 60
-		Yerik: Menos mal, porfin noticias buenas. 
-		
-		
+		set GameManager.preocupacion_yerik += 0
+		Yerik:[speed=0.6] Menos mal, porfin noticias buenas. 
 	- "Se planea una mejora en el alumbrado público"
-		set GameManager.preocupacion_yerik += 60
-		Yerik: ¿Mejora del alumbrado? Pues ya era hora… Anoche casi me rompo el cuello volviendo a casa. No veía ni mis propios pasos. 
-- Quiero hablar contigo.
-	Yerik: Callate la boca niñato y agarrame los huevos, pdt: trabaja miquel
-	Yo: w miquel
+		set GameManager.preocupacion_yerik += 0
+		Yerik:[speed=0.6] ¿Mejora del alumbrado? Pues ya era hora… Anoche casi me rompo el cuello volviendo a casa. No veía ni mis propios pasos. 
+		
+- Quería preguntarte algo sobre la mina.
+	Yerik:[speed=0.6] La mina está como siempre… aunque últimamente se oyen algunos ruidos raros.
+	Yo:[speed=0.6] ¿Ruidos?
+	Yerik:[speed=0.6] Sí... Golpes, ecos que no cuadran, mejor ir con cuidado. 
+	Yo:[speed=0.6] Entiendo... Gracias. 
 
 => END
