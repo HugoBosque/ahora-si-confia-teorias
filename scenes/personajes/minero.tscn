@@ -1,53 +1,54 @@
-[gd_scene load_steps=16 format=3 uid="uid://mf0qdfkoab6f"]
+[gd_scene load_steps=17 format=3 uid="uid://mf0qdfkoab6f"]
 
 [ext_resource type="Script" uid="uid://ctr1buwdetoer" path="res://scripts/pers/minero.gd" id="1_w3wvu"]
-[ext_resource type="Texture2D" uid="uid://b1mp87ymiuwyw" path="res://imagenes/Personajes/Mikhail Belov/standard/walk.png" id="2_44qsf"]
+[ext_resource type="Texture2D" uid="uid://dq052gv7qy36" path="res://imagenes/Personajes/Yerik Pavel Minero/Yerik Pavel (Minero)/custom/slash_128.png" id="2_17yad"]
 [ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="3_17yad"]
+[ext_resource type="Texture2D" uid="uid://omkygef7ghy6" path="res://imagenes/Personajes/Yerik Pavel Minero/Yerik Pavel (Minero)/standard/walk.png" id="3_44qsf"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_2a1dd"]
 radius = 57.14018
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_tnikd"]
-atlas = ExtResource("2_44qsf")
-region = Rect2(320, 128, 64, 64)
+[sub_resource type="AtlasTexture" id="AtlasTexture_51q7t"]
+atlas = ExtResource("2_17yad")
+region = Rect2(0, 256, 128, 128)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_qg8s2"]
-atlas = ExtResource("2_44qsf")
+[sub_resource type="AtlasTexture" id="AtlasTexture_17yad"]
+atlas = ExtResource("3_44qsf")
 region = Rect2(64, 128, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_ehxor"]
-atlas = ExtResource("2_44qsf")
+[sub_resource type="AtlasTexture" id="AtlasTexture_2c7a8"]
+atlas = ExtResource("3_44qsf")
 region = Rect2(128, 128, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_vsuks"]
-atlas = ExtResource("2_44qsf")
+[sub_resource type="AtlasTexture" id="AtlasTexture_jogg8"]
+atlas = ExtResource("3_44qsf")
 region = Rect2(192, 128, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_r44ta"]
-atlas = ExtResource("2_44qsf")
+[sub_resource type="AtlasTexture" id="AtlasTexture_8t245"]
+atlas = ExtResource("3_44qsf")
 region = Rect2(256, 128, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_k14mi"]
-atlas = ExtResource("2_44qsf")
+[sub_resource type="AtlasTexture" id="AtlasTexture_cwuc8"]
+atlas = ExtResource("3_44qsf")
 region = Rect2(320, 128, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_qa1vo"]
-atlas = ExtResource("2_44qsf")
+[sub_resource type="AtlasTexture" id="AtlasTexture_g12j5"]
+atlas = ExtResource("3_44qsf")
 region = Rect2(384, 128, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_u1fpg"]
-atlas = ExtResource("2_44qsf")
+[sub_resource type="AtlasTexture" id="AtlasTexture_cne5u"]
+atlas = ExtResource("3_44qsf")
 region = Rect2(448, 128, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_ihh6p"]
-atlas = ExtResource("2_44qsf")
+[sub_resource type="AtlasTexture" id="AtlasTexture_ow6qy"]
+atlas = ExtResource("3_44qsf")
 region = Rect2(512, 128, 64, 64)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_tk4db"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_tnikd")
+"texture": SubResource("AtlasTexture_51q7t")
 }],
 "loop": true,
 "name": &"idle_down",
@@ -55,28 +56,28 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_qg8s2")
+"texture": SubResource("AtlasTexture_17yad")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_ehxor")
+"texture": SubResource("AtlasTexture_2c7a8")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_vsuks")
+"texture": SubResource("AtlasTexture_jogg8")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_r44ta")
+"texture": SubResource("AtlasTexture_8t245")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_k14mi")
+"texture": SubResource("AtlasTexture_cwuc8")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_qa1vo")
+"texture": SubResource("AtlasTexture_g12j5")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_u1fpg")
+"texture": SubResource("AtlasTexture_cne5u")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_ihh6p")
+"texture": SubResource("AtlasTexture_ow6qy")
 }],
 "loop": true,
 "name": &"walk_down",
@@ -98,6 +99,8 @@ shape = SubResource("CircleShape2D_2a1dd")
 sprite_frames = SubResource("SpriteFrames_tk4db")
 animation = &"walk_down"
 autoplay = "idle_down"
+frame = 4
+frame_progress = 0.7283707
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 visible = false

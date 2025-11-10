@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cwi8d73p3ia1s"
+
+[deps]
+
+files=["res://imagenes/Personajes/Viktor Sokolov Detective/credits/credits.notes.translation", "res://imagenes/Personajes/Viktor Sokolov Detective/credits/credits.authors.translation", "res://imagenes/Personajes/Viktor Sokolov Detective/credits/credits.licenses.translation", "res://imagenes/Personajes/Viktor Sokolov Detective/credits/credits.urls.translation"]
+
+source_file="res://imagenes/Personajes/Viktor Sokolov Detective/credits/credits.csv"
+dest_files=["res://imagenes/Personajes/Viktor Sokolov Detective/credits/credits.notes.translation", "res://imagenes/Personajes/Viktor Sokolov Detective/credits/credits.authors.translation", "res://imagenes/Personajes/Viktor Sokolov Detective/credits/credits.licenses.translation", "res://imagenes/Personajes/Viktor Sokolov Detective/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0

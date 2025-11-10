@@ -42575,7 +42575,7 @@ position = Vector2(0, 6)
 
 [node name="menustop" parent="." instance=ExtResource("24_e1j6l")]
 
-[node name="Mikhail Belov2" parent="." instance=ExtResource("25_pl11u")]
-position = Vector2(1100, -355)
+[node name="Yerik Pavel" parent="." instance=ExtResource("25_pl11u")]
+position = Vector2(1414, 1170)
 
 [connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]

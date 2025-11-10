@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://motaftht812v"
+
+[deps]
+
+files=["res://imagenes/Personajes/Yerik Pavel Minero/Yerik Pavel (Minero)/credits/credits.notes.translation", "res://imagenes/Personajes/Yerik Pavel Minero/Yerik Pavel (Minero)/credits/credits.authors.translation", "res://imagenes/Personajes/Yerik Pavel Minero/Yerik Pavel (Minero)/credits/credits.licenses.translation", "res://imagenes/Personajes/Yerik Pavel Minero/Yerik Pavel (Minero)/credits/credits.urls.translation"]
+
+source_file="res://imagenes/Personajes/Yerik Pavel Minero/Yerik Pavel (Minero)/credits/credits.csv"
+dest_files=["res://imagenes/Personajes/Yerik Pavel Minero/Yerik Pavel (Minero)/credits/credits.notes.translation", "res://imagenes/Personajes/Yerik Pavel Minero/Yerik Pavel (Minero)/credits/credits.authors.translation", "res://imagenes/Personajes/Yerik Pavel Minero/Yerik Pavel (Minero)/credits/credits.licenses.translation", "res://imagenes/Personajes/Yerik Pavel Minero/Yerik Pavel (Minero)/credits/credits.urls.translation"]
+
+[params]
+
+compress=true
+delimiter=0
