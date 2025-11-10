@@ -1,44 +1,114 @@
 extends Node
 
 @onready var cura: Area2D = $Cura
+@onready var door_to_church: Area2D = $DoorToChurch
+@onready var player: CharacterBody2D = $Player
+@onready var medico_3: Area2D = $Medico3
+@onready var medico_2: Area2D = $Medico2
+@onready var medico: Area2D = $Medico
+@onready var madre_2: Area2D = $Madre2
+@onready var madre_3: Area2D = $Madre3
 @onready var madre: Area2D = $Madre
 
 func _ready():
 	GameManager.connect("dia_cambiado", Callable(self, "_on_dia_cambiado"))
 	_actualizar_presencia_cura()
-	_actualizar_presencia_madre()
+	_actualizar_personaje_según_preocupacion()
+
+	if door_to_church:
+		door_to_church.connect("body_entered", Callable(self, "_on_door_body_entered"))
+	else:
+		print("❌ ERROR: door_to_church es null. Revisa el nombre del nodo.")
 
 func _on_dia_cambiado(nuevo_dia: int):
+	print("🌄 Día cambiado en Iglesia:", nuevo_dia)
 	_actualizar_presencia_cura()
-	_actualizar_presencia_madre()
+	_actualizar_personaje_según_preocupacion()
+
+# -------------------- PERSONAJES --------------------
+func _actualizar_personaje_según_preocupacion():
+	var pme = GameManager.preocupacion_medico
+	var pma = GameManager.preocupacion_madre
+
+	print("🟢 Actualizando personajes (día: %s, preoc. madre: %s, preoc. médico: %s)" % [GameManager.dia, pma, pme])
+
+	# 🔹 Limpieza previa
+	desactivar_todas_madres()
+	desactivar_todos_medicos()
+
+	# 🔹 --- MADRE ---
+	if GameManager.dia == 2 and pma < 80:
+		print("🚫 Día 2 y preocupación_madre < 80 → la madre no aparecerá.")
+	else:
+		if pma <= 33:
+			activar_madre(madre)
+		elif pma <= 66:
+			activar_madre(madre_2)
+		else:
+			activar_madre(madre_3)
+
+	# 🔹 --- MÉDICO ---
+	if pme <= 33:
+		activar_medico(medico)
+	elif pme <= 66:
+		activar_medico(medico_2)
+	else:
+		activar_medico(medico_3)
+
+# -------------------- FUNCIONES DE ACTIVACIÓN --------------------
+func desactivar_todas_madres():
+	var madres = [madre, madre_2, madre_3]
+	for m in madres:
+		_set_personaje_activo(m, false)
+
+func activar_madre(activo: Area2D):
+	var madres = [madre, madre_2, madre_3]
+	for m in madres:
+		if m != activo:
+			_set_personaje_activo(m, false)
+	_set_personaje_activo(activo, true)
+
+	var anim = activo.get_node_or_null("AnimatedSprite2D")
+	if anim and anim.sprite_frames.has_animation("idle_down"):
+		anim.play("idle_down")
+
+func desactivar_todos_medicos():
+	var medicos = [medico, medico_2, medico_3]
+	for m in medicos:
+		_set_personaje_activo(m, false)
+
+func activar_medico(activo: Area2D):
+	var medicos = [medico, medico_2, medico_3]
+	for m in medicos:
+		if m != activo:
+			_set_personaje_activo(m, false)
+	_set_personaje_activo(activo, true)
+
+# 🔹 Activar o desactivar genéricamente un personaje
+func _set_personaje_activo(personaje: Area2D, activo: bool):
+	if personaje == null:
+		return
+
+	personaje.visible = activo
+	personaje.set_deferred("monitoring", activo)
+	personaje.set_deferred("monitorable", activo)
+
+	for child in personaje.get_children():
+		if child is CollisionShape2D:
+			child.disabled = not activo
+		elif child is CharacterBody2D:
+			for grandchild in child.get_children():
+				if grandchild is CollisionShape2D:
+					grandchild.disabled = not activo
 
 # -------------------- CURA --------------------
 func _actualizar_presencia_cura():
-	var activo = GameManager.preocupacion_cura >= 50
-	cura.visible = activo
-	cura.set_deferred("monitoring", activo)
-	cura.set_deferred("monitorable", activo)
-	_desactivar_colisiones_recursivo(cura, not activo)
+	# 🔹 En la iglesia, el cura está solo si GameManager.cura_en_iglesia es true
+	var activo = GameManager.cura_en_iglesia
+	_set_personaje_activo(cura, activo)
 
-# -------------------- MADRE --------------------
-func _actualizar_presencia_madre():
-	var aparece = (GameManager.dia == 2 and GameManager.preocupacion_madre < 80)
-	madre.visible = aparece
-	madre.set_deferred("monitoring", aparece)
-	madre.set_deferred("monitorable", aparece)
-	_desactivar_colisiones_recursivo(madre, not aparece)
-
-	if aparece:
-		var madre_anim = madre.get_node_or_null("AnimatedSprite2D")
-		if madre_anim and madre_anim.sprite_frames.has_animation("idle_up"):
-			madre_anim.play("idle_up")
-		else:
-			push_warning("⚠ No se encontró 'AnimatedSprite2D' o la animación 'idle_up' dentro de Madre")
-
-# -------------------- COLISIONES --------------------
-func _desactivar_colisiones_recursivo(node: Node, desactivar: bool):
-	for child in node.get_children():
-		if child is CollisionShape2D or child is CollisionPolygon2D:
-			child.disabled = desactivar
-		elif child.get_child_count() > 0:
-			_desactivar_colisiones_recursivo(child, desactivar)
+# -------------------- PUERTA --------------------
+func _on_door_body_entered(body: Node):
+	if body == player:
+		GameManager.is_dialogue_active = true
+		get_tree().change_scene_to_file("res://scenes/Iglesia.tscn")
