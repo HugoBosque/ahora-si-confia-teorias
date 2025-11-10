@@ -11,8 +11,8 @@ Svetlana: [speed=0.6] ¿Puedo ayudarte en algo?
 	- “Llegan nuevas provisiones desde la capital”
 		
 		Svetlana: [speed=0.6] Dios de nuevo desmostrando su infinita generosidad, a ver si su mano llega a nuestro pueblo, lo paso mal con mis pequeños.
-		- Tranquila señora, seguro que nuestro gobierno nos proveerá de alguna manera.
-			Svetlana: Eso espero, gracias.
+		Yo: Tranquila señora, seguro que nuestro gobierno nos proveerá de alguna manera.
+		Svetlana: Eso espero, gracias.
 		
 	- “Se planea una mejora en el alumbrado público”
 
