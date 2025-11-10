@@ -38,6 +38,8 @@ var preocupacion_mikhail: int = 0
 var vida_tendero: int = 100
 var preocupacion_tendero: int = 0
 
+var vida_yerik: int = 100
+var preocupacion_yerik: int = 0
 # -------------------- SEÑALES --------------------
 signal dia_cambiado(nuevo_dia: int)
 
