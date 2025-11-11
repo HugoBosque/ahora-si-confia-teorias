@@ -1,10 +1,9 @@
 ~ start
-Yerik:[speed=0.5] palonavo
-- Buenas, vengo a traer el informe del día.
-	set Global.dia2_hablar_yerik = true
-	
-	
-- Has descubierto algo de los ruidos extraños?
-	
-	
+Yerik: [speed=0.5]Acércate, no muerdo. Este frío ya es bastante para todos nosotros.
+- Quería preguntarte algo sobre la mina.
+	Yerik: [speed=0.6]La mina está como siempre… aunque últimamente se oyen algunos ruidos raros.
+	Yo: [speed=0.6]¿Ruidos?
+	Yerik: [speed=0.6]Sí... Golpes, ecos que no cuadran, mejor ir con cuidado. 
+	Yo: [speed=0.6]Entiendo... Gracias. 
+
 => END
