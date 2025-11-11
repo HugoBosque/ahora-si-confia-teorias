@@ -1,30 +1,27 @@
 ~ start
-Svetlana: [speed=0.6] ¿Puedo ayudarte en algo?
+Svetlana: [speed=0.6]¿Puedo ayudarte en algo?
 - Vengo a darte las noticias
 	set Global.dia1_hablar_madre = true
 	Svetlana: [speed=0.6]Te lo agradezco mucho.
+
 	- “La carretera principal sigue bloqueada por la nieve”
 		set GameManager.preocupacion_madre += 30
-		Svetlana: No me digas eso, mi marido se encuentra de camino al frente. Ay, ¿llegará bien? Por favor, te pido, Dios, que lleguen sanos y salvos. Por favor, si pasa algo, házmelo saber de inmediato.
-		- No se preocupe, en cuanto sepa algo se lo comunico.
-		
+		Svetlana: No me digas eso... Mi marido se encuentra de camino al frente. Ay, ¿llegará bien? Por favor, te pido, Dios, que lleguen sanos y salvos. Si pasa algo, házmelo saber de inmediato.
+		- No se preocupe, en cuanto sepa algo se lo comunicaré.
+
 	- “Llegan nuevas provisiones desde la capital”
-		
-		Svetlana: [speed=0.6]Dios de nuevo desmostrando su infinita generosidad, a ver si su mano llega a nuestro pueblo, lo paso mal con mis pequeños.
-		Yo: Tranquila señora, seguro que nuestro gobierno nos proveerá de alguna manera.
+		Svetlana: [speed=0.6]Dios, de nuevo demostrando su infinita generosidad... A ver si su mano llega también a nuestro pueblo. Lo paso mal con mis pequeños.
+		Yo: Tranquila, señora, seguro que nuestro gobierno nos proveerá de alguna manera.
 		Svetlana: Eso espero, gracias.
-		
+
 	- “Se planea una mejora en el alumbrado público”
+		Svetlana: [speed=0.6]La luz nos acerca a Dios... Eso tiene que ser una señal divina.
 
-		Svetlana: [speed=0.6]La luz nos acerca a Dios, eso tiene que ser una señal divina.
-
-- Venia a hablar contigo
-	Svetlana: ¿Hay algun problema? ¿Ha pasado algo?
-	- De hecho, no, todo esta bien.
+- Venía a hablar contigo
+	Svetlana: ¿Hay algún problema? ¿Ha pasado algo?
+	- De hecho, no. Todo está bien.
 		Svetlana: [speed=0.6]Gracias a Dios.
-	
-	- No, pero me gustaría preguntarle sobre su situación, cómo está?
-		Svetlana: [speed=0.6] La verdad es que estoy en una situación díficil, mi querido marido se ha ido a luchar en el frente por nuestro país, y, bueno, [wait=0.5] yo estoy aquí con mis dos hijos.
-
+	- No, pero me gustaría preguntarle por su situación. ¿Cómo está?
+		Svetlana: [speed=0.6]La verdad es que estoy en una situación difícil. Mi querido marido se ha ido a luchar al frente por nuestro país, y... [wait=0.5] yo estoy aquí con mis dos hijos.
 
 => END
