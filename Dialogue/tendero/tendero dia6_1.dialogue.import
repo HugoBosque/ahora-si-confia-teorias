@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://xb1hm257nbls"
+path="res://.godot/imported/tendero dia6_1.dialogue-162e5fcae8756152dda766f3b7477982.tres"
+
+[deps]
+
+source_file="res://Dialogue/tendero/tendero dia6_1.dialogue"
+dest_files=["res://.godot/imported/tendero dia6_1.dialogue-162e5fcae8756152dda766f3b7477982.tres"]
+
+[params]
+
+defaults=true
