@@ -6,11 +6,11 @@ Svetlana: [speed=0.6]¿Puedo ayudarte en algo?
 
 	- “La carretera principal sigue bloqueada por la nieve”
 		set GameManager.preocupacion_madre += 30
-		Svetlana: No me digas eso... Mi marido se encuentra de camino al frente. Ay, ¿llegará bien? Por favor, te pido, Dios, que lleguen sanos y salvos. Si pasa algo, házmelo saber de inmediato.
-		- No se preocupe, en cuanto sepa algo se lo comunicaré.
+		Svetlana: [speed=0.6]No me digas eso... Mi marido se encuentra de camino al frente. Ay, ¿llegará bien? Por favor, te pido, Dios, que lleguen sanos y salvos. Si pasa algo, házmelo saber de inmediato.
+		Yo: No se preocupe, en cuanto sepa algo se lo comunicaré.
 
 	- “Llegan nuevas provisiones desde la capital”
-		Svetlana: [speed=0.6]Dios, de nuevo demostrando su infinita generosidad... A ver si su mano llega también a nuestro pueblo. Lo paso mal con mis pequeños.
+		Svetlana: [speed=0.6]Dios, una vez más demostrando su infinita generosidad... A ver si su mano llega también a nuestro pueblo. Lo paso mal con mis pequeños.
 		Yo: Tranquila, señora, seguro que nuestro gobierno nos proveerá de alguna manera.
 		Svetlana: Eso espero, gracias.
 

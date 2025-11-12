@@ -16,7 +16,7 @@ Romanov Morozov: [speed=0.6]Buenas.
 
 - Venía a hablar contigo
 	Romanov Morozov: ¿Conmigo? Bueno... dime, ¿de qué quieres hablar?
-	- ¿Cómo te sientes en este pueblo? ¿Estás bien?
-		Romanov Morozov: [speed=0.6]Duermo poco, pero nada más. No te preocupes, chico.
+	Yo: ¿Cómo te sientes en este pueblo? ¿Estás bien?
+	Romanov Morozov: [speed=0.6]Duermo poco, pero nada más. No te preocupes, chico.
 
 => END
