@@ -1,37 +1,42 @@
 ~ start
-Padre Zhukov: ¿Que es lo que buscas muchacho?
+Padre Zhukov: ¿Qué es lo que buscas, muchacho?
 - Vengo a darte las noticias
 	set Global.dia1_hablar_cura = true
-	Padre Zhukov: ¿Y que es lo que tienes?
-	
-	
-	- "La carretera principal sigue bloqueada por la nieve"
-		set GameManager.preocupacion_cura += 20
-		Padre Zhukov: Rezaré por todos ellos, gracias por esta información.
-		
-		
-	- "Llegan nuevas provisiones desde la capital"
-		set GameManager.preocupacion_cura += 20
-		Padre Zhukov: ¡Alabado sea Dios todopoderoso!
-		
-		
-	- "Se planea una mejora en el alumbrado público"
-		set GameManager.preocupacion_cura += 20
-		Padre Zhukov: Cuanta más luz más se parecerá al reino del cielo.
+	Padre Zhukov: ¿Y qué es lo que tienes?
 
-- Venia a hablar contigo
-	Padre Zhukov: Dime hijo, ¿qué te preocupa?
-	- A mí nada 
-		Padre Zhukov: Me alrega saberlo, recuerda que mi igelsia está abierta para todos y para todo.
-	- Todo, no puedo más con esto.
-		Padre Zhukov: Hijo, Dios da sus mejores batallas a sus mejores soldados, si te sientes abrumado o en problemas, déjate llevar por Dios.
+	- "La carretera principal sigue bloqueada por la nieve"
+		set GameManager.preocupacion_cura += 10
+		Padre Zhukov: Rezaré por todos ellos. Gracias por esta información.
+
+	- "Llegan nuevas provisiones desde la capital"
+		set GameManager.preocupacion_cura += 0
+		Padre Zhukov: ¡Alabado sea Dios todopoderoso!
+
+	- "Se planea una mejora en el alumbrado público"
+		set GameManager.preocupacion_cura += 0
+		Padre Zhukov: Cuanta más luz haya, más se parecerá al Reino de los Cielos.
+
+- Venía a hablar contigo
+	Padre Zhukov: Dime, hijo, ¿qué te preocupa?
+
+	- A mí nada
+		Padre Zhukov: Me alegra saberlo. Recuerda que mi iglesia está abierta para todos y para todo.
+
+	- Todo... no puedo más con esto.
+		Padre Zhukov: Hijo, Dios da sus peores batallas a sus mejores soldados.  
+		Padre Zhukov: Si te sientes abrumado o en problemas, déjate llevar por Él.
+
 	- Me preocupa mi estómago, llevo unos días...
-		Padre Zhukov: Eso es que estás expulsando al mal dentro de ti, yo también tuve una temporada complicada cuando estaba llegando a Dios.
-	- ¿Cual es su función en el pueblo exactamente, Padre?
-		Padre Zhukov: Me alegra que preguntes eso, dime, ¿crees que toda esta gente estaría tan bien si el manto del todopoderoso cubriéndolos? Les doy fe, les ayudo en su día a día, obro la palabra de Dios, esa es la función que se me ha assignado.
-- Espera, ¿porque tienes los ojos cerrados?
-	Padre Zhukov: No los tengo cerrados, estoy visualizando el reino de Dios.
+		Padre Zhukov: Eso significa que estás expulsando el mal que llevas dentro.  
+		Padre Zhukov: Yo también tuve una temporada complicada cuando estaba acercándome a Dios.
+
+	- ¿Cuál es su función en el pueblo exactamente, Padre?
+		Padre Zhukov: Me alegra que preguntes eso. Dime, ¿crees que toda esta gente estaría tan bien sin el manto del Todopoderoso cubriéndolos?  
+		Padre Zhukov: Les doy fe, les ayudo en su día a día, obro la palabra de Dios. Esa es la función que se me ha asignado.
+
+- Espera, ¿por qué tiene los ojos cerrados?
+	Padre Zhukov: No los tengo cerrados, estoy visualizando el Reino de Dios.
 	- Mala mía, era bastante obvio.
-	Padre Zhukov: No te preocupes hijo, errar es de sabios.
+	Padre Zhukov: No te preocupes, hijo. Errar es de sabios.
 
 => END
