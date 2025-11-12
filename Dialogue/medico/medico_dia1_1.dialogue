@@ -1,22 +1,22 @@
 ~ start
 Dra. Alina: Buenas, tú eres el de las noticias, ¿cierto?
-- Sí, ¿y tú eres la nueva médico?
-	set Global.dia1_hablar_medico = true
-	Dra. Alina: Sí, aunque no te prometo que dure demasiado. He visto poca cosa y no me ha gustado mucho.
-	- ¿Lo dices por algo en particular?
-	Dra. Alina: Soy partidaria de que la gente piense por sí misma, no de que sigan a un mesías.
-	- Es cierto que el pueblo es muy creyente, pero no te preocupes.
-	Dra. Alina: Tampoco me gusta mucho la gente. Me limito a hacer mi trabajo.
-	- Perfecto.
-	Dra. Alina: Dime, ¿qué me traes?
+Yo: Sí, ¿y tú eres la nueva médico?
+set Global.dia1_hablar_medico = true
+Dra. Alina: Sí, aunque no te prometo que dure demasiado. He visto poca cosa y no me ha gustado mucho.
+Yo: ¿Lo dices por algo en particular?
+Dra. Alina: Soy partidaria de que la gente piense por sí misma, no de que sigan a un mesías.
+Yo: Es cierto que el pueblo es muy creyente, pero no te preocupes.
+Dra. Alina: Tampoco me gusta mucho la gente. Me limito a hacer mi trabajo.
+Yo: Perfecto.
+Dra. Alina: Dime, ¿qué me traes?
 
-	- "La carretera principal sigue bloqueada por la nieve"
-		Dra. Alina: Luego vendrán con zonas del cuerpo congeladas...
+- "La carretera principal sigue bloqueada por la nieve"
+	Dra. Alina: Luego vendrán con zonas del cuerpo congeladas...
 
-	- "Llegan nuevas provisiones desde la capital"
-		Dra. Alina: Yo ya voy servida de medicamentos y provisiones durante mi estancia.
+- "Llegan nuevas provisiones desde la capital"
+	Dra. Alina: Yo ya voy servida de medicamentos y provisiones durante mi estancia.
 
-	- "Se planea una mejora en el alumbrado público"
-		Dra. Alina: Innecesario, en mi opinión.
+- "Se planea una mejora en el alumbrado público"
+	Dra. Alina: Innecesario, en mi opinión.
 
 => END
