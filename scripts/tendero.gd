@@ -4,7 +4,8 @@ extends Node2D
 
 const CURA = preload("uid://rfms3hm7305p")
 
-@onready var sprite_2d: Sprite2D = $Sprite2D
+@onready var sprite_2d_2: Sprite2D = $Sprite2D2
+
 const TENDERO_DIA_1_1 = preload("uid://c3bucf5jcfqje")
 const TENDERO_DIA_1_2 = preload("uid://rwv52mc8baj0")
 const TENDERO_DIA_2_1 = preload("uid://jnthx2tkmqb8")
@@ -71,11 +72,11 @@ func _process(delta):
 		
 
 func _on_area_entered(area):
-	sprite_2d.visible = true
+	sprite_2d_2.visible = true
 	player_close = true
 
 func _on_area_exited(area):
-	sprite_2d.visible = false
+	sprite_2d_2.visible = false
 	player_close = false
 
 func _on_dialogue_started(dialogue):
