@@ -1,5 +1,5 @@
 ~ start
-Yerik: [speed=0.5] Buenas ¿Qué te cuéntas hoy?.
+Yerik: [speed=0.5] Buenas ¿Qué te cuéntas hoy?
 - Buenas, vengo a traerte las noticias.
 	set Global.dia2_hablar_yerik = true
 	Yerik: ¿Qué traes hoy?

@@ -27,6 +27,14 @@ SceneManager="*res://scripts/scripts globales/SceneManager.gd"
 
 runtime/balloon_path="res://scenes/Dialogo/balloon.tscn"
 
+[display]
+
+window/size/mode=3
+window/size/resizable=false
+window/size/window_width_override=1920
+window/size/window_height_override=1080
+window/stretch/mode="canvas_items"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
