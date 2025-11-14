@@ -47,3 +47,8 @@ func _on_continuar_pressed() -> void:
 	# ⚠️ SIEMPRE empezar en House.tscn, independientemente del día guardado
 	print("🏠 Cargando partida guardada - Iniciando en House.tscn (Día ", Global.dia, ")")
 	get_tree().change_scene_to_packed(house_scene)
+
+
+func _on_salir_pressed() -> void:
+	Global.save_game()  # Guardar antes de salir
+	get_tree().quit()

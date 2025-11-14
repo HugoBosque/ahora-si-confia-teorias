@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://b264ja6tthvh3"]
+[gd_scene load_steps=11 format=3 uid="uid://b264ja6tthvh3"]
 
 [ext_resource type="Script" uid="uid://dxuoj0kx3dj68" path="res://scenes/menu_1.gd" id="1_3bptp"]
 [ext_resource type="Texture2D" uid="uid://bwwvt0gccxj4x" path="res://imagenes/fondo portada plupsovia.png" id="2_wt27j"]
@@ -27,6 +27,26 @@ corner_radius_bottom_left = 10
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_con2f"]
 bg_color = Color(0.5410448, 0.6317629, 0.5138619, 1)
 draw_center = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3bptp"]
+bg_color = Color(0.6039216, 0.13725491, 0.09411765, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wt27j"]
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gwq5r"]
+bg_color = Color(0.16470589, 0.16470589, 0.16470589, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -134,5 +154,27 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_epypp")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0hol4")
 text = "CONTINUAR"
 
+[node name="Salir" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -124.5
+offset_top = -195.0
+offset_right = 123.5
+offset_bottom = -126.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.13725491, 0.11764706, 0.09019608, 1)
+theme_override_fonts/font = ExtResource("3_gwq5r")
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxFlat_3bptp")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wt27j")
+theme_override_styles/hover = SubResource("StyleBoxFlat_gwq5r")
+text = "SALIR"
+
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Continuar" to="." method="_on_continuar_pressed"]
+[connection signal="pressed" from="Salir" to="." method="_on_salir_pressed"]
