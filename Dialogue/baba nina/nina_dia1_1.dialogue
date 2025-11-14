@@ -1,17 +1,30 @@
 ~ start
-nina: hola
-- noticias
+Baba Nina: [speed=0.3]Ay, criatura… ¿Qué viento te trae hasta mi puerta?
+- Vengo a darte las noticias
 	set Global.dia1_hablar_nina = true
-	nina: si
-	- "noticia1"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-	- "noticia2"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-	- "noticia3"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-- demas
+	Baba Nina: [speed=0.3]Ay, ¿No sabes que nosotras tenemos otros mensajeros?
+	Yo: Otros... ¿mensajeros?
+	Baba Nina: [speed=0.3]Esos que vuelan y suletan plumas, esos que graznan y planean por la luna, dime, ¿que me vienes a contar?
+	Yo: ¿Espera, has dicho "nosotras"?
+	Baba Nina: [speed=0.3]Sí, hijo, nosotras… las viejas que escuchamos lo que otros ignoran.
+	Baba Nina: [speed=0.3]Las que aún sabemos leer los presagios en las nubes y en las huellas del barro.
+	Baba Nina: [speed=0.3]Tú traes papeles. Nosotras recibimos señales.
+	Baba Nina: [speed=0.3]¿Qué me trae esta vez el destino?
+
+	- "La carretera principal sigue bloqueada por la nieve"
+		Baba Nina: [speed=0.3]Esos tercos van a acabar enterrados en nieve.
+
+	- "Llegan nuevas provisiones desde la capital"
+		Baba Nina: [speed=0.3]Cerdos lucrándose de otros cerdos.
+
+	- "Se planea una mejora en el alumbrado público"
+		Baba Nina: [speed=0.3]Más luz… siempre quieren más luz.
+		Baba Nina: [speed=0.3]Pero, hijo, no toda luz alumbra. Algunas desvelan lo que es mejor dejar dormido.
+		Baba Nina: [speed=0.3]Que no se quejen luego si las sombras empiezan a moverse…
+
+- Venía a hablar contigo
+	Baba Nina: [speed=0.3]¿Qué quieres pequeña alma?
+	- Nada, sólo pasaba por aquí. 
+
 
 => END

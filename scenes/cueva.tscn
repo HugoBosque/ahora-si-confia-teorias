@@ -1,12 +1,16 @@
-[gd_scene load_steps=7 format=3 uid="uid://cuo6oyeb6bk34"]
+[gd_scene load_steps=9 format=3 uid="uid://cuo6oyeb6bk34"]
 
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="1_fd7kk"]
 [ext_resource type="PackedScene" uid="uid://bhobjfjvn12qw" path="res://Tile Maps/ciudad_01.tscn" id="1_pi33f"]
 [ext_resource type="PackedScene" uid="uid://b2kjixa6oo16s" path="res://Tile Maps/Objects.tscn" id="2_6ehaf"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="4_6ehaf"]
 [ext_resource type="Texture2D" uid="uid://by0sr5sw332hl" path="res://imagenes/light character.PNG" id="5_6oi4f"]
+[ext_resource type="Script" uid="uid://db3di70t8q05a" path="res://scripts/ChurchToGame.gd" id="6_y48d1"]
 
 [sub_resource type="Environment" id="Environment_y48d1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8k4hb"]
+size = Vector2(64, 64)
 
 [node name="cueva" type="Node2D"]
 
@@ -131,6 +135,7 @@ scale = Vector2(0.5511752, 1.6560776)
 color = Color(0.8901961, 0.79607844, 0.77254903, 0.5294118)
 texture = ExtResource("5_6oi4f")
 
+<<<<<<< HEAD
 [node name="PointLight2D5" type="PointLight2D" parent="farolillos"]
 position = Vector2(1321, -246)
 scale = Vector2(1.2819628, 1.2819628)
@@ -144,3 +149,15 @@ scale = Vector2(1.2819628, 1.2819628)
 color = Color(1, 0.7882353, 0.18431373, 1)
 energy = 0.5
 texture = ExtResource("5_6oi4f")
+=======
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("6_y48d1")
+next_scene_path = "res://scenes/game.tscn"
+player_target_position = Vector2(738, -1001)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(502, 651)
+shape = SubResource("RectangleShape2D_8k4hb")
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
+>>>>>>> 6ad4d98ce1d78370377343e85d01630ae02f0ec8
