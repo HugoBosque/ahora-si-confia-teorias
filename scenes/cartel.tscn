@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://c8rsh5stwncou"]
+
+[ext_resource type="Script" uid="uid://vqxyb52csow0" path="res://scripts/cartel.gd" id="1_2l6jv"]
+[ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="2_pcd1i"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_iet5m"]
+radius = 59.841457
+
+[node name="cartel" type="Area2D"]
+script = ExtResource("1_2l6jv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_iet5m")
+
+[node name="Exclamacion" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -38)
+scale = Vector2(0.124, 0.124)
+texture = ExtResource("2_pcd1i")
