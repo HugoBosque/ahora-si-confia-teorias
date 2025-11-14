@@ -117,3 +117,9 @@ func _on_door_body_entered(body: Node):
 	if body == player:
 		GameManager.is_dialogue_active = true
 		get_tree().change_scene_to_file("res://scenes/Iglesia.tscn")
+
+
+func _on_door_to_cave_body_entered(body: Node2D) -> void:
+	if body == player:
+		GameManager.is_dialogue_active = true
+		get_tree().change_scene_to_file("res://scenes/cueva.tscn")
