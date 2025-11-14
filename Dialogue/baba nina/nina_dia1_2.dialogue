@@ -1,6 +1,7 @@
 ~ start
-nina: hola
-
-- demas
+Baba Nina: [speed=0.3]¿Qué corriente te trae hasta mi persona?
+- Venía a hablar contigo
+	Baba Nina: [speed=0.3]¿Qué quieres esta vez joven?
+	- Nada, sólo pasaba por aquí. 
 
 => END
