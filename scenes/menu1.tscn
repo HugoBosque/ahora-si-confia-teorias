@@ -1,7 +1,7 @@
-[gd_scene load_steps=11 format=3 uid="uid://b264ja6tthvh3"]
+[gd_scene load_steps=10 format=3 uid="uid://b264ja6tthvh3"]
 
 [ext_resource type="Script" uid="uid://dxuoj0kx3dj68" path="res://scenes/menu_1.gd" id="1_3bptp"]
-[ext_resource type="Texture2D" uid="uid://bwwvt0gccxj4x" path="res://imagenes/fondo portada plupsovia.png" id="2_wt27j"]
+[ext_resource type="Texture2D" uid="uid://2vllplols4nf" path="res://imagenes/ffotoplupsovia.PNG" id="2_3bptp"]
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="3_gwq5r"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0e48y"]
@@ -23,10 +23,6 @@ corner_radius_top_left = 10
 corner_radius_top_right = 10
 corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_con2f"]
-bg_color = Color(0.5410448, 0.6317629, 0.5138619, 1)
-draw_center = false
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3bptp"]
 bg_color = Color(0.6039216, 0.13725491, 0.09411765, 1)
@@ -75,7 +71,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("2_wt27j")
+texture = ExtResource("2_3bptp")
 expand_mode = 1
 
 [node name="Play" type="Button" parent="."]
@@ -85,10 +81,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -476.0
-offset_top = -383.0
-offset_right = -228.0
-offset_bottom = -314.0
+offset_left = 19.5
+offset_top = -441.0
+offset_right = 267.5
+offset_bottom = -372.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_colors/font_color = Color(0.16078432, 0.14117648, 0.10980392, 1)
@@ -99,40 +95,6 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_epypp")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0hol4")
 text = "JUGAR"
 
-[node name="Silencio en Plupsovia" type="LineEdit" parent="."]
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -574.0
-offset_top = -1.0
-offset_right = 576.0
-offset_bottom = 140.0
-grow_horizontal = 2
-theme_override_colors/font_color = Color(0.24705882, 0.25882354, 0.21568628, 1)
-theme_override_fonts/font = ExtResource("3_gwq5r")
-theme_override_font_sizes/font_size = 70
-theme_override_styles/normal = SubResource("StyleBoxFlat_con2f")
-text = "Silencio en Plupsovia"
-alignment = 1
-
-[node name="Juego realizado" type="LineEdit" parent="Silencio en Plupsovia"]
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -576.5
-offset_top = 505.0
-offset_right = 573.5
-offset_bottom = 646.0
-grow_horizontal = 2
-theme_override_colors/font_color = Color(0.24705882, 0.25882354, 0.21568628, 1)
-theme_override_fonts/font = ExtResource("3_gwq5r")
-theme_override_font_sizes/font_size = 25
-theme_override_styles/normal = SubResource("StyleBoxFlat_con2f")
-text = "Juego realizado por: Hugo Bosque, Miquel Monclús, Victor Millán"
-alignment = 1
-
 [node name="Continuar" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = 7
@@ -140,10 +102,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = 234.5
-offset_top = -381.0
-offset_right = 482.5
-offset_bottom = -312.0
+offset_left = 19.5
+offset_top = -534.0
+offset_right = 267.5
+offset_bottom = -465.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_colors/font_color = Color(0.16078432, 0.14117648, 0.10980392, 1)
@@ -161,10 +123,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -124.5
-offset_top = -195.0
-offset_right = 123.5
-offset_bottom = -126.0
+offset_left = 21.5
+offset_top = -349.0
+offset_right = 269.5
+offset_bottom = -280.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_colors/font_color = Color(0.13725491, 0.11764706, 0.09019608, 1)

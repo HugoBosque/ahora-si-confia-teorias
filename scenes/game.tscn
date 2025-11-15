@@ -42588,7 +42588,7 @@ position = Vector2(0, 6)
 
 [node name="MUSICA JUEGO" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("26_bhx41")
-volume_db = -48.66
+volume_db = -31.486
 pitch_scale = 1.02
 autoplay = true
 
