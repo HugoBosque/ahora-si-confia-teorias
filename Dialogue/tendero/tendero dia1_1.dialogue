@@ -1,5 +1,5 @@
 ~ start
-Iván Petrovich: [speed=0.7]¡Ah, qué alegría verte por aquí! No te había visto desde… bueno, desde hace un rato, ¿no? ¿Qué tal tu día? Espero que no hayas tenido problemas… ya sabes cómo corre la voz en esta plaza.
+[color=#ffcc00]Iván Petrovich[/color]: [speed=0.7]¡Ah, qué alegría verte por aquí! No te había visto desde… bueno, desde hace un rato, ¿no? ¿Qué tal tu día? Espero que no hayas tenido problemas… ya sabes cómo corre la voz en esta plaza.
 
 - Vengo a darte las noticias
 	set Global.dia1_hablar_tendero = true

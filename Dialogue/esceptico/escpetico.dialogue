@@ -1,38 +1,28 @@
 ~ start
-
-
-[color=#A0A0A0][b]Alexei:[/b][/color] ¿Se te ha perdido algo?
-
-
-
+[color=#A0A0A0][b]Alexei[/b][/color]: ¿Se te ha perdido algo?
 
 - Vengo a darte las noticias
 	set Global.dia1_hablar_esceptico = true
-	[color=#A0A0A0][b]Alexei:[/b][/color] No me las leeré.
-	
-	[color=#89C2FF][b]Yo:[/b][/color] Es importante que estés informado.
-	
-	[color=#A0A0A0][b]Alexei:[/b][/color] Prefiero informarme yo mismo.
-	
-	[color=#89C2FF][b]Yo:[/b][/color] Como quieras, pero estoy obligado a entregarte el periódico.
-	
-	[color=#A0A0A0][b]Alexei:[/b][/color] Si no hay más remedio...
-	
-	[color=#A0A0A0][b]Alexei:[/b][/color] ¿Qué traes hoy?
+	[color=#A0A0A0][b]Alexei[/b][/color]: No me las leeré.
+	[color=#89C2FF][b]Yo[/b][/color]: Es importante que estés informado.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Prefiero informarme yo mismo.
+	[color=#89C2FF][b]Yo[/b][/color]: Como quieras, pero estoy obligado a entregarte el periódico.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Si no hay más remedio...
+	[color=#A0A0A0][b]Alexei[/b][/color]: ¿Qué traes hoy?
 	- “La carretera principal sigue bloqueada por la nieve.”
 		set GameManager.preocupacion_esceptico += 0
-		[color=#A0A0A0][b]Alexei:[/b][/color] Me da igual si hay mucha nieve. Que la quiten y ya.
+		[color=#A0A0A0][b]Alexei[/b][/color]: Me da igual si hay mucha nieve. Que la quiten y ya.
 	- “Llegan nuevas provisiones desde la capital.”
-		[color=#A0A0A0][b]Alexei:[/b][/color] Como siempre, más para los que más tienen... y nosotros pasando frío y hambre aquí.
+		[color=#A0A0A0][b]Alexei[/b][/color]: Como siempre, más para los que más tienen... y nosotros pasando frío y hambre aquí.
 	- “Se planea una mejora en el alumbrado público.”
-		[color=#A0A0A0][b]Alexei:[/b][/color] Como si no hubiera algo más importante.
+		[color=#A0A0A0][b]Alexei[/b][/color]: Como si no hubiera algo más importante.
 
 
 - Solo quiero hablar.
-	[color=#A0A0A0][b]Alexei:[/b][/color] [speed=0.7]No te lo tomes a mal, no tengo de qué hablar.
-	[color=#89C2FF][b]Yo:[/b][/color] Por ejemplo, ¿por qué vives alejado?
-	[color=#A0A0A0][b]Alexei:[/b][/color] [speed=0.7]La gente me toma por loco por pensar diferente. Paso de eso.
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.7]No te lo tomes a mal, no tengo de qué hablar.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Por ejemplo, ¿por qué vives alejado?
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.7]La gente me toma por loco por pensar diferente. Paso de eso.
 - Perdona, solo pasaba por aquí.
-	[color=#A0A0A0][b]Alexei:[/b][/color] [speed=0.7]Ya... pues sigue tu camino, entonces.
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.7]Ya... pues sigue tu camino, entonces.
 
 => END

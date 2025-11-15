@@ -21,8 +21,6 @@ const TENDERO_DIA_7_2 = preload("uid://wts1krlrm3qi")
 
 
 
-
-
 var player_close: bool = false
 
 func _ready() -> void:
