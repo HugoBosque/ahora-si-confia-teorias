@@ -1,11 +1,11 @@
 ~ start
-Mikhail Belov: [speed=0.7]Oh, tú de nuevo. Adelante, dime lo que quieras.
+[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Oh, tú de nuevo. Adelante, dime lo que quieras.
 
 - Venía a hablar contigo
-	Mikhail Belov: [speed=0.7]¿Conmigo? Bueno, dime.
+	[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]¿Conmigo? Bueno, dime.
 	- ¿Cómo va el trabajo?
-		Mikhail Belov: [speed=0.7]Bah, lo de siempre… frío, barro y mucho cansancio. Pero no me quejo, podría ser peor.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Bah, lo de siempre… frío, barro y mucho cansancio. Pero no me quejo, podría ser peor.
 	- Solo pasaba a saludar.
-		Mikhail Belov: [speed=0.7]Ah, pues gracias, muchacho. No todos se acuerdan de uno.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Ah, pues gracias, muchacho. No todos se acuerdan de uno.
 
 => END

@@ -1,28 +1,28 @@
 ~ start
-Viktor Sokolov: [speed=0.6]Buenas. ¿Qué necesitas?
+[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Buenas. ¿Qué necesitas?
 
 - Vengo a darte las noticias
 	set Global.dia1_hablar_Viktor = true
-	Viktor Sokolov: [speed=0.6]Correcto. Procede.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Correcto. Procede.
 
 	- "La carretera principal sigue bloqueada por la nieve"
-		Viktor Sokolov: [speed=0.6]Tsk... Esa carretera es vital para los suministros.
-		Viktor Sokolov: [speed=0.6]Haré un informe. No podemos permitir retrasos, no ahora.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Tsk... Esa carretera es vital para los suministros.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Haré un informe. No podemos permitir retrasos, no ahora.
 
 	- "Llegan nuevas provisiones desde la capital"
-		Viktor Sokolov: [speed=0.6]Bien. Eso mantendrá la moral estable.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Bien. Eso mantendrá la moral estable.
 
 
 	- "Se planea una mejora en el alumbrado público"
-		Viktor Sokolov: [speed=0.6]Eso ayudará en las rondas nocturnas.
-		Viktor Sokolov: [speed=0.6]Menos sombras donde ocultarse… y menos problemas para mí.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Eso ayudará en las rondas nocturnas.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Menos sombras donde ocultarse… y menos problemas para mí.
 
 - Venía a hablar contigo
-	Viktor Sokolov: [speed=0.6]¿Hablar? No suelo tener tiempo para charlas.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]¿Hablar? No suelo tener tiempo para charlas.
 	- Solo quería saber cómo van las cosas.
-		Viktor Sokolov: [speed=0.6]Tranquilas. Y quiero que sigan así.
-		Viktor Sokolov: [speed=0.6]Si ves algo extraño en el pueblo, me lo dices. No toleraré altercados.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Tranquilas. Y quiero que sigan así.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Si ves algo extraño en el pueblo, me lo dices. No toleraré altercados.
 	- Nada, solo pasaba por aquí.
-		Viktor Sokolov: [speed=0.6]Entonces sigue tu camino. Tengo trabajo.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Entonces sigue tu camino. Tengo trabajo.
 
 => END
