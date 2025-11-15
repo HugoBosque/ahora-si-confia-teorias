@@ -108,9 +108,8 @@ func _set_personaje_activo(personaje: Area2D, activo: bool):
 # -------------------- CURA --------------------
 func _actualizar_presencia_cura():
 	# 🔹 Ahora el cura está en el pueblo si NO está en la iglesia globalmente
-	var activo = not GameManager.cura_en_iglesia
-	print("✝ Actualizando cura en el pueblo → activo:", activo)
-	_set_personaje_activo(cura, activo)
+	if GameManager.preocupacion_cura <= 50:
+		_set_personaje_activo(cura, true)
 
 # -------------------- PUERTA --------------------
 func _on_door_body_entered(body: Node):
