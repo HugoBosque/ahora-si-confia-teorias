@@ -1,29 +1,29 @@
 ~ start
-[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]Ay, criatura… ¿Qué viento te trae hasta mi puerta?
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Ay, criatura… ¿Qué viento te trae hasta mi puerta?
 - Vengo a darte las noticias
 	set Global.dia1_hablar_nina = true
-	[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]Ay, ¿No sabes que nosotras tenemos otros mensajeros?
-	[color=#89C2FF][b]Yo:[/b][/color] Otros... ¿mensajeros?
-	[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]Esos que vuelan y sueltan plumas, esos que graznan y planean por la luna, dime, ¿que me vienes a contar?
-	[color=#89C2FF][b]Yo:[/b][/color] ¿Espera, has dicho "nosotras"?
-	[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]Sí, hijo, nosotras… las viejas que escuchamos lo que otros ignoran.
-	[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]Las que aún sabemos leer los presagios en las nubes y en las huellas del barro.
-	[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]Tú traes papeles. Nosotras recibimos señales.
-	[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]¿Qué me trae esta vez el destino?
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Ay, ¿No sabes que nosotras tenemos otros mensajeros?
+	[color=#89C2FF][b]Yo[/b][/color]: Otros... ¿mensajeros?
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Esos que vuelan y sueltan plumas, esos que graznan y planean por la luna, dime, ¿que me vienes a contar?
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Espera, has dicho "nosotras"?
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Sí, hijo, nosotras… las viejas que escuchamos lo que otros ignoran.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Las que aún sabemos leer los presagios en las nubes y en las huellas del barro.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Tú traes papeles. Nosotras recibimos señales.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]¿Qué me trae esta vez el destino?
 
 	- "La carretera principal sigue bloqueada por la nieve"
-		[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]Esos tercos van a acabar enterrados en nieve.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Esos tercos van a acabar enterrados en nieve.
 
 	- "Llegan nuevas provisiones desde la capital"
-		[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]Cerdos lucrándose de otros cerdos.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Cerdos lucrándose de otros cerdos.
 
 	- "Se planea una mejora en el alumbrado público"
-		[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]Más luz… siempre quieren más luz.
-		[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]Pero, hijo, no toda luz alumbra. Algunas desvelan lo que es mejor dejar dormido.
-		[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]Que no se quejen luego si las sombras empiezan a moverse…
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Más luz… siempre quieren más luz.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Pero, hijo, no toda luz alumbra. Algunas desvelan lo que es mejor dejar dormido.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Que no se quejen luego si las sombras empiezan a moverse…
 
 - Venía a hablar contigo
-	[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]¿Qué quieres pequeña alma?
-	- Yo: Nada, sólo pasaba por aquí. 
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]¿Qué quieres pequeña alma?
+	- Nada, sólo pasaba por aquí. 
 
 => END

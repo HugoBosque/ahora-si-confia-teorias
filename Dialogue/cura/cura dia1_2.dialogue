@@ -1,28 +1,28 @@
 ~ start
-[color=#B98A56][b]Padre Zhukov:[/b][/color] ¿Que es lo que buscas muchacho?
+[color=#B98A56][b]Padre Zhukov[/b][/color]: ¿Que es lo que buscas muchacho?
 
 
 - Venía a hablar contigo
-	[color=#B98A56][b]Padre Zhukov:[/b][/color] Dime, hijo, ¿qué te preocupa?
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Dime, hijo, ¿qué te preocupa?
 
 	- A mí nada
-		[color=#B98A56][b]Padre Zhukov:[/b][/color] Me alegra saberlo. Recuerda que mi iglesia está abierta para todos y para todo.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Me alegra saberlo. Recuerda que mi iglesia está abierta para todos y para todo.
 
 	- Todo... no puedo más con esto.
-		[color=#B98A56][b]Padre Zhukov:[/b][/color] Hijo, Dios da sus peores batallas a sus mejores soldados.  
-		[color=#B98A56][b]Padre Zhukov:[/b][/color] Si te sientes abrumado o en problemas, déjate llevar por Él.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Hijo, Dios da sus peores batallas a sus mejores soldados.  
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Si te sientes abrumado o en problemas, déjate llevar por Él.
 
 	- Me preocupa mi estómago, llevo unos días...
-		[color=#B98A56][b]Padre Zhukov:[/b][/color] Eso significa que estás expulsando el mal que llevas dentro.  
-		[color=#B98A56][b]Padre Zhukov:[/b][/color] Yo también tuve una temporada complicada cuando estaba acercándome a Dios.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Eso significa que estás expulsando el mal que llevas dentro.  
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Yo también tuve una temporada complicada cuando estaba acercándome a Dios.
 
 	- ¿Cuál es su función en el pueblo exactamente, Padre?
-		[color=#B98A56][b]Padre Zhukov:[/b][/color] Me alegra que preguntes eso. Dime, ¿crees que toda esta gente estaría tan bien sin el manto del Todopoderoso cubriéndolos?  
-		[color=#B98A56][b]Padre Zhukov:[/b][/color] Les doy fe, les ayudo en su día a día, obro la palabra de Dios. Esa es la función que se me ha asignado.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Me alegra que preguntes eso. Dime, ¿crees que toda esta gente estaría tan bien sin el manto del Todopoderoso cubriéndolos?  
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Les doy fe, les ayudo en su día a día, obro la palabra de Dios. Esa es la función que se me ha asignado.
 
 - Espera, ¿por qué tiene los ojos cerrados?
-	[color=#B98A56][b]Padre Zhukov:[/b][/color] No los tengo cerrados, estoy visualizando el Reino de Dios.
-	- Mala mía, era bastante obvio.
-	[color=#B98A56][b]Padre Zhukov:[/b][/color] No te preocupes, hijo. Errar es de sabios.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: No los tengo cerrados, estoy visualizando el Reino de Dios.
+	[color=#89C2FF][b]Yo[/b][/color]: Mala mía, era bastante obvio.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: No te preocupes, hijo. Errar es de sabios.
 
 => END
