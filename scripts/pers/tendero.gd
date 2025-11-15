@@ -1,10 +1,6 @@
-extends Node2D
+extends Area2D
 
-
-
-const CURA = preload("uid://rfms3hm7305p")
-
-@onready var sprite_2d_2: Sprite2D = $Sprite2D2
+@onready var sprite_2d: Sprite2D = $Sprite2D
 
 const TENDERO_DIA_1_1 = preload("uid://c3bucf5jcfqje")
 const TENDERO_DIA_1_2 = preload("uid://rwv52mc8baj0")
@@ -23,13 +19,13 @@ const TENDERO_DIA_7_2 = preload("uid://wts1krlrm3qi")
 
 
 
-var player_close: bool = false
 
+
+var player_close: bool = false
 
 func _ready() -> void:
 	DialogueManager.dialogue_started.connect(_on_dialogue_started)
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
-	
 	
 func _process(delta):
 	if player_close and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active:
@@ -68,15 +64,14 @@ func _process(delta):
 				DialogueManager.show_dialogue_balloon(TENDERO_DIA_7_1, "start")
 			elif Global.dia7_hablar_tendero:
 				DialogueManager.show_dialogue_balloon(TENDERO_DIA_7_2, "start")
-		
-		
 
-func _on_area_entered(area):
-	sprite_2d_2.visible = true
+
+func _on_area_entered(area: Area2D) -> void:
+	sprite_2d.visible = true
 	player_close = true
 
-func _on_area_exited(area):
-	sprite_2d_2.visible = false
+func _on_area_exited(area: Area2D) -> void:
+	sprite_2d.visible = false
 	player_close = false
 
 func _on_dialogue_started(dialogue):
