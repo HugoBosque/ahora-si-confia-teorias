@@ -1,29 +1,29 @@
 ~ start
-Mikhail Belov: [speed=0.7]Oh, buenas… No te había visto llegar.
+[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Oh, buenas… No te había visto llegar.
 
 - Vengo a darte las noticias
 	set Global.dia1_hablar_mikhail = true
-	Mikhail Belov: [speed=0.7]¿Noticias, dices? A ver, a ver… yo escucho.
+	[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]¿Noticias, dices? A ver, a ver… yo escucho.
 
 	- "La carretera principal sigue bloqueada por la nieve"
 	set GameManager.preocupacion_mikhail += 10
-		Mikhail Belov: [speed=0.7]¿Otra vez? Ay… pues tocará llevar el carro por el camino del bosque.
-		Mikhail Belov: [speed=0.7]Siempre que nieva fuerte pasa lo mismo. Mi padre ya lo decía: “Si el camino se tapa, mejor quedarse en casa”.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]¿Otra vez? Ay… pues tocará llevar el carro por el camino del bosque.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Siempre que nieva fuerte pasa lo mismo. Mi padre ya lo decía: “Si el camino se tapa, mejor quedarse en casa”.
 
 	- "Llegan nuevas provisiones desde la capital"
-		Mikhail Belov: [speed=0.7]¿De verdad? Bueno, pues mira qué bien.
-		Mikhail Belov: [speed=0.7]Yo, con que traigan harina y algo de mantequilla, ya me conformo. Aunque seguro que en la capital se quedan lo mejor… como siempre.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]¿De verdad? Bueno, pues mira qué bien.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Yo, con que traigan harina y algo de mantequilla, ya me conformo. Aunque seguro que en la capital se quedan lo mejor… como siempre.
 
 	- "Se planea una mejora en el alumbrado público"
-		Mikhail Belov: [speed=0.7]¿Más luz? Pues no sé si hace falta…
-		Mikhail Belov: [speed=0.7]Pero si lo dicen los que mandan, será por algo, ¿no?
-		Mikhail Belov: [speed=0.7]Solo espero que no nos hagan pagar a nosotros…
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]¿Más luz? Pues no sé si hace falta…
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Pero si lo dicen los que mandan, será por algo, ¿no?
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Solo espero que no nos hagan pagar a nosotros…
 
 - Venía a hablar contigo
-	Mikhail Belov: [speed=0.7]¿Conmigo? Bueno, dime.
+	[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]¿Conmigo? Bueno, dime.
 	- ¿Cómo va el trabajo?
-		Mikhail Belov: [speed=0.7]Bah, lo de siempre… frío, barro y mucho cansancio. Pero no me quejo, podría ser peor.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Bah, lo de siempre… frío, barro y mucho cansancio. Pero no me quejo, podría ser peor.
 	- Solo pasaba a saludar.
-		Mikhail Belov: [speed=0.7]Ah, pues gracias, muchacho. No todos se acuerdan de uno.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Ah, pues gracias, muchacho. No todos se acuerdan de uno.
 
 => END

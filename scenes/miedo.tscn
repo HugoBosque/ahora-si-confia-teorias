@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbc1v1ga21dqo"]
+
+[ext_resource type="Texture2D" uid="uid://benyinvrui7v4" path="res://imagenes/Employment-Job-Application-550x712.png" id="1_tadwd"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(595.49994, 325.0036)
+scale = Vector2(0.9072726, 0.90727246)
+texture = ExtResource("1_tadwd")

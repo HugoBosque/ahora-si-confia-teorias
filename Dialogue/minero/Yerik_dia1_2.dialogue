@@ -1,9 +1,9 @@
 ~ start
-Yerik: [speed=0.5]Acércate, no muerdo. Este frío ya es bastante para todos nosotros.
+[color=#90580d][b]Yerik[/b][/color]: [speed=0.5]Acércate, no muerdo. Este frío ya es bastante para todos nosotros.
 - Quería preguntarte algo sobre la mina.
-	Yerik: [speed=0.6]La mina está como siempre… aunque últimamente se oyen algunos ruidos raros.
-	Yo: [speed=0.6]¿Ruidos?
-	Yerik: [speed=0.6]Sí... Golpes, ecos que no cuadran, mejor ir con cuidado. 
-	Yo: [speed=0.6]Entiendo... Gracias. 
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]La mina está como siempre… aunque últimamente se oyen algunos ruidos raros.
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Ruidos?
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Sí... Golpes, ecos que no cuadran, mejor ir con cuidado. 
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]Entiendo... Gracias. 
 
 => END
