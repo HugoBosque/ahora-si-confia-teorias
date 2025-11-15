@@ -3,13 +3,28 @@ Iván Petrovich: [speed=0.7]¡Ah, qué alegría verte por aquí! No te había vi
 
 - Vengo a darte las noticias
 	set Global.dia1_hablar_tendero = true
+	Iván Petrovich: [speed=0.7]¿Noticias, dices? A ver, a ver…
 
 	- "La carretera principal sigue bloqueada por la nieve"
+		set GameManager.preocupacion_tendero += 10
+		Iván Petrovich: [speed=0.7]¡Vaya! Siempre que nieva fuerte pasa lo mismo… la gente ya empieza a murmurar por todas partes.
+		Iván Petrovich: [speed=0.7]Yo, si fuera tú, iría con cuidado por el camino del bosque, que es más seguro, aunque más largo.
 
 	- "Llegan nuevas provisiones desde la capital"
+		set GameManager.preocupacion_tendero += 5
+		Iván Petrovich: [speed=0.7]Ah, eso sí que es una buena noticia. Siempre es un alivio que traigan comida y suministros.
+		Iván Petrovich: [speed=0.7]Aunque ya sabes cómo se ponen algunos: “¿Llegará para todos?”… y los rumores no se hacen esperar.
 
 	- "Se planea una mejora en el alumbrado público"
+		set GameManager.preocupacion_tendero += 2
+		Iván Petrovich: [speed=0.7]Mmm… más luz para la plaza, dicen. Algunos vecinos se alegrarán, pero ya sabes cómo es la gente, enseguida empiezan los comentarios y chismes.
+		Iván Petrovich: [speed=0.7]Solo espero que no nos hagan pagar demasiado por ello.
 
 - Venía a hablar contigo
+	Iván Petrovich: [speed=0.7]¿Conmigo? Bueno, dime, siempre es bueno charlar un poco con los vecinos.
+	- ¿Cómo va todo por la plaza?
+		Iván Petrovich: [speed=0.7]Bah, lo de siempre… algo de ruido, algunos problemas menores, pero nada que no se pueda arreglar con paciencia.
+	- Solo pasaba a saludar.
+		Iván Petrovich: [speed=0.7]Ah, pues gracias, amigo. No todos se acuerdan de pasar por aquí a saludar.
 
-	=> END
+=> END
