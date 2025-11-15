@@ -13,7 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://dij3bau3khh78" path="res://Tile Maps/sprites/victorian-tenement.png" id="8_rysoc"]
 [ext_resource type="Texture2D" uid="uid://1at3m1l2a6wm" path="res://Tile Maps/sprites/victorian-windows-doors.png" id="9_ssvqc"]
 [ext_resource type="PackedScene" uid="uid://b2kjixa6oo16s" path="res://Tile Maps/Objects.tscn" id="10_kvuet"]
-[ext_resource type="PackedScene" uid="uid://ct3er3tjk3h3e" path="res://scenes/personajes/tendero.tscn" id="10_ssvqc"]
+[ext_resource type="PackedScene" uid="uid://b6oecdywbwx0s" path="res://scenes/personajes/tendero.tscn" id="10_ssvqc"]
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="11_trtic"]
 [ext_resource type="PackedScene" uid="uid://cxtpcgjg6gdb2" path="res://scenes/personajes/medico.tscn" id="19_264po"]
 [ext_resource type="PackedScene" uid="uid://du7cqyabdkhix" path="res://scenes/personajes/cura.tscn" id="20_5newe"]

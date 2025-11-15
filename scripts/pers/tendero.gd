@@ -2,6 +2,8 @@ extends Area2D
 
 @onready var sprite_2d: Sprite2D = $Sprite2D
 
+
+
 const TENDERO_DIA_1_1 = preload("uid://c3bucf5jcfqje")
 const TENDERO_DIA_1_2 = preload("uid://rwv52mc8baj0")
 const TENDERO_DIA_2_1 = preload("uid://jnthx2tkmqb8")

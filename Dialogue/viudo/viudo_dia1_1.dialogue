@@ -3,20 +3,21 @@ Romanov Morozov: [speed=0.6]Buenas.
 
 - Vengo a darte las noticias
 	set Global.dia1_hablar_viudo = true
-	Romanov Morozov: [speed=0.6]Lo aprecio.
+	[color=#6F6F6F][b]Romanov Morozov:[/b][/color] [speed=0.6]Lo aprecio.
 
 	- "La carretera principal sigue bloqueada por la nieve"
-		Romanov Morozov: [speed=0.6]Es una pena. Aunque no me gusta la guerra, mejor que se queden donde están.
+		[color=#6F6F6F][b]Romanov Morozov:[/b][/color] [speed=0.6]Es una pena. Aunque no me gusta la guerra, mejor que se queden donde están.
 
 	- "Llegan nuevas provisiones desde la capital"
-		Romanov Morozov: [speed=0.6]Como siempre, solo miran por ellos mismos.
+		[color=#6F6F6F][b]Romanov Morozov:[/b][/color] [speed=0.6]Como siempre, solo miran por ellos mismos.
 
 	- "Se planea una mejora en el alumbrado público"
-		Romanov Morozov: [speed=0.6]No está mal que inviertan en la gente.
+		[color=#6F6F6F][b]Romanov Morozov:[/b][/color] [speed=0.6]No está mal que inviertan en la gente.
 
 - Venía a hablar contigo
-	Romanov Morozov: ¿Conmigo? Bueno... dime, ¿de qué quieres hablar?
-	Yo: ¿Cómo te sientes en este pueblo? ¿Estás bien?
-	Romanov Morozov: [speed=0.6]Duermo poco, pero nada más. No te preocupes, chico.
+	[color=#6F6F6F][b]Romanov Morozov:[/b][/color] ¿Conmigo? Bueno... dime, ¿de qué quieres hablar?
+	[color=#89C2FF][b]Yo:[/b][/color] ¿Cómo te sientes en este pueblo? ¿Estás bien?
+	[color=#6F6F6F][b]Romanov Morozov:[/b][/color] [speed=0.6]Duermo poco, pero nada más. No te preocupes, chico.
+
 
 => END

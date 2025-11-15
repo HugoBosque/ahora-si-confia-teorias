@@ -1,11 +1,11 @@
 ~ start
-Svetlana: [speed=0.6]¿Puedo ayudarte en algo?
+[color=#F9E07F][b]Svetlana:[/b][/color] [speed=0.6]¿Puedo ayudarte en algo?
 
 - Venía a hablar contigo
-	Svetlana: ¿Hay algún problema? ¿Ha pasado algo?
+	[color=#F9E07F][b]Svetlana:[/b][/color] ¿Hay algún problema? ¿Ha pasado algo?
 	- De hecho, no. Todo está bien.
-		Svetlana: [speed=0.6]Gracias a Dios.
+		[color=#F9E07F][b]Svetlana:[/b][/color] [speed=0.6]Gracias a Dios.
 	- No, pero me gustaría preguntarle por su situación. ¿Cómo está?
-		Svetlana: [speed=0.6]La verdad es que estoy en una situación difícil. Mi querido marido se ha ido a luchar al frente por nuestro país, y... [wait=0.5] yo estoy aquí con mis dos hijos.
+		[color=#F9E07F][b]Svetlana:[/b][/color] [speed=0.6]La verdad es que estoy en una situación difícil. Mi querido marido se ha ido a luchar al frente por nuestro país, y... [wait=0.5] yo estoy aquí con mis dos hijos.
 
 => END

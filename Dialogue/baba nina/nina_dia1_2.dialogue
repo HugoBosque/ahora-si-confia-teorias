@@ -1,7 +1,8 @@
 ~ start
-Baba Nina: [speed=0.3]¿Qué corriente te trae hasta mi persona?
+[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]¿Qué corriente te trae hasta mi persona?
 - Venía a hablar contigo
-	Baba Nina: [speed=0.3]¿Qué quieres esta vez joven?
-	- Nada, sólo pasaba por aquí. 
+	[color=#C47FFF][b]Baba Nina:[/b][/color] [speed=0.3]¿Qué quieres esta vez joven?
+	- Yo: Nada, sólo pasaba por aquí.
+
 
 => END

@@ -1,6 +1,6 @@
 ~ start
 - Venía a hablar contigo
-	Romanov Morozov: ¿Conmigo? Bueno... dime, ¿de qué quieres hablar?
-	Yo: ¿Cómo te sientes en este pueblo? ¿Estás bien?
-	Romanov Morozov: [speed=0.6]Duermo poco, pero nada más. No te preocupes, chico.
+	[color=#6F6F6F][b]Romanov Morozov:[/b][/color] ¿Conmigo? Bueno... dime, ¿de qué quieres hablar?
+	[color=#89C2FF][b]Yo:[/b][/color] ¿Cómo te sientes en este pueblo? ¿Estás bien?
+	[color=#6F6F6F][b]Romanov Morozov:[/b][/color] [speed=0.6]Duermo poco, pero nada más. No te preocupes, chico.
 => END
