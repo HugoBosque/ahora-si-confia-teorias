@@ -10,7 +10,7 @@ Padre Zhukov: ¿Que te trae por aquí joven?
 		
 		
 	- Pequeñas fluctuaciones eléctricas en la zona industrial
-
+		set GameManager.preocupacion_cura += 10
 		Padre Zhukov: Esas cosas pueden ser peligrosas, por suerte, aquí estamos todos seguros.
 		
 		

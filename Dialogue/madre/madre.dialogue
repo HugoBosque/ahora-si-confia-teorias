@@ -4,24 +4,17 @@
 	set Global.dia1_hablar_madre = true
 	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Te lo agradezco mucho.
 
-	- “La carretera principal sigue bloqueada por la nieve”
-		set GameManager.preocupacion_madre += 30
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]No me digas eso... Mi marido se encuentra de camino al frente. Ay, ¿llegará bien? Por favor, te pido, Dios, que lleguen sanos y salvos. Si pasa algo, házmelo saber de inmediato.
-		[color=#89C2FF][b]Yo[/b][/color]: No se preocupe, en cuanto sepa algo se lo comunicaré.
-
-	- “Llegan nuevas provisiones desde la capital”
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Dios, una vez más demostrando su infinita generosidad... A ver si su mano llega también a nuestro pueblo. Lo paso mal con mis pequeños.
-		[color=#89C2FF][b]Yo[/b][/color]: Tranquila, señora, seguro que nuestro gobierno nos proveerá de alguna manera.
-		[color=#F9E07F][b]Svetlana[/b][/color]: Eso espero, gracias.
-
-	- “Se planea una mejora en el alumbrado público”
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]La luz nos acerca a Dios... Eso tiene que ser una señal divina.
+	- “Algunos animales salvajes fueron vistos cerca del bosque”
+		set GameManager.preocupacion_madre += 20
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Ay, Dios... Cada día parece haber un nuevo peligro. Que mis pequeños no salgan del camino, por favor…
+	- “Pequeñas fluctuaciones eléctricas en la zona industrial”
+		set GameManager.preocupacion_madre += 5
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Electricidad fallando? En tiempos así… cualquier cosa puede salir mal. Pero bueno… mientras no afecte a las casas…
+	- “Medidas de mantenimiento industrial”
+		set GameManager.preocupacion_madre -= 15
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Ah… bueno, eso suena a algo bueno por fin. Quizá… quizá sea una señal de que las cosas pueden mejorar un poco.
 
 - Venía a hablar contigo
-	[color=#F9E07F][b]Svetlana[/b][/color]: ¿Hay algún problema? ¿Ha pasado algo?
-	- De hecho, no. Todo está bien.
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias a Dios.
-	- No, pero me gustaría preguntarle por su situación. ¿Cómo está?
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]La verdad es que estoy en una situación difícil. Mi querido marido se ha ido a luchar al frente por nuestro país, y... [wait=0.5] yo estoy aquí con mis dos hijos.
+	
 
 => END
