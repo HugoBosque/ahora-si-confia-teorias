@@ -9,7 +9,7 @@
 [ext_resource type="Script" uid="uid://db3di70t8q05a" path="res://scripts/ChurchToGame.gd" id="6_y48d1"]
 [ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="7_8k4hb"]
 [ext_resource type="PackedScene" uid="uid://c8rsh5stwncou" path="res://scenes/cartel.tscn" id="8_myud8"]
-[ext_resource type="AudioStream" uid="uid://hkd43x5871h" path="res://AUDIO JUEGO/Cueva.mp3" id="10_w8t8a"]
+[ext_resource type="AudioStream" uid="uid://c7vuca48f72i0" path="res://AUDIO JUEGO/Cueva_1.ogg" id="10_w8t8a"]
 
 [sub_resource type="Environment" id="Environment_y48d1"]
 

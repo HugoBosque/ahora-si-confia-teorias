@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cpxumx6o44scq" path="res://scripts/menu.gd" id="1_vjb58"]
 [ext_resource type="Texture2D" uid="uid://bwwvt0gccxj4x" path="res://imagenes/fondo portada plupsovia.png" id="2_con2f"]
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="3_mhnvy"]
-[ext_resource type="AudioStream" uid="uid://bf2hk1e45rk25" path="res://AUDIO JUEGO/Menú.mp3" id="4_mhnvy"]
+[ext_resource type="AudioStream" uid="uid://cq5t57dd6fs5k" path="res://AUDIO JUEGO/Menú_1.ogg" id="4_mhnvy"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0e48y"]
 bg_color = Color(0.8627451, 0.627451, 0.24705882, 1)
