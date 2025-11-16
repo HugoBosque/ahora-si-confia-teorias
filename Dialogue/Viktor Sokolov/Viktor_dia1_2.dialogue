@@ -1,6 +1,13 @@
 ~ start
-[color=#1451d4][b]Viktor Sokolov[/b][/color]: hola
+[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Buenas. ¿Qué necesitas?
 
-- demas
+
+- Venía a hablar contigo
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]¿Hablar? No suelo tener tiempo para charlas.
+	- Solo quería saber cómo van las cosas.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Tranquilas. Y quiero que sigan así.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Si ves algo extraño en el pueblo, me lo dices. No toleraré altercados.
+	- Nada, solo pasaba por aquí.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Entonces sigue tu camino. Tengo trabajo.
 
 => END

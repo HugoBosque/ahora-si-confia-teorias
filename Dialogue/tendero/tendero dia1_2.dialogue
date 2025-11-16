@@ -1,11 +1,10 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#fe7a1b][b]Iván Petrovich[/b][/color]: [speed=0.7]¡Ah, qué alegría verte por aquí! No te había visto desde… bueno, desde hace un rato, ¿no? ¿Qué tal tu día? Espero que no hayas tenido problemas… ya sabes cómo corre la voz en esta plaza.
+- Venía a hablar contigo
+	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: [speed=0.7]¿Conmigo? Bueno, dime, siempre es bueno charlar un poco con los vecinos.
+	- ¿Cómo va todo por la plaza?
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: [speed=0.7]Bah, lo de siempre… algo de ruido, algunos problemas menores, pero nada que no se pueda arreglar con paciencia.
+	- Solo pasaba a saludar.
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: [speed=0.7]Ah, pues gracias, amigo. No todos se acuerdan de pasar por aquí a saludar.
+
 => END

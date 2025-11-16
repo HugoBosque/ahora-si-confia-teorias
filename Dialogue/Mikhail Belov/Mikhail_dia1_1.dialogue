@@ -6,7 +6,7 @@
 	[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]¿Noticias, dices? A ver, a ver… yo escucho.
 
 	- "La carretera principal sigue bloqueada por la nieve"
-	set GameManager.preocupacion_mikhail += 10
+		set GameManager.preocupacion_mikhail += 10
 		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]¿Otra vez? Ay… pues tocará llevar el carro por el camino del bosque.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Siempre que nieva fuerte pasa lo mismo. Mi padre ya lo decía: “Si el camino se tapa, mejor quedarse en casa”.
 
