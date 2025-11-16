@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://hkd43x5871h"
+path="res://.godot/imported/Cueva.mp3-d4765671c7dd26c106e34e8ad1b40174.mp3str"
+
+[deps]
+
+source_file="res://AUDIO JUEGO/Cueva.mp3"
+dest_files=["res://.godot/imported/Cueva.mp3-d4765671c7dd26c106e34e8ad1b40174.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

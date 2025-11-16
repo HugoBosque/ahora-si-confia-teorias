@@ -25,7 +25,7 @@
 [ext_resource type="PackedScene" uid="uid://vl5po0vq2iaa" path="res://scenes/personajes/Viktor Sokolov.tscn" id="23_bhx41"]
 [ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="24_e1j6l"]
 [ext_resource type="PackedScene" uid="uid://mf0qdfkoab6f" path="res://scenes/personajes/minero.tscn" id="25_pl11u"]
-[ext_resource type="AudioStream" uid="uid://rjojwqycq7t6" path="res://AUDIO JUEGO/Michael Jackson - Billie Jean (Official Video) [Zi_XLOBDo_Y].mp3" id="26_bhx41"]
+[ext_resource type="AudioStream" uid="uid://ceppw6vh1c64r" path="res://AUDIO JUEGO/City.mp3" id="26_bhx41"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_no12j"]
 texture = ExtResource("2_kvpfn")
@@ -42588,8 +42588,7 @@ position = Vector2(0, 6)
 
 [node name="MUSICA JUEGO" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("26_bhx41")
-volume_db = -31.486
-pitch_scale = 1.02
+volume_db = -10.0
 autoplay = true
 
 [connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]

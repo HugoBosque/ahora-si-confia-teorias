@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://cpxumx6o44scq" path="res://scripts/menu.gd" id="1_vjb58"]
 [ext_resource type="Texture2D" uid="uid://bwwvt0gccxj4x" path="res://imagenes/fondo portada plupsovia.png" id="2_con2f"]
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="3_mhnvy"]
-[ext_resource type="AudioStream" uid="uid://cch3aic83ijt2" path="res://AUDIO JUEGO/Clarent - OH WOW (Video Oficial) [WRLrq9wyyTo].mp3" id="4_mhnvy"]
+[ext_resource type="AudioStream" uid="uid://bf2hk1e45rk25" path="res://AUDIO JUEGO/Menú.mp3" id="4_mhnvy"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0e48y"]
 bg_color = Color(0.8627451, 0.627451, 0.24705882, 1)
@@ -144,8 +144,9 @@ alignment = 1
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_mhnvy")
-volume_db = -30.532
+volume_db = -12.0
 autoplay = true
+parameters/looping = true
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Salir" to="." method="_on_salir_pressed"]
