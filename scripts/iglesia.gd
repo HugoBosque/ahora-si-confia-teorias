@@ -28,7 +28,7 @@ func _actualizar_madre():
 
 	var debe_aparecer = false
 
-	if dia == 2 and preoc < 80:
+	if dia == 2 and Global.dia2_madre_noticia1:
 		debe_aparecer = true
 
 	_set_personaje_activo(madre, debe_aparecer)
