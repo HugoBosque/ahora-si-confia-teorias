@@ -1,10 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://i8k8q583smpi"]
+[gd_scene load_steps=6 format=3 uid="uid://i8k8q583smpi"]
 
 [ext_resource type="Script" uid="uid://wy2lnj3pp0uh" path="res://scripts/menustop.gd" id="1_6aqup"]
+[ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="2_6ohs8"]
 [ext_resource type="Texture2D" uid="uid://d14a52umbo0jk" path="res://imagenes/AUDIO MUSICA.png" id="2_axbd1"]
+[ext_resource type="Script" uid="uid://bfbwk6ge36xrm" path="res://scenes/volumen.gd" id="3_0du5q"]
+[ext_resource type="Script" uid="uid://daii2sp7axews" path="res://scenes/controles.gd" id="5_nw7rj"]
 
 [node name="menustop" type="CanvasLayer"]
 script = ExtResource("1_6aqup")
+metadata/_edit_vertical_guides_ = [502.0, 649.0, 450.0, 701.0]
 
 [node name="ColorRect" type="ColorRect" parent="."]
 anchors_preset = 15
@@ -12,38 +16,105 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0, 0, 0, 0.5019608)
+color = Color(0.0885599, 0.0885599, 0.0885599, 0.7058824)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -73.0
-offset_top = -33.0
-offset_right = 73.0
-offset_bottom = 33.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="opciones" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 483.0
+offset_top = 102.0
+offset_right = 666.0
+offset_bottom = 155.0
+theme_override_fonts/font = ExtResource("2_6ohs8")
+theme_override_font_sizes/font_size = 40
+text = "Opciones"
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="Continuar" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "CONTINUAR"
-
-[node name="Salir" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-text = "GUARDAR Y SALIR"
+[node name="mutemusica" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 487.0
+offset_top = 268.0
+offset_right = 670.0
+offset_bottom = 321.0
+theme_override_fonts/font = ExtResource("2_6ohs8")
+theme_override_font_sizes/font_size = 24
+text = "Mutear música"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="Silenciar" type="Button" parent="."]
-offset_left = 543.0
-offset_top = 372.00003
-offset_right = 751.0
-offset_bottom = 580.0
+offset_left = 552.0
+offset_top = 321.0
+offset_right = 760.0
+offset_bottom = 529.0
 scale = Vector2(0.24173851, 0.23161826)
 icon = ExtResource("2_axbd1")
 alignment = 0
 autowrap_trim_flags = 0
 
-[connection signal="pressed" from="VBoxContainer/Continuar" to="." method="_on_continuar_pressed"]
-[connection signal="pressed" from="VBoxContainer/Salir" to="." method="_on_salir_pressed"]
+[node name="volumen" type="HSlider" parent="."]
+modulate = Color(0.7294118, 0.54509807, 1, 1)
+offset_left = 486.0
+offset_top = 426.0
+offset_right = 671.0
+offset_bottom = 442.0
+min_value = -40.0
+max_value = 10.0
+script = ExtResource("3_0du5q")
+
+[node name="volumenlabel" type="Label" parent="."]
+offset_left = 485.0
+offset_top = 372.0
+offset_right = 668.0
+offset_bottom = 425.0
+theme_override_fonts/font = ExtResource("2_6ohs8")
+theme_override_font_sizes/font_size = 24
+text = "Volumen"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Salir" type="Button" parent="."]
+offset_left = 451.0
+offset_top = 219.0
+offset_right = 702.12006
+offset_bottom = 262.0
+theme_override_fonts/font = ExtResource("2_6ohs8")
+theme_override_font_sizes/font_size = 20
+text = "GUARDAR Y SALIR"
+
+[node name="Continuar" type="Button" parent="."]
+offset_left = 450.0
+offset_top = 156.0
+offset_right = 701.12006
+offset_bottom = 199.0
+theme_override_fonts/font = ExtResource("2_6ohs8")
+theme_override_font_sizes/font_size = 20
+text = "CONTINUAR"
+
+[node name="Controles" type="Button" parent="."]
+offset_left = 452.0
+offset_top = 461.0
+offset_right = 701.0
+offset_bottom = 501.0
+theme_override_fonts/font = ExtResource("2_6ohs8")
+theme_override_font_sizes/font_size = 20
+text = "CONTROLES"
+script = ExtResource("5_nw7rj")
+
+[node name="lbl_controles" type="Label" parent="Controles"]
+visible = false
+layout_mode = 0
+offset_left = -71.0
+offset_top = 47.0
+offset_right = 317.0
+offset_bottom = 152.0
+theme_override_fonts/font = ExtResource("2_6ohs8")
+theme_override_font_sizes/font_size = 24
+text = "W/A/S/D → Mover personaje
+Espacio / Enter →Interactuar
+Click izquierdo → Avanzar diálogos"
+horizontal_alignment = 1
+
+[connection signal="value_changed" from="volumen" to="volumen" method="_on_value_changed"]
+[connection signal="pressed" from="Salir" to="." method="_on_salir_pressed"]
+[connection signal="pressed" from="Continuar" to="." method="_on_continuar_pressed"]

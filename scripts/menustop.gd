@@ -1,7 +1,7 @@
 extends CanvasLayer
 
-@onready var continuar_button: Button = $VBoxContainer/Continuar
-@onready var salir_button: Button = $VBoxContainer/Salir
+@onready var continuar_button: Button = $Continuar
+@onready var salir_button: Button = $Salir
 @onready var silenciar: Button = $Silenciar
 
 var is_paused: bool = false

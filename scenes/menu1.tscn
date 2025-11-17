@@ -140,7 +140,7 @@ theme_override_styles/pressed = SubResource("StyleBoxFlat_wt27j")
 theme_override_styles/hover = SubResource("StyleBoxFlat_gwq5r")
 text = "SALIR"
 
-[node name="Silencio en Plupsovia" type="LineEdit" parent="."]
+[node name="Silencio en Plupsovia" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -155,9 +155,10 @@ theme_override_fonts/font = ExtResource("3_gwq5r")
 theme_override_font_sizes/font_size = 70
 theme_override_styles/normal = SubResource("StyleBoxFlat_qwrrc")
 text = "Silencio en Plupsovia"
-alignment = 1
+horizontal_alignment = 1
+vertical_alignment = 1
 
-[node name="Juego realizado" type="LineEdit" parent="Silencio en Plupsovia"]
+[node name="Juego realizado" type="Label" parent="Silencio en Plupsovia"]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -172,7 +173,8 @@ theme_override_fonts/font = ExtResource("3_gwq5r")
 theme_override_font_sizes/font_size = 25
 theme_override_styles/normal = SubResource("StyleBoxFlat_qwrrc")
 text = "Juego realizado por: Hugo Bosque, Miquel Monclús, Victor Millán"
-alignment = 1
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_wt27j")

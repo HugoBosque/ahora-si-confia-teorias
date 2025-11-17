@@ -72,6 +72,7 @@ func _set_footsteps_audio():
 	if "game" in scene_name:
 		footsteps.stream = load(snow_audio)
 		footsteps.pitch_scale = 0.9   # pasos más lentos en la nieve
+		footsteps.volume_db = -12  
 	elif "house" in scene_name or "iglesia" in scene_name:
 		footsteps.stream = load(house_audio)
 		footsteps.pitch_scale = 1.2   # velocidad normal
