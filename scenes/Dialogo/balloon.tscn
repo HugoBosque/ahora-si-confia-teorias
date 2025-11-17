@@ -115,6 +115,11 @@ layout_mode = 2
 size_flags_vertical = 3
 text = "Dialogue..."
 
+[node name="type_sound" type="AudioStreamPlayer" parent="Balloon/MarginContainer/PanelContainer/MarginContainer/VBoxContainer/DialogueLabel"]
+stream = ExtResource("4_bjv0o")
+volume_db = -9.541
+max_polyphony = 30
+
 [node name="ResponsesMenu" type="VBoxContainer" parent="Balloon" node_paths=PackedStringArray("response_template")]
 unique_name_in_owner = true
 layout_mode = 1
@@ -138,11 +143,6 @@ response_template = NodePath("ResponseExample")
 [node name="ResponseExample" type="Button" parent="Balloon/ResponsesMenu"]
 layout_mode = 2
 text = "Response example"
-
-[node name="TypeSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("4_bjv0o")
-volume_db = -9.541
-max_polyphony = 30
 
 [connection signal="gui_input" from="Balloon" to="." method="_on_balloon_gui_input"]
 [connection signal="response_selected" from="Balloon/ResponsesMenu" to="." method="_on_responses_menu_response_selected"]

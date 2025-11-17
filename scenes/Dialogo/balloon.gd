@@ -27,15 +27,9 @@ var mutation_cooldown: Timer = Timer.new()
 @onready var dialogue_label: DialogueLabel = %DialogueLabel
 @onready var responses_menu: DialogueResponsesMenu = %ResponsesMenu
 
-@onready var type_sound: AudioStreamPlayer = $TypeSound
-
-
 func _ready() -> void:
 	balloon.hide()
 	Engine.get_singleton("DialogueManager").mutated.connect(_on_mutated)
-
-	# Conectar señal de diálogo por letra
-	dialogue_label.spoke.connect(_on_character_spoke)
 
 	if responses_menu.next_action.is_empty():
 		responses_menu.next_action = next_action
@@ -43,10 +37,8 @@ func _ready() -> void:
 	mutation_cooldown.timeout.connect(_on_mutation_cooldown_timeout)
 	add_child(mutation_cooldown)
 
-
 func _unhandled_input(_event: InputEvent) -> void:
 	get_viewport().set_input_as_handled()
-
 
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_TRANSLATION_CHANGED and _locale != TranslationServer.get_locale() and is_instance_valid(dialogue_label):
@@ -56,13 +48,11 @@ func _notification(what: int) -> void:
 		if visible_ratio < 1:
 			dialogue_label.skip_typing()
 
-
 func start(dialogue_resource: DialogueResource, title: String, extra_game_states: Array = []) -> void:
 	temporary_game_states = [self] + extra_game_states
 	is_waiting_for_input = false
 	resource = dialogue_resource
 	self.dialogue_line = await resource.get_next_dialogue_line(title, temporary_game_states)
-
 
 func apply_dialogue_line() -> void:
 	mutation_cooldown.stop()
@@ -77,10 +67,16 @@ func apply_dialogue_line() -> void:
 	dialogue_label.hide()
 	dialogue_label.dialogue_line = dialogue_line
 
+	# Reiniciar SIEMPRE la cantidad de letras visibles para que el typewriter vuelva a empezar
+	dialogue_label.visible_characters = 0
+	if dialogue_label.has_method("reset_typing_speed"):
+		dialogue_label.reset_typing_speed()
+
 	responses_menu.hide()
 	responses_menu.responses = dialogue_line.responses
 
 	balloon.show()
+	await get_tree().process_frame
 	will_hide_balloon = false
 
 	dialogue_label.show()
@@ -100,28 +96,18 @@ func apply_dialogue_line() -> void:
 		balloon.focus_mode = Control.FOCUS_ALL
 		balloon.grab_focus()
 
-
 func next(next_id: String) -> void:
 	self.dialogue_line = await resource.get_next_dialogue_line(next_id, temporary_game_states)
-
-
-func _on_character_spoke(letter: String, letter_index: int, speed: float) -> void:
-	if type_sound.playing:
-		type_sound.stop()
-	type_sound.play()
-
 
 func _on_mutation_cooldown_timeout() -> void:
 	if will_hide_balloon:
 		will_hide_balloon = false
 		balloon.hide()
 
-
 func _on_mutated(_mutation: Dictionary) -> void:
 	is_waiting_for_input = false
 	will_hide_balloon = true
 	mutation_cooldown.start(0.1)
-
 
 func _on_balloon_gui_input(event: InputEvent) -> void:
 	if dialogue_label.is_typing:
@@ -143,7 +129,6 @@ func _on_balloon_gui_input(event: InputEvent) -> void:
 		next(dialogue_line.next_id)
 	elif event.is_action_pressed(next_action) and get_viewport().gui_get_focus_owner() == balloon:
 		next(dialogue_line.next_id)
-
 
 func _on_responses_menu_response_selected(response: DialogueResponse) -> void:
 	next(response.next_id)
