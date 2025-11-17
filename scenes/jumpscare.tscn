@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://cqp7ku0jid2n1"]
+
+[ext_resource type="Script" uid="uid://bhqsudbtaxuel" path="res://scripts/jumpscare.gd" id="1_yfyrm"]
+[ext_resource type="Texture2D" uid="uid://benyinvrui7v4" path="res://imagenes/Employment-Job-Application-550x712.png" id="2_uhh4h"]
+[ext_resource type="AudioStream" uid="uid://13jl2qu6vfje" path="res://AUDIO JUEGO/jumpscare-94984.mp3" id="3_uhh4h"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_25u87"]
+radius = 22.36068
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_yfyrm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_25u87")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+scale = Vector2(0.8111245, 0.8111245)
+texture = ExtResource("2_uhh4h")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_uhh4h")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

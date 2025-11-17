@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://d23o1a5fq2mbl" path="res://scenes/Dialogo/balloon.gd" id="1_36de5"]
 [ext_resource type="PackedScene" uid="uid://ckvgyvclnwggo" path="res://addons/dialogue_manager/dialogue_label.tscn" id="2_a8ve6"]
 [ext_resource type="Script" uid="uid://bb52rsfwhkxbn" path="res://addons/dialogue_manager/dialogue_responses_menu.gd" id="3_72ixx"]
-[ext_resource type="AudioStream" uid="uid://dpamsag0rqugm" path="res://imagenes/video/click-button-131479.mp3" id="4_bjv0o"]
+[ext_resource type="AudioStream" uid="uid://dpamsag0rqugm" path="res://AUDIO JUEGO/click-button-131479.mp3" id="4_bjv0o"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_spyqn"]
 bg_color = Color(0, 0, 0, 1)
