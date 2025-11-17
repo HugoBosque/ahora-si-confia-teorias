@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://i8k8q583smpi"]
+[gd_scene load_steps=3 format=3 uid="uid://i8k8q583smpi"]
 
 [ext_resource type="Script" uid="uid://wy2lnj3pp0uh" path="res://scripts/menustop.gd" id="1_6aqup"]
+[ext_resource type="Texture2D" uid="uid://d14a52umbo0jk" path="res://imagenes/AUDIO MUSICA.png" id="2_axbd1"]
 
 [node name="menustop" type="CanvasLayer"]
 script = ExtResource("1_6aqup")
@@ -33,6 +34,16 @@ text = "CONTINUAR"
 [node name="Salir" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "GUARDAR Y SALIR"
+
+[node name="Silenciar" type="Button" parent="."]
+offset_left = 543.0
+offset_top = 372.00003
+offset_right = 751.0
+offset_bottom = 580.0
+scale = Vector2(0.24173851, 0.23161826)
+icon = ExtResource("2_axbd1")
+alignment = 0
+autowrap_trim_flags = 0
 
 [connection signal="pressed" from="VBoxContainer/Continuar" to="." method="_on_continuar_pressed"]
 [connection signal="pressed" from="VBoxContainer/Salir" to="." method="_on_salir_pressed"]
