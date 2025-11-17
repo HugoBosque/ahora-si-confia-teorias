@@ -3,7 +3,8 @@ extends Control
 # Precargamos las escenas del juego (ajusta las rutas según tu proyecto)
 @onready var house_scene = preload("res://scenes/House.tscn")
 @onready var town_scene = preload("res://scenes/game.tscn")
-@onready var menu1 = "res://scenes/menu1.tscn"
+const MENU_1 = preload("uid://b264ja6tthvh3")
+
 
 
 
