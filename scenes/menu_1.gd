@@ -52,3 +52,5 @@ func _on_continuar_pressed() -> void:
 func _on_salir_pressed() -> void:
 	Global.save_game()  # Guardar antes de salir
 	get_tree().quit()
+	
+	
