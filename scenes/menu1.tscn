@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=3 uid="uid://b264ja6tthvh3"]
 
-[ext_resource type="Script" uid="uid://dxuoj0kx3dj68" path="res://scenes/menu_1.gd" id="1_3bptp"]
+[ext_resource type="Script" uid="uid://dxuoj0kx3dj68" path="res://scripts/menu_1.gd" id="1_3bptp"]
 [ext_resource type="Texture2D" uid="uid://2vllplols4nf" path="res://imagenes/ffotoplupsovia.PNG" id="2_3bptp"]
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="3_gwq5r"]
 

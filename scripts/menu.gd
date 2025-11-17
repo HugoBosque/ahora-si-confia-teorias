@@ -32,8 +32,11 @@ func _on_play_pressed() -> void:
 	# Resetear estado antes de cambiar de escena
 	Global.reset_game_state()
 	GameManager.is_dialogue_active = false
-	GameManager.has_animation_done = false
-	get_tree().change_scene_to_packed(MENU_1)
+
+	if not Global.game_saved:
+		get_tree().change_scene_to_packed(house_scene)
+	else:
+		get_tree().change_scene_to_packed(MENU_1)
 
 
 
