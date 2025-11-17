@@ -39,7 +39,7 @@ func _actualizar_personaje_según_preocupacion():
 	desactivar_todos_medicos()
 
 	# 🔹 --- MADRE ---
-	if GameManager.dia == 2 and pma < 80:
+	if GameManager.dia == 2 and Global.dia2_madre_noticia1:
 		print("🚫 Día 2 y preocupación_madre < 80 → la madre no aparecerá.")
 	else:
 		if pma <= 33:

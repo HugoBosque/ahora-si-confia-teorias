@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bmampj780cdh0"
+path="res://.godot/imported/madre iglesia2_2.dialogue-7c522e57f95737cfa13696b84aedde6b.tres"
+
+[deps]
+
+source_file="res://Dialogue/madre/madre iglesia2_2.dialogue"
+dest_files=["res://.godot/imported/madre iglesia2_2.dialogue-7c522e57f95737cfa13696b84aedde6b.tres"]
+
+[params]
+
+defaults=true

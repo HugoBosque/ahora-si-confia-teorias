@@ -3,6 +3,7 @@ extends Node
 # ============================================================
 # =============== VARIABLES DE HISTORIA Y FLAGS ===============
 # ============================================================
+var game_saved = false
 
 var dia1_hablar_cura = false
 var dia2_hablar_cura = false
@@ -22,6 +23,7 @@ var dia7_hablar_yerik = false
 
 var dia1_hablar_madre = false
 var dia2_hablar_madre = false
+var dia2_madre_noticia1 = false
 var dia3_hablar_madre = false
 var dia4_hablar_madre = false
 var dia5_hablar_madre = false
@@ -109,7 +111,7 @@ func reset_game_state():
 
 func save_game():
 	var save_data = {}
-
+	game_saved = true
 	# Guardar todas las propiedades del Global
 	for prop in get_property_list():
 		if prop.name in ["script"]:
