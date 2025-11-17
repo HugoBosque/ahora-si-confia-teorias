@@ -1,8 +1,13 @@
 [gd_scene load_steps=13 format=3 uid="uid://b264ja6tthvh3"]
 
+<<<<<<< HEAD
 [ext_resource type="Script" uid="uid://dxuoj0kx3dj68" path="res://scenes/menu_1.gd" id="1_3bptp"]
 [ext_resource type="Shader" uid="uid://c81wpy13vigw7" path="res://scenes/menu1.gdshader" id="2_wt27j"]
 [ext_resource type="AudioStream" uid="uid://cq5t57dd6fs5k" path="res://AUDIO JUEGO/Menú_1.ogg" id="3_3bptp"]
+=======
+[ext_resource type="Script" uid="uid://dxuoj0kx3dj68" path="res://scripts/menu_1.gd" id="1_3bptp"]
+[ext_resource type="Texture2D" uid="uid://2vllplols4nf" path="res://imagenes/ffotoplupsovia.PNG" id="2_3bptp"]
+>>>>>>> cffe70232e02c3af73b97f2077ed2159559fd621
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="3_gwq5r"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3bptp"]
