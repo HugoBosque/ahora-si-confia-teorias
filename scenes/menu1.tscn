@@ -1,4 +1,5 @@
-[gd_scene load_steps=13 format=3 uid="uid://b264ja6tthvh3"]
+[gd_scene load_steps=10 format=3 uid="uid://b264ja6tthvh3"]
+
 
 
 
@@ -14,17 +15,11 @@
 [ext_resource type="Shader" uid="uid://c81wpy13vigw7" path="res://scenes/menu1.gdshader" id="2_wt27j"]
 [ext_resource type="AudioStream" uid="uid://cq5t57dd6fs5k" path="res://AUDIO JUEGO/Menú_1.ogg" id="3_3bptp"]
 
+
+[ext_resource type="Script" uid="uid://dxuoj0kx3dj68" path="res://scripts/menu_1.gd" id="1_3bptp"]
+[ext_resource type="Texture2D" uid="uid://2vllplols4nf" path="res://imagenes/ffotoplupsovia.PNG" id="2_3bptp"]
+
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="3_gwq5r"]
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_3bptp"]
-shader = ExtResource("2_wt27j")
-shader_parameter/speed = 1.2
-shader_parameter/symbol_color = Color(0.3, 0.05, 0.05, 1)
-shader_parameter/background_color = Color(0.03, 0.03, 0.03, 1)
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v5nyw"]
-bg_color = Color(0.5410448, 0.6317629, 0.5138619, 1)
-draw_center = false
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0e48y"]
 bg_color = Color(0.8627451, 0.627451, 0.24705882, 1)
@@ -76,62 +71,25 @@ offset_right = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_3bptp")
-metadata/_edit_vertical_guides_ = [450.0]
 
 [node name="ColorRect" type="ColorRect" parent="."]
-material = SubResource("ShaderMaterial_3bptp")
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0, 0, 0, 1)
+color = Color(0.62152386, 0.6215239, 0.6215237, 1)
 
 [node name="TextureRect" type="TextureRect" parent="ColorRect"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -1.0
-offset_bottom = -1.0
 grow_horizontal = 2
 grow_vertical = 2
+texture = ExtResource("2_3bptp")
 expand_mode = 1
-
-[node name="Silencio en Plupsovia" type="LineEdit" parent="ColorRect/TextureRect"]
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -574.0
-offset_top = -1.0
-offset_right = 576.0
-offset_bottom = 140.0
-grow_horizontal = 2
-theme_override_colors/font_color = Color(0.24705882, 0.25882354, 0.21568628, 1)
-theme_override_fonts/font = ExtResource("3_gwq5r")
-theme_override_font_sizes/font_size = 70
-theme_override_styles/normal = SubResource("StyleBoxFlat_v5nyw")
-text = "Silencio en Plupsovia"
-alignment = 1
-
-[node name="Juego realizado" type="LineEdit" parent="ColorRect/TextureRect/Silencio en Plupsovia"]
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
-anchor_right = 0.5
-offset_left = -576.5
-offset_top = 505.0
-offset_right = 573.5
-offset_bottom = 646.0
-grow_horizontal = 2
-theme_override_colors/font_color = Color(0.24705882, 0.25882354, 0.21568628, 1)
-theme_override_fonts/font = ExtResource("3_gwq5r")
-theme_override_font_sizes/font_size = 25
-theme_override_styles/normal = SubResource("StyleBoxFlat_v5nyw")
-text = "Juego realizado por: Hugo Bosque, Miquel Monclús, Victor Millán"
-alignment = 1
 
 [node name="Play" type="Button" parent="."]
 layout_mode = 1
@@ -140,10 +98,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -116.5
-offset_top = -255.0
-offset_right = 131.5
-offset_bottom = -186.0
+offset_left = 19.5
+offset_top = -441.0
+offset_right = 267.5
+offset_bottom = -372.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_colors/font_color = Color(0.16078432, 0.14117648, 0.10980392, 1)
@@ -152,7 +110,7 @@ theme_override_font_sizes/font_size = 45
 theme_override_styles/normal = SubResource("StyleBoxFlat_0e48y")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_epypp")
 theme_override_styles/hover = SubResource("StyleBoxFlat_0hol4")
-text = "NUEVA PARTIDA"
+text = "JUGAR"
 
 [node name="Continuar" type="Button" parent="."]
 layout_mode = 1
@@ -161,10 +119,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -118.5
-offset_top = -448.0
-offset_right = 129.5
-offset_bottom = -379.0
+offset_left = 19.5
+offset_top = -534.0
+offset_right = 267.5
+offset_bottom = -465.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_colors/font_color = Color(0.16078432, 0.14117648, 0.10980392, 1)
@@ -182,10 +140,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -117.5
-offset_top = -352.0
-offset_right = 130.5
-offset_bottom = -283.0
+offset_left = 21.5
+offset_top = -349.0
+offset_right = 269.5
+offset_bottom = -280.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_colors/font_color = Color(0.13725491, 0.11764706, 0.09019608, 1)
@@ -195,12 +153,6 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_3bptp")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_wt27j")
 theme_override_styles/hover = SubResource("StyleBoxFlat_gwq5r")
 text = "SALIR"
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("3_3bptp")
-volume_db = -12.0
-autoplay = true
-parameters/looping = true
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Continuar" to="." method="_on_continuar_pressed"]
