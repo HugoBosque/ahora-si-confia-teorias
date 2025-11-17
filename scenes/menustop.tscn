@@ -1,22 +1,34 @@
-[gd_scene load_steps=6 format=3 uid="uid://i8k8q583smpi"]
+[gd_scene load_steps=8 format=3 uid="uid://i8k8q583smpi"]
 
 [ext_resource type="Script" uid="uid://wy2lnj3pp0uh" path="res://scripts/menustop.gd" id="1_6aqup"]
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="2_6ohs8"]
 [ext_resource type="Texture2D" uid="uid://d14a52umbo0jk" path="res://imagenes/AUDIO MUSICA.png" id="2_axbd1"]
+[ext_resource type="Shader" uid="uid://bgid61m8m1364" path="res://scenes/menustop.gdshader" id="2_n3fps"]
 [ext_resource type="Script" uid="uid://bfbwk6ge36xrm" path="res://scenes/volumen.gd" id="3_0du5q"]
 [ext_resource type="Script" uid="uid://daii2sp7axews" path="res://scenes/controles.gd" id="5_nw7rj"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0uwfq"]
+shader = ExtResource("2_n3fps")
+shader_parameter/line_color = Color(0.2, 0.2, 0.2, 0.3)
+shader_parameter/speed = 0.2
+shader_parameter/spacing = 0.1
+shader_parameter/line_thickness = 0.02
+shader_parameter/line_gap = 0.01
+shader_parameter/noise_intensity = 0.05
+shader_parameter/background_alpha = 0.15
 
 [node name="menustop" type="CanvasLayer"]
 script = ExtResource("1_6aqup")
 metadata/_edit_vertical_guides_ = [502.0, 649.0, 450.0, 701.0]
 
 [node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_0uwfq")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.0885599, 0.0885599, 0.0885599, 0.7058824)
+color = Color(0.025363795, 0.025363805, 0.02536378, 0.7058824)
 
 [node name="opciones" type="Label" parent="ColorRect"]
 layout_mode = 0
@@ -78,6 +90,7 @@ offset_left = 451.0
 offset_top = 219.0
 offset_right = 702.12006
 offset_bottom = 262.0
+theme_override_colors/font_color = Color(1, 1, 1, 0.99215686)
 theme_override_fonts/font = ExtResource("2_6ohs8")
 theme_override_font_sizes/font_size = 20
 text = "GUARDAR Y SALIR"
@@ -87,6 +100,7 @@ offset_left = 450.0
 offset_top = 156.0
 offset_right = 701.12006
 offset_bottom = 199.0
+theme_override_colors/font_color = Color(1, 1, 1, 0.99215686)
 theme_override_fonts/font = ExtResource("2_6ohs8")
 theme_override_font_sizes/font_size = 20
 text = "CONTINUAR"
@@ -96,6 +110,7 @@ offset_left = 452.0
 offset_top = 461.0
 offset_right = 701.0
 offset_bottom = 501.0
+theme_override_colors/font_color = Color(1, 1, 1, 0.99215686)
 theme_override_fonts/font = ExtResource("2_6ohs8")
 theme_override_font_sizes/font_size = 20
 text = "CONTROLES"
