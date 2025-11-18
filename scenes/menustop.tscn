@@ -2,20 +2,20 @@
 
 [ext_resource type="Script" uid="uid://wy2lnj3pp0uh" path="res://scripts/menustop.gd" id="1_6aqup"]
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="2_6ohs8"]
-[ext_resource type="Texture2D" uid="uid://d14a52umbo0jk" path="res://imagenes/AUDIO MUSICA.png" id="2_axbd1"]
 [ext_resource type="Shader" uid="uid://bgid61m8m1364" path="res://scenes/menustop.gdshader" id="2_n3fps"]
 [ext_resource type="Script" uid="uid://bfbwk6ge36xrm" path="res://scenes/volumen.gd" id="3_0du5q"]
+[ext_resource type="Texture2D" uid="uid://den6uuxcl8gjh" path="res://imagenes/audio muted blanco.png" id="4_n3fps"]
 [ext_resource type="Script" uid="uid://daii2sp7axews" path="res://scenes/controles.gd" id="5_nw7rj"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_0uwfq"]
 shader = ExtResource("2_n3fps")
-shader_parameter/line_color = Color(0.2, 0.2, 0.2, 0.3)
-shader_parameter/speed = 0.2
+shader_parameter/line_color = Color(0.029506557, 0.029506557, 0.029506557, 0.2)
+shader_parameter/speed = 0.02
 shader_parameter/spacing = 0.1
 shader_parameter/line_thickness = 0.02
 shader_parameter/line_gap = 0.01
-shader_parameter/noise_intensity = 0.05
-shader_parameter/background_alpha = 0.15
+shader_parameter/noise_intensity = 0.01999999955297
+shader_parameter/background_alpha = 0.5890000279775
 
 [node name="menustop" type="CanvasLayer"]
 script = ExtResource("1_6aqup")
@@ -60,7 +60,7 @@ offset_top = 321.0
 offset_right = 760.0
 offset_bottom = 529.0
 scale = Vector2(0.24173851, 0.23161826)
-icon = ExtResource("2_axbd1")
+icon = ExtResource("4_n3fps")
 alignment = 0
 autowrap_trim_flags = 0
 

@@ -1,7 +1,7 @@
 shader_type canvas_item;
 
 uniform vec4 line_color : source_color = vec4(0.2, 0.2, 0.2, 0.7); // Gris oscuro, transparente
-uniform float speed : hint_range(0.0, 0.01) = 0.009;                // Muy lento
+uniform float speed : hint_range(0.0, 0.01) = 0.02;                // Muy lento
 uniform float spacing : hint_range(0.01, 0.05) = 0.10;               // Distancia entre grupos de líneas
 uniform float line_thickness : hint_range(0.01, 0.05) = 0.02;        // Grosor de cada línea
 uniform float line_gap : hint_range(0.005, 0.03) = 0.01;             // Separación entre líneas del mismo grupo
