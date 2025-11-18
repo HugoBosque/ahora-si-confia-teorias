@@ -42576,6 +42576,7 @@ position = Vector2(1112, 466)
 position = Vector2(1189, 517)
 
 [node name="menustop" parent="." instance=ExtResource("24_e1j6l")]
+visible = false
 
 [node name="Yerik Pavel" parent="." instance=ExtResource("25_pl11u")]
 position = Vector2(1414, 1170)
