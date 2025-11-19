@@ -1,6 +1,9 @@
 ~ start
-cura: hola
-
-- demas
-
+[color=#ffc100][b]Padre Zhukov[/b][/color]: ¿Que te trae por aquí joven?
+- Venia a hablar contigo
+	[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Dime, hijo, ¿qué inquieta tu espíritu?
+	- ¿Cree que todo el pueblo está bien?
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Hay almas serenas… y otras que aún buscan su camino. No todos escuchan la voz de Dios con la misma claridad.
+    - Sólo quería conversar un poco.
+        [color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Hablar siempre reconforta. Mis puertas están abiertas para ti, cuando lo necesites.
 => END

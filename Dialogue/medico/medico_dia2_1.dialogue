@@ -1,17 +1,32 @@
 ~ start
-medico: hola
-- noticias
-	set Global.dia1_hablar_medico = true
-	medico: si
-	- "noticia1"
-		set GameManager.preocupacion_medico +=34
-		medico: si
-	- "noticia2"
-		set GameManager.preocupacion_medico +=34
-		medico: si
-	- "noticia3"
-		set GameManager.preocupacion_medico +=34
-		medico: si
-- demas
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Buenas, recadero. ¿Alguna noticia?
+[color=#89C2FF][b]Yo[/b][/color]: Claro.
+
+- Vengo a darte las noticias
+	set Global.dia2_hablar_medico = true
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Adelante.
+	
+	- "Algunos animales salvajes fueron vistos cerca del bosque"
+		set GameManager.preocupacion_medico += 15
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Animales cerca… Hm. Si se acercan demasiado podrían traer enfermedades. Tendré que estar atenta.
+
+	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
+		set GameManager.preocupacion_medico += 5
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]¿Fluctuaciones? Genial... Lo último que necesito son accidentes por fallos eléctricos.
+		
+	- "Medidas de mantenimiento industrial"
+		set GameManager.preocupacion_medico += 5
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Bueno, al menos eso suena a algo positivo. Si mantienen todo en orden habrá menos heridos.
+
+- Venía a hablar contigo
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]¿Hablar? Claro, dime. Siempre tengo un minuto para alguien que no viene sangrando.
+	- ¿Todo bien en la clínica?
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Como siempre: poco material, mucho frío y demasiada gente que no se cuida. Pero sigo viva, así que supongo que voy bien.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Aunque ahora que lo dices, estoy empezando a notar cierta tos. Supongo que será el frío... igualmente seguiré investigando.
+	- Solo quería saludar
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Oh… Pues gracias. No muchos vienen solo por eso.
+	- Te ves cansada
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Porque lo estoy. Pero mientras el pueblo me necesite, seguiré aquí.
+
 
 => END

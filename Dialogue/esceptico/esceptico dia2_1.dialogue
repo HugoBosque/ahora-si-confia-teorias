@@ -1,28 +1,29 @@
 ~ start
-Alexei: [speed=0.7] ¿Se te ha perdido algo?
+[color=#A0A0A0][b]Alexei[/b][/color]: ¿Qué quieres ahora?
 
 - Vengo a darte las noticias
-	set Global.dia1_halbar_esceptico = true
-	Alexei: No me las leeré.
-	- Es importante que estés informado.
-		Alexei: Prefiero informarme yo mismo.
-		- Como quieras, pero estoy obligado a entregarte el periódico.
-		Alexei: Si no hay más remedio...
-		- “La carretera principal sigue bloqueada por la nieve”.
-			set GameManager.preocupacion_esceptico -= 20
-			Alexei: Me da igual si hay mucha nieve, que la quiten.
-		- “Llegan nuevas provisiones desde la capital”.
-			set GameManager.preocupacion_esceptico -= 20
-			Alexei: Como siempre más a los que más tienen, y nosotros pasando frío y hambre aquí.
-		- “Se planea una mejora en el alumbrado público”.
-			Alexei: Que me alumbren esta.
-			set GameManager.preocupacion_esceptico -= 20
+	set Global.dia2_hablar_ = true
+	[color=#A0A0A0][b]Alexei[/b][/color]: ¿Te recuerdo que ya te dije que me da igual lo que me traigas?
+	[color=#89C2FF][b]Yo[/b][/color]: Es mi trabajo.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Sí, sí… tus periódicos sirven para encender la chimenea. Anda, suelta. ¿Qué pasa esta vez?
+	- "Algunos animales salvajes fueron vistos cerca del bosque"
+		set GameManager.preocupacion_esceptico += 5
+		[color=#A0A0A0][b]Alexei[/b][/color]: No me preocupa. Si se acercan, estaré preparado.
+		[color=#89C2FF][b]Yo[/b][/color]: ¿Tienes… un arma?
+		[color=#A0A0A0][b]Alexei[/b][/color]: No es asunto tuyo lo que tenga.
+			
+		
+		
+	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
+		set GameManager.preocupacion_esceptico += 10
+		[color=#A0A0A0][b]Alexei[/b][/color]: ¿Ves? Eso sí es preocupante. Las máquinas fallan, la gente no dice nada… y luego pasan desgracias.
+		
+		
+	- "Medidas de mantenimiento industrial"
+		set GameManager.preocupacion_esceptico -= 5
+		[color=#A0A0A0][b]Alexei[/b][/color]: ¿Mantenimiento? Sí, claro. Seguro que es otra chapuza para tapar lo que se les cae encima.
 
-
-- Sólo quiero hablar.
-	Alexei: [speed=0.7] No te lo tomes personal, no tengo de que hablar.
-	- Por ejemplo, ¿porque vives alejado?
-	Alexei: [speed=0.7] La gente me toma como loco por pensar diferente, paso de eso.	
-- Perdona sólo pasaba por aquí.
+- Venia a hablar contigo
+	[color=#A0A0A0][b]Alexei[/b][/color]: ¿Hablar? Hm. Bueno… habla tú solo entonces.
 
 => END

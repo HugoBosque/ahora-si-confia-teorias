@@ -1,6 +1,14 @@
 ~ start
-medico: hola
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Buenas, recadero.
+- Venía a hablar contigo
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]¿Hablar? Claro, dime. Siempre tengo un minuto para alguien que no viene sangrando.
+	- ¿Todo bien en la clínica?
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Como siempre: poco material, mucho frío y demasiada gente que no se cuida. Pero sigo viva, así que supongo que voy bien.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Aunque ahora que lo dices, estoy empezando a notar cierta tos. Supongo que será el frío... igualmente seguiré investigando.
+	- Solo quería saludar
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Oh… Pues gracias. No muchos vienen solo por eso.
+	- Te ves cansada
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Porque lo estoy. Pero mientras el pueblo me necesite, seguiré aquí.
 
-- demas
 
 => END

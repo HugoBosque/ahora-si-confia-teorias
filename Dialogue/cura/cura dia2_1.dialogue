@@ -1,27 +1,25 @@
 ~ start
-Padre Zhukov: ¿Que te trae por aquí joven?
+[color=#ffc100][b]Padre Zhukov[/b][/color]: ¿Que te trae por aquí joven?
 - Vengo a darte las noticias
 	set Global.dia2_hablar_cura = true
-	Padre Zhukov: Un día más informado gracias a Dios.
+	[color=#ffc100][b]Padre Zhukov[/b][/color]: Un día más informado, gracias a Dios.
 	
-	- Algunos animales salvajes fueron vistos cerca del bosque
-		set GameManager.preocupacion_cura += 10
-		Padre Zhukov: Los animales son guiados por Dios, se alejan del reino del hombre, un reino corrupto.
+	- "Algunos animales salvajes fueron vistos cerca del bosque"
+		set GameManager.preocupacion_esceptico += 5
+		  [color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Los animales no vagan sin propósito. A veces huyen de aquello que nosotros, ciegos por la rutina, no vemos.
 		
 		
-	- Pequeñas fluctuaciones eléctricas en la zona industrial
-		set GameManager.preocupacion_cura += 10
-		Padre Zhukov: Esas cosas pueden ser peligrosas, por suerte, aquí estamos todos seguros.
-		
-		
-	- Medidas de mantenimiento industrial
+	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
 
-		Padre Zhukov: Nuestro país inverte siempre en majora, tenemos que estar agradecidos.
+		
+		
+	- "Medidas de mantenimiento industrial"
+		
 
 - Venia a hablar contigo
-	Padre Zhukov: Dime hijo, ¿qué te preocupa?
+	[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Dime, hijo, ¿qué inquieta tu espíritu?
 	- ¿Cree que todo el pueblo está bien?
-		Padre Zhukov: Hay de todo un poco, algunos estamos más cerca de Dios y otros.. no tanto.
-	- Ejemplo dialog
-		Padre Zhukov: Victor gay
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Hay almas serenas… y otras que aún buscan su camino. No todos escuchan la voz de Dios con la misma claridad.
+    - Sólo quería conversar un poco.
+        [color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Hablar siempre reconforta. Mis puertas están abiertas para ti, cuando lo necesites.
 => END
