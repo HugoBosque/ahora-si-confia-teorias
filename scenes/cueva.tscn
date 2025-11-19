@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://cuo6oyeb6bk34"]
+[gd_scene load_steps=14 format=3 uid="uid://cuo6oyeb6bk34"]
 
 [ext_resource type="Script" uid="uid://b3yy4amxsmhs5" path="res://scripts/cueva.gd" id="1_a7ssg"]
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="1_fd7kk"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://b2kjixa6oo16s" path="res://Tile Maps/Objects.tscn" id="2_6ehaf"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="4_6ehaf"]
 [ext_resource type="Texture2D" uid="uid://by0sr5sw332hl" path="res://imagenes/light character.PNG" id="5_6oi4f"]
+[ext_resource type="PackedScene" uid="uid://drh2ct8mc4ijj" path="res://scenes/personajes/gato.tscn" id="6_xq2av"]
 [ext_resource type="Script" uid="uid://db3di70t8q05a" path="res://scripts/ChurchToGame.gd" id="6_y48d1"]
 [ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="7_8k4hb"]
 [ext_resource type="PackedScene" uid="uid://c8rsh5stwncou" path="res://scenes/cartel.tscn" id="8_myud8"]
@@ -35,7 +36,7 @@ position = Vector2(200, -241)
 position = Vector2(504, 609)
 
 [node name="CanvasModulate" type="CanvasModulate" parent="Player"]
-color = Color(0.014275216, 0.014275219, 0.014275208, 1)
+color = Color(0.0142752165, 0.014275218, 0.014275218, 1)
 
 [node name="PointLight2D" type="PointLight2D" parent="Player"]
 position = Vector2(3.637979e-12, -29)
@@ -46,6 +47,9 @@ texture = ExtResource("5_6oi4f")
 texture_scale = 2.6
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
+
+[node name="gato" parent="." instance=ExtResource("6_xq2av")]
+position = Vector2(1035, -1262)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 physics_interpolation_mode = 1
