@@ -117,7 +117,7 @@ text = "Dialogue..."
 
 [node name="type_sound" type="AudioStreamPlayer" parent="Balloon/MarginContainer/PanelContainer/MarginContainer/VBoxContainer/DialogueLabel"]
 stream = ExtResource("4_bjv0o")
-volume_db = -9.541
+volume_db = -20.036
 max_polyphony = 30
 
 [node name="ResponsesMenu" type="VBoxContainer" parent="Balloon" node_paths=PackedStringArray("response_template")]
