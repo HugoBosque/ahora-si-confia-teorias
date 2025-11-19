@@ -42525,9 +42525,6 @@ shape = SubResource("RectangleShape2D_lbhrr")
 
 [node name="Sprite2D" type="Sprite2D" parent="DoorToHouse"]
 
-[node name="Cura" parent="." instance=ExtResource("20_5newe")]
-position = Vector2(660, 153)
-
 [node name="DoorToChurch" type="Area2D" parent="."]
 position = Vector2(782, 116)
 
@@ -42542,43 +42539,69 @@ position = Vector2(764, -777)
 position = Vector2(-4, -9.5)
 shape = SubResource("RectangleShape2D_37s47")
 
-[node name="Esceptico" parent="." instance=ExtResource("21_5newe")]
-position = Vector2(1599, -361)
-
-[node name="Madre" parent="." instance=ExtResource("22_37s47")]
-position = Vector2(1039, 411)
-
-[node name="Medico" parent="." instance=ExtResource("19_264po")]
-position = Vector2(1055, 1086)
-
-[node name="Viudo" parent="." instance=ExtResource("20_bt5mj")]
-position = Vector2(1615, 662)
-
-[node name="nina" parent="." instance=ExtResource("21_e1j6l")]
-position = Vector2(382, 436)
-
-[node name="Mikhail Belov" parent="." instance=ExtResource("22_pl11u")]
-position = Vector2(-100, 370)
-
-[node name="Viktor Sokolov" parent="." instance=ExtResource("23_bhx41")]
-position = Vector2(207, 700)
-
-[node name="Medico2" parent="." instance=ExtResource("19_264po")]
-position = Vector2(931, 1078)
-
-[node name="Medico3" parent="." instance=ExtResource("19_264po")]
-position = Vector2(818, 1082)
-
-[node name="Madre2" parent="." instance=ExtResource("22_37s47")]
-position = Vector2(1112, 466)
-
-[node name="Madre3" parent="." instance=ExtResource("22_37s47")]
-position = Vector2(1189, 517)
-
 [node name="menustop" parent="." instance=ExtResource("24_e1j6l")]
 visible = false
 
-[node name="Yerik Pavel" parent="." instance=ExtResource("25_pl11u")]
+[node name="MUSICA JUEGO" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("26_bhx41")
+volume_db = -10.0
+autoplay = true
+
+[node name="Madre" type="CanvasLayer" parent="."]
+
+[node name="Madre3" parent="Madre" instance=ExtResource("22_37s47")]
+position = Vector2(1189, 517)
+
+[node name="Madre2" parent="Madre" instance=ExtResource("22_37s47")]
+position = Vector2(1112, 466)
+
+[node name="Madre" parent="Madre" instance=ExtResource("22_37s47")]
+position = Vector2(1039, 411)
+
+[node name="Medico" type="CanvasLayer" parent="."]
+
+[node name="Medico" parent="Medico" instance=ExtResource("19_264po")]
+position = Vector2(1055, 1086)
+
+[node name="Medico2" parent="Medico" instance=ExtResource("19_264po")]
+position = Vector2(931, 1078)
+
+[node name="Medico3" parent="Medico" instance=ExtResource("19_264po")]
+position = Vector2(818, 1082)
+
+[node name="Cura" type="CanvasLayer" parent="."]
+
+[node name="Cura" parent="Cura" instance=ExtResource("20_5newe")]
+position = Vector2(660, 153)
+
+[node name="Esceptico" type="CanvasLayer" parent="."]
+
+[node name="Esceptico" parent="Esceptico" instance=ExtResource("21_5newe")]
+position = Vector2(1599, -361)
+
+[node name="Nina" type="CanvasLayer" parent="."]
+
+[node name="nina" parent="Nina" instance=ExtResource("21_e1j6l")]
+position = Vector2(382, 436)
+
+[node name="Mikhail" type="CanvasLayer" parent="."]
+
+[node name="Mikhail Belov" parent="Mikhail" instance=ExtResource("22_pl11u")]
+position = Vector2(-100, 370)
+
+[node name="Viktor" type="CanvasLayer" parent="."]
+
+[node name="Viktor Sokolov" parent="Viktor" instance=ExtResource("23_bhx41")]
+position = Vector2(207, 700)
+
+[node name="Viudo" type="CanvasLayer" parent="."]
+
+[node name="Viudo" parent="Viudo" instance=ExtResource("20_bt5mj")]
+position = Vector2(1615, 662)
+
+[node name="Yerik" type="CanvasLayer" parent="."]
+
+[node name="Yerik Pavel" parent="Yerik" instance=ExtResource("25_pl11u")]
 position = Vector2(1414, 1170)
 
 [node name="Player" parent="." instance=ExtResource("1_uwrxv")]
@@ -42586,11 +42609,6 @@ position = Vector2(1567, 1551)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(0, 6)
-
-[node name="MUSICA JUEGO" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("26_bhx41")
-volume_db = -10.0
-autoplay = true
 
 [connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]
 [connection signal="body_entered" from="DoorToCave" to="." method="_on_door_to_cave_body_entered"]

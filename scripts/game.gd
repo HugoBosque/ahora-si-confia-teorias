@@ -1,14 +1,15 @@
 extends Node
 
-@onready var cura: Area2D = $Cura
+@onready var cura: Area2D = $Cura/Cura
 @onready var door_to_church: Area2D = $DoorToChurch
 @onready var player: CharacterBody2D = $Player
-@onready var medico_3: Area2D = $Medico3
-@onready var medico_2: Area2D = $Medico2
-@onready var medico: Area2D = $Medico
-@onready var madre_2: Area2D = $Madre2
-@onready var madre_3: Area2D = $Madre3
-@onready var madre: Area2D = $Madre
+@onready var medico: Area2D = $Medico/Medico
+@onready var medico_2: Area2D = $Medico/Medico2
+@onready var medico_3: Area2D = $Medico/Medico3
+@onready var madre: Area2D = $Madre/Madre
+@onready var madre_2: Area2D = $Madre/Madre2
+@onready var madre_3: Area2D = $Madre/Madre3
+
 
 func _ready():
 	GameManager.connect("dia_cambiado", Callable(self, "_on_dia_cambiado"))
