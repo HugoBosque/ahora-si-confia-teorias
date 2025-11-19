@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bemk1428n6xjh"
-path="res://.godot/imported/pictureLightMask2_thumb.png-b039f7919c38a6d4eabb3f31c2ae0bf5.ctex"
+path="res://.godot/imported/pictureLightMask2_thumb.png-72834b24805415f39174c8e7e16dde08.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Dialogue/pictureLightMask2_thumb.png"
-dest_files=["res://.godot/imported/pictureLightMask2_thumb.png-b039f7919c38a6d4eabb3f31c2ae0bf5.ctex"]
+source_file="res://imagenes/pictureLightMask2_thumb.png"
+dest_files=["res://.godot/imported/pictureLightMask2_thumb.png-72834b24805415f39174c8e7e16dde08.ctex"]
 
 [params]
 

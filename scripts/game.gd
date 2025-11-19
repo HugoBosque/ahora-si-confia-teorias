@@ -26,7 +26,6 @@ extends Node
 
 func _ready():
 	GameManager.connect("dia_cambiado", Callable(self, "_on_dia_cambiado"))
-	_actualizar_presencia_cura()
 	_actualizar_personaje_según_preocupacion()
 
 	if door_to_church:
@@ -37,7 +36,6 @@ func _ready():
 
 func _on_dia_cambiado(nuevo_dia: int):
 	print("🌅 Día cambiado en Game (pueblo):", nuevo_dia)
-	_actualizar_presencia_cura()
 	_actualizar_personaje_según_preocupacion()
 
 # -------------------- PERSONAJES --------------------
@@ -70,6 +68,8 @@ func _actualizar_personaje_según_preocupacion():
 	# 🔹 --- MADRE ---
 	if GameManager.dia == 2 and Global.dia2_madre_noticia1:
 		print("🚫 Día 2 y preocupación_madre < 80 → la madre no aparecerá.")
+	elif GameManager.dia == 4:
+		activar_madre(madre_2)
 	else:
 		if pma <= 50:
 			activar_madre(madre)
@@ -77,10 +77,56 @@ func _actualizar_personaje_según_preocupacion():
 			activar_madre(madre_3)
 
 	# 🔹 --- MÉDICO ---
-	if pme <= 50:
-		activar_medico(medico)
+	if GameManager.dia == 4:
+		activar_medico(medico_2)
 	else:
-		activar_medico(medico_3)
+		if pme <= 50:
+			activar_medico(medico)
+		else:
+			activar_medico(medico_3)
+
+	# 🔹 --- CURA ---
+	if GameManager.dia == 4:
+		activar_cura(cura_2)
+	else:
+		activar_cura(cura)
+
+	# 🔹 --- ESCEPTICO ---
+	if GameManager.dia == 4:
+		activar_esceptico(esceptico_2)
+	else:
+		activar_esceptico(esceptico)
+		
+	# 🔹 --- NINA ---
+	if GameManager.dia == 4:
+		activar_nina(nina_2)
+	else:
+		activar_nina(nina)
+
+	# 🔹 --- MIKHAIL ---
+	if GameManager.dia == 4:
+		activar_mikhail(mikhail_belov_2)
+	else:
+		activar_mikhail(mikhail_belov)
+
+	# 🔹 --- VIKTOR ---
+	if GameManager.dia == 4:
+		activar_viktor(viktor_sokolov_2)
+	else:
+		activar_viktor(viktor_sokolov)
+
+	# 🔹 --- VIUDO ---
+	if GameManager.dia == 4:
+		activar_viudo(viudo_2)
+	else:
+		activar_viudo(viudo)
+
+	# 🔹 --- YERIK ---
+	if GameManager.dia == 4:
+		activar_yerik(yerik_pavel_2)
+	else:
+		activar_yerik(yerik_pavel)
+
 
 # -------------------- FUNCIONES DE ACTIVACIÓN --------------------
 func desactivar_todas_madres():
@@ -117,6 +163,13 @@ func desactivar_todos_escepticos():
 	for e in escepticos:
 		_set_personaje_activo(e, false)
 		
+
+func activar_esceptico(activo: Area2D):
+	var escepticos = [esceptico, esceptico_2]
+	for e in escepticos:
+		if e != activo:
+			_set_personaje_activo(e, false)
+	_set_personaje_activo(activo, true)
 
 func desactivar_todas_ninas():
 	var ninas = [nina, nina_2]
@@ -210,11 +263,7 @@ func _set_personaje_activo(personaje: Area2D, activo: bool):
 				if grandchild is CollisionShape2D:
 					grandchild.disabled = not activo
 
-# -------------------- CURA --------------------
-func _actualizar_presencia_cura():
-	# 🔹 Ahora el cura está en el pueblo si NO está en la iglesia globalmente
-	if GameManager.preocupacion_cura <= 50:
-		_set_personaje_activo(cura, true)
+
 
 # -------------------- PUERTA --------------------
 func _on_door_body_entered(body: Node):
