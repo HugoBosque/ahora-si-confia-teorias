@@ -2,7 +2,7 @@
 [color=#A0A0A0][b]Alexei[/b][/color]: ¿Qué quieres ahora?
 
 - Vengo a darte las noticias
-	set Global.dia2_hablar_ = true
+	set Global.dia2_halbar_esceptico = true
 	[color=#A0A0A0][b]Alexei[/b][/color]: ¿Te recuerdo que ya te dije que me da igual lo que me traigas?
 	[color=#89C2FF][b]Yo[/b][/color]: Es mi trabajo.
 	[color=#A0A0A0][b]Alexei[/b][/color]: Sí, sí… tus periódicos sirven para encender la chimenea. Anda, suelta. ¿Qué pasa esta vez?
