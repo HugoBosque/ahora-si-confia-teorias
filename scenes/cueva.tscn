@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://cuo6oyeb6bk34"]
+[gd_scene load_steps=15 format=3 uid="uid://cuo6oyeb6bk34"]
 
 [ext_resource type="Script" uid="uid://b3yy4amxsmhs5" path="res://scripts/cueva.gd" id="1_a7ssg"]
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="1_fd7kk"]
@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="7_8k4hb"]
 [ext_resource type="PackedScene" uid="uid://c8rsh5stwncou" path="res://scenes/cartel.tscn" id="8_myud8"]
 [ext_resource type="AudioStream" uid="uid://c7vuca48f72i0" path="res://AUDIO JUEGO/Cueva_1.ogg" id="10_w8t8a"]
+[ext_resource type="PackedScene" uid="uid://cqp7ku0jid2n1" path="res://scenes/jumpscare.tscn" id="12_tgvhm"]
 
 [sub_resource type="Environment" id="Environment_y48d1"]
 
@@ -33,10 +34,10 @@ layer_0/tile_data = PackedInt32Array(-1048565, 262147, 84, -1048564, 393219, 84,
 position = Vector2(200, -241)
 
 [node name="Player" parent="." instance=ExtResource("4_6ehaf")]
-position = Vector2(504, 609)
+position = Vector2(504, 613)
 
 [node name="CanvasModulate" type="CanvasModulate" parent="Player"]
-color = Color(0.0142752165, 0.014275218, 0.014275218, 1)
+color = Color(0, 0, 0, 1)
 
 [node name="PointLight2D" type="PointLight2D" parent="Player"]
 position = Vector2(3.637979e-12, -29)
@@ -177,5 +178,23 @@ stream = ExtResource("10_w8t8a")
 volume_db = -11.0
 autoplay = true
 parameters/looping = true
+
+[node name="Jumpscare" parent="." instance=ExtResource("12_tgvhm")]
+position = Vector2(469, -1148)
+
+[node name="Jumpscare2" parent="." instance=ExtResource("12_tgvhm")]
+position = Vector2(-64, -853)
+
+[node name="Jumpscare3" parent="." instance=ExtResource("12_tgvhm")]
+position = Vector2(-237, -495)
+
+[node name="Jumpscare4" parent="." instance=ExtResource("12_tgvhm")]
+position = Vector2(-491, -1205)
+
+[node name="Jumpscare5" parent="." instance=ExtResource("12_tgvhm")]
+position = Vector2(18, -1377)
+
+[node name="Jumpscare6" parent="." instance=ExtResource("12_tgvhm")]
+position = Vector2(366, -778)
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
