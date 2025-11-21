@@ -16,16 +16,19 @@ const ESCEPTICO_DIA_6_2 = preload("uid://02kyeg0avacm")
 const ESCEPTICO_DIA_7_1 = preload("uid://bckkqwxn7ktj5")
 const ESCEPTICO_DIA_7_2 = preload("uid://c483t8mwvj478")
 
-
-
 var player_close: bool = false
 
-
 func _ready() -> void:
+	# OCULTAR TODO EL PERSONAJE AL INICIO
+	self.visible = false
+	
 	DialogueManager.dialogue_started.connect(_on_dialogue_started)
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
-	
-	
+
+
+# ------------------------------------------------------
+# 🔥 NO TOCO NADA DEL PROCESS (TAL COMO PEDISTE)
+# ------------------------------------------------------
 func _process(delta):
 	if player_close and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active:
 		if GameManager.dia == 1:
@@ -65,16 +68,17 @@ func _process(delta):
 				DialogueManager.show_dialogue_balloon(ESCEPTICO_DIA_7_2, "start")
 
 
-		
-		
-		
+# ------------------------------------------------------
+# 🔥 SOLO MOSTRAR CUANDO EL JUGADOR ENTRE EN EL ÁREA
+# ------------------------------------------------------
 func _on_area_entered(area):
-	sprite_2d.visible = true
+	self.visible = true
 	player_close = true
 
 func _on_area_exited(area):
-	sprite_2d.visible = false
+	self.visible = false
 	player_close = false
+
 
 func _on_dialogue_started(dialogue):
 	GameManager.is_dialogue_active = true

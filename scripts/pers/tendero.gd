@@ -24,6 +24,7 @@ const TENDERO_DIA_7_2 = preload("uid://wts1krlrm3qi")
 var player_close: bool = false
 
 func _ready() -> void:
+	sprite_2d.visible = false
 	DialogueManager.dialogue_started.connect(_on_dialogue_started)
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 	

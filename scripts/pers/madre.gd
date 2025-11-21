@@ -25,6 +25,7 @@ var player_close: bool = false
 
 
 func _ready() -> void:
+	sprite_2d.visible = false
 	DialogueManager.dialogue_started.connect(_on_dialogue_started)
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 	

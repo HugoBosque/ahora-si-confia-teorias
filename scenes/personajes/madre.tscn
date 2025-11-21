@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://b0rf8rc1dhnu1"]
 
-[ext_resource type="Script" uid="uid://b7svktnh3c61n" path="res://scripts/madre.gd" id="1_oh5cb"]
+[ext_resource type="Script" uid="uid://b7svktnh3c61n" path="res://scripts/pers/madre.gd" id="1_oh5cb"]
 [ext_resource type="Texture2D" uid="uid://bufhcavtok6uc" path="res://imagenes/Personajes/lamadre/standard/walk.png" id="1_su488"]
 [ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="2_nvpla"]
 

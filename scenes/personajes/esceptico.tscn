@@ -1,7 +1,7 @@
 [gd_scene load_steps=16 format=3 uid="uid://sktvsy6v4s2r"]
 
 [ext_resource type="Texture2D" uid="uid://cwka73lvp661" path="res://imagenes/Personajes/Esceptico/standard/walk.png" id="1_6g02j"]
-[ext_resource type="Script" uid="uid://ohi21gymjo1x" path="res://scripts/esceptico.gd" id="1_cgpab"]
+[ext_resource type="Script" uid="uid://ohi21gymjo1x" path="res://scripts/pers/esceptico.gd" id="1_cgpab"]
 [ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="3_wnlm7"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wnlm7"]
