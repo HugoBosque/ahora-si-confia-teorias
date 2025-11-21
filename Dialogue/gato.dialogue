@@ -1,4 +1,15 @@
 ~ start
-[b]GAto[/b]: Meoowwww...
+[b]Gato[/b]: Meoow…
+
+[color=#89C2FF][b]Yo[/b][/color]: ¿Ese ruido…? ¿Era un gato? [speed=0.6]Los ruidos que decia el minero era de este pequeño animal...
+
+[b]Gato[/b]: Meeew…
+
+[color=#89C2FF][b]Yo[/b][/color]: Eh, tranquilo, pequeño… ¿qué haces aquí metido?
+
+[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Qué llevas colgado? Así que tu dueña es Baba Nina, ¿eh? 
+ 
+[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]Vale, no te preocupes. Vamos a sacarte de aquí.
+
 set Global.hablar_gato = true
 => END
