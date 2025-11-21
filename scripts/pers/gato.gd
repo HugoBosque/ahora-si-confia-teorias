@@ -8,8 +8,8 @@ const GATO = preload("uid://cdb2neyc8mx1d")
 var player_close: bool = false
 
 func _ready() -> void:
-	# EL GATO SOLO EXISTE EN EL DÍA 3
-	if GameManager.dia != 3:
+	
+	if GameManager.dia < 3:
 		_hide_cat_completely()
 		return
 	
@@ -45,7 +45,7 @@ func _on_dialogue_ended(dialogue):
 	GameManager.is_dialogue_active = false
 
 	# SI ES DÍA 3, EL GATO DESAPARECE TRAS EL DIÁLOGO
-	if GameManager.dia == 3:
+	if GameManager.dia >= 3:
 		_hide_cat_completely()
 
 
