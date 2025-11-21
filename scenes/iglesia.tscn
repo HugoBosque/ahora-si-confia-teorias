@@ -28,7 +28,7 @@ layer_0/tile_data = PackedInt32Array(327690, 1572879, 12, 393226, 1572879, 13, 4
 position = Vector2(569, 90)
 
 [node name="Player" parent="." instance=ExtResource("3_s8sp2")]
-position = Vector2(576, 547)
+position = Vector2(576, 566)
 
 [node name="Area2D" type="Area2D" parent="."]
 script = ExtResource("4_uflug")
@@ -43,5 +43,6 @@ shape = SubResource("RectangleShape2D_it0j6")
 position = Vector2(366, 317)
 
 [node name="menustop" parent="." instance=ExtResource("9_pyn17")]
+visible = false
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
