@@ -4,6 +4,10 @@ extends CanvasLayer
 @onready var salir_button: Button = $Salir
 @onready var silenciar: Button = $Silenciar
 
+# Iconos del botón silenciar
+@onready var icon_volume_on = preload("res://imagenes/audio unmuted.png")
+@onready var icon_volume_muted = preload("res://imagenes/audio muted blanco.png")
+
 var is_paused: bool = false
 var music_muted: bool = false  # Estado del muteo
 
@@ -16,6 +20,13 @@ func _ready():
 	salir_button.pressed.connect(_on_salir_pressed)
 	silenciar.pressed.connect(_on_silenciar_pressed)
 
+	# Icono inicial
+	silenciar.icon = icon_volume_on
+
+
+# ------------------------------------------------
+#                PAUSA / RESUME
+# ------------------------------------------------
 func toggle_pause_menu():
 	if is_paused:
 		_resume_game()
@@ -43,26 +54,30 @@ func _on_salir_pressed():
 	get_tree().change_scene_to_file("res://scenes/menu.tscn")
 
 
-# ---------------------------------------
-#        🎵 SILENCIAR TODA LA MÚSICA
-# ---------------------------------------
+# ------------------------------------------------
+#        🎵 SILENCIAR TODA LA MÚSICA + ICONO
+# ------------------------------------------------
 func _on_silenciar_pressed():
-	music_muted = !music_muted  # Alternar estado
+	music_muted = !music_muted  # Cambiar estado
 
-	# Buscar todos los AudioStreamPlayer del juego (primer uso)
+	# Cambiar icono del botón
+	silenciar.icon = icon_volume_muted if music_muted else icon_volume_on
+
+	# Buscar todos los AudioStreamPlayer del juego (si es la primera vez)
 	var all_audio = get_tree().get_nodes_in_group("_all_audio_scan_")
 	if all_audio.is_empty():
 		_register_all_audio_players()
 		all_audio = get_tree().get_nodes_in_group("_all_audio_scan_")
 
-	# Mutear / Activar todos
+	# Mutear / Activar todos los AudioStreamPlayer
 	for node in all_audio:
 		if node is AudioStreamPlayer:
 			node.stream_paused = music_muted
 
-# ---------------------------------------
-#   🔍  REGISTRA TODOS LOS AUDIOS DEL JUEGO
-# ---------------------------------------
+
+# ------------------------------------------------
+#   🔍 Registrar todos los audios del juego
+# ------------------------------------------------
 func _register_all_audio_players():
 	var root = get_tree().root
 	_scan_audio_nodes(root)

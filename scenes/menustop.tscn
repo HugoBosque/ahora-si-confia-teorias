@@ -4,7 +4,7 @@
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="2_6ohs8"]
 [ext_resource type="Shader" uid="uid://bgid61m8m1364" path="res://scenes/menustop.gdshader" id="2_n3fps"]
 [ext_resource type="Script" uid="uid://bfbwk6ge36xrm" path="res://scenes/volumen.gd" id="3_0du5q"]
-[ext_resource type="Texture2D" uid="uid://den6uuxcl8gjh" path="res://imagenes/audio muted blanco.png" id="4_n3fps"]
+[ext_resource type="Texture2D" uid="uid://bu1n4qcmdfe01" path="res://imagenes/audio unmuted.png" id="4_n3fps"]
 [ext_resource type="Script" uid="uid://daii2sp7axews" path="res://scenes/controles.gd" id="5_nw7rj"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_0uwfq"]
@@ -126,7 +126,7 @@ offset_bottom = 152.0
 theme_override_fonts/font = ExtResource("2_6ohs8")
 theme_override_font_sizes/font_size = 24
 text = "W/A/S/D → Mover personaje
-Espacio / Enter →Interactuar
+Espacio / Enter → Interactuar
 Click izquierdo → Avanzar diálogos"
 horizontal_alignment = 1
 
