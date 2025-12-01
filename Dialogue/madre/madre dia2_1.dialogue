@@ -1,30 +1,28 @@
 ~ start
-Svetlana: [speed=0.6]¿Puedo ayudarte en algo?
+[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Puedo ayudarte en algo?
 - Vengo a darte las noticias
 	set Global.dia2_hablar_madre = true
-	Svetlana: [speed=0.6]Te lo agradezco mucho.
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Te lo agradezco mucho.
 
 	- “Algunos animales salvajes fueron vistos cerca del bosque”
-		set GameManager.preocupacion_madre += 34
-		Svetlana: [speed=0.6]¿Animales por aquí? Qué raro, ¿no? No creo que se acerquen al pueblo... ¿verdad?
-		- No te preocupes, seguro que no pasa nada.
-		Svetlana: [speed=0.6]Eso espero... Con los niños, cualquier ruido me asusta.
+		set GameManager.preocupacion_madre += 30
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Animales por aquí? Qué raro, ¿no? No creo que se acerquen al pueblo... ¿verdad?
+		[color=#89C2FF][b]Yo[/b][/color]: No te preocupes, seguro que no pasa nada.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Eso espero... Con los niños, cualquier ruido me asusta.
 
 	- “Pequeñas fluctuaciones eléctricas en la zona industrial”
-		Svetlana: [speed=0.6]¿Fluctuaciones eléctricas? No entiendo mucho de eso, pero suena peligroso.
-		- Tranquila, señora, los técnicos ya están trabajando en ello.
-		Svetlana: [speed=0.6]Menos mal... No quiero que mis hijos pasen miedo si se va la luz.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Fluctuaciones eléctricas? No entiendo mucho de eso, pero suena peligroso.
+		[color=#89C2FF][b]Yo[/b][/color]: Tranquila, señora, los técnicos ya están trabajando en ello.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Menos mal... No quiero que mis hijos pasen miedo si se va la luz.
 
 	- “Medidas de mantenimiento industrial”
-		Svetlana: [speed=0.6]Ah, entonces todo está bajo control. Gracias por avisarme, me dejas más tranquila.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Ah, entonces todo está bajo control. Gracias por avisarme, me dejas más tranquila.
 
 - Venía a hablar contigo
-	Svetlana: ¿Hay algún problema? ¿Ha pasado algo?
-	- De hecho, no. Todo está bien.
-		Svetlana: [speed=0.6]Gracias a Dios.
+	[color=#F9E07F][b]Svetlana[/b][/color]: ¿Hay algún problema? ¿Ha pasado algo?
 	
-	- No, pero me gustaría preguntarle por su situación. ¿Cómo está?
-		Svetlana: [speed=0.6]La verdad es que estoy en una situación difícil. Mi querido marido se ha ido a luchar al frente por nuestro país y, bueno... [wait=0.5] yo estoy aquí con mis dos hijos.
+	- De hecho, no. Todo está bien.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias a Dios.
 
 
 => END
