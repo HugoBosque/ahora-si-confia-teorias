@@ -1,11 +1,9 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Puedo ayudarte en algo?
+- Venía a hablar contigo
+	[color=#F9E07F][b]Svetlana[/b][/color]: Hablar siempre es bueno.
+	- ¿Sigues hechando de menos a tu marido?
+		[color=#F9E07F][b]Svetlana[/b][/color]: Cada día. Pero hoy… hoy el silencio pesa más.  
+	- De hecho, no. Todo está bien.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias por pasarte.
 => END

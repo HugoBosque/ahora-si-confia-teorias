@@ -1,5 +1,4 @@
 
-
 ~ start
 [color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Puedo ayudarte en algo?
 - Vengo a darte las noticias
@@ -17,6 +16,11 @@
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Ah… bueno, eso suena a algo bueno por fin. Quizá… quizá sea una señal de que las cosas pueden mejorar un poco.
 
 - Venía a hablar contigo
+	[color=#F9E07F][b]Svetlana[/b][/color]: Hablar siempre es bueno.
+	- ¿Sigues hechando de menos a tu marido?
+		[color=#F9E07F][b]Svetlana[/b][/color]: Cada día. Pero hoy… hoy el silencio pesa más.  
+	- De hecho, no. Todo está bien.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias por pasarte.
 	
 
 => END

@@ -1,23 +1,28 @@
 ~ start
-Romanov Morozov: [speed=0.6]Buenas.
+[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6]Buenas.
 - Vengo a darte las noticias
 	set Global.dia2_hablar_viudo = true
-	Romanov Morozov: [speed=0.6]Gracias.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]:  [speed=0.6]Gracias.
 	
 
-	- Algunos animales salvajes fueron vistos cerca del bosque
+	- "Algunos animales salvajes fueron vistos cerca del bosque"
 		
-		Romanov Morozov: [speed=0.6] Respuesta.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6] Espero que no molesten mucho, no querría que les pasase nada.
 		
 		
-	- Pequeñas fluctuaciones eléctricas en la zona industrial
+	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
 		set GameManager.preocupacion_viudo += 10
-		Romanov Morozov: [speed=0.6] Respuesta.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6]Típico. Todo se cae a pedazos y nadie hace nada. Pero ya estoy acostumbrado.
 		
 		
-	- Medidas de mantenimiento industrial
+	- "Medidas de mantenimiento industrial"
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6] A veces hasta se preocupan por nosotros.
+- Venía a hablar contigo
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Claro. Nunca me niego a una conversación… mientras no sea ruido inútil.
+	[color=#89C2FF][b]Yo[/b][/color]: A diferencia de otras personas, te ves muy tranquilo.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No me gustan los problemas. Pero si algún día hay una disputa… no creas que me quedaré atrás.
 
-		Romanov Morozov: [speed=0.6] Respuesta.
+
 		
 
 

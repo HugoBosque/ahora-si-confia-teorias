@@ -1,7 +1,8 @@
 ~ start
-[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Oh, no te había oído entrar.
-[color=#89C2FF][b]Yo[/b][/color]: ¿Estás bien? Puedo venir en otro momento si es necesario.
-[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]No te preocupes… sólo rezo por mi querido. Dime lo que me tengas que decir.
+[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Oh, hola.
+[color=#89C2FF][b]Yo[/b][/color]: Hola, buenas.
+[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias a Dios que estás aquí.
+
 
 - Vengo a darte las noticias
 	set Global.dia1_hablar_madre = true

@@ -11,6 +11,7 @@
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Eso espero... Con los niños, cualquier ruido me asusta.
 
 	- “Pequeñas fluctuaciones eléctricas en la zona industrial”
+		set GameManager.preocupacion_madre += 15
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Fluctuaciones eléctricas? No entiendo mucho de eso, pero suena peligroso.
 		[color=#89C2FF][b]Yo[/b][/color]: Tranquila, señora, los técnicos ya están trabajando en ello.
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Menos mal... No quiero que mis hijos pasen miedo si se va la luz.
@@ -19,10 +20,11 @@
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Ah, entonces todo está bajo control. Gracias por avisarme, me dejas más tranquila.
 
 - Venía a hablar contigo
-	[color=#F9E07F][b]Svetlana[/b][/color]: ¿Hay algún problema? ¿Ha pasado algo?
-	
+	[color=#F9E07F][b]Svetlana[/b][/color]: Hablar siempre es bueno.
+	- ¿Sigues hechando de menos a tu marido?
+		[color=#F9E07F][b]Svetlana[/b][/color]: Cada día. Pero hoy… hoy el silencio pesa más.  
 	- De hecho, no. Todo está bien.
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias a Dios.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias por pasarte.
 
 
 => END
