@@ -2,28 +2,27 @@
 [color=#fe7a1b][b]Iván Petrovich[/b][/color]: ¡Tú de nuevo! [speed=0.7] ¿Has dormido bien?
 if Global.dia2_madre_noticia1:
 	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: He oído que Svetlana está preocupada... 
-	- Vengo a darte las noticias
-		set Global.dia2_hablar_tendero = true
-		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Adelante, adelante… ¡que me muero de curiosidad!
+elif not Global.dia2_madre_noticia1:
+	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: [speed=10]¡Tú de nuevo! ¿Has dormido bien?
+- Vengo a darte las noticias
+	set Global.dia2_hablar_tendero = true
+	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Adelante, adelante… ¡que me muero de curiosidad!
 	
-		- Algunos animales salvajes fueron vistos cerca del bosque
-			set GameManager.preocupacion_tendero += 10
-			Padre Zhukov: Los animales son guiados por Dios, se alejan del reino del hombre, un reino corrupto.
+	- Algunos animales salvajes fueron vistos cerca del bosque
+		set GameManager.preocupacion_tendero += 10
+		Padre Zhukov: Los animales son guiados por Dios, se alejan del reino del hombre, un reino corrupto.		
+		
+	- Pequeñas fluctuaciones eléctricas en la zona industrial
+		Padre Zhukov: Esas cosas pueden ser peligrosas, por suerte, aquí estamos todos seguros.
 		
 		
-		- Pequeñas fluctuaciones eléctricas en la zona industrial
+	- Medidas de mantenimiento industrial
 
-			Padre Zhukov: Esas cosas pueden ser peligrosas, por suerte, aquí estamos todos seguros.
-		
-		
-		- Medidas de mantenimiento industrial
-
-			Padre Zhukov: Nuestro país inverte siempre en majora, tenemos que estar agradecidos.
-
-	- Venia a hablar contigo
-		Padre Zhukov: Dime hijo, ¿qué te preocupa?
-		- ¿Cree que todo el pueblo está bien?
-			Padre Zhukov: Hay de todo un poco, algunos estamos más cerca de Dios y otros.. no tanto.
-		- Ejemplo dialog
-			Padre Zhukov: Victor gay
+		Padre Zhukov: Nuestro país inverte siempre en majora, tenemos que estar agradecidos.
+- Venia a hablar contigo
+	Padre Zhukov: Dime hijo, ¿qué te preocupa?
+	- ¿Cree que todo el pueblo está bien?
+		Padre Zhukov: Hay de todo un poco, algunos estamos más cerca de Dios y otros.. no tanto.
+	- Ejemplo dialog
+		Padre Zhukov: Victor gay
 => END
