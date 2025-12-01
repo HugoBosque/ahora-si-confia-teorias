@@ -1,11 +1,15 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Dime.
+- ¿Pasa algo nuevo por aquí?
+    [color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Sí, algo hay. Los materiales de la mina empiezan a escasear.
+    [color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Escasear? ¿Qué se está acabando?
+    [color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Un poco de todo… pólvora, mechas, soportes, picos. Nada grave por ahora, pero empieza a notarse.
+    [color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Es por retrasos o por uso?
+    [color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Supongo que ambas cosas. La mina lleva semanas trabajando al límite y los suministros no llegan tan rápido como antes.
+    [color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Y eso afecta mucho al trabajo?
+    [color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Nos ralentiza, sí. Y la gente se pone nerviosa cuando ve que las estanterías se van vaciando.
+    [color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]Si puedo ayudar de alguna forma, dímelo.
+    [color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Agradezco que lo digas. Solo avísame si ves o escuchas que los envíos vuelven a retrasarse. Con eso ya me haces un favor.
+    [color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]Hecho.
+    [color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Gracias. A veces solo con estar pendiente ya se alivian las cosas.
 => END

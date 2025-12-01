@@ -1,28 +1,28 @@
 ~ start
-Yerik: [speed=0.5]Ya estás aquí otra vez. A ver… ¿Qué toca hoy?
+[color=#90580d][b]Yerik[/b][/color]: [speed=0.5]Ya estás aquí otra vez. A ver... ¿Qué toca hoy?
 - Buenas, vengo a traerte las noticias.
 	set Global.dia3_hablar_yerik = true
-	Yerik: ¿Qué traes hoy?
+	[color=#90580d][b]Yerik[/b][/color]: ¿Qué traes hoy?
 	- "Vecinos reportan un olor extraño en el aire"
 		set GameManager.preocupacion_yerik += 20
-		Yerik: [speed=0.6]¿Olor extraño? Hmmm… eso nunca es buena señal. Cuando el aire huele “raro”, suele significar que algo se está moviendo bajo tierra.
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]¿Olor extraño? Hmmm... eso nunca es buena señal. Cuando el aire huele “raro”, suele significar que algo se está moviendo bajo tierra.
 	- "Se recomienda ventilar las casas durante el día"
 		set GameManager.preocupacion_yerik += 0
-		Yerik: [speed=0.6]Mejor abrir ventanas un rato que acabar tosiendo toda la semana.
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Mejor abrir ventanas un rato que acabar tosiendo toda la semana.
 	- "Autoridades investigan posibles fugas de gas en la región"
 		set GameManager.preocupacion_yerik += 30
-		Yerik: [speed=0.6]¿Fugas de gas? Eso sí es serio. Si es como el de los tuneles habrá que quedarse en casa.
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]¿Fugas de gas? Eso sí es serio. Si es como el de los túneles habrá que quedarse en casa.
 		
 - Sobre los ruidos de la cueva. ¿Ha pasado algo más?
-	Yerik: [speed=0.6]Sí. Anoche cerca de marchar volvieron a escucharse… más cerca esta vez.
-	Yo: [speed=0.6]¿Tienes alguna idea de qué puede ser?
-	Yerik: [speed=0.6]Tengo ideas… pero ninguna buena. Solo sé que no viene de las galerías principales. Los sonidos salen de la parte vieja, la zona que dejamos sin explorar.
-	Yo: [speed=0.6]¿Y por qué nadie baja allí?
-	Yerik: [speed=0.6]Porque nadie tiene ganas de encontrarse con… lo que sea que esté haciendo ese ruido. Además, está sin equipar, sin luces, sin mapas. Es un laberinto.
-	Yo: [speed=0.6]Entonces, ¿qué propones? 
-	Yerik: [speed=0.6]No propongo nada. Pero si realmente quieres saber qué hay ahí abajo…
-	Yo: Suena a que quieres que vaya yo.
-	Yerik: No... Pero si tanta curiosidad tienes, la encontrarás siguiendo un camino por el bosque. 
-	Yo: No sé si bajaré a mirar… pero tranquilo, no te estaré dando la lata con esto más. 
-	Yerik: No eres molesto. Solo ten cuidado si decides acercarte… La cueva no perdona despistes.
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Sí. Anoche cerca de marchar volvieron a escucharse… más cerca esta vez.
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Tienes alguna idea de qué puede ser?
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Tengo ideas... pero ninguna buena. Solo sé que no viene de las galerías principales. Los sonidos salen de la parte vieja, la zona que dejamos sin explorar.
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Y por qué nadie baja allí?
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Porque nadie tiene ganas de encontrarse con… lo que sea que esté haciendo ese ruido. Además, está sin equipar, sin luces, sin mapas. Es un laberinto.
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]Entonces, ¿qué propones? 
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]No propongo nada. Pero si realmente quieres saber qué hay ahí abajo...
+	[color=#89C2FF][b]Yo[/b][/color]: Suena a que quieres que vaya yo.
+	[color=#90580d][b]Yerik[/b][/color]: No... Pero si tanta curiosidad tienes, la encontrarás siguiendo un camino por el bosque. 
+	[color=#89C2FF][b]Yo[/b][/color]: No sé si bajaré a mirar… pero tranquilo, no te estaré dando la lata con esto más. 
+	[color=#90580d][b]Yerik[/b][/color]: No eres molesto. Solo ten cuidado si decides acercarte… la cueva no perdona despistes.
 => END
