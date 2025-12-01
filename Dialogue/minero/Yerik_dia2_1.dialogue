@@ -1,24 +1,24 @@
 ~ start
-Yerik: [speed=0.5] Buenas ¿Qué te cuéntas hoy?
+[color=#90580d][b]Yerik[/b][/color]: [speed=0.5] Buenas. ¿Qué te cuéntas hoy?
 - Buenas, vengo a traerte las noticias.
 	set Global.dia2_hablar_yerik = true
-	Yerik: ¿Qué traes hoy?
+	[color=#90580d][b]Yerik[/b][/color]: ¿Qué traes hoy?
 	- "Algunos animales salvajes fueron vistos cerca del bosque"
 		set GameManager.preocupacion_yerik += 10
-		Yerik: [speed=0.6]¿Animales? Genial… lo que nos faltaba. Si se acercan más al pueblo, tocará cerrar caminos.
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]¿Animales? Genial… lo que nos faltaba. Si se acercan más al pueblo, tocará cerrar caminos.
 	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
-		set GameManager.preocupacion_yerik += 10
-		Yerik: [speed=0.6]Ajá… así que la corriente vuelve a fallar. Si afecta a los compresores, tendremos un problema serio ahí abajo. 
+		set GameManager.preocupacion_yerik += 15
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Ajá… así que la corriente vuelve a fallar. Si afecta a los compresores, tendremos un problema serio ahí abajo.
 	- "Se han anunciado nuevas medidas de mantenimiento industrial"
-		set GameManager.preocupacion_yerik += 0
-		Yerik: [speed=0.6]¿Mantenimiento? Ya era hora. En la cueva todo chirría más que mis rodillas.
+		set GameManager.preocupacion_yerik += -5
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]¿Mantenimiento? Ya era hora. En la cueva todo chirría más que mis rodillas.
 		
 - ¿Sabes algo de los ruidos de la cueva?
-	Yerik: [speed=0.6]¿Los ruidos? Sí… los escuché otra vez esta mañana.
-	Yo: [speed=0.6]¿Y...? ¿Alguna idea de qué pueden ser?
-	Yerik: [speed=0.6]No. Pero no parece maquinaria, eso seguro. Tampoco es viento… ahí abajo no corre ni un soplido. 
-	Yo: [speed=0.6]¿Te preocupa?
-	Yerik: [speed=0.6]No es que me preocupe, pero no me gusta. La mina es ruidosa, sí, pero esta vez... Es algo distinto. Si lo descubro, te lo diré. Pero por ahora… solo son ruidos. Y prefiero que sigan siendo solo eso.
-	Yo: [speed=0.6]Vale, gracias. Solo quería saber si había algo nuevo. 
-	
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]¿Los ruidos? Sí… los escuché otra vez esta mañana.
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Y...? ¿Alguna idea de qué pueden ser?
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]No. Pero no parece maquinaria, eso seguro. Tampoco es viento… ahí abajo no corre ni un soplido.
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Te preocupa?
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]No es que me preocupe, pero no me gusta. La mina es ruidosa, sí, pero esta vez... Es algo distinto. Si lo descubro, te lo diré. Pero por ahora… solo son ruidos. Y prefiero que sigan siendo solo eso.
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]Vale, gracias. Solo quería saber si había algo nuevo.
+
 => END
