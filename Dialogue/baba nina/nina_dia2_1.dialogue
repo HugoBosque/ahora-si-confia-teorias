@@ -1,21 +1,43 @@
 ~ start
-[color=#C47FFF][b]Baba Nina[/b][/color]: 
+[color=#C47FFF][b]Baba Nina[/b][/color]: Has vuelto… Las sombras ya me lo habían susurrado.
+[color=#89C2FF][b]Yo[/b][/color]: Ya... ¿Todo bien?
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]No, muchacho… esta vez no.
+
+[color=#89C2FF][b]Yo[/b][/color]: ¿Ha pasado algo?
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Mi pequeño Mishka… mi gato… ha desaparecido.
+
+[color=#89C2FF][b]Yo[/b][/color]: ¿Tu gato?
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Sí. Esta mañana he intentado seguirle la pista, pero con tanta nieve no he podido seguir mucho.
+[color=#89C2FF][b]Yo[/b][/color]: ¿Y no tienes idea de hacia dónde podría haber ido?
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Sinceramente no sé, ese gato siempre ha tenido más curiosidad que sentido común.
+[color=#C47FFF][b]Baba Nina[/b][/color]: Igualmente, dime, muchacho… ¿qué hilo del destino te ha traído hoy hasta mí?
+
+
 - Vengo a darte las noticias
-	set Global.dia2_hablar_viudo = true
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]:  [speed=0.6]Gracias.
+	set Global.dia2_hablar_nina = true
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Claro, muchacho… dime qué susurros viajan hoy entre los vivos.
 	
 
 	- "Algunos animales salvajes fueron vistos cerca del bosque"
 		
-		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6] Espero que no molesten mucho, no querría que les pasase nada.
-		
-		
-	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
-		set GameManager.preocupacion_viudo += 10
-		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6]Típico. Todo se cae a pedazos y nadie hace nada. Pero ya estoy acostumbrado.
-		
-		
-	- "Medidas de mantenimiento industrial"
-		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6] A veces hasta se preocupan por nosotros.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Lo presentía… los animales sienten lo que nosotros ignoramos.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Seguro que mi Mishka ha detectado alguna señal que nosotros no[speed=0.2]...
 
+	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Las máquinas también tiemblan, igual que las almas.  
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Cuando la luz titubea… algo intenta hablar desde la oscuridad.
+
+	- "Medidas de mantenimiento industrial"
+		 [color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Ah… parches humanos para males más profundos.  
+		 [color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Los corazones más débiles se sentirán seguros… incluso si es solo una mentira más.
+- Venía a hablar contigo
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]¿Qué solicita tu alma esta vez?
+	- Te noto más inquieta que de costumbre.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]El pueblo cambia. El aire pesa.  
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Las personas hablan en voz baja, y las sombras… en voz alta.  
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Algo se acerca, muchacho. Algo que no entiende de banderas ni de noticias.
+
+	- Solo quería saludarte.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Qué amable… Pocos vienen sin pedir nada.  
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]A veces un saludo sincero lleva más luz que una lámpara.
 => END

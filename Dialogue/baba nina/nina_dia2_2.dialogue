@@ -1,6 +1,14 @@
 ~ start
-nina: hola
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]¿Qué solicita tu alma esta vez?
+- Venía a hablar contigo
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Adelante, libera tus pensamientos.
+	- Te noto más inquieta que de costumbre.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]El pueblo cambia. El aire pesa.  
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Las personas hablan en voz baja, y las sombras… en voz alta.  
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Algo se acerca, muchacho. Algo que no entiende de banderas ni de noticias.
 
-- demas
+	- Solo quería saludarte.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Qué amable… Pocos vienen sin pedir nada.  
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]A veces un saludo sincero lleva más luz que una lámpara.
 
 => END
