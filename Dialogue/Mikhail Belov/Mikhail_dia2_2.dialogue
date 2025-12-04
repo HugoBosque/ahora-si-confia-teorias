@@ -1,6 +1,21 @@
 ~ start
-mikhail: hola
+[color=#9DE841][b]Mikhail Belov[/b][/color]: Claro, ¿qué quieres?
+- Venía a hablar contigo
+	[color=#9DE841][b]Mikhail Belov[/b][/color]: ¿Hablar? Claro, pero rápido… tengo que volver al trabajo.
 
-- demas
+	- ¿Cómo van tus cultivos?
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Como siempre: luchando contra el frío, contra el suelo duro… y contra la vida.
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Pero saldrán adelante. Siempre lo hacen.
+
+	- Pareces cansado.
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Porque lo estoy. El campo no espera a nadie.
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Pero mejor cansado que muerto, ¿eh?
+
+	- ¿Te preocupa algo del pueblo?
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]La gente está rara… más nerviosa de lo habitual.
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]No sé si son las noticias, el frío o algún mal presagio… pero algo flota en el aire.
+
+	- Solo quería saludar.
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Eso es amable. La mayoría solo viene a pedirme cosas.
 
 => END

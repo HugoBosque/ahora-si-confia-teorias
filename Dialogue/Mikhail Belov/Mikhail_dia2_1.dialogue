@@ -1,17 +1,44 @@
 ~ start
-mikhail: hola
-- noticias
-	set Global.dia1_hablar_mikhail = true
-	mikhail: si
-	- "noticia1"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-	- "noticia2"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-	- "noticia3"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-- demas
+
+[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Ah, eres tú. Pensaba que sería algún cliente perdido.
+[color=#89C2FF][b]Yo[/b][/color]: Solo traigo información.
+[color=#9DE841][b]Mikhail Belov[/b][/color]: Está bien… mientras no sea otra desgracia.
+
+
+- Vengo a darte las noticias
+	set Global.dia2_hablar_mikhail = true
+	[color=#9DE841][b]Mikhail Belov[/b][/color]: A ver… dime qué pasa ahora.
+
+	- "Algunos animales salvajes fueron vistos cerca del bosque"
+		
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]¿Animales, dices? Eso sí me preocupa. Mis cultivos están cerca del límite del bosque…
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Espero que no vengan hambrientos. Ya tengo suficiente trabajo.
+
+	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
+		
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Eso… bueno, mientras no afecte a mis herramientas, no es mi problema.
+		
+	- "Medidas de mantenimiento industrial"
+		
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Por fin una noticia que no me da dolor de cabeza.  
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Si la fábrica funciona bien, al menos habrá suministros.
+
+- Venía a hablar contigo
+	[color=#9DE841][b]Mikhail Belov[/b][/color]: ¿Hablar? Claro, pero rápido… tengo que volver al trabajo.
+
+	- ¿Cómo van tus cultivos?
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Como siempre: luchando contra el frío, contra el suelo duro… y contra la vida.
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Pero saldrán adelante. Siempre lo hacen.
+
+	- Pareces cansado.
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Porque lo estoy. El campo no espera a nadie.
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Pero mejor cansado que muerto, ¿eh?
+
+	- ¿Te preocupa algo del pueblo?
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]La gente está rara… más nerviosa de lo habitual.
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]No sé si son las noticias, el frío o algún mal presagio… pero algo flota en el aire.
+
+	- Solo quería saludar.
+		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Eso es amable. La mayoría solo viene a pedirme cosas.
 
 => END

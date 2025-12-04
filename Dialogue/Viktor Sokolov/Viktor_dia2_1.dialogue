@@ -1,17 +1,28 @@
 ~ start
-viktor: hola
-- noticias
-	set Global.dia2_hablar_Viktor = true
-	viktor: si
-	- "noticia1"
-		set GameManager.preocupacion_viktor +=20
-		viktor: si
-	- "noticia2"
-		set GameManager.preocupacion_viktor +=20
-		viktor: si
-	- "noticia3"
-		set GameManager.preocupacion_viktor +=20
-		viktor: si
-- demas
+
+[color=#1451d4][b]Viktor Sokolov[/b][/color]: Buen día.  
+[color=#89C2FF][b]Yo[/b][/color]: Buenas, Viktor.  
+[color=#1451d4][b]Viktor Sokolov[/b][/color]: ¿Vienes a molestar o a hacer tu trabajo?
+
+- Vengo a darte las noticias  
+	set Global.dia2_hablar_Viktor = true  
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Prosigue.
+
+	- "Algunos animales salvajes fueron vistos cerca del bosque"  
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Los animales no se acercan sin motivo, algo pasa…  
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Oye, chico, no te acerques demasiado al bosque. No me gustaría que te pasara nada malo…
+
+	- "Pequeñas fluctuaciones eléctricas en la zona industrial"  
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Ya lo esperaba. Las irregularidades técnicas no son solo técnicas.  
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Tomo nota, veré qué puedo hacer.
+
+	- "Medidas de mantenimiento industrial"  
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Mantenimiento dicen… Los mayores desastres son provocados con palabras.
+
+- Venía a hablar contigo  
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: ¿Hablar? Supongo que puedo permitirme unos minutos.  
+	[color=#89C2FF][b]Yo[/b][/color]: Te veo más tenso que ayer.  
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: No es tensión. Es… atención. Algo en este pueblo no encaja.  
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Y cuando algo no encaja, alguien intenta que no lo veas.
 
 => END
