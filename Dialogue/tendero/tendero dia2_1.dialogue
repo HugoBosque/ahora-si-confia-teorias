@@ -6,23 +6,35 @@ elif not Global.dia2_madre_noticia1:
 	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: [speed=10]¡Tú de nuevo! ¿Has dormido bien?
 - Vengo a darte las noticias
 	set Global.dia2_hablar_tendero = true
-	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Adelante, adelante… ¡que me muero de curiosidad!
+	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Mi momento favorito del día.
 	
-	- Algunos animales salvajes fueron vistos cerca del bosque
-		set GameManager.preocupacion_tendero += 10
-		Padre Zhukov: Los animales son guiados por Dios, se alejan del reino del hombre, un reino corrupto.		
+	
+	- "Algunos animales salvajes fueron vistos cerca del bosque"
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: La gente se asusta fácil con estas cosas.
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Quizá debería traer más velas y comida enlatada... Por si acaso, ya sabes.
+		 
 		
-	- Pequeñas fluctuaciones eléctricas en la zona industrial
-		Padre Zhukov: Esas cosas pueden ser peligrosas, por suerte, aquí estamos todos seguros.
+		
+	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: ¿Otra vez la electricidad? No me sorprende.
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Es una noticia importante, amigo. Yo, de ti, se la contaría a los otros; así yo también puedo [shake]ayudar[/shake] vendiendo velas.
 		
 		
-	- Medidas de mantenimiento industrial
+	- "Medidas de mantenimiento industrial"
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: ¿Mantenimiento? Eso suena… demasiado bonito.
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Cuando dicen “mantenimiento”, suele significar “algo se rompió pero no quieren que lo sepas”.
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: En fin… la gente igual se preocupará. Y cuando la gente se preocupa [shake]...
 
-		Padre Zhukov: Nuestro país inverte siempre en majora, tenemos que estar agradecidos.
-- Venia a hablar contigo
-	Padre Zhukov: Dime hijo, ¿qué te preocupa?
-	- ¿Cree que todo el pueblo está bien?
-		Padre Zhukov: Hay de todo un poco, algunos estamos más cerca de Dios y otros.. no tanto.
-	- Ejemplo dialog
-		Padre Zhukov: Victor gay
+- Venía a hablar contigo
+	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: ¿Hablar? ¡Eso siempre es bueno!
+	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Aunque hoy seré yo quien te pregunte algo.
+	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Algunos dicen que hay un olor raro en el ambiente… ¿sabes algo al respecto?
+
+	- No, yo me encargo de informar. Si supiera algo, lo sabríais todos.
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Entonces no será nada…
+
+	- Quizá. Aunque el deber de informar es mío, no tuyo.
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Claro, claro… Tú sabrás si “eso” es peligroso o no…
+
+
 => END

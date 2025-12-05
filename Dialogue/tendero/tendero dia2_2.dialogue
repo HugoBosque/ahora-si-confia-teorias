@@ -1,11 +1,13 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Hola otra vez colega. ¿Quieres algo?
+- Venía a hablar contigo
+	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: ¿Hablar? ¡Eso siempre es bueno!
+	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Aunque hoy seré yo quien te pregunte algo.
+	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Algunos dicen que hay un olor raro en el ambiente… ¿sabes algo al respecto?
+
+	- No, yo me encargo de informar. Si supiera algo, lo sabríais todos.
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Entonces no será nada…
+
+	- Quizá. Aunque el deber de informar es mío, no tuyo.
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Claro, claro… Tú sabrás si “eso” es peligroso o no…
 => END

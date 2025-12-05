@@ -5,16 +5,18 @@
 	[color=#ffc100][b]Padre Zhukov[/b][/color]: Un día más informado, gracias a Dios.
 	
 	- "Algunos animales salvajes fueron vistos cerca del bosque"
-		set GameManager.preocupacion_esceptico += 5
+
 		  [color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Los animales no vagan sin propósito. A veces huyen de aquello que nosotros, ciegos por la rutina, no vemos.
 		
 		
 	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: Las máquinas a veces se inquietan… igual que las personas.
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: Pero nada ocurre sin razón. Tal vez sea una señal para quien quiera escucharla.
 
-		
-		
 	- "Medidas de mantenimiento industrial"
-		
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: Ah… “mantenimiento”. Una palabra muy útil para ocultar preocupaciones.
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: Aun así, si es para proteger al pueblo, recemos para que sea suficiente.
+
 
 - Venia a hablar contigo
 	[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Dime, hijo, ¿qué inquieta tu espíritu?

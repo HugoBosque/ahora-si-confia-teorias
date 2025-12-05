@@ -23,7 +23,7 @@ var dia7_hablar_yerik = false
 
 var dia1_hablar_madre = false
 var dia2_hablar_madre = false
-var dia2_madre_noticia1 = true
+var dia2_madre_noticia1 = false
 var dia3_hablar_madre = false
 var dia4_hablar_madre = false
 var dia5_hablar_madre = false
