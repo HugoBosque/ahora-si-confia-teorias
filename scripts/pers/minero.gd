@@ -43,11 +43,11 @@ func _process(delta):
 				DialogueManager.show_dialogue_balloon(YERIK_DIA_3_1, "start")
 			elif Global.dia3_hablar_yerik:
 				DialogueManager.show_dialogue_balloon(YERIK_DIA_3_2, "start")
-		elif GameManager.dia == 4:
-			if not Global.dia4_hablar_yerik:
-				DialogueManager.show_dialogue_balloon(YERIK_DIA_4_1, "start")
-			elif Global.dia4_hablar_yerik:
-				DialogueManager.show_dialogue_balloon(YERIK_DIA_4_2, "start")
+#		elif GameManager.dia == 4:
+#			if not Global.dia4_hablar_yerik:
+#				DialogueManager.show_dialogue_balloon(YERIK_DIA_4_1, "start")
+#			elif Global.dia4_hablar_yerik:
+#				DialogueManager.show_dialogue_balloon(YERIK_DIA_4_2, "start")
 		elif GameManager.dia == 5:
 			if not Global.dia5_hablar_yerik:
 				DialogueManager.show_dialogue_balloon(YERIK_DIA_5_1, "start")
@@ -66,7 +66,8 @@ func _process(delta):
 
 
 func _on_area_entered(area: Area2D) -> void:
-	sprite_2d.visible = true
+	if not GameManager.dia == 4:
+		sprite_2d.visible = true
 	player_close = true
 
 func _on_area_exited(area: Area2D) -> void:

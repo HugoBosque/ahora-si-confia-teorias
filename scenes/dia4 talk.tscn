@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bitm837uiuroy"]
+
+[ext_resource type="Script" uid="uid://vqxyb52csow0" path="res://scripts/cartel.gd" id="1_mrrir"]
+[ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="2_w13wt"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_mrrir"]
+radius = 141.0
+height = 350.0
+
+[node name="dia 4 talk" type="Area2D"]
+script = ExtResource("1_mrrir")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_mrrir")
+
+[node name="Exclamacion" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -38)
+scale = Vector2(0.124, 0.124)
+texture = ExtResource("2_w13wt")

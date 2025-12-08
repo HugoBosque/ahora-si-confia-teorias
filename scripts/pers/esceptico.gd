@@ -46,11 +46,11 @@ func _process(delta):
 				DialogueManager.show_dialogue_balloon(ESCEPTICO_DIA_3_1, "start")
 			elif Global.dia3_halbar_esceptico:
 				DialogueManager.show_dialogue_balloon(ESCEPTICO_DIA_3_2, "start")
-		if GameManager.dia == 4:
-			if not Global.dia4_halbar_esceptico: 
-				DialogueManager.show_dialogue_balloon(ESCEPTICO_DIA_4_1, "start")
-			elif Global.dia4_halbar_esceptico:
-				DialogueManager.show_dialogue_balloon(ESCEPTICO_DIA_4_2, "start")
+#		if GameManager.dia == 4:
+#			if not Global.dia4_halbar_esceptico: 
+#				DialogueManager.show_dialogue_balloon(ESCEPTICO_DIA_4_1, "start")
+#			elif Global.dia4_halbar_esceptico:
+#				DialogueManager.show_dialogue_balloon(ESCEPTICO_DIA_4_2, "start")
 		if GameManager.dia == 5:
 			if not Global.dia5_halbar_esceptico: 
 				DialogueManager.show_dialogue_balloon(ESCEPTICO_DIA_5_1, "start")
@@ -72,7 +72,8 @@ func _process(delta):
 # 🔥 SOLO MOSTRAR CUANDO EL JUGADOR ENTRE EN EL ÁREA
 # ------------------------------------------------------
 func _on_area_entered(area):
-	self.visible = true
+	if not GameManager.dia == 4:
+		self.visible = true
 	player_close = true
 
 func _on_area_exited(area):

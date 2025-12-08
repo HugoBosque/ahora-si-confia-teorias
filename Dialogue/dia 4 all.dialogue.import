@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://mpgrj23dxrgk"
+path="res://.godot/imported/dia 4 all.dialogue-9633af841ee75d332b2bbea7cd50a9ea.tres"
+
+[deps]
+
+source_file="res://Dialogue/dia 4 all.dialogue"
+dest_files=["res://.godot/imported/dia 4 all.dialogue-9633af841ee75d332b2bbea7cd50a9ea.tres"]
+
+[params]
+
+defaults=true
