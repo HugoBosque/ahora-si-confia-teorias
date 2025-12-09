@@ -35,6 +35,7 @@ elif not Global.dia2_madre_noticia1:
 
 	- Quizá. Aunque el deber de informar es mío, no tuyo.
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Claro, claro… Tú sabrás si “eso” es peligroso o no…
+		set Global.dia2_tendero_sus = true
 
 
 => END

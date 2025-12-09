@@ -1,6 +1,10 @@
 ~ start
-cura: hola
+[color=#ffc100][b]Padre Zhukov[/b][/color]: Hola, joven.
+- Venia a hablar contigo
+	if Global.dia2_tendero_sus:
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Si tu intención es aclarar dudas, te recomiendo que sea tu prioridad, nadie querría que te pasase [speed=0.2][shake] nada malo. 
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: El silencio alimenta la sospecha, hijo mío.
 
-- demas
-
+	elif not Global.dia2_tendero_sus:
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Hablar siempre es bienvenido. Las almas se alivian cuando comparten su carga.
 => END

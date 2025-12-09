@@ -1,17 +1,46 @@
 ~ start
-cura: hola
-- noticias
-	set Global.dia1_hablar_cura = true
-	cura: si
-	- "noticia1"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-	- "noticia2"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-	- "noticia3"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-- demas
+[color=#ffc100][b]Padre Zhukov[/b][/color]: Hola, joven.
+if Global.dia2_tendero_sus:
+	[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Hijo mío… el pueblo murmura tu nombre.  
+	[color=#ffc100][b]Padre Zhukov[/b][/color]: Cuando la duda se extiende, es mi deber preguntar:  
+	[color=#ffc100][b]Padre Zhukov[/b][/color]: ¿Acaso cargas con algo que [speed=0.2][shake] no deseas compartir[/shake]?
+	- No oculto nada, la gente exagera.
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Las palabras sinceras calman las aguas turbias.  
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: Rezaré para que el pueblo te crea,[speed=0.2][shake] aunque yo sospeche[/shake]. 
+	- No puedo hablar de eso... aún.
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]El silencio es un arma de doble filo, hijo mío.  
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: Puede protegerte…[speed=0.2][shake]o condenarte. 
+	
+
+elif not Global.dia2_tendero_sus:
+	[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Paz para ti, hijo. Que tu visita sea señal de buen juicio.
+
+- Vengo a darte las noticias
+	set Global.dia3_hablar_cura = true
+	[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Un día más informado… así Dios lo quiera. Prosigue.
+
+	- “Vecinos reportan un olor extraño en el aire”
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]He oído esos susurros...  
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: Los signos del aire no deben tomarse a la ligera.  
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: A veces, el Señor avisa antes de que el peligro se muestre.
+
+	- “Se recomienda ventilar las casas durante el día”
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Una recomendación sensata.  
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: La pureza del aire es tan necesaria como la pureza del alma.  
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: Aunque… cuando los hombres recomiendan prudencia, suele ser por temor a lo que no admiten.
+
+	- “Autoridades investigan posibles fugas de gas en la región”
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Gas… fugas…  
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: El peligro invisible es el más mortal.  
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: Rezaré para que no sea otro intento de ocultar algo mayor bajo palabras tranquilizadoras.
+		
+- Venia a hablar contigo
+	if Global.dia2_tendero_sus:
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Si tu intención es aclarar dudas, te recomiendo que sea tu prioridad, nadie querría que te pasase [speed=0.2][shake] nada malo. 
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: El silencio alimenta la sospecha, hijo mío.
+
+	elif not Global.dia2_tendero_sus:
+		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Hablar siempre es bienvenido. Las almas se alivian cuando comparten su carga.
+
 
 => END
