@@ -22,6 +22,7 @@ extends Node
 @onready var viudo_2: Area2D = $Viudo/Viudo2
 @onready var yerik_pavel: Area2D = $"Yerik/Yerik Pavel"
 @onready var yerik_pavel_2: Area2D = $"Yerik/Yerik Pavel2"
+@onready var dia_4_talk: Area2D = $"dia 4 talk"
 
 
 func _ready():
@@ -63,8 +64,14 @@ func _actualizar_personaje_según_preocupacion():
 	desactivar_todos_viktor()
 	desactivar_todos_viudos()
 	desactivar_todos_yeriks()
-	
 
+
+	
+	if GameManager.dia == 4:
+		dia_4_talk.monitoring = true
+	else:
+		dia_4_talk.monitoring = false
+		
 	# 🔹 --- MADRE ---
 	if GameManager.dia == 2 and Global.dia2_madre_noticia1:
 		print("🚫 Día 2 y preocupación_madre < 80 → la madre no aparecerá.")

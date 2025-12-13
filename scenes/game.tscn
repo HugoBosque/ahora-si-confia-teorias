@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=4 uid="uid://cg0ysj07cxfnp"]
+[gd_scene load_steps=39 format=4 uid="uid://cg0ysj07cxfnp"]
 
 [ext_resource type="Script" uid="uid://dk4i6ny4oi7h3" path="res://scripts/game.gd" id="1_1kice"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="1_uwrxv"]
@@ -26,6 +26,7 @@
 [ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="24_e1j6l"]
 [ext_resource type="PackedScene" uid="uid://mf0qdfkoab6f" path="res://scenes/personajes/minero.tscn" id="25_pl11u"]
 [ext_resource type="AudioStream" uid="uid://bv7i7xho2pp3p" path="res://AUDIO JUEGO/City_1.ogg" id="26_bhx41"]
+[ext_resource type="PackedScene" uid="uid://bitm837uiuroy" path="res://scenes/dia4 talk.tscn" id="26_qnb83"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_no12j"]
 texture = ExtResource("2_kvpfn")
@@ -42624,6 +42625,9 @@ position = Vector2(1414, 1170)
 
 [node name="Yerik Pavel2" parent="Yerik" instance=ExtResource("25_pl11u")]
 position = Vector2(863, 805)
+
+[node name="dia 4 talk" parent="." instance=ExtResource("26_qnb83")]
+position = Vector2(782, 716)
 
 [node name="Player" parent="." instance=ExtResource("1_uwrxv")]
 position = Vector2(1567, 1551)

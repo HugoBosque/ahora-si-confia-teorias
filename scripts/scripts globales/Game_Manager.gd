@@ -8,7 +8,7 @@ var has_done_cinematic1 = false
 var has_animation_done = false
 
 # -------------------- PROGRESO GENERAL --------------------
-var dia: int = 4
+var dia: int = 1
 # -------------------- VARIABLES DE PERSONAJES --------------------
 var vida_cura: int = 100
 var preocupacion_cura: int = 0
