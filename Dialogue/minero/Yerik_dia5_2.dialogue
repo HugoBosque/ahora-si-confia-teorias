@@ -1,11 +1,15 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#90580d][b]Yerik[/b][/color]: [speed=0.6] Dime. 
+- ¿Cómo está afectando esto por aquí?
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Más de lo que me gustaría admitir.
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]La gente parece asustada.
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Lo está. Todo esto hace que nadie duerma tranquilo.
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]El miedo no necesita explicaciones claras, solo señales.
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Quieres que esté pendiente de algo en concreto?
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Sí, solo te pido una cosa, sígueme informando todos los días, ¿de acuerdo?
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Menos mal que tenemos a alguien como tú informándonos antes de que los rumores lo estropeen todo.
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Dime una cosa chico...[speed=0.3] ¿puedo confiar en ti?
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]Claro que puedes confiar en mí. ¿Por qué no ibas a hacerlo?
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Vale, vale… se nota.
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]No hace falta ponerse a la defensiva. Con eso me basta.
 => END
