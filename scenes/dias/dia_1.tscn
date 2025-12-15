@@ -41,15 +41,19 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 32.0
-offset_top = 141.0
-offset_right = 1120.0
-offset_bottom = 216.0
+offset_left = 19.0
+offset_top = 120.0
+offset_right = 1755.0
+offset_bottom = 278.0
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
-text = "La gente es bastate variada. He repartido algunas notícias, de momento no sospechan nada. Tengo mas control del que pensaba.
-Me da pena la MADRE, espero que su marido llegue bien, por ahora no hubieron incidentes.
-"
+text = "La gente es bastante variada.
+He repartido algunas noticias y, de momento, no sospechan nada.
+Todos han aceptado el periódico como si fuera una verdad cerrada, sin hacer demasiadas preguntas. Supongo que cuando la información llega siempre del mismo sitio, uno acaba confiando por costumbre.
+
+Algunos repiten exactamente lo que han leído, palabra por palabra, mientras otros lo interpretan según sus miedos o su forma de ver el mundo. Aun así, nadie ha buscado una versión distinta. El diario parece suficiente.
+
+Tengo más control del que pensaba. No porque mande, sino porque informo. Y quizá ahí esté la diferencia."
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="."]
 layout_mode = 0
