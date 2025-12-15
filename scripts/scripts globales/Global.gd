@@ -82,6 +82,7 @@ var dia1_hablar_tendero = false
 var dia2_hablar_tendero = false
 var dia2_tendero_sus = false
 var dia3_hablar_tendero = false
+var dia3_tendero_contrabando = false
 var dia4_hablar_tendero = false
 var dia5_hablar_tendero = false
 var dia6_hablar_tendero = false
