@@ -1,11 +1,28 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#fe7a1b][b]Iván Petrovich[/b][/color]: ¿Qué te cuentas?
+- Venía a hablar contigo
+
+	if Global.dia2_tendero_sus:
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Mira, voy a ser directo, voy a estar atento a tus movimientos, chico del periódico. Algo está pasando y tú no lo quieres contar. Si hay una cosa que te puedo prometer, es que nunca dejo piedra sin levantar.
+		[color=#89C2FF][b]Yo[/b][/color]: Te he dicho que te metas en tus asuntos, yo no reviso el estado de tus latas, aunque he visto alguna etiqueta sospechosa. ¿Tus proveedores son legales?
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Vaya, vaya, no eres un hueso fácil de roer. Tranquilo, que me acabaré enterando de lo que escondes...
+
+		
+	elif not Global.dia2_tendero_sus:
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Hoy tengo otra cosa que comentarte. Verás, esto...
+		[color=#89C2FF][b]Yo[/b][/color]: Verás...
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: El ambiente se está caldeando un poco en el pueblo, aunque particularmente tengo a un tío muy pendiente de mí...
+		[color=#89C2FF][b]Yo[/b][/color]: ¿Quién?
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: El tío ese con traje, muy chungo.
+		[color=#89C2FF][b]Yo[/b][/color]: Hablas de... ¿Viktor?
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Sí, ese tío me mira como si estuviera haciendo algo ilegal, como si fuera un terrorista.
+		[color=#89C2FF][b]Yo[/b][/color]: ¿Y alguna de sus sospechas podría ser verdad?
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: A ver, no como tal, quizá haya colado alguna cosa por la frontera que no tocaba...
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Pero para mejorar el pueblo, no es nada malo. Lo que comemos es basura, solo intento mejorar la salud de la gente.
+		[color=#89C2FF][b]Yo[/b][/color]: ¿Mediante contrabando ilegal?
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Vamos, solo son latas de comida. Va, si quieres te doy una de estofado muy rico.
+		[color=#89C2FF][b]Yo[/b][/color]: No quiero mancharme las manos aceptando esa lata.
+		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Tengo que organizar todo esto, confío en ti y en que esto quedará entre nosotros. Si te preguntan, soy un tío legal, ¿sí?
+		[color=#89C2FF][b]Yo[/b][/color]: Tú preocúpate de no dar motivos a nadie para investigarte.
 => END
+
