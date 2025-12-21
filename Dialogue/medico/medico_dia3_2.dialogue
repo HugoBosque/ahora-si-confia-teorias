@@ -1,6 +1,14 @@
 ~ start
-medico: hola
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Has vuelto.
+- Venía a hablar contigo
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Si has venido a preguntar si la gente está en peligro, la respuesta es sí.
 
-- demas
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Tan grave es?
+
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Aún no.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pero lo será si todo sigue así.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Es todo muy repentino y no me da el tiempo para hallar una soolución.
+	
 
 => END
