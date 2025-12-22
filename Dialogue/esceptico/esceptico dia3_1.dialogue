@@ -1,28 +1,51 @@
 ~ start
-Alexei: [speed=0.7] ¿Se te ha perdido algo?
+[color=#A0A0A0][b]Alexei[/b][/color]: Hola.
+[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Supongo que vienes a hacer tu trabajo.
+
 
 - Vengo a darte las noticias
-	set Global.dia1_halbar_esceptico = true
-	Alexei: No me las leeré.
-	- Es importante que estés informado.
-		Alexei: Prefiero informarme yo mismo.
-		- Como quieras, pero estoy obligado a entregarte el periódico.
-		Alexei: Si no hay más remedio...
-		- “La carretera principal sigue bloqueada por la nieve”.
-			set GameManager.preocupacion_esceptico -= 20
-			Alexei: Me da igual si hay mucha nieve, que la quiten.
-		- “Llegan nuevas provisiones desde la capital”.
-			set GameManager.preocupacion_esceptico -= 20
-			Alexei: Como siempre más a los que más tienen, y nosotros pasando frío y hambre aquí.
-		- “Se planea una mejora en el alumbrado público”.
-			Alexei: Que me alumbren esta.
-			set GameManager.preocupacion_esceptico -= 20
+	set Global.dia3_hablar_esceptico = true
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Dime qué se inventan hoy.
 
+	- “Vecinos reportan un olor extraño en el aire”
+		[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Los olores no aparecen por arte de magia.  
+		[color=#A0A0A0][b]Alexei[/b][/color]: Pero tampoco me creo todo lo que dice la gente.
 
-- Sólo quiero hablar.
-	Alexei: [speed=0.7] No te lo tomes personal, no tengo de que hablar.
-	- Por ejemplo, ¿porque vives alejado?
-	Alexei: [speed=0.7] La gente me toma como loco por pensar diferente, paso de eso.	
-- Perdona sólo pasaba por aquí.
+	- “Se recomienda ventilar las casas durante el día”
+		[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Recomendaciones vagas para problemas vagos.  
+		[color=#A0A0A0][b]Alexei[/b][/color]: Así nadie se hace responsable.
+
+	- “Autoridades investigan posibles fugas de gas en la región”
+		[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Cuando “investigan” suele significar que ya es tarde.  
+		[color=#A0A0A0][b]Alexei[/b][/color]: O que no quieren decirte la verdad.
+
+- Venía a hablar contigo
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]¿Hablar?  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Normalmente no pierdo el tiempo… pero hoy tengo la cabeza rara.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Rara cómo?
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Dolor constante.  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Me cuesta pensar con claridad… y eso no me gusta.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Crees que tiene que ver con lo del olor?
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]No lo sé.  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Y odio no saberlo.
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: Siempre he dicho que la gente exagera, que ve fantasmas donde no los hay…
+	[color=#A0A0A0][b]Alexei[/b][/color]: Pero hoy… [speed=0.4]algo no encaja.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Tienes miedo?
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]No.  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Tengo dudas.  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Y las dudas son más peligrosas que el miedo.
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Si resulta que nos han estado mintiendo…
+	[color=#A0A0A0][b]Alexei[/b][/color]: Entonces no será el gas lo que mate a este pueblo.
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Seremos nosotros mismos.
+
 
 => END

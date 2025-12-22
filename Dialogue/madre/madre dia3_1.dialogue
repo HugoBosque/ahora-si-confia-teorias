@@ -1,30 +1,47 @@
 ~ start
-Svetlana: [speed=0.6] ¿Puedo ayudarte en algo?
+[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Oh… has venido.
+[color=#F9E07F][b]Svetlana[/b][/color]: Últimamente agradezco no estar sola.
+
 - Vengo a darte las noticias
-	set Global.dia1_hablar_madre = true
-	Svetlana: [speed=0.6]Te lo agradezco mucho.
-	- “Noticia1”
-		set GameManager.preocupacion_madre += 20
-		Svetlana: No me digas eso, mi marido se encuentra de camino al frente. Ay, ¿llegará bien? Por favor, te pido, Dios, que lleguen sanos y salvos. Por favor, si pasa algo, házmelo saber de inmediato.
-		- No se preocupe, en cuanto sepa algo se lo comunico.
-		
-	- “Noticia2”
-		set GameManager.preocupacion_madre += 20
-		Svetlana: [speed=0.6] Dios de nuevo desmostrando su infinita generosidad, a ver si su mano llega a nuestro pueblo, lo paso mal con mis pequeños.
-		- Tranquila señora, seguro que nuestro gobierno nos proveerá de alguna manera.
-			Svetlana: Eso espero, gracias.
-		
-	- “Noticia3”
-		set GameManager.preocupacion_madre += 20
-		Svetlana: [speed=0.6]La luz nos acerca a Dios, eso tiene que ser una señal divina.
+	set Global.dia3_hablar_madre = true
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Adelante… que sea lo que Dios quiera.
 
-- Venia a hablar contigo
-	Svetlana: ¿Hay algun problema? ¿Ha pasado algo?
-	- De hecho, no, todo esta bien.
-		Svetlana: [speed=0.6]Gracias a Dios.
+	- “Vecinos reportan un olor extraño en el aire”
+		
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Lo he notado…
+		[color=#F9E07F][b]Svetlana[/b][/color]: Me arden los ojos y me cuesta respirar.
+		[color=#F9E07F][b]Svetlana[/b][/color]: ¿Crees que puede afectar a los niños?
+
+	- “Se recomienda ventilar las casas durante el día”
 	
-	- No, pero me gustaría preguntarle sobre su situación, cómo está?
-		Svetlana: [speed=0.6] La verdad es que estoy en una situación díficil, mi querido marido se ha ido a luchar en el frente por nuestro país, y, bueno, [wait=0.5] yo estoy aquí con mis dos hijos.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Abriré las ventanas, aunque entre el frío.
+		[color=#F9E07F][b]Svetlana[/b][/color]: Prefiero que mis hijos tiemblen a que no respiren.
 
+	- “Autoridades investigan posibles fugas de gas en la región”
+		
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gas…
+		[color=#F9E07F][b]Svetlana[/b][/color]: Todo parece peligroso últimamente.
+		[color=#F9E07F][b]Svetlana[/b][/color]: Como si el mundo se estuviera agrietando poco a poco.
+
+- Venía a hablar contigo
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias por quedarte un momento.
+	[color=#F9E07F][b]Svetlana[/b][/color]: No sé por qué… pero hoy siento miedo.
+	[color=#F9E07F][b]Svetlana[/b][/color]: El aire está mal.
+	[color=#F9E07F][b]Svetlana[/b][/color]: El pueblo está nervioso.
+	[color=#F9E07F][b]Svetlana[/b][/color]: Y mi marido… sigue sin dar señales.
+	[color=#F9E07F][b]Svetlana[/b][/color]: Tú traes noticias cada día.
+	[color=#F9E07F][b]Svetlana[/b][/color]: Dime…
+
+	- No he oído nada nuevo del frente.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Entonces seguiré rezando.
+		[color=#F9E07F][b]Svetlana[/b][/color]: Mientras no haya palabras… aún hay esperanza.
+
+	- A veces las noticias tardan en llegar.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Sí…
+		[color=#F9E07F][b]Svetlana[/b][/color]: Dios pone a prueba nuestra paciencia.
+
+	- Hay cosas que es mejor no saber de golpe.
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Eso suena…
+		[color=#F9E07F][b]Svetlana[/b][/color]: como si intentaras protegerme.
 
 => END

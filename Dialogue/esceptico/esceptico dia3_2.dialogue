@@ -1,12 +1,33 @@
 ~ start
-Alexei: [speed=0.7] ¿Se te ha perdido algo?
+Alexei: [speed=0.7] Ey.
 
+- Venía a hablar contigo
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]¿Hablar?  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Normalmente no pierdo el tiempo… pero hoy tengo la cabeza rara.
 
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Rara cómo?
 
-- Sólo quiero hablar.
-	Alexei: [speed=0.7] No te lo tomes personal, no tengo de que hablar.
-	- Por ejemplo, ¿porque vives alejado?
-	Alexei: [speed=0.7] La gente me toma como loco por pensar diferente, paso de eso.	
-- Perdona sólo pasaba por aquí.
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Dolor constante.  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Me cuesta pensar con claridad… y eso no me gusta.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Crees que tiene que ver con lo del olor?
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]No lo sé.  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Y odio no saberlo.
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: Siempre he dicho que la gente exagera, que ve fantasmas donde no los hay…
+	[color=#A0A0A0][b]Alexei[/b][/color]: Pero hoy… [speed=0.4]algo no encaja.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Tienes miedo?
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]No.  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Tengo dudas.  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Y las dudas son más peligrosas que el miedo.
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Si resulta que nos han estado mintiendo…
+	[color=#A0A0A0][b]Alexei[/b][/color]: Entonces no será el gas lo que mate a este pueblo.
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Seremos nosotros mismos.
+
 
 => END

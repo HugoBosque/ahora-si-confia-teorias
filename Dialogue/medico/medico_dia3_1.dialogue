@@ -1,17 +1,48 @@
 ~ start
-medico: hola
-- noticias
-	set Global.dia1_hablar_medico = true
-	medico: si
-	- "noticia1"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-	- "noticia2"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-	- "noticia3"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-- demas
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Has vuelto.
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Llegas en un mal día… o quizá en el momento justo.
+
+[color=#89C2FF][b]Yo[/b][/color]: ¿Muchos pacientes?
+
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Demasiados.
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Dolor de cabeza, mareos, náuseas, confusión…
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Todos dicen lo mismo.
+
+[color=#89C2FF][b]Yo[/b][/color]: ¿Crees que está relacionado con el olor?
+
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]No puedo afirmarlo oficialmente.
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pero tampoco puedo ignorar los patrones.
+
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Cuando muchos cuerpos reaccionan igual…
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: No es sugestión. Es algo real.
+
+- Vengo a darte las noticias
+	set Global.dia3_hablar_medico = true
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Adelante. Necesito saber qué versión de la realidad circula hoy.
+
+	- “Vecinos reportan un olor extraño en el aire”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]No me sorprende.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: El cuerpo suele notar el peligro antes que la mente.
+
+	- “Se recomienda ventilar las casas durante el día”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Eso ayudará… un poco.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pero si el aire está contaminado, abrir ventanas no basta.
+
+	- “Autoridades investigan posibles fugas de gas en la región”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]¿Investigando?
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Entonces ya llegan tarde.
+
+- Venía a hablar contigo
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Si has venido a preguntar si la gente está en peligro, la respuesta es sí.
+
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Tan grave es?
+
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Aún no.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pero lo será si todo sigue así.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Es todo muy repentino y no me da el tiempo para hallar una soolución.
+	
+
+
 
 => END
