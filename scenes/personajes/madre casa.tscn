@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://d0xuc0usd1dkp"]
+
+[ext_resource type="Script" uid="uid://b7svktnh3c61n" path="res://scripts/pers/madre.gd" id="1_0cie3"]
+[ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="3_uwm3s"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_su488"]
+radius = 42.0
+
+[node name="Madre" type="Area2D"]
+script = ExtResource("1_0cie3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("CircleShape2D_su488")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -38)
+scale = Vector2(0.124, 0.124)
+texture = ExtResource("3_uwm3s")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=4 uid="uid://cg0ysj07cxfnp"]
+[gd_scene load_steps=40 format=4 uid="uid://cg0ysj07cxfnp"]
 
 [ext_resource type="Script" uid="uid://dk4i6ny4oi7h3" path="res://scripts/game.gd" id="1_1kice"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="1_uwrxv"]
@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://b2kjixa6oo16s" path="res://Tile Maps/Objects.tscn" id="10_kvuet"]
 [ext_resource type="PackedScene" uid="uid://b6oecdywbwx0s" path="res://scenes/personajes/tendero.tscn" id="10_ssvqc"]
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="11_trtic"]
+[ext_resource type="PackedScene" uid="uid://d0xuc0usd1dkp" path="res://scenes/personajes/madre casa.tscn" id="18_sww3w"]
 [ext_resource type="PackedScene" uid="uid://cxtpcgjg6gdb2" path="res://scenes/personajes/medico.tscn" id="19_264po"]
 [ext_resource type="PackedScene" uid="uid://du7cqyabdkhix" path="res://scenes/personajes/cura.tscn" id="20_5newe"]
 [ext_resource type="PackedScene" uid="uid://dnixgus7v1a65" path="res://scenes/personajes/viudo.tscn" id="20_bt5mj"]
@@ -42555,14 +42556,14 @@ autoplay = true
 
 [node name="Madre" type="Node2D" parent="."]
 
-[node name="Madre3" parent="Madre" instance=ExtResource("22_37s47")]
-position = Vector2(1189, 517)
-
 [node name="Madre2" parent="Madre" instance=ExtResource("22_37s47")]
 position = Vector2(870, 632)
 
 [node name="Madre" parent="Madre" instance=ExtResource("22_37s47")]
 position = Vector2(1039, 411)
+
+[node name="Madre3" parent="Madre" instance=ExtResource("18_sww3w")]
+position = Vector2(1040, 368)
 
 [node name="Medico" type="Node2D" parent="."]
 
