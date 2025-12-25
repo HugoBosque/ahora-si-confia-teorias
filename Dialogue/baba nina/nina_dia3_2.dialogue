@@ -1,6 +1,16 @@
 ~ start
-nina: hola
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Ah… dime, ¿qué sucede, pequeña alma?
 
-- demas
+- Venía a hablar contigo
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Lo noto en tus pasos.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Caminas como quien carga algo que no es suyo… pero tampoco puede soltar.
+
+	[color=#89C2FF][b]Yo[/b][/color]: El pueblo está nervioso.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]El miedo es contagioso, igual que el gas.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Y ambos hacen que la gente diga cosas… haga cosas.
+
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Si llega el momento en que debas elegir entre callar o romper el silencio…
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Recuerda esto, muchacho:
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3][shake]Las sombras siempre se alimentan de los que miran al suelo[/shake].
 
 => END

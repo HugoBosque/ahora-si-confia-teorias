@@ -1,9 +1,6 @@
 ~ start
 [color=#A0A0A0][b]Alexei[/b][/color]: ¿Qué quieres ahora?
-if Global.dia2_madre_noticia1:
-	[color=#A0A0A0][b]Alexei[/b][/color]: Miquel
-elif not Global.dia2_madre_noticia1:
-	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=10]¿Qué quieres ahora?
+
 - Vengo a darte las noticias
 	set Global.dia2_halbar_esceptico = true
 	[color=#A0A0A0][b]Alexei[/b][/color]: ¿Te recuerdo que ya te dije que me da igual lo que me traigas?

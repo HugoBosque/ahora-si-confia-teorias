@@ -1,17 +1,35 @@
 ~ start
-nina: hola
-- noticias
-	set Global.dia1_hablar_nina = true
-	nina: si
-	- "noticia1"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-	- "noticia2"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-	- "noticia3"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-- demas
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Ah… hoy el aire pesa más que ayer.
+[color=#C47FFF][b]Baba Nina[/b][/color]: No hace falta ser bruja para notarlo… pero ayuda.
+
+- Vengo a darte las noticias
+	set Global.dia3_hablar_nina = true
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Habla. Las palabras también dejan rastro.
+
+	- “Vecinos reportan un olor extraño en el aire”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Ya no es solo un susurro, entonces…
+		[color=#C47FFF][b]Baba Nina[/b][/color]: El aire se envenena cuando algo quiere permanecer oculto.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: Mishka jamás se habría alejado sin razón.
+
+	- “Se recomienda ventilar las casas durante el día”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Abrir ventanas no limpia las culpas.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: Pero tranquiliza a los que prefieren no mirar más allá.
+
+	- “Autoridades investigan posibles fugas de gas en la región”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Las autoridades siempre investigan…
+		[color=#C47FFF][b]Baba Nina[/b][/color]: Lo que nunca dicen es *qué esperan encontrar*.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: O a quién desean proteger.
+
+- Venía a hablar contigo
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Lo noto en tus pasos.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Caminas como quien carga algo que no es suyo… pero tampoco puede soltar.
+
+	[color=#89C2FF][b]Yo[/b][/color]: El pueblo está nervioso.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]El miedo es contagioso, igual que el gas.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Y ambos hacen que la gente diga cosas… haga cosas.
+
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Si llega el momento en que debas elegir entre callar o romper el silencio…
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Recuerda esto, muchacho:
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3][shake]Las sombras siempre se alimentan de los que miran al suelo[/shake].
 
 => END

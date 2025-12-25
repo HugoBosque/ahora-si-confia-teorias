@@ -1,17 +1,69 @@
 ~ start
-viudo: hola
-- noticias
-	set Global.dia1_hablar_viudo = true
-	viudo: si
-	- "noticia1"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia2"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia3"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-- demas
+[color=#6F6F6F][b]Romanov Morozov[/b][/color]: ¿Qué quieres?
+
+- Vengo a darte las noticias
+	set Global.dia3_hablar_viudo = true
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Dime. Que sea rápido.
+
+	- “Vecinos reportan un olor extraño en el aire”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Lo he notado.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Huele a metal… como cuando algo se quema sin fuego.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: La gente se asusta demasiado rápido.
+
+	- “Se recomienda ventilar las casas durante el día”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Ya lo hago.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Aire dentro, aire fuera… nada cambia realmente.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Pero si les tranquiliza, que abran las ventanas.
+
+	- “Autoridades investigan posibles fugas de gas en la región”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Las autoridades siempre investigan cuando ya es tarde.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Si hubiera peligro real, no nos lo dirían.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Nunca lo hacen.
+
+- Venía a hablar contigo
+if Global.dia2_tendero_sus:
+	[color=#A0A0A0][b]Alexei[/b][/color]: Mira, he escuchado por ahí alguna cosa. Te lo digo de corazón: no dejes que sus palabras nublen tu camino. Si algo he aprendido, es que a veces hay que avanzar sin importar lo que digan los demás.
+
+	[color=#89C2FF][b]Yo[/b][/color]: Te noto más cansado que otros días.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No es cansancio.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Es costumbre.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Costumbre a qué?
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A que las cosas vayan mal.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A no preguntar demasiado.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A seguir adelante aunque nadie explique nada.
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Este pueblo ha sobrevivido a cosas peores.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y los que no… ya no se quejan.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿No te preocupa lo que está pasando?
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Preocuparme no cambiaría nada.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y ya he perdido suficiente intentando cambiar cosas.
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Haz tu trabajo, chico.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Yo haré lo mismo que siempre: aguantar.
+elif not Global.dia2_tendero_sus:
+	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=10]¿Qué quieres ahora?
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: ¿Hablar?
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No soy buena compañía.
+
+	[color=#89C2FF][b]Yo[/b][/color]: Te noto más cansado que otros días.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No es cansancio.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Es costumbre.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Costumbre a qué?
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A que las cosas vayan mal.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A no preguntar demasiado.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A seguir adelante aunque nadie explique nada.
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Este pueblo ha sobrevivido a cosas peores.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y los que no… ya no se quejan.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿No te preocupa lo que está pasando?
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Preocuparme no cambiaría nada.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y ya he perdido suficiente intentando cambiar cosas.
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Haz tu trabajo, chico.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Yo haré lo mismo que siempre: aguantar.
 
 => END
