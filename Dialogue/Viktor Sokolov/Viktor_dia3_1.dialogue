@@ -3,36 +3,73 @@
 [color=#89C2FF][b]Yo[/b][/color]: Claro, ¿qué necesitas?
 [color=#1451d4][b]Viktor Sokolov[/b][/color]: Todo lo que te diga es estrictamente confidencial, ¿estamos?
 [color=#89C2FF][b]Yo[/b][/color]: Sí, claro.
-[color=#1451d4][b]Viktor Sokolov[/b][/color]: Alguien está colando cosas que no debería colar.
-[color=#1451d4][b]Viktor Sokolov[/b][/color]: Claro está, no es legal si no se declara en la aduana.
+[color=#1451d4][b]Viktor Sokolov[/b][/color]: Alguien está colando mercancía que no debería.
+[color=#1451d4][b]Viktor Sokolov[/b][/color]: Nada declarado. Nada limpio.
+
 if Global.dia3_tendero_contrabando:
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed = 10]Claro está, no es legal si no se declara en la aduana.
-	- Contarle lo que sabes
-		[color=#89C2FF][b]Yo[/b][/color]: De hecho, Iván me ha confesado que, efectivamente, está metoendo latas de comida de manera ilegal.
-		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Ya, claro, porque ese tipejo no aprovecharía para meter ninguna otra cosa que no fuera comida.
-		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Gracias por contármelo, has hecho bien.
-		[color=#89C2FF][b]Yo[/b][/color]: Nada, todo sea por nuestra seguridad.
-		[color=#89C2FF][b]Yo[/b][/color]: ¿Puedo prreguntar que le pasará?
-		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Eso probablemente no dependa de mi.
-	- No contarle nada
-		[color=#89C2FF][b]Yo[/b][/color]: Parece algo grave.
-		[color=#89C2FF][b]Yo[/b][/color]: En cuanto sepa algo te lo hago saber.
 
-[color=#89C2FF][b]Yo[/b][/color]: Parece algo grave.
-[color=#89C2FF][b]Yo[/b][/color]: En cuanto sepa algo te lo hago saber.	
+	- Decirle que sospechas del tendero
+		[color=#89C2FF][b]Yo[/b][/color]: No tengo pruebas.
+		[color=#89C2FF][b]Yo[/b][/color]: Pero Iván ha hecho comentarios… raros. Habla de cargamentos, de latas, de “mejorar la salud del pueblo”.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: ¿Solo latas?
+		[color=#89C2FF][b]Yo[/b][/color]: Eso dice él.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Nadie arriesga tanto solo por comida.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Gracias. Con esto basta para mirar más de cerca.
+		set Global.dia3_pista_tendero_viktor = true
 
-- noticias
+	- Restarle importancia
+		[color=#89C2FF][b]Yo[/b][/color]: En el pueblo se exagera mucho últimamente.
+		[color=#89C2FF][b]Yo[/b][/color]: No he visto nada que justifique una investigación.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Entiendo.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Pero si sabes algo más y callas… recuerda que el silencio también es una elección.
+
+else:
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Aún no tengo nombres.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Pero los tendré.
+
+
+
+- Vengo a darte las noticias
 	set Global.dia3_hablar_Viktor = true
-	viktor: si
-	- "noticia1"
-		set GameManager.preocupacion_viktor +=20
-		viktor: si
-	- "noticia2"
-		set GameManager.preocupacion_viktor +=20
-		viktor: si
-	- "noticia3"
-		set GameManager.preocupacion_viktor +=20
-		viktor: si
-- demas
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Adelante. Veamos qué preocupa hoy a Plupsovia.
 
+	- “Vecinos reportan un olor extraño en el aire”
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Demasiados testimonios para ser sugestión colectiva.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Algo flota en el aire… y no hablo solo del gas.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Cuando la amenaza es invisible, el pánico corre más rápido que la verdad.
+
+	- “Se recomienda ventilar las casas durante el día”
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Una medida simple.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Aunque me pregunto quién ha decidido que eso bastará.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: A veces se dan consejos no para proteger, sino para ganar tiempo.
+
+	- “Autoridades investigan posibles fugas de gas en la región”
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: “Investigan”… bonita palabra.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Significa que alguien ya sabe algo y espera a ver cómo reacciona el pueblo.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Yo no espero. Yo observo.
+
+
+- Venía a hablar contigo
+
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: ¿Hablar? Adelante. Pero no pierdas el tiempo.
+
+	[color=#89C2FF][b]Yo[/b][/color]: Te noto… más implicado que otros.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Porque lo estoy.
+
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: La mayoría solo quiere que el problema desaparezca.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Yo quiero saber quién lo causó.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Incluso si es alguien del pueblo?
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Especialmente si es alguien del pueblo.
+
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: La justicia no funciona si empieza a hacer excepciones.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Y aquí todos se conocen demasiado como para ser objetivos.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Y tú? ¿No te afecta?
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Claro que afecta.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Pero si dejo que eso decida por mí, no sirvo para este trabajo.
+
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Tú eliges qué contar.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Yo elijo qué investigar.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Y créeme… acabaré encontrando la verdad.
 => END
