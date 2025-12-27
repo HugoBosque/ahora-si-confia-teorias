@@ -148,10 +148,6 @@ func activar_madre(activo: Area2D):
 			_set_personaje_activo(m, false)
 	_set_personaje_activo(activo, true)
 
-	# Cambiar animación a idle_down si existe
-	var anim = activo.get_node_or_null("AnimatedSprite2D")
-	if anim and anim.sprite_frames.has_animation("idle_down"):
-		anim.play("idle_down")
 
 func desactivar_todos_medicos():
 	var medicos = [medico, medico_2, medico_3]
@@ -169,7 +165,7 @@ func desactivar_todos_escepticos():
 	var escepticos = [esceptico, esceptico_2]
 	for e in escepticos:
 		_set_personaje_activo(e, false)
-		
+		 
 
 func activar_esceptico(activo: Area2D):
 	var escepticos = [esceptico, esceptico_2]
@@ -250,8 +246,6 @@ func activar_cura(activo: Area2D):
 			_set_personaje_activo(c, false)
 	_set_personaje_activo(activo, true)
 
-		
-		
 # 🔹 Función genérica para activar o desactivar un personaje (madre o médico)
 func _set_personaje_activo(personaje: Area2D, activo: bool):
 	if personaje == null:
@@ -269,7 +263,6 @@ func _set_personaje_activo(personaje: Area2D, activo: bool):
 			for grandchild in child.get_children():
 				if grandchild is CollisionShape2D:
 					grandchild.disabled = not activo
-
 
 
 # -------------------- PUERTA --------------------

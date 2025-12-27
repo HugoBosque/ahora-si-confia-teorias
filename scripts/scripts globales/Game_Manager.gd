@@ -18,7 +18,7 @@ var vida_esceptico: int = 100
 var preocupacion_esceptico: int = 0
 
 var vida_madre: int = 100
-var preocupacion_madre: int = 51
+var preocupacion_madre: int = 0
 
 var vida_viktor: int = 100
 var preocupacion_viktor: int = 0
@@ -27,7 +27,7 @@ var vida_viudo: int = 100
 var preocupacion_viudo: int = 0
 
 var vida_medico: int = 100
-var preocupacion_medico: int = 0
+var preocupacion_medico: int = 51
 
 var vida_nina: int = 100
 var preocupacion_nina: int = 0

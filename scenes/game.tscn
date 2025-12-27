@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=4 uid="uid://cg0ysj07cxfnp"]
+[gd_scene load_steps=43 format=4 uid="uid://cg0ysj07cxfnp"]
 
 [ext_resource type="Script" uid="uid://dk4i6ny4oi7h3" path="res://scripts/game.gd" id="1_1kice"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="1_uwrxv"]
@@ -17,14 +17,17 @@
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="11_trtic"]
 [ext_resource type="PackedScene" uid="uid://d0xuc0usd1dkp" path="res://scenes/personajes/madre casa.tscn" id="18_sww3w"]
 [ext_resource type="PackedScene" uid="uid://cxtpcgjg6gdb2" path="res://scenes/personajes/medico.tscn" id="19_264po"]
+[ext_resource type="Script" uid="uid://b7svktnh3c61n" path="res://scripts/pers/madre.gd" id="19_qouja"]
 [ext_resource type="PackedScene" uid="uid://du7cqyabdkhix" path="res://scenes/personajes/cura.tscn" id="20_5newe"]
 [ext_resource type="PackedScene" uid="uid://dnixgus7v1a65" path="res://scenes/personajes/viudo.tscn" id="20_bt5mj"]
 [ext_resource type="PackedScene" uid="uid://sktvsy6v4s2r" path="res://scenes/personajes/esceptico.tscn" id="21_5newe"]
 [ext_resource type="PackedScene" uid="uid://2m5ntiodhxqw" path="res://scenes/personajes/baba_nina.tscn" id="21_e1j6l"]
+[ext_resource type="PackedScene" uid="uid://crl1hq2vagk4j" path="res://scenes/personajes/medico casa.tscn" id="21_wljb1"]
 [ext_resource type="PackedScene" uid="uid://b0rf8rc1dhnu1" path="res://scenes/personajes/madre.tscn" id="22_37s47"]
 [ext_resource type="PackedScene" uid="uid://b3o4e0083jnmn" path="res://scenes/personajes/Mikhail Belov.tscn" id="22_pl11u"]
 [ext_resource type="PackedScene" uid="uid://vl5po0vq2iaa" path="res://scenes/personajes/Viktor Sokolov.tscn" id="23_bhx41"]
 [ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="24_e1j6l"]
+[ext_resource type="PackedScene" path="res://scenes/personajes/baba nina/baba_nina_casa.tscn" id="24_qouja"]
 [ext_resource type="PackedScene" uid="uid://mf0qdfkoab6f" path="res://scenes/personajes/minero.tscn" id="25_pl11u"]
 [ext_resource type="AudioStream" uid="uid://bv7i7xho2pp3p" path="res://AUDIO JUEGO/City_1.ogg" id="26_bhx41"]
 [ext_resource type="PackedScene" uid="uid://bitm837uiuroy" path="res://scenes/dia4 talk.tscn" id="26_qnb83"]
@@ -42564,6 +42567,7 @@ position = Vector2(1039, 411)
 
 [node name="Madre3" parent="Madre" instance=ExtResource("18_sww3w")]
 position = Vector2(1040, 368)
+script = ExtResource("19_qouja")
 
 [node name="Medico" type="Node2D" parent="."]
 
@@ -42573,8 +42577,8 @@ position = Vector2(1055, 1086)
 [node name="Medico2" parent="Medico" instance=ExtResource("19_264po")]
 position = Vector2(877, 691)
 
-[node name="Medico3" parent="Medico" instance=ExtResource("19_264po")]
-position = Vector2(818, 1082)
+[node name="Medico3" parent="Medico" instance=ExtResource("21_wljb1")]
+position = Vector2(1056, 1051)
 
 [node name="Cura" type="Node2D" parent="."]
 
@@ -42599,6 +42603,9 @@ position = Vector2(382, 436)
 
 [node name="nina2" parent="Nina" instance=ExtResource("21_e1j6l")]
 position = Vector2(694, 663)
+
+[node name="nina3" parent="Nina" instance=ExtResource("24_qouja")]
+position = Vector2(382, 425)
 
 [node name="Mikhail" type="Node2D" parent="."]
 
