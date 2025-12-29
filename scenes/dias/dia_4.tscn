@@ -41,15 +41,17 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 32.0
-offset_top = 141.0
-offset_right = 1120.0
-offset_bottom = 216.0
+offset_left = 51.0
+offset_top = 108.0
+offset_right = 1139.0
+offset_bottom = 220.0
 theme_override_fonts/font = ExtResource("2_f07hw")
 theme_override_font_sizes/font_size = 20
-text = "La gente es bastate variada. He repartido algunas notícias, de momento no sospechan nada. Tengo mas control del que pensaba.
-Me da pena la MADRE, espero que su marido llegue bien, por ahora no hubieron incidentes.
-"
+text = "Algunos vecinos no reaccionan hasta que otra voz les dice qué pensar. Los más creyentes esperan a escuchar al Papa; si sus 
+palabras coinciden con el diario, todo parece estar en orden. Otros buscan respuestas en la doctora. No leen buscando consuelo, 
+sino instrucciones. Cuando ella interpreta las noticias, lo escrito cobra sentido.
+
+El mensaje no se impone. Se filtra. Y cuando pasa por las personas adecuadas, llega más lejos de lo que yo podría imaginar."
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="."]
 layout_mode = 0

@@ -41,15 +41,18 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 32.0
-offset_top = 141.0
-offset_right = 1120.0
-offset_bottom = 216.0
+offset_left = 52.0
+offset_top = 98.0
+offset_right = 1116.0
+offset_bottom = 233.0
 theme_override_fonts/font = ExtResource("2_6csea")
 theme_override_font_sizes/font_size = 20
-text = "La gente es bastate variada. He repartido algunas notícias, de momento no sospechan nada. Tengo mas control del que pensaba.
-Me da pena la MADRE, espero que su marido llegue bien, por ahora no hubieron incidentes.
-"
+text = "Las noticias no han generado debate ni preguntas. Han entrado directamente, casi como una inyección en el pensamiento de los vecinos.
+No ha habido devoluciones, ni reniegues, ni intentos de ponerlas en duda. Nadie ha sentido la necesidad de responder, solo de asumir.
+
+Las reacciones han sido silenciosas pero uniformes: miradas bajas, pasos más rápidos, casas que se cierran antes de lo habitual.
+El mensaje ha sido absorbido."
+vertical_alignment = 1
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="."]
 layout_mode = 0

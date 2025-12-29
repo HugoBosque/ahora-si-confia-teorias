@@ -41,15 +41,19 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 32.0
-offset_top = 141.0
-offset_right = 1120.0
-offset_bottom = 216.0
+offset_left = 41.0
+offset_top = 74.0
+offset_right = 1148.0
+offset_bottom = 232.0
 theme_override_fonts/font = ExtResource("2_avcyx")
 theme_override_font_sizes/font_size = 20
-text = "La gente es bastate variada. He repartido algunas notícias, de momento no sospechan nada. Tengo mas control del que pensaba.
-Me da pena la MADRE, espero que su marido llegue bien, por ahora no hubieron incidentes.
-"
+text = "Hoy he notado que no todos se sienten incómodos por lo mismo.
+A algunos, las noticias les encajan demasiado bien. Las aceptan sin rechistar. Pero a otros les provocan algo distinto: 
+dudas, gestos tensos, silencios largos. Como si lo que leían no cuadrara del todo con su manera de ver las cosas.
+
+Cuando eso pasa, no reaccionan con miedo, sino con rechazo. Empiezo a entender por qué no puedo dar el mismo mensaje 
+a todo el mundo. Si quiero que se queden en casa, tengo que tocar justo lo que más les preocupa a cada uno."
+vertical_alignment = 1
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="."]
 layout_mode = 0

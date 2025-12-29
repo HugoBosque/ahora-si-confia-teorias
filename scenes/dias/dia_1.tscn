@@ -41,15 +41,15 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 13.999999
-offset_top = 75.0
-offset_right = 1750.0
-offset_bottom = 233.0
+offset_left = 35.0
+offset_top = 77.0
+offset_right = 1151.2645
+offset_bottom = 235.0
 scale = Vector2(1.0015547, 1)
 theme_override_fonts/font = ExtResource("2_mlbvd")
 theme_override_font_sizes/font_size = 20
-text = "Todos han aceptado el periódico como si fuera una verdad cerrada, sin hacer demasiadas preguntas. Supongo que cuando la información llega 
-siempre del mismo sitio, uno acaba confiando por costumbre.
+text = "Todos han aceptado el periódico como si fuera una verdad cerrada, sin hacer demasiadas preguntas. Supongo que cuando la información 
+llega siempre del mismo sitio, uno acaba confiando por costumbre.
 
 Algunos repiten exactamente lo que han leído, palabra por palabra, mientras otros lo interpretan según sus miedos o su forma de ver 
 el mundo. Aun así, nadie ha buscado una versión distinta. El diario parece suficiente. Tengo más control del que pensaba. 
