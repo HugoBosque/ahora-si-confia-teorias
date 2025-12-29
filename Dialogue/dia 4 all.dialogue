@@ -1,11 +1,69 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+
+
+[color=#89C2FF][b]Yo[/b][/color]: …
+[color=#89C2FF][b]Yo[/b][/color]: ¿Qué está pasando?
+
+
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: ¡Tranquilos todos!
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: Entrar en pánico no va a llenar los estómagos ni a limpiar el aire.
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: Lo que necesitamos es organizarnos… y pensar con la cabeza fría.
+
+
+[color=#A0A0A0][b]Alexei[/b][/color]: ¿Cabeza fría?
+[color=#A0A0A0][b]Alexei[/b][/color]: Llevamos días oliendo algo raro, la gente se marea, los animales huyen…
+[color=#A0A0A0][b]Alexei[/b][/color]: No es histeria, Iván. Es lógica.
+
+
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Alexei no exagera.
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: He atendido a varios con mareos, náuseas y confusión.
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: No puedo confirmar la causa, pero negar los síntomas es irresponsable.
+
+
+[color=#B98A56][b]Padre Zhukov[/b][/color]: Hermanos, por favor.
+[color=#B98A56][b]Padre Zhukov[/b][/color]: El miedo nubla el juicio, y en la confusión nacen los pecados.
+[color=#B98A56][b]Padre Zhukov[/b][/color]: Debemos mantener la fe… y la calma.
+
+
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]La calma no ahuyenta a lo invisible…
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]El aire está enfermo. La tierra lo sabe.
+
+
+
+[color=#F9E07F][b]Svetlana[/b][/color]: Yo solo sé que mi hijo no puede dormir.
+[color=#F9E07F][b]Svetlana[/b][/color]: Dice que le arde la garganta… que le cuesta respirar.
+[color=#F9E07F][b]Svetlana[/b][/color]: No me importa quién tenga razón. Quiero que esto pare.
+
+
+[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Basta.
+[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Mi mujer murió sin aire en los pulmones.
+[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No quiero rezos. No quiero cuentos.
+[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Quiero respuestas.
+
+
+[color=#9de841][b]Mikhail Belov[/b][/color]: Yo no entiendo de gases ni de política…
+[color=#9de841][b]Mikhail Belov[/b][/color]: Pero la cosecha se está perdiendo.
+
+
+
+[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Y las habrá.
+[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Pero no aquí, ni a gritos.
+[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Hay una investigación en curso.
+[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Y os aseguro una cosa:
+[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Si alguien ha puesto en peligro al pueblo…
+[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Responderá por ello.
+
+
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: ¿Insinúas algo, Viktor?
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: Porque aquí todos intentamos sobrevivir como podemos.
+
+
+[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Si no tienes nada que ocultar...
+[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: No tienes nada que temer.
+
+
+[color=#89C2FF][b]Yo[/b][/color]: …
+[color=#89C2FF][b]Yo[/b][/color]: Esto ya no es solo un rumor.
+[color=#89C2FF][b]Yo[/b][/color]: El pueblo está dividido… y asustado.
+
 => END
