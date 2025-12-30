@@ -33,6 +33,7 @@ extends Node
 @onready var tendero_2: Area2D = $tendero/tendero2
 
 
+
 func _ready():
 	GameManager.connect("dia_cambiado", Callable(self, "_on_dia_cambiado"))
 	_actualizar_personaje_según_preocupacion()
@@ -58,6 +59,7 @@ func _actualizar_personaje_según_preocupacion():
 	var pvi = GameManager.preocupacion_viudo
 	var pye = GameManager.preocupacion_yerik
 	var pcu = GameManager.preocupacion_cura
+	var pte = GameManager.preocupacion_tendero
 
 	# 🔹 Limpieza previa
 	desactivar_todas_madres()
@@ -69,6 +71,7 @@ func _actualizar_personaje_según_preocupacion():
 	desactivar_todos_viktor()
 	desactivar_todos_viudos()
 	desactivar_todos_yeriks()
+	desactivar_todos_tenderos()
 
 
 	
@@ -156,6 +159,14 @@ func _actualizar_personaje_según_preocupacion():
 			activar_yerik(yerik_pavel)
 		else:
 			activar_yerik(yerik_pavel_3)
+
+	# 🔹 --- TENDERO ---
+	if GameManager.dia == 4:
+		activar_tenderos(tendero_2)
+	else:
+		activar_tenderos(tendero)
+
+
 
 # -------------------- FUNCIONES DE ACTIVACIÓN --------------------
 func desactivar_todas_madres():
@@ -266,6 +277,18 @@ func activar_cura(activo: Area2D):
 	for c in curas:
 		if c != activo:
 			_set_personaje_activo(c, false)
+	_set_personaje_activo(activo, true)
+	
+func desactivar_todos_tenderos():
+	var tenderos = [tendero, tendero_2]
+	for t in tenderos:
+		_set_personaje_activo(t, false)
+
+func activar_tenderos(activo: Area2D):
+	var tenderos = [tendero, tendero_2]
+	for t in tenderos:
+		if t != activo:
+			_set_personaje_activo(t, false)
 	_set_personaje_activo(activo, true)
 
 # 🔹 Función genérica para activar o desactivar un personaje (madre o médico)
