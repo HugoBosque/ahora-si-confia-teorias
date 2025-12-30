@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=4 uid="uid://cg0ysj07cxfnp"]
+[gd_scene load_steps=48 format=4 uid="uid://cg0ysj07cxfnp"]
 
 [ext_resource type="Script" uid="uid://dk4i6ny4oi7h3" path="res://scripts/game.gd" id="1_1kice"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="1_uwrxv"]
@@ -27,10 +27,15 @@
 [ext_resource type="PackedScene" uid="uid://b3o4e0083jnmn" path="res://scenes/personajes/Mikhail Belov.tscn" id="22_pl11u"]
 [ext_resource type="PackedScene" uid="uid://vl5po0vq2iaa" path="res://scenes/personajes/Viktor Sokolov.tscn" id="23_bhx41"]
 [ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="24_e1j6l"]
-[ext_resource type="PackedScene" path="res://scenes/personajes/baba nina/baba_nina_casa.tscn" id="24_qouja"]
+[ext_resource type="PackedScene" uid="uid://cd3vpfv1uqroa" path="res://scenes/personajes/esceptico en casa.tscn" id="24_twgab"]
 [ext_resource type="PackedScene" uid="uid://mf0qdfkoab6f" path="res://scenes/personajes/minero.tscn" id="25_pl11u"]
+[ext_resource type="PackedScene" uid="uid://bijgdb46ki14" path="res://scenes/personajes/baba_nina_casa.tscn" id="25_qouja"]
 [ext_resource type="AudioStream" uid="uid://bv7i7xho2pp3p" path="res://AUDIO JUEGO/City_1.ogg" id="26_bhx41"]
 [ext_resource type="PackedScene" uid="uid://bitm837uiuroy" path="res://scenes/dia4 talk.tscn" id="26_qnb83"]
+[ext_resource type="PackedScene" uid="uid://cgyqklpr1ybfu" path="res://scenes/personajes/Mikhail Beloven casa.tscn" id="27_wljb1"]
+[ext_resource type="PackedScene" uid="uid://cfuhx40jipjlw" path="res://scenes/personajes/Viktor Sokolov en casa.tscn" id="30_02fa5"]
+[ext_resource type="PackedScene" uid="uid://cybrxvtxrj7k0" path="res://scenes/personajes/viudo en casa.tscn" id="32_nepv3"]
+[ext_resource type="PackedScene" uid="uid://cymrn2scq3qyh" path="res://scenes/personajes/minero en casa.tscn" id="34_7025r"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_no12j"]
 texture = ExtResource("2_kvpfn")
@@ -42596,6 +42601,9 @@ position = Vector2(1599, -361)
 [node name="Esceptico2" parent="Esceptico" instance=ExtResource("21_5newe")]
 position = Vector2(720, 609)
 
+[node name="Esceptico3" parent="Esceptico" instance=ExtResource("24_twgab")]
+position = Vector2(1607, -387)
+
 [node name="Nina" type="Node2D" parent="."]
 
 [node name="nina" parent="Nina" instance=ExtResource("21_e1j6l")]
@@ -42604,8 +42612,8 @@ position = Vector2(382, 436)
 [node name="nina2" parent="Nina" instance=ExtResource("21_e1j6l")]
 position = Vector2(694, 663)
 
-[node name="nina3" parent="Nina" instance=ExtResource("24_qouja")]
-position = Vector2(382, 425)
+[node name="nina3" parent="Nina" instance=ExtResource("25_qouja")]
+position = Vector2(382, 422)
 
 [node name="Mikhail" type="Node2D" parent="."]
 
@@ -42615,6 +42623,9 @@ position = Vector2(-100, 370)
 [node name="Mikhail Belov2" parent="Mikhail" instance=ExtResource("22_pl11u")]
 position = Vector2(696, 769)
 
+[node name="Mikhail Belov3" parent="Mikhail" instance=ExtResource("27_wljb1")]
+position = Vector2(-100, 363)
+
 [node name="Viktor" type="Node2D" parent="."]
 
 [node name="Viktor Sokolov" parent="Viktor" instance=ExtResource("23_bhx41")]
@@ -42622,6 +42633,9 @@ position = Vector2(207, 700)
 
 [node name="Viktor Sokolov2" parent="Viktor" instance=ExtResource("23_bhx41")]
 position = Vector2(906, 754)
+
+[node name="Viktor Sokolov3" parent="Viktor" instance=ExtResource("30_02fa5")]
+position = Vector2(208, 682)
 
 [node name="Viudo" type="Node2D" parent="."]
 
@@ -42631,6 +42645,9 @@ position = Vector2(1615, 662)
 [node name="Viudo2" parent="Viudo" instance=ExtResource("20_bt5mj")]
 position = Vector2(731, 808)
 
+[node name="Viudo3" parent="Viudo" instance=ExtResource("32_nepv3")]
+position = Vector2(1616, 639)
+
 [node name="Yerik" type="Node2D" parent="."]
 
 [node name="Yerik Pavel" parent="Yerik" instance=ExtResource("25_pl11u")]
@@ -42638,6 +42655,9 @@ position = Vector2(1414, 1170)
 
 [node name="Yerik Pavel2" parent="Yerik" instance=ExtResource("25_pl11u")]
 position = Vector2(863, 805)
+
+[node name="Yerik Pavel3" parent="Yerik" instance=ExtResource("34_7025r")]
+position = Vector2(1416, 1147)
 
 [node name="dia 4 talk" parent="." instance=ExtResource("26_qnb83")]
 position = Vector2(782, 716)

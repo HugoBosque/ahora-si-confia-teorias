@@ -12,17 +12,25 @@ extends Node
 @onready var madre_3: Area2D = $Madre/Madre3
 @onready var esceptico: Area2D = $Esceptico/Esceptico
 @onready var esceptico_2: Area2D = $Esceptico/Esceptico2
+@onready var esceptico_3: Area2D = $Esceptico/Esceptico3
 @onready var nina: Area2D = $Nina/nina
 @onready var nina_2: Area2D = $Nina/nina2
+@onready var nina_3: Area2D = $Nina/nina3
 @onready var mikhail_belov: Area2D = $"Mikhail/Mikhail Belov"
 @onready var mikhail_belov_2: Area2D = $"Mikhail/Mikhail Belov2"
+@onready var mikhail_belov_3: Area2D = $"Mikhail/Mikhail Belov3"
 @onready var viktor_sokolov: Area2D = $"Viktor/Viktor Sokolov"
 @onready var viktor_sokolov_2: Area2D = $"Viktor/Viktor Sokolov2"
+@onready var viktor_sokolov_3: Area2D = $"Viktor/Viktor Sokolov3"
 @onready var viudo: Area2D = $Viudo/Viudo
 @onready var viudo_2: Area2D = $Viudo/Viudo2
+@onready var viudo_3: Area2D = $Viudo/Viudo3
 @onready var yerik_pavel: Area2D = $"Yerik/Yerik Pavel"
 @onready var yerik_pavel_2: Area2D = $"Yerik/Yerik Pavel2"
+@onready var yerik_pavel_3: Area2D = $"Yerik/Yerik Pavel3"
 @onready var dia_4_talk: Area2D = $"dia 4 talk"
+@onready var tendero: Area2D = $tendero/tendero
+@onready var tendero_2: Area2D = $tendero/tendero2
 
 
 func _ready():
@@ -50,9 +58,6 @@ func _actualizar_personaje_según_preocupacion():
 	var pvi = GameManager.preocupacion_viudo
 	var pye = GameManager.preocupacion_yerik
 	var pcu = GameManager.preocupacion_cura
-
-	print("🟢 Actualizando personajes (día: %s, preoc. madre: %s, preoc. médico: %s)" %
-		[GameManager.dia, pma, pme])
 
 	# 🔹 Limpieza previa
 	desactivar_todas_madres()
@@ -102,38 +107,55 @@ func _actualizar_personaje_según_preocupacion():
 	if GameManager.dia == 4:
 		activar_esceptico(esceptico_2)
 	else:
-		activar_esceptico(esceptico)
-		
+		if pes <= 50:
+			activar_esceptico(esceptico)
+		else:
+			activar_esceptico(esceptico_3)
+			
 	# 🔹 --- NINA ---
 	if GameManager.dia == 4:
 		activar_nina(nina_2)
 	else:
-		activar_nina(nina)
-
+		if pni <= 50:
+			activar_nina(nina)
+		else:
+			activar_nina(nina_3)
+			
 	# 🔹 --- MIKHAIL ---
 	if GameManager.dia == 4:
 		activar_mikhail(mikhail_belov_2)
 	else:
-		activar_mikhail(mikhail_belov)
-
+		if pmi <= 50:
+			activar_mikhail(mikhail_belov)
+		else:
+			activar_mikhail(mikhail_belov_3)
+			
 	# 🔹 --- VIKTOR ---
 	if GameManager.dia == 4:
 		activar_viktor(viktor_sokolov_2)
 	else:
-		activar_viktor(viktor_sokolov)
+		if pvik <= 50:
+			activar_viktor(viktor_sokolov)
+		else:
+			activar_viktor(viktor_sokolov_3)
 
 	# 🔹 --- VIUDO ---
 	if GameManager.dia == 4:
 		activar_viudo(viudo_2)
 	else:
-		activar_viudo(viudo)
+		if pvi <= 50:
+			activar_viudo(viudo)
+		else:
+			activar_viudo(viudo_3)
 
 	# 🔹 --- YERIK ---
 	if GameManager.dia == 4:
 		activar_yerik(yerik_pavel_2)
 	else:
-		activar_yerik(yerik_pavel)
-
+		if pye <= 50:
+			activar_yerik(yerik_pavel)
+		else:
+			activar_yerik(yerik_pavel_3)
 
 # -------------------- FUNCIONES DE ACTIVACIÓN --------------------
 func desactivar_todas_madres():
@@ -162,73 +184,73 @@ func activar_medico(activo: Area2D):
 	_set_personaje_activo(activo, true)
 
 func desactivar_todos_escepticos():
-	var escepticos = [esceptico, esceptico_2]
+	var escepticos = [esceptico, esceptico_2, esceptico_3]
 	for e in escepticos:
 		_set_personaje_activo(e, false)
 		 
 
 func activar_esceptico(activo: Area2D):
-	var escepticos = [esceptico, esceptico_2]
+	var escepticos = [esceptico, esceptico_2, esceptico_3]
 	for e in escepticos:
 		if e != activo:
 			_set_personaje_activo(e, false)
 	_set_personaje_activo(activo, true)
 
 func desactivar_todas_ninas():
-	var ninas = [nina, nina_2]
+	var ninas = [nina, nina_2, nina_3]
 	for n in ninas:
 		_set_personaje_activo(n, false)
 
 func activar_nina(activo: Area2D):
-	var ninas = [nina, nina_2]
+	var ninas = [nina, nina_2, nina_3]
 	for n in ninas:
 		if n != activo:
 			_set_personaje_activo(n, false)
 	_set_personaje_activo(activo, true)
 
 func desactivar_todos_mikhail():
-	var mikhails = [mikhail_belov, mikhail_belov_2]
+	var mikhails = [mikhail_belov, mikhail_belov_2, mikhail_belov_3]
 	for m in mikhails:
 		_set_personaje_activo(m, false)
 
 func activar_mikhail(activo: Area2D):
-	var mikhails = [mikhail_belov, mikhail_belov_2]
+	var mikhails = [mikhail_belov, mikhail_belov_2, mikhail_belov_3]
 	for m in mikhails:
 		if m != activo:
 			_set_personaje_activo(m, false)
 	_set_personaje_activo(activo, true)
 
 func desactivar_todos_viktor():
-	var viktors = [viktor_sokolov, viktor_sokolov_2]
+	var viktors = [viktor_sokolov, viktor_sokolov_2, viktor_sokolov_3]
 	for v in viktors:
 		_set_personaje_activo(v, false)
 
 func activar_viktor(activo: Area2D):
-	var viktors = [viktor_sokolov, viktor_sokolov_2]
+	var viktors = [viktor_sokolov, viktor_sokolov_2, viktor_sokolov_3]
 	for v in viktors:
 		if v != activo:
 			_set_personaje_activo(v, false)
 	_set_personaje_activo(activo, true)
 
 func desactivar_todos_viudos():
-	var viudos = [viudo, viudo_2]
+	var viudos = [viudo, viudo_2, viudo_3]
 	for v in viudos:
 		_set_personaje_activo(v, false)
 
 func activar_viudo(activo: Area2D):
-	var viudos = [viudo, viudo_2]
+	var viudos = [viudo, viudo_2, viudo_3]
 	for v in viudos:
 		if v != activo:
 			_set_personaje_activo(v, false)
 	_set_personaje_activo(activo, true)
 
 func desactivar_todos_yeriks():
-	var yeriks = [yerik_pavel, yerik_pavel_2]
+	var yeriks = [yerik_pavel, yerik_pavel_2, yerik_pavel_3]
 	for y in yeriks:
 		_set_personaje_activo(y, false)
 
 func activar_yerik(activo: Area2D):
-	var yeriks = [yerik_pavel, yerik_pavel_2]
+	var yeriks = [yerik_pavel, yerik_pavel_2, yerik_pavel_3]
 	for y in yeriks:
 		if y != activo:
 			_set_personaje_activo(y, false)
