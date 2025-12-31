@@ -44,6 +44,62 @@ var preocupacion_yerik: int = 0
 signal dia_cambiado(nuevo_dia: int)
 
 # -------------------- FUNCIONES --------------------
+
+func get_dano_por_dia() -> int:
+	match dia:
+		1: return 5
+		2: return 10
+		3: return 15
+		4: return 25
+		5: return 35
+		6: return 45
+		7: return 55
+	return 0
+
+func hacer_dano():
+	var dano := get_dano_por_dia()
+
+	# CURA
+	if preocupacion_cura < 75:
+		vida_cura = max(vida_cura - dano, 0)
+
+	# ESCEPTICO
+	if preocupacion_esceptico < 75:
+		vida_esceptico = max(vida_esceptico - dano, 0)
+
+	# MADRE
+	if preocupacion_madre < 75:
+		vida_madre = max(vida_madre - dano, 0)
+
+	# MEDICO
+	if preocupacion_medico < 75:
+		vida_medico = max(vida_medico - dano, 0)
+
+	# NINA
+	if preocupacion_nina < 75:
+		vida_nina = max(vida_nina - dano, 0)
+
+	# MIKHAIL
+	if preocupacion_mikhail < 75:
+		vida_mikhail = max(vida_mikhail - dano, 0)
+
+	# VIKTOR
+	if preocupacion_viktor < 75:
+		vida_viktor = max(vida_viktor - dano, 0)
+
+	# VIUDO
+	if preocupacion_viudo < 75:
+		vida_viudo = max(vida_viudo - dano, 0)
+
+	# YERIK
+	if preocupacion_yerik < 75:
+		vida_yerik = max(vida_yerik - dano, 0)
+
+	# TENDERO
+	if preocupacion_tendero < 75:
+		vida_tendero = max(vida_tendero - dano, 0)
+
+
 func cambiar_dia():
 	"""
 	Aumenta el día actual, emite la señal de cambio y actualiza la lógica global.

@@ -22,4 +22,5 @@ func _on_body_exited(area) -> void:
 func _process(_delta):
 	if player_in_area and Input.is_action_just_pressed("ui_accept") and GameManager.has_done_cinematic1:
 		# Cargar la escena del video
+		GameManager.hacer_dano()
 		get_tree().change_scene_to_file("res://scenes/cinemarografia/video_stream_player.tscn")
