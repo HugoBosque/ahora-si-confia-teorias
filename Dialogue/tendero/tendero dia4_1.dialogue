@@ -1,11 +1,44 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: Ah… ya se han calmado las aguas.
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: Después del numerito en la plaza, cada uno vuelve a su cueva.
+
+- Vengo a darte las noticias
+	set Global.dia4_hablar_tendero = true
+	[color=#D8A15F][b]Iván Petrovich[/b][/color]: A ver qué dicen hoy los papeles… últimamente mandan más que las personas.
+
+	- “Algunos habitantes han presentado leves mareos”
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Normal.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Después de escuchar al cura y a la doctora, la gente ya se convence de que algo pasa.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Palabras medidas, caras serias… eso asusta más que el propio mareo.
+
+	- “Los expertos sugieren limitar las salidas innecesarias”
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Limitar salidas… claro.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Primero te dicen que mantengas la calma y luego que no salgas de casa.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Al final todos obedecen, sobre todo si lo dice alguien con bata blanca.
+
+	- “Se suspende temporalmente el mercado semanal”
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Esto sí que no gusta.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: El mercado era donde la gente hablaba, negociaba, se desahogaba…
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Sin eso, cada uno rumia sus miedos en casa.
+
+- Venía a hablar contigo
+
+	if Global.dia3_pista_tendero_viktor:
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Oye…
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: ¿No notaste cómo me miraba Viktor en la plaza?
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Ese hombre no escucha sermones ni diagnósticos. Solo busca culpables.
+
+	
+	elif Global.dia3_tendero_contrabando:
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Te diré una cosa, en confianza.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Después de lo que pasó en la plaza, más me vale andar con cuidado.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Cuando el cura y la doctora hablan a una sola voz, los demás solo escuchan.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Y los que hacemos malabares para que no falte comida… somos los primeros en sobrar.
+
+	else:
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Hoy el pueblo está raro.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Demasiado silencio después de tanta discusión.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Cuando todos callan a la vez, es que están esperando algo… o a alguien.
+
 => END
