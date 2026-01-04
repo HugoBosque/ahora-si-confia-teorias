@@ -1,17 +1,51 @@
 ~ start
-cura: hola
-- noticias
-	set Global.dia1_hablar_cura = true
-	cura: si
-	- "noticia1"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-	- "noticia2"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-	- "noticia3"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-- demas
+
+# Entrada
+[color=#B98A56][b]Padre Zhukov[/b][/color]: Hijo mío.
+[color=#B98A56][b]Padre Zhukov[/b][/color]: El pueblo hoy está más callado… y eso es bueno.
+
+- Vengo a darte las noticias
+	set Global.dia5_hablar_cura = true
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Adelante. La información, bien guiada, puede ser una bendición.
+
+	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Ah… luces.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Nada desestabiliza más que lo que no tiene explicación inmediata.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Por eso es importante no alimentar interpretaciones… innecesarias.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: El pueblo necesita certezas, no preguntas.
+
+	- “Hospital regional aumenta vigilancia médica”
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: La doctora es diligente.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Aunque a veces la ciencia crea más alarma de la que resuelve.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: La gente confía demasiado rápido en batas blancas… y demasiado poco en la palabra que calma.
+
+	- “Reordenación del transporte, solo rutas priorizadas”
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Medidas necesarias.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Cuando el movimiento se reduce, el orden se mantiene.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Y el orden… siempre ha sido frágil aquí.
+
+- Venía a hablar contigo
+
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Ayer, en la plaza, muchos hablaron demasiado.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: El miedo es útil, hijo… pero solo cuando se canaliza bien.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Útil?
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Para mantener unidos a los hombres, sí.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Un enemigo invisible siempre es más eficaz que uno real.
+
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Algunos buscan culpables.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Otros buscan respuestas.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Yo solo procuro que nadie busque demasiado.
+
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Dime…
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: ¿El pueblo sigue escuchando el periódico?
+
+	[color=#89C2FF][b]Yo[/b][/color]: Sí.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Bien.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Entonces aún estamos a tiempo.
+# Cierre inquietante
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Recuerda, hijo…
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: la verdad no siempre salva.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: A veces… solo provoca incendios.
 
 => END

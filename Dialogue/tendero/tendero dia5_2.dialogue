@@ -1,11 +1,36 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: Hola.
+- Venía a hablar contigo
+
+	if Global.dia3_pista_tendero_viktor:
+		# Si Viktor ya tiene pista
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Te seré claro.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: El del traje me está rondando demasiado.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Y no creo en casualidades.
+		[color=#89C2FF][b]Yo[/b][/color]: La situación se está tensando para todos.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Sí, pero algunos estamos más expuestos que otros.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Solo te diré una cosa: en este pueblo nadie es completamente limpio.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: El que diga lo contrario… miente o es un idiota.
+
+	elif Global.dia3_tendero_contrabando:
+		# Si hay confianza previa
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Oye…
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Lo del otro día.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Mejor no hablar más de ello.
+		[color=#89C2FF][b]Yo[/b][/color]: Entiendo.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: No es que no confíe en ti.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Es que cuando el aire se vuelve raro… las palabras pesan más.
+
+	else:
+		# Relación neutra
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: El pueblo necesita comida, no discursos.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Y yo necesito trabajar sin que me miren como a un criminal.
+		[color=#89C2FF][b]Yo[/b][/color]: Nadie ha acusado a nadie… aún.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Ese “aún” es lo que me preocupa.
+
+# Cierre
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: Anda, sigue con tu ruta.
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: Y cuidado con lo que repartes.
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: Algunas noticias pesan más que el pan.
+
 => END
