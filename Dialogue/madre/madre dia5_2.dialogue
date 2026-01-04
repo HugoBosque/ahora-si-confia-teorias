@@ -1,14 +1,4 @@
 ~ start
-Svetlana: [speed=0.6] ¿Puedo ayudarte en algo?
-
-
-- Venia a hablar contigo
-	Svetlana: ¿Hay algun problema? ¿Ha pasado algo?
-	- De hecho, no, todo esta bien.
-		Svetlana: [speed=0.6]Gracias a Dios.
-	
-	- No, pero me gustaría preguntarle sobre su situación, cómo está?
-		Svetlana: [speed=0.6] La verdad es que estoy en una situación díficil, mi querido marido se ha ido a luchar en el frente por nuestro país, y, bueno, [wait=0.5] yo estoy aquí con mis dos hijos.
-
+[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Lo siento, pero creo que iré a orar por mi marido, espero que lo entiendas.
 
 => END

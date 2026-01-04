@@ -1,28 +1,41 @@
 ~ start
-Alexei: [speed=0.7] ¿Se te ha perdido algo?
+
+[color=#A0A0A0][b]Alexei[/b][/color]: Ah… hola.
+[color=#A0A0A0][b]Alexei[/b][/color]: No esperaba verte hoy tan temprano.
 
 - Vengo a darte las noticias
-	set Global.dia1_halbar_esceptico = true
-	Alexei: No me las leeré.
-	- Es importante que estés informado.
-		Alexei: Prefiero informarme yo mismo.
-		- Como quieras, pero estoy obligado a entregarte el periódico.
-		Alexei: Si no hay más remedio...
-		- “La carretera principal sigue bloqueada por la nieve”.
-			set GameManager.preocupacion_esceptico -= 20
-			Alexei: Me da igual si hay mucha nieve, que la quiten.
-		- “Llegan nuevas provisiones desde la capital”.
-			set GameManager.preocupacion_esceptico -= 20
-			Alexei: Como siempre más a los que más tienen, y nosotros pasando frío y hambre aquí.
-		- “Se planea una mejora en el alumbrado público”.
-			Alexei: Que me alumbren esta.
-			set GameManager.preocupacion_esceptico -= 20
+	set Global.dia5_halbar_esceptico = true
+	[color=#A0A0A0][b]Alexei[/b][/color]: Adelante.  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Últimamente, la información pesa más que el silencio.
 
+	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+		[color=#A0A0A0][b]Alexei[/b][/color]: Luces… claro.
+		[color=#A0A0A0][b]Alexei[/b][/color]: Siempre hay alguien mirando al cielo cuando no entiende lo que ocurre en el suelo.
+		[color=#A0A0A0][b]Alexei[/b][/color]: No creo en presagios, pero sí en distracciones.
+		[color=#A0A0A0][b]Alexei[/b][/color]: Y esto… huele a distracción.
 
-- Sólo quiero hablar.
-	Alexei: [speed=0.7] No te lo tomes personal, no tengo de que hablar.
-	- Por ejemplo, ¿porque vives alejado?
-	Alexei: [speed=0.7] La gente me toma como loco por pensar diferente, paso de eso.	
-- Perdona sólo pasaba por aquí.
+	- “Hospital regional aumenta vigilancia médica”
+		[color=#A0A0A0][b]Alexei[/b][/color]: Eso ya es más serio.
+		[color=#A0A0A0][b]Alexei[/b][/color]: Cuando los médicos observan más de lo habitual, no es por curiosidad.
+		[color=#A0A0A0][b]Alexei[/b][/color]: No me tranquiliza… pero al menos alguien está mirando los datos.
+
+	- “Reordenación del transporte, solo rutas priorizadas”
+		[color=#A0A0A0][b]Alexei[/b][/color]: Ajá.
+		[color=#A0A0A0][b]Alexei[/b][/color]: Esto es lo que de verdad me preocupa.
+		[color=#A0A0A0][b]Alexei[/b][/color]: Cuando empiezan a ordenar movimientos, es porque esperan que algo empeore.
+		[color=#A0A0A0][b]Alexei[/b][/color]: No es pánico… es previsión.
+		[color=#A0A0A0][b]Alexei[/b][/color]: Y la previsión siempre llega antes que el encierro.
+
+- Venía a hablar contigo
+	[color=#A0A0A0][b]Alexei[/b][/color]: ¿Hablar?
+	[color=#A0A0A0][b]Alexei[/b][/color]: Supongo que eso aún no está prohibido.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Mira… no me gusta el ruido, ni los discursos grandilocuentes.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Pero llevo días viendo lo mismo repetirse:  
+	[color=#A0A0A0][b]Alexei[/b][/color]: Primero rumores, luego medidas, después costumbre.
+	[color=#A0A0A0][b]Alexei[/b][/color]: La gente aún sale a la calle…
+	[color=#A0A0A0][b]Alexei[/b][/color]: Pero ya no se queda.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Y cuando eso pasa, es porque algo se está cerrando.
+	[color=#A0A0A0][b]Alexei[/b][/color]: No afuera.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Aquí dentro.
 
 => END

@@ -1,17 +1,45 @@
 ~ start
-medico: hola
-- noticias
-	set Global.dia1_hablar_medico = true
-	medico: si
-	- "noticia1"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-	- "noticia2"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-	- "noticia3"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-- demas
+
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Buenos días.
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Espero que estés bien.
+
+- Vengo a darte las noticias
+	set Global.dia5_hablar_medico = true
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Gracias.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Estos días, cada palabra cuenta.
+
+	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: No me interesan las luces.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Cuando la gente mira al cielo es porque no quiere mirar los síntomas.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Y los síntomas están aquí, no arriba.
+
+	- “Hospital regional aumenta vigilancia médica”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Era inevitable.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Se han detectado patrones que no me gustan.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Nada concluyente todavía…
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: pero suficiente como para no bajar la guardia.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: La vigilancia no es alarma.we 
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Es prevención.
+
+	- “Reordenación del transporte, solo rutas priorizadas”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Eso confirma lo que sospechaba.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Cuando el movimiento se controla, es para ganar tiempo.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Tiempo para observar.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Y para decidir.
+
+- Venía a hablar contigo
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Dime.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pero si es una opinión, quiero que sea honesta.
+	[color=#89C2FF][b]Yo[/b][/color]: La gente está preocupada.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Lo sé.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Y no les culpo.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Por ahora, lo más importante es reducir la exposición.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Menos salidas. Menos contacto.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: No es encierro.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Aún.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pero si llega el momento…
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Será mejor que el pueblo ya esté preparado para obedecer sin pánico.
+	set Global.dia5_alina_recomienda_reduccion_contacto = true
+
 
 => END

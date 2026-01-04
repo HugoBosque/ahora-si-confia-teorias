@@ -1,6 +1,17 @@
 ~ start
-medico: hola
-
-- demas
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Hola, recadero.
+- Venía a hablar contigo
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Dime.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pero si es una opinión, quiero que sea honesta.
+	[color=#89C2FF][b]Yo[/b][/color]: La gente está preocupada.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Lo sé.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Y no les culpo.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Por ahora, lo más importante es reducir la exposición.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Menos salidas. Menos contacto.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: No es encierro.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Aún.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pero si llega el momento…
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Será mejor que el pueblo ya esté preparado para obedecer sin pánico.
+	set Global.dia5_alina_recomienda_reduccion_contacto = true
 
 => END

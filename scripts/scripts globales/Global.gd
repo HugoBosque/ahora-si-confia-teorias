@@ -27,6 +27,7 @@ var dia2_madre_noticia1 = false
 var dia3_hablar_madre = false
 var dia4_hablar_madre = false
 var dia5_hablar_madre = false
+var dia5_madre_sabe_marido_muerto = false
 var dia6_hablar_madre = false
 var dia7_hablar_madre = false
 
@@ -43,6 +44,7 @@ var dia2_hablar_medico = false
 var dia3_hablar_medico = false
 var dia4_hablar_medico = false
 var dia5_hablar_medico = false
+var dia5_alina_recomienda_reduccion_contacto = false
 var dia6_hablar_medico = false
 var dia7_hablar_medico = false
 

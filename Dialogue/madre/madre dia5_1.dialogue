@@ -1,30 +1,91 @@
 ~ start
-Svetlana: [speed=0.6] ¿Puedo ayudarte en algo?
-- Vengo a darte las noticias
-	set Global.dia1_hablar_madre = true
-	Svetlana: [speed=0.6]Te lo agradezco mucho.
-	- “Noticia1”
-		set GameManager.preocupacion_madre += 20
-		Svetlana: No me digas eso, mi marido se encuentra de camino al frente. Ay, ¿llegará bien? Por favor, te pido, Dios, que lleguen sanos y salvos. Por favor, si pasa algo, házmelo saber de inmediato.
-		- No se preocupe, en cuanto sepa algo se lo comunico.
-		
-	- “Noticia2”
-		set GameManager.preocupacion_madre += 20
-		Svetlana: [speed=0.6] Dios de nuevo desmostrando su infinita generosidad, a ver si su mano llega a nuestro pueblo, lo paso mal con mis pequeños.
-		- Tranquila señora, seguro que nuestro gobierno nos proveerá de alguna manera.
-			Svetlana: Eso espero, gracias.
-		
-	- “Noticia3”
-		set GameManager.preocupacion_madre += 20
-		Svetlana: [speed=0.6]La luz nos acerca a Dios, eso tiene que ser una señal divina.
 
-- Venia a hablar contigo
-	Svetlana: ¿Hay algun problema? ¿Ha pasado algo?
-	- De hecho, no, todo esta bien.
-		Svetlana: [speed=0.6]Gracias a Dios.
-	
-	- No, pero me gustaría preguntarle sobre su situación, cómo está?
-		Svetlana: [speed=0.6] La verdad es que estoy en una situación díficil, mi querido marido se ha ido a luchar en el frente por nuestro país, y, bueno, [wait=0.5] yo estoy aquí con mis dos hijos.
+[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Oh… hola.
+[color=#F9E07F][b]Svetlana[/b][/color]: No pensaba salir hoy, pero los niños necesitaban pan.
+[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Ocurre algo…?
+[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Tienes esa cara que solo se pone cuando las noticias no son buenas.
+
+[color=#89C2FF][b]Yo[/b][/color]: Svetlana… quería hablar contigo sobre tu marido.
+
+[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.3]…
+[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Dime.
+
+- Decirle la verdad
+	[color=#89C2FF][b]Yo[/b][/color]: Fue trasladado hace unos días.
+	[color=#89C2FF][b]Yo[/b][/color]: Su estado empeoró rápidamente.
+
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.3]…
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Ya lo sabía.
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Cuando alguien tarda tanto en volver… el cuerpo lo entiende antes que la cabeza.
+
+	[color=#89C2FF][b]Yo[/b][/color]: Lo siento.
+
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Sufrió?
+
+	[color=#89C2FF][b]Yo[/b][/color]: No estuvo solo.
+
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias…
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Eso es lo único que necesitaba saber.
+
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Haré lo que haga falta para proteger a mis hijos.
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Aunque tenga que cerrar la puerta al mundo.
+
+	set Global.dia5_madre_sabe_marido_muerto = true
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=10]Aunque tenga que cerrar la puerta al mundo.
+	- Vengo a darte las noticias
+	set Global.dia5_hablar_madre = true
+
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Dime… aunque últimamente cada noticia pesa más que la anterior.
+
+		- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Mi hijo las vio anoche desde la ventana.
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Lloró… decía que era una señal.
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Yo le dije que no, pero… no supe qué más decirle.
+
+		- “Hospital regional aumenta vigilancia médica”
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Eso me tranquiliza un poco.
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Si la doctora está atenta, quizá aún haya esperanza.
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Aunque cada vez conozco a más gente que se marea sin motivo…
+
+		- “Reordenación del transporte: solo rutas priorizadas”
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Entonces es verdad…
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Si empiezan a cerrar caminos, es que algo va muy mal.
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Quizá debería dejar a los niños en casa.
+
+
+		
+
+- No decirle la verdad
+	[color=#89C2FF][b]Yo[/b][/color]: Sigue en observación.
+	[color=#89C2FF][b]Yo[/b][/color]: Los médicos dicen que hay que esperar.
+
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]…
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Entiendo.
+
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias por decírmelo.
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Supongo que es mejor no perder la esperanza.
+
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Aun así…
+	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Algo dentro de mí no está en calma.
+	- Vengo a darte las noticias
+	set Global.dia5_hablar_madre = true
+
+		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Dime… aunque últimamente cada noticia pesa más que la anterior.
+
+		- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Mi hijo las vio anoche desde la ventana.
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Lloró… decía que era una señal.
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Yo le dije que no, pero… no supe qué más decirle.
+
+		- “Hospital regional aumenta vigilancia médica”
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Eso me tranquiliza un poco.
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Si la doctora está atenta, quizá aún haya esperanza.
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Aunque cada vez conozco a más gente que se marea sin motivo…
+
+		- “Reordenación del transporte: solo rutas priorizadas”
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Entonces es verdad…
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Si empiezan a cerrar caminos, es que algo va muy mal.
+			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Quizá debería dejar a los niños en casa.
 
 
 => END
