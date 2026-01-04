@@ -1,17 +1,32 @@
 ~ start
-mikhail: hola
-- noticias
-	set Global.dia1_hablar_mikhail = true
-	mikhail: si
-	- "noticia1"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-	- "noticia2"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-	- "noticia3"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-- demas
+
+[color=#9de841][b]Mikhail Belov[/b][/color]: Ah… has venido.
+[color=#9de841][b]Mikhail Belov[/b][/color]: Hoy el campo estaba demasiado quieto.
+
+- Vengo a darte las noticias
+	set Global.dia5_hablar_mikhail = true
+
+	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Anoche no se veía oscuro.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Ni siquiera las estrellas parecían en su sitio.
+
+	- “Hospital regional aumenta vigilancia médica”
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Entonces no soy el único que ha notado cosas raras.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Las hojas se caen antes de tiempo.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Y el trigo… no huele como debería.
+
+	- “Reordenación del transporte, solo rutas priorizadas”
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Cuando los caminos se vacían, es porque nadie espera volver pronto.
+
+- Venía a hablar contigo
+	[color=#9de841][b]Mikhail Belov[/b][/color]: He guardado semillas.
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Y he cerrado el cobertizo.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿No sales mañana?
+
+	[color=#9de841][b]Mikhail Belov[/b][/color]: No si puedo evitarlo.
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Hay días para trabajar… y días para esperar.
+
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Hoy es de los segundos.
 
 => END
