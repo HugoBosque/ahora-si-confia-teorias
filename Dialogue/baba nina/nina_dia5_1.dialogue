@@ -1,17 +1,42 @@
 ~ start
-nina: hola
-- noticias
-	set Global.dia1_hablar_nina = true
-	nina: si
-	- "noticia1"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-	- "noticia2"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-	- "noticia3"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-- demas
+
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Has vuelto…  
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]El aire te sigue, pequeño mensajero.
+
+- Vengo a darte las noticias
+	set Global.dia5_hablar_nina = true
+
+	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]No son luces.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Son avisos.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]El cielo también se cansa de mirar en silencio.
+
+	- “Hospital regional aumenta vigilancia médica”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Vigilar no es curar.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Los médicos miran el cuerpo.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Pero nadie escucha a la tierra.
+
+	- “Reordenación del transporte: solo rutas priorizadas”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Cerrar caminos…
+		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Es el primer gesto de los que saben que no habrá regreso.
+
+- Venía a hablar contigo
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]No has venido a hablar.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Has venido a confirmar.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Confirmar qué?
+
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Que ya no hay marcha atrás.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Que pronto las casas serán refugios…
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]…o tumbas.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Qué deberíamos hacer?
+
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Cerrar.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Cerrar puertas. Cerrar bocas.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Y escuchar el silencio, mientras aún responde.
+
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Los que se muevan demasiado…
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]…no llegarán al día siguiente.
 
 => END

@@ -1,17 +1,39 @@
 ~ start
-viudo: hola
-- noticias
-	set Global.dia1_hablar_viudo = true
-	viudo: si
-	- "noticia1"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia2"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia3"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-- demas
+
+[color=#6F6F6F][b]Romanov Morozov[/b][/color]: ¿Qué quieres?
+
+- Vengo a darte las noticias
+	set Global.dia5_hablar_viudo = true
+
+	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Luces…
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Cuando todo se viene abajo, la gente mira al cielo.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Yo ya no espero nada de ahí arriba.
+
+	- “Hospital regional aumenta vigilancia médica”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Vigilancia…
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A mi mujer también la vigilaban.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No sirvió de mucho.
+
+	- “Reordenación del transporte, solo rutas priorizadas”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Así empieza.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Primero cierran caminos. Luego, personas.
+
+- Venía a hablar contigo
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No soy buena compañía.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Pero habla.
+
+	[color=#89C2FF][b]Yo[/b][/color]: Desde la reunión… te noto diferente.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Porque ya no discuto.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Discutir es para quien aún cree que puede cambiar algo.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Y tú no lo crees?
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Creo en resistir.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: En cerrar la puerta.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: En no dar más de lo que este pueblo ya me quitó.
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Cuando llegue lo peor…
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: …yo ya estaré preparado.
 
 => END

@@ -1,6 +1,21 @@
 ~ start
-nina: hola
+[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Pequeña alma...
+- Venía a hablar contigo
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]No has venido a hablar.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Has venido a confirmar.
 
-- demas
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Confirmar qué?
 
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Que ya no hay marcha atrás.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Que pronto las casas serán refugios…
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]…o tumbas.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Qué deberíamos hacer?
+
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Cerrar.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Cerrar puertas. Cerrar bocas.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Y escuchar el silencio, mientras aún responde.
+
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Los que se muevan demasiado…
+	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]…no llegarán al día siguiente.
 => END
