@@ -41,15 +41,18 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 32.0
-offset_top = 141.0
-offset_right = 1120.0
-offset_bottom = 216.0
+offset_left = 37.0
+offset_top = 87.0
+offset_right = 1109.0
+offset_bottom = 222.0
 theme_override_fonts/font = ExtResource("2_4viwv")
 theme_override_font_sizes/font_size = 20
-text = "La gente es bastate variada. He repartido algunas notícias, de momento no sospechan nada. Tengo mas control del que pensaba.
-Me da pena la MADRE, espero que su marido llegue bien, por ahora no hubieron incidentes.
-"
+text = "Algunas de las voces más escuchadas transmiten calma sin negar el problema. Lo envuelven en palabras que ordenan, que tranquilizan, y
+para muchos eso basta para aceptar lo que ocurre sin inquietarse. Otras, en cambio, hablan desde la prevención: no ofrecen consuelo, 
+sino preparación. Sus mensajes son más fríos, más directos, y generan incomodidad en quienes no están acostumbrados a obedecer sin 
+preguntar. Entre ambos discursos empieza a notarse una tensión silenciosa. Cada uno empuja al pueblo en una dirección distinta. 
+
+Aunque cada persona cree tomar sus propias decisiones, parecen estar influenciadas por la voz en la que elige confiar."
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="."]
 layout_mode = 0

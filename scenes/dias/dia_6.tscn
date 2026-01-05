@@ -41,15 +41,17 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 32.0
-offset_top = 141.0
-offset_right = 1120.0
-offset_bottom = 216.0
+offset_left = 36.0
+offset_top = 104.0
+offset_right = 1124.0
+offset_bottom = 231.0
 theme_override_fonts/font = ExtResource("2_naray")
 theme_override_font_sizes/font_size = 20
-text = "La gente es bastate variada. He repartido algunas notícias, de momento no sospechan nada. Tengo mas control del que pensaba.
-Me da pena la MADRE, espero que su marido llegue bien, por ahora no hubieron incidentes.
-"
+text = "La gente ya sabe cuándo es mejor no salir. No porque alguien se lo ordene, sino porque ha aprendido a leer las señales. Las noticias, 
+los avisos, el ambiente… todo empuja en la misma dirección. He visto calles más vacías incluso antes de que se diga nada nuevo. Como 
+si quedarse en casa fuera ya la opción lógica, la que evita problemas.
+
+Cuando una conducta se repite lo suficiente, deja de sentirse impuesta y empieza a parecer voluntaria."
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="."]
 layout_mode = 0
