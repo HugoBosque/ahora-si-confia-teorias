@@ -41,10 +41,10 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 57.0
-offset_top = 89.0
-offset_right = 1121.0
-offset_bottom = 224.0
+offset_left = 54.0
+offset_top = 82.0
+offset_right = 1118.0
+offset_bottom = 217.0
 theme_override_fonts/font = ExtResource("2_6csea")
 theme_override_font_sizes/font_size = 20
 text = "Las noticias no han generado debate ni preguntas. Han entrado directamente, casi como una inyección en el pensamiento de los vecinos.

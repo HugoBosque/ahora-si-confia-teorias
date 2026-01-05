@@ -41,10 +41,10 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 64.0
-offset_top = 73.0
-offset_right = 1171.0
-offset_bottom = 231.0
+offset_left = 95.0
+offset_top = 80.0
+offset_right = 1100.0
+offset_bottom = 238.0
 theme_override_fonts/font = ExtResource("2_avcyx")
 theme_override_font_sizes/font_size = 20
 text = "Hoy he notado que no todos se sienten incómodos por lo mismo.

@@ -41,10 +41,10 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 36.0
-offset_top = 104.0
-offset_right = 1124.0
-offset_bottom = 231.0
+offset_left = 39.0
+offset_top = 91.0
+offset_right = 1127.0
+offset_bottom = 218.0
 theme_override_fonts/font = ExtResource("2_naray")
 theme_override_font_sizes/font_size = 20
 text = "La gente ya sabe cuándo es mejor no salir. No porque alguien se lo ordene, sino porque ha aprendido a leer las señales. Las noticias, 

@@ -41,10 +41,10 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 51.0
-offset_top = 108.0
-offset_right = 1139.0
-offset_bottom = 220.0
+offset_left = 78.0
+offset_top = 96.0
+offset_right = 1102.0
+offset_bottom = 208.0
 theme_override_fonts/font = ExtResource("2_f07hw")
 theme_override_font_sizes/font_size = 20
 text = "Algunos vecinos no reaccionan hasta que otra voz les dice qué pensar. Los más creyentes esperan a escuchar al Papa; si sus 
