@@ -29,9 +29,9 @@ color = Color(0, 0, 0, 1)
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
 offset_left = 32.0
-offset_top = 32.0
+offset_top = 20.0
 offset_right = 1120.0
-offset_bottom = 77.0
+offset_bottom = 65.0
 size_flags_vertical = 2
 theme_override_fonts/font = ExtResource("2_ieot8")
 theme_override_font_sizes/font_size = 40
@@ -41,15 +41,19 @@ vertical_alignment = 1
 
 [node name="Label2" type="Label" parent="."]
 layout_mode = 0
-offset_left = 32.0
-offset_top = 141.0
-offset_right = 1120.0
-offset_bottom = 216.0
+offset_left = 21.0
+offset_top = 74.0
+offset_right = 1133.0
+offset_bottom = 232.0
 theme_override_fonts/font = ExtResource("2_ieot8")
 theme_override_font_sizes/font_size = 20
-text = "La gente es bastate variada. He repartido algunas notícias, de momento no sospechan nada. Tengo mas control del que pensaba.
-Me da pena la MADRE, espero que su marido llegue bien, por ahora no hubieron incidentes.
-"
+text = "Las casas permanecen cerradas. Las calles, en silencio. Todo funciona, pero, ¿Todo vale? Las decisiones se tomaron sin imposición aparente. 
+Nadie obligó a nadie. Solo se dijeron las palabras correctas, en el momento justo, a las personas adecuadas.
+
+Ahora resulta difícil distinguir dónde termina la protección y dónde empieza el control. Si el miedo evitó el pánico, 
+¿fue correcto sembrarlo? Si la obediencia trajo orden, ¿a qué precio se consiguió?
+	
+Tal vez el pueblo esté a salvo. O tal vez simplemente aprendió a callar."
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="."]
 layout_mode = 0
