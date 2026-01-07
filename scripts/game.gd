@@ -31,6 +31,7 @@ extends Node
 @onready var dia_4_talk: Area2D = $"dia 4 talk"
 @onready var tendero: Area2D = $tendero/tendero
 @onready var tendero_2: Area2D = $tendero/tendero2
+@onready var tendero_3: Area2D = $tendero/tendero3
 
 
 
@@ -86,7 +87,9 @@ func _actualizar_personaje_según_preocupacion():
 	elif GameManager.dia == 4:
 		activar_madre(madre_2)
 	else:
-		if pma <= 50:
+		if Global.dia5_madre_sabe_marido_muerto == true:
+			activar_madre(madre_3)
+		elif pma < 75:
 			activar_madre(madre)
 		else:
 			activar_madre(madre_3)
@@ -95,7 +98,7 @@ func _actualizar_personaje_según_preocupacion():
 	if GameManager.dia == 4:
 		activar_medico(medico_2)
 	else:
-		if pme <= 50:
+		if pme < 75:
 			activar_medico(medico)
 		else:
 			activar_medico(medico_3)
@@ -103,14 +106,16 @@ func _actualizar_personaje_según_preocupacion():
 	# 🔹 --- CURA ---
 	if GameManager.dia == 4:
 		activar_cura(cura_2)
-	else:
+	elif pcu < 75:
 		activar_cura(cura)
+	else:
+		desactivar_todos_curas()
 
 	# 🔹 --- ESCEPTICO ---
 	if GameManager.dia == 4:
 		activar_esceptico(esceptico_2)
 	else:
-		if pes <= 50:
+		if pes < 75:
 			activar_esceptico(esceptico)
 		else:
 			activar_esceptico(esceptico_3)
@@ -119,7 +124,7 @@ func _actualizar_personaje_según_preocupacion():
 	if GameManager.dia == 4:
 		activar_nina(nina_2)
 	else:
-		if pni <= 50:
+		if pni < 75:
 			activar_nina(nina)
 		else:
 			activar_nina(nina_3)
@@ -128,7 +133,7 @@ func _actualizar_personaje_según_preocupacion():
 	if GameManager.dia == 4:
 		activar_mikhail(mikhail_belov_2)
 	else:
-		if pmi <= 50:
+		if pmi < 75:
 			activar_mikhail(mikhail_belov)
 		else:
 			activar_mikhail(mikhail_belov_3)
@@ -137,7 +142,7 @@ func _actualizar_personaje_según_preocupacion():
 	if GameManager.dia == 4:
 		activar_viktor(viktor_sokolov_2)
 	else:
-		if pvik <= 50:
+		if pvik < 75:
 			activar_viktor(viktor_sokolov)
 		else:
 			activar_viktor(viktor_sokolov_3)
@@ -146,7 +151,7 @@ func _actualizar_personaje_según_preocupacion():
 	if GameManager.dia == 4:
 		activar_viudo(viudo_2)
 	else:
-		if pvi <= 50:
+		if pvi < 75:
 			activar_viudo(viudo)
 		else:
 			activar_viudo(viudo_3)
@@ -155,17 +160,21 @@ func _actualizar_personaje_según_preocupacion():
 	if GameManager.dia == 4:
 		activar_yerik(yerik_pavel_2)
 	else:
-		if pye <= 50:
+		if pye < 75:
 			activar_yerik(yerik_pavel)
 		else:
 			activar_yerik(yerik_pavel_3)
 
 	# 🔹 --- TENDERO ---
-	if GameManager.dia == 4:
+	if Global.dia3_pista_tendero_viktor and GameManager.dia == 6 or Global.dia3_pista_tendero_viktor and GameManager.dia == 7:
+		Global.tendero_des == true
+	elif GameManager.dia == 4:
 		activar_tenderos(tendero_2)
 	else:
-		activar_tenderos(tendero)
-
+		if pte < 75:
+			activar_tenderos(tendero)
+		else:
+			activar_tenderos(tendero_3)
 
 
 # -------------------- FUNCIONES DE ACTIVACIÓN --------------------
@@ -280,12 +289,12 @@ func activar_cura(activo: Area2D):
 	_set_personaje_activo(activo, true)
 	
 func desactivar_todos_tenderos():
-	var tenderos = [tendero, tendero_2]
+	var tenderos = [tendero, tendero_2, tendero_3]
 	for t in tenderos:
 		_set_personaje_activo(t, false)
 
 func activar_tenderos(activo: Area2D):
-	var tenderos = [tendero, tendero_2]
+	var tenderos = [tendero, tendero_2, tendero_3]
 	for t in tenderos:
 		if t != activo:
 			_set_personaje_activo(t, false)

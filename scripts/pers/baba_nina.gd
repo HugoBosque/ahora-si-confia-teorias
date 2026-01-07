@@ -54,8 +54,8 @@ func _process(delta):
 #				gato_hablado = true
 #			elif not Global.dia4_hablar_nina:
 #				DialogueManager.show_dialogue_balloon(NINA_DIA_4_1, "start")
-			elif Global.dia4_hablar_nina:
-				DialogueManager.show_dialogue_balloon(NINA_DIA_4_2, "start")
+#			elif Global.dia4_hablar_nina:
+#				DialogueManager.show_dialogue_balloon(NINA_DIA_4_2, "start")
 		elif GameManager.dia == 5:
 			if not gato_hablado and Global.hablar_gato:
 				DialogueManager.show_dialogue_balloon(NINA_GATO, "start")

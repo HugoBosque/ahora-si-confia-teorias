@@ -14,7 +14,7 @@ func _on_dia_cambiado(nuevo_dia: int):
 
 # -------------------- CURA --------------------
 func _actualizar_cura():
-	var debe_aparecer = GameManager.preocupacion_cura >= 50
+	var debe_aparecer = GameManager.preocupacion_cura >= 75
 	_set_personaje_activo(cura, debe_aparecer)
 
 # -------------------- MADRE --------------------

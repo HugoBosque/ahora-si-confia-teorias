@@ -8,10 +8,10 @@ var has_done_cinematic1 = false
 var has_animation_done = false
 
 # -------------------- PROGRESO GENERAL --------------------
-var dia: int = 1
+var dia: int = 6
 # -------------------- VARIABLES DE PERSONAJES --------------------
 var vida_cura: int = 100
-var preocupacion_cura: int = 0
+var preocupacion_cura: int = 75
 var cura_en_iglesia: bool = false  # 🔹 NUEVA VARIABLE GLOBAL DE UBICACIÓN DEL CURA
 
 var vida_esceptico: int = 100
@@ -47,13 +47,13 @@ signal dia_cambiado(nuevo_dia: int)
 
 func get_dano_por_dia() -> int:
 	match dia:
-		1: return 5
-		2: return 10
-		3: return 15
-		4: return 25
+		1: return 0
+		2: return 5
+		3: return 10
+		4: return 20
 		5: return 35
-		6: return 45
-		7: return 55
+		6: return 55
+		7: return 75
 	return 0
 
 func hacer_dano():

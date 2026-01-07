@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://q0jn2lgk2swv"]
+
+[ext_resource type="Script" uid="uid://cchwgsn4ik2eq" path="res://scripts/pers/tendero.gd" id="1_u6l4s"]
+[ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="3_vg8ni"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2a1dd"]
+radius = 57.14018
+
+[node name="tendero" type="Area2D"]
+script = ExtResource("1_u6l4s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(0, 5)
+shape = SubResource("CircleShape2D_2a1dd")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(0, -38)
+scale = Vector2(0.124, 0.124)
+texture = ExtResource("3_vg8ni")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
