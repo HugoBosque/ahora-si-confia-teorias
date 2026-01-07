@@ -42581,7 +42581,7 @@ script = ExtResource("19_qouja")
 [node name="Medico" type="Node2D" parent="."]
 
 [node name="Medico" parent="Medico" instance=ExtResource("19_264po")]
-position = Vector2(1055, 1086)
+position = Vector2(1055, 1070)
 
 [node name="Medico2" parent="Medico" instance=ExtResource("19_264po")]
 position = Vector2(877, 691)
@@ -42592,7 +42592,7 @@ position = Vector2(1056, 1051)
 [node name="Cura" type="Node2D" parent="."]
 
 [node name="Cura" parent="Cura" instance=ExtResource("20_5newe")]
-position = Vector2(660, 153)
+position = Vector2(663, 159)
 
 [node name="Cura2" parent="Cura" instance=ExtResource("20_5newe")]
 position = Vector2(786, 575)
@@ -42600,7 +42600,7 @@ position = Vector2(786, 575)
 [node name="Esceptico" type="Node2D" parent="."]
 
 [node name="Esceptico" parent="Esceptico" instance=ExtResource("21_5newe")]
-position = Vector2(1599, -361)
+position = Vector2(1598, -376)
 
 [node name="Esceptico2" parent="Esceptico" instance=ExtResource("21_5newe")]
 position = Vector2(720, 609)
@@ -42633,7 +42633,7 @@ position = Vector2(-100, 363)
 [node name="Viktor" type="Node2D" parent="."]
 
 [node name="Viktor Sokolov" parent="Viktor" instance=ExtResource("23_bhx41")]
-position = Vector2(207, 700)
+position = Vector2(207, 693)
 
 [node name="Viktor Sokolov2" parent="Viktor" instance=ExtResource("23_bhx41")]
 position = Vector2(906, 754)
@@ -42644,7 +42644,7 @@ position = Vector2(208, 682)
 [node name="Viudo" type="Node2D" parent="."]
 
 [node name="Viudo" parent="Viudo" instance=ExtResource("20_bt5mj")]
-position = Vector2(1615, 662)
+position = Vector2(1616, 651)
 
 [node name="Viudo2" parent="Viudo" instance=ExtResource("20_bt5mj")]
 position = Vector2(731, 808)
@@ -42655,7 +42655,7 @@ position = Vector2(1616, 639)
 [node name="Yerik" type="Node2D" parent="."]
 
 [node name="Yerik Pavel" parent="Yerik" instance=ExtResource("25_pl11u")]
-position = Vector2(1414, 1170)
+position = Vector2(1415, 1164)
 
 [node name="Yerik Pavel2" parent="Yerik" instance=ExtResource("25_pl11u")]
 position = Vector2(863, 805)
