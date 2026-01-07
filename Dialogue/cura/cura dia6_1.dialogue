@@ -1,17 +1,50 @@
 ~ start
-cura: hola
-- noticias
-	set Global.dia1_hablar_cura = true
-	cura: si
-	- "noticia1"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-	- "noticia2"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-	- "noticia3"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-- demas
+
+[color=#B98A56][b]Padre Zhukov[/b][/color]: Has venido.
+[color=#B98A56][b]Padre Zhukov[/b][/color]: El silencio hoy pesa más que otros días.
+
+[color=#B98A56][b]Padre Zhukov[/b][/color]: [speed=0.6]El pueblo empieza a escuchar… aunque no todos entienden.
+
+- Vengo a darte las noticias
+	set Global.dia6_hablar_cura = true
+
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Adelante.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: La verdad siempre acaba llamando a la puerta.
+
+	- “Grave abarrotamiento de los servicios de emergencia”
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Los hombres corren a curar el cuerpo…
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: …cuando el alma ya lleva días enferma.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Esto no es caos.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Es consecuencia.
+
+	- “Campaña de concienciación, quedarse en casa salva vidas”
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Quedarse en casa…
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Como en los tiempos antiguos, cuando Dios cerraba las puertas
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: para que el castigo pasara de largo.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Algunos aprenderán.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Otros no llegarán a hacerlo.
+
+	- “Dos vecinos encontrados sin vida en las afueras”
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: …
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Salieron cuando se les pidió prudencia.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Desafiaron las señales.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: El juicio no siempre llega con trompetas.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: A veces llega en silencio.
+
+- Venía a hablar contigo
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: He guiado a este pueblo durante años.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Sé cuándo temen… y cuándo merecen temer.
+
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: No todos serán salvados.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Nunca lo son.
+
+	if Global.dia2_tendero_sus:
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: [speed=0.2][shake]Algunos ya han elegido su camino.[/shake]
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: [speed=0.2][shake]Nos veremos donde termina la mentira.[/shake]
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: [speed=0.2][shake]En el infierno.[/shake]
+
+	else:
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Si haces lo correcto…
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: quizá Dios aún cierre los ojos.
 
 => END

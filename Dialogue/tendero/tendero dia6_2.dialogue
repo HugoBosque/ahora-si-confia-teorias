@@ -1,11 +1,16 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: ...
+- Venía a hablar contigo
+	if Global.dia2_tendero_sus:
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Claro, ahora que nos morimos, ¿qué me vas a contar? ¿Otra de tus patrañas? Eres un indeseable, espero que se te quede grabado, todo esto es culpa tuya, ¿serás capaz de llevar esta carga en tu conciencia?
+		- Advertirle del peligro
+			[color=#89C2FF][b]Yo[/b][/color]: Me la suda lo que me digas. Estamos en una situación peligrosa, quiero que sepas que lo mejor es no salir.
+			[color=#D8A15F][b]Iván Petrovich[/b][/color]: Oh, gracias por la información, pensaba que medio pueblo esté muriendo no era una advertencia de nada, gracias por tu valiosa información.
+		- Restarle importancia
+			[color=#89C2FF][b]Yo[/b][/color]: De hecho, no, he hablado con la médica y no es tan grave, seguro que mañana ya estáis todos bien. La tos es normal ahora, es por un cambio en el medio ambiente. Las guerras alteran el clima de pueblos como este.
+			[color=#D8A15F][b]Iván Petrovich[/b][/color]: No confío en ti... pero... ¿seguro que mañana es seguro salir?
+			[color=#89C2FF][b]Yo[/b][/color]: Sí, solo que hará frío, lleva tu mejor abrigo.
+	else:
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Lo siento, [shake][speed=0.2]cof, cof...[/shake][speed=1] No puedo hablar mucho así...
+
 => END

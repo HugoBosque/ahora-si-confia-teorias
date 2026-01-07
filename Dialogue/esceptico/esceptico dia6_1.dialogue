@@ -1,28 +1,41 @@
 ~ start
-Alexei: [speed=0.7] ¿Se te ha perdido algo?
+
+[color=#A0A0A0][b]Alexei[/b][/color]: …Ah.
+[color=#A0A0A0][b]Alexei[/b][/color]: No esperaba visitas hoy.
+
+[color=#A0A0A0][b]Alexei[/b][/color]: [shake][speed=0.2]Cof…[/shake][speed=1]
+[color=#A0A0A0][b]Alexei[/b][/color]: Supongo que vienes con el periódico.
 
 - Vengo a darte las noticias
-	set Global.dia1_halbar_esceptico = true
-	Alexei: No me las leeré.
-	- Es importante que estés informado.
-		Alexei: Prefiero informarme yo mismo.
-		- Como quieras, pero estoy obligado a entregarte el periódico.
-		Alexei: Si no hay más remedio...
-		- “La carretera principal sigue bloqueada por la nieve”.
-			set GameManager.preocupacion_esceptico -= 20
-			Alexei: Me da igual si hay mucha nieve, que la quiten.
-		- “Llegan nuevas provisiones desde la capital”.
-			set GameManager.preocupacion_esceptico -= 20
-			Alexei: Como siempre más a los que más tienen, y nosotros pasando frío y hambre aquí.
-		- “Se planea una mejora en el alumbrado público”.
-			Alexei: Que me alumbren esta.
-			set GameManager.preocupacion_esceptico -= 20
+	set Global.dia6_halbar_esceptico = true
 
+	[color=#A0A0A0][b]Alexei[/b][/color]: Adelante.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Total… ya da igual.
 
-- Sólo quiero hablar.
-	Alexei: [speed=0.7] No te lo tomes personal, no tengo de que hablar.
-	- Por ejemplo, ¿porque vives alejado?
-	Alexei: [speed=0.7] La gente me toma como loco por pensar diferente, paso de eso.	
-- Perdona sólo pasaba por aquí.
+	- “Grave abarrotamiento de los servicios de emergencia”
+		[color=#A0A0A0][b]Alexei[/b][/color]: Claro.
+		[color=#A0A0A0][b]Alexei[/b][/color]: Cuando todo falla a la vez, nadie llega a tiempo.
+		[color=#A0A0A0][b]Alexei[/b][/color]: [shake][speed=0.2]Ni para ayudar… ni para huir.[/shake][speed=1]
+
+	- “Campaña de concienciación, quedarse en casa salva vidas”
+		[color=#A0A0A0][b]Alexei[/b][/color]: Quedarse en casa…
+		[color=#A0A0A0][b]Alexei[/b][/color]: Antes eso era cobardía.
+		[color=#A0A0A0][b]Alexei[/b][/color]: Ahora es sentido común.
+
+	- “Dos vecinos encontrados sin vida en las afueras”
+		[color=#A0A0A0][b]Alexei[/b][/color]: …
+		[color=#A0A0A0][b]Alexei[/b][/color]: Siempre hay quien cree que puede escapar.
+		[color=#A0A0A0][b]Alexei[/b][/color]: El pueblo no perdona a los impacientes.
+
+- Venía a hablar contigo
+	[color=#A0A0A0][b]Alexei[/b][/color]: No soy creyente.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Nunca lo he sido.
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: Pero cuando el aire pesa…
+	[color=#A0A0A0][b]Alexei[/b][/color]: cuando respirar cuesta más que pensar…
+	[color=#A0A0A0][b]Alexei[/b][/color]: uno empieza a callarse.
+
+	[color=#A0A0A0][b]Alexei[/b][/color]: Haz lo que tengas que hacer.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Yo… hoy no voy a salir más.
 
 => END
