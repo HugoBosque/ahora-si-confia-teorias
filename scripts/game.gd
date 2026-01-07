@@ -167,7 +167,7 @@ func _actualizar_personaje_según_preocupacion():
 
 	# 🔹 --- TENDERO ---
 	if Global.dia3_pista_tendero_viktor and GameManager.dia == 6 or Global.dia3_pista_tendero_viktor and GameManager.dia == 7:
-		Global.tendero_des == true
+		Global.tendero_des = true
 	elif GameManager.dia == 4:
 		activar_tenderos(tendero_2)
 	else:
