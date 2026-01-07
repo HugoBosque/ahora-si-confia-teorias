@@ -1,17 +1,50 @@
 ~ start
-medico: hola
-- noticias
-	set Global.dia1_hablar_medico = true
-	medico: si
-	- "noticia1"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-	- "noticia2"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-	- "noticia3"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-- demas
+
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Has tardado.
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pensé que hoy no saldrías.
+
+- Vengo a darte las noticias
+	set Global.dia6_hablar_medico = true
+
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Dímelas. Prefiero saberlo antes de que me lo griten en la calle.
+
+	- “Grave abarrotamiento de los servicios de emergencia”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Lo sé.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Ya estamos derivando pacientes fuera… y aun así no damos abasto.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Cuando un sistema sanitario se satura, lo siguiente ya no depende de la medicina.
+
+	- “Campaña de concienciación, quedarse en casa salva vidas”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: No es una consigna.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Es la única medida que aún reduce daños.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: La gente cree que exageramos hasta que les falta el aire.
+
+	- “Dos vecinos encontrados sin vida en las afueras”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: …
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Eso confirma lo que temía.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Ya no es un problema localizado.
+
+- Venía a hablar contigo
+
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Si es para pedirme tranquilidad, no la tengo.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Y no voy a fingirla.
+
+	[color=#89C2FF][b]Yo[/b][/color]: ¿Tan grave es?
+
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: He visto demasiados patrones repetirse.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Y ninguno acaba bien si la gente sigue actuando como si esto fuera pasajero.
+
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: No puedo obligar a nadie a encerrarse.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pero puedo decirte esto, como médica y como persona:
+
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Quien pueda quedarse en casa… debería hacerlo.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Hoy.
+
+
+
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: No es miedo.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Es prevención tardía.
+
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Y ojalá me equivoque.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pero ya casi nunca me equivoco cuando hablo así.
 
 => END
