@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://dm2cla1s1igb"]
+[gd_scene load_steps=9 format=3 uid="uid://dm2cla1s1igb"]
 
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="1_fbvkc"]
 [ext_resource type="Texture2D" uid="uid://yw1ckoq1hb8r" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_171907-removebg-preview.png" id="2_oepww"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://8kux57eyuu55" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_172001-removebg-preview.png" id="5_bwndf"]
 [ext_resource type="Texture2D" uid="uid://dcls7evkaodnu" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_172040-removebg-preview.png" id="6_asyx5"]
 [ext_resource type="Texture2D" uid="uid://dcgj2fx2g212s" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_172053-removebg-preview.png" id="7_inmdg"]
+[ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="8_3cjfv"]
 
 [node name="Teorias" type="Control"]
 layout_mode = 3
@@ -156,3 +157,6 @@ texture = ExtResource("6_asyx5")
 position = Vector2(1076, 198)
 scale = Vector2(0.35486877, 0.44863015)
 texture = ExtResource("7_inmdg")
+
+[node name="menustop" parent="." instance=ExtResource("8_3cjfv")]
+visible = false
