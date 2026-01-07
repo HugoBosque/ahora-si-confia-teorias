@@ -1,6 +1,19 @@
 ~ start
-cura: hola
+[color=#B98A56][b]Padre Zhukov[/b][/color]: Has vuelto...
+- Venía a hablar contigo
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: He guiado a este pueblo durante años.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Sé cuándo temen… y cuándo merecen temer.
 
-- demas
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: No todos serán salvados.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Nunca lo son.
+
+	if Global.dia2_tendero_sus:
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: [speed=0.2][shake]Algunos ya han elegido su camino.[/shake]
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: [speed=0.2][shake]Nos veremos donde termina la mentira.[/shake]
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: [speed=0.2][shake]En el infierno.[/shake]
+
+	else:
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Si haces lo correcto…
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Quizá Dios aún cierre los ojos.
 
 => END
