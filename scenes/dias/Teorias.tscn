@@ -1,0 +1,158 @@
+[gd_scene load_steps=8 format=3 uid="uid://dm2cla1s1igb"]
+
+[ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="1_fbvkc"]
+[ext_resource type="Texture2D" uid="uid://yw1ckoq1hb8r" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_171907-removebg-preview.png" id="2_oepww"]
+[ext_resource type="Texture2D" uid="uid://bl2kuwcurftil" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_171929-removebg-preview.png" id="3_3cjfv"]
+[ext_resource type="Texture2D" uid="uid://dnu7y2p7rjcfn" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_171944-removebg-preview.png" id="4_vv2xq"]
+[ext_resource type="Texture2D" uid="uid://8kux57eyuu55" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_172001-removebg-preview.png" id="5_bwndf"]
+[ext_resource type="Texture2D" uid="uid://dcls7evkaodnu" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_172040-removebg-preview.png" id="6_asyx5"]
+[ext_resource type="Texture2D" uid="uid://dcgj2fx2g212s" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_172053-removebg-preview.png" id="7_inmdg"]
+
+[node name="Teorias" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_vertical_guides_ = [1000.0, 35.0]
+metadata/_edit_horizontal_guides_ = [146.0, 242.0, 339.0, 437.0, 536.0, 49.0, 635.0]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -5.0
+offset_right = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="EPÍLOGO" type="Label" parent="."]
+modulate = Color(1, 0.4392157, 1, 1)
+layout_mode = 0
+offset_left = 12.0
+offset_top = 8.0
+offset_right = 1100.0
+offset_bottom = 53.0
+size_flags_vertical = 2
+theme_override_fonts/font = ExtResource("1_fbvkc")
+theme_override_font_sizes/font_size = 40
+text = "Epílogo - Lo que realmente ocurrió"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="dia1" type="Label" parent="."]
+modulate = Color(1, 1, 0.5529412, 1)
+layout_mode = 0
+offset_left = 35.0
+offset_top = 52.0
+offset_right = 997.0
+offset_bottom = 141.0
+theme_override_fonts/font = ExtResource("1_fbvkc")
+theme_override_font_sizes/font_size = 20
+text = "Día 1 - Comunicación unidireccional (Modelo emisor-receptor de Lasswell)
+La información fluye en una sola dirección. Un emisor, un mensaje, muchos receptores. Como describió Harold D. Lasswell, 
+el poder reside en quién dice qué, por qué canal y con qué efecto. Sin diálogo ni retorno, el periódico funcionó como 
+medio de control. Cuando la comunicación no se cuestiona, se convierte en verdad."
+
+[node name="dia2" type="Label" parent="."]
+modulate = Color(0.62352943, 0.6627451, 1, 1)
+layout_mode = 0
+offset_left = 35.0
+offset_top = 149.0
+offset_right = 997.0
+offset_bottom = 238.0
+theme_override_fonts/font = ExtResource("1_fbvkc")
+theme_override_font_sizes/font_size = 20
+text = "Día 2 - Disonancia cognitiva (Leon Festinger, 1957)
+El mismo mensaje puede generar reacciones distintas. No por el contenido, sino por quien lo reciba. Según Festinger, 
+las personas buscan coherencia entre lo que creen y lo que escuchan. Cuando aparece una contradicción, no siempre 
+se rechaza la información:a veces se ajusta la propia visión del mundo para evitar el conflicto interno."
+
+[node name="dia3" type="Label" parent="."]
+modulate = Color(1, 0.29803923, 0.29803923, 1)
+layout_mode = 0
+offset_left = 36.0
+offset_top = 247.0
+offset_right = 1000.0
+offset_bottom = 336.0
+theme_override_fonts/font = ExtResource("1_fbvkc")
+theme_override_font_sizes/font_size = 20
+text = "Día 3 - Teoría de la aguja hipodérmica (Comunicación de masas clásica de Lasswell)
+El mensaje entra sin resistencia. No hay debate, ni réplica, ni cuestionamiento. La teoría asume una audiencia pasiva,
+donde los mensajes se inyectan directamente en la mente colectiva. No porque la población no piense, sino porque el 
+contexto anula la necesidad de hacerlo."
+
+[node name="dia4" type="Label" parent="."]
+modulate = Color(0.69411767, 1, 0.7019608, 1)
+layout_mode = 0
+offset_left = 36.0
+offset_top = 343.0
+offset_right = 1000.0
+offset_bottom = 432.0
+theme_override_fonts/font = ExtResource("1_fbvkc")
+theme_override_font_sizes/font_size = 20
+text = "Día 4 · Two-Step Flow Model (Paul Lazarsfeld y Elihu Katz)
+La influencia deja de ser directa. El medio habla a unos pocos, y esos pocos hablan al resto.
+Lazarsfeld y Katz demostraron que los medios no convencen a las masas por sí solos: necesitan intermediarios. 
+Los líderes de opinión reinterpretan el mensaje, y así, el control se vuelve social, no solo mediático."
+
+[node name="dia5" type="Label" parent="."]
+modulate = Color(1, 0.39607844, 0.6117647, 1)
+layout_mode = 0
+offset_left = 36.0
+offset_top = 443.0
+offset_right = 1000.0
+offset_bottom = 532.0
+theme_override_fonts/font = ExtResource("1_fbvkc")
+theme_override_font_sizes/font_size = 20
+text = "Día 5 - Tensión ideológica (Perspectiva interpretativa y Estudios culturales)
+Cuando conviven discursos distintos, la comunicación no rompe… tensiona. Calma contra prevención. Fe contra método. 
+Desde una visión interpretativa, el significado no está en el mensaje, sino en cómo cada grupo lo construye.
+El conflicto ya no estaba solo en la noticia sino en quién tenía autoridad para explicarla."
+
+[node name="dia6" type="Label" parent="."]
+modulate = Color(0.5176471, 1, 1, 1)
+layout_mode = 0
+offset_left = 37.0
+offset_top = 542.0
+offset_right = 1001.0
+offset_bottom = 631.0
+theme_override_fonts/font = ExtResource("1_fbvkc")
+theme_override_font_sizes/font_size = 20
+text = "Día 6 · Adaptación conductual y normalización (Psicología social de Foucault – control cotidiano)
+La repetición elimina la sensación de imposición. Las acciones se vuelven rutina. 
+Como ocurre en los sistemas de control modernos, nadie sintió que obedecía. Cuando una conducta se repite 
+lo suficiente, deja de parecer una orden y comienza a parecer una elección."
+
+[node name="CapturaDePantalla20260107171907RemovebgPreview" type="Sprite2D" parent="."]
+position = Vector2(1072, 583)
+scale = Vector2(0.5861244, 0.5197373)
+texture = ExtResource("2_oepww")
+
+[node name="CapturaDePantalla20260107171929RemovebgPreview" type="Sprite2D" parent="."]
+position = Vector2(1073, 479)
+scale = Vector2(0.46088395, 0.60156244)
+texture = ExtResource("3_3cjfv")
+
+[node name="CapturaDePantalla20260107171944RemovebgPreview" type="Sprite2D" parent="."]
+position = Vector2(1073, 386)
+scale = Vector2(0.3230335, 0.2153768)
+texture = ExtResource("4_vv2xq")
+
+[node name="CapturaDePantalla20260107172001RemovebgPreview" type="Sprite2D" parent="."]
+position = Vector2(1073.0001, 104.99999)
+scale = Vector2(0.29914013, 0.3234127)
+texture = ExtResource("5_bwndf")
+
+[node name="CapturaDePantalla20260107172040RemovebgPreview" type="Sprite2D" parent="."]
+position = Vector2(1079.0001, 281.00003)
+scale = Vector2(0.48290595, 0.44226477)
+texture = ExtResource("6_asyx5")
+
+[node name="CapturaDePantalla20260107172053RemovebgPreview" type="Sprite2D" parent="."]
+position = Vector2(1076, 198)
+scale = Vector2(0.35486877, 0.44863015)
+texture = ExtResource("7_inmdg")
