@@ -1,17 +1,35 @@
-~ start
-nina: hola
-- noticias
-	set Global.dia1_hablar_nina = true
-	nina: si
-	- "noticia1"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-	- "noticia2"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-	- "noticia3"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-- demas
+[color=#C47FFF][b]Baba Nina[/b][/color]: Ya lo sé.
+[color=#C47FFF][b]Baba Nina[/b][/color]: Has venido a decirme cosas que ya han pasado.
+
+- Vengo a darte las noticias
+	set Global.dia6_hablar_nina= true
+
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Dime.
+
+	- “Grave abarrotamiento de los servicios de emergencia”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: Los lugares de cura siempre se llenan antes del silencio.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: Después… ya no sirven.
+
+	- “Campaña de concienciación, quedarse en casa salva vidas”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: Las casas no protegen.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: Pero ayudan a esperar.
+
+	- “Dos vecinos encontrados sin vida en las afueras”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: Afuera siempre caen primero.
+		[color=#C47FFF][b]Baba Nina[/b][/color]: La tierra lo recuerda todo.
+
+- Venía a hablar contigo
+
+	[color=#C47FFF][b]Baba Nina[/b][/color]: No es una enfermedad.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Tampoco es un castigo.
+
+	[color=#89C2FF][b]Yo[/b][/color]: Entonces, ¿qué es?
+
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Una corrección.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: El pueblo ha vivido demasiado tiempo mirando hacia otro lado.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Avisé con antelación a todos. Los cuatro jinetes se ciernen sobre nosotros.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Plaga ya ha hecho su aparición. Guerra ya estaba aquí hace meses.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Hambruna se acerca… y el último en llegar será Muerte.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Si tu espíritu es puro y está en armonía como el mío,  nos veremos en el más allá, mensajero.
 
 => END

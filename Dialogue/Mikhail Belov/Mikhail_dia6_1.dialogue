@@ -1,17 +1,49 @@
 ~ start
-mikhail: hola
-- noticias
-	set Global.dia1_hablar_mikhail = true
-	mikhail: si
-	- "noticia1"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-	- "noticia2"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-	- "noticia3"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-- demas
+
+[color=#9de841][b]Mikhail Belov[/b][/color]: [shake][speed=0.3]Cof… cof…[/shake][speed=1]
+[color=#9de841][b]Mikhail Belov[/b][/color]: No pensaba que aún quedara alguien caminando por el pueblo.
+
+- Vengo a darte las noticias
+	set Global.dia6_hablar_mikhail = true
+
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Dime… mientras pueda escucharlas.
+
+	- “Grave abarrotamiento de los servicios de emergencia”
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Ya…
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Los fuertes ocupan las camas primero.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Los que trabajamos la tierra siempre esperamos al final.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [shake][speed=0.3]Cof…[/shake][speed=1]
+
+	- “Campaña de concienciación, quedarse en casa salva vidas”
+		[color=#9de841][b]Mikhail Belov[/b][/color]: La casa…
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Hace días que no salgo del campo.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Allí al menos el aire parece… menos pesado.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Aunque ya no sé si importa.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [shake][speed=0.3]Cof…[/shake][speed=1]
+
+	- “Dos vecinos encontrados sin vida en las afueras”
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Sí…
+		[color=#9de841][b]Mikhail Belov[/b][/color]: La tierra los reclamó antes de tiempo.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: Siempre lo hace cuando algo va mal.
+		[color=#9de841][b]Mikhail Belov[/b][/color]: [shake][speed=0.3]Cof…[/shake][speed=1]
+
+- Venía a hablar contigo
+
+	[color=#9de841][b]Mikhail Belov[/b][/color]: ¿Sabes?
+	[color=#9de841][b]Mikhail Belov[/b][/color]: He pasado toda mi vida sembrando.
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Pensaba que moriría cansado… pero entero.
+
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Ahora el cuerpo ya no responde.
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Y la tierra… tampoco.
+
+	[color=#89C2FF][b]Yo[/b][/color]: Deberías descansar. No salir más.
+
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Descansar…
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Eso se hace cuando el trabajo está terminado.
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Y yo aún tengo cosas que no crecerán.
+
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Si mañana no me ves…
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Mira el campo.
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Ahí estará mi respuesta.
 
 => END

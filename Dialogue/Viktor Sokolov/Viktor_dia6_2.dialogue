@@ -1,6 +1,32 @@
 ~ start
-viktor: hola
+[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Saludos.
+- Venía a hablar contigo
 
-- demas
+	if Global.dia3_pista_tendero_viktor:
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Iván ya no abrirá la tienda.
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Esta mañana se lo han llevado.
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Sin gritos. Sin espectáculo.
+
+		[color=#89C2FF][b]Yo[/b][/color]: ¿Era culpable?
+ 
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Era imprudente.
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Y en momentos como este… eso es casi lo mismo.
+
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Hiciste lo correcto.
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Aunque el pueblo no te lo agradecerá.
+
+	else:
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Hay gente que sigue caminando libremente…
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: como si nada de esto fuera con ellos.
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Y eso me preocupa más que cualquier enfermedad.
+
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Si sabes algo que aún no has dicho…
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: hoy es el último buen momento para hacerlo.
+
+	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Mañana ya no hablaré con nadie en la calle.
+	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Mañana… las puertas estarán cerradas.
+
+	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Cuídate.
+	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: El pueblo va a necesitar testigos cuando todo esto termine.
 
 => END
