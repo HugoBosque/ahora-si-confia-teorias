@@ -1,14 +1,20 @@
 ~ start
-Svetlana: [speed=0.6] ¿Puedo ayudarte en algo?
+if Global.dia5_madre_sabe_marido_muerto:
+	[color=#F9E07F][b]Svetlana[/b][/color]: ...
+else:
+	[color=#F9E07F][b]Svetlana[/b][/color]: Hola de nuevo.
+	- Venía a hablar contigo
 
+		[color=#F9E07F][b]Svetlana[/b][/color]: Dime una cosa…
+		[color=#F9E07F][b]Svetlana[/b][/color]: ¿Crees que hice bien en quedarme?
 
-- Venia a hablar contigo
-	Svetlana: ¿Hay algun problema? ¿Ha pasado algo?
-	- De hecho, no, todo esta bien.
-		Svetlana: [speed=0.6]Gracias a Dios.
+		[color=#89C2FF][b]Yo[/b][/color]: Creo que hiciste lo que pudiste.
+
+		[color=#F9E07F][b]Svetlana[/b][/color]: Eso no siempre es suficiente.
+		[color=#F9E07F][b]Svetlana[/b][/color]: Pero ahora… solo quiero que pase.
+
+		[color=#F9E07F][b]Svetlana[/b][/color]: Si sabes algo más…
+		[color=#F9E07F][b]Svetlana[/b][/color]: No me lo endulces.
+
 	
-	- No, pero me gustaría preguntarle sobre su situación, cómo está?
-		Svetlana: [speed=0.6] La verdad es que estoy en una situación díficil, mi querido marido se ha ido a luchar en el frente por nuestro país, y, bueno, [wait=0.5] yo estoy aquí con mis dos hijos.
-
-
 => END

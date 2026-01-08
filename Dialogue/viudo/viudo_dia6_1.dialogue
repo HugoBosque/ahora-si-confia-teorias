@@ -1,17 +1,38 @@
 ~ start
-viudo: hola
-- noticias
-	set Global.dia1_hablar_viudo = true
-	viudo: si
-	- "noticia1"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia2"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia3"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-- demas
+
+[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Has venido.
+[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Pensé que hoy no saldrías.
+
+- Vengo a darte las noticias
+	set Global.dia6_hablar_viudo= true
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Adelante.
+
+	- “Grave abarrotamiento de los servicios de emergencia”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Siempre pasa lo mismo.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Cuando ya no sirve de nada, entonces llegan las palabras.
+
+	- “Campaña de concienciación, quedarse en casa salva vidas”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Mi casa está vacía.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No hay nada que salvar ahí dentro.
+
+	- “Dos vecinos encontrados sin vida en las afueras”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Dos más.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: El silencio se apodera de Plupsovia.
+
+- Venía a hablar contigo
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: ¿Sabes qué es lo peor?
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Que ya no tengo miedo.
+
+	[color=#89C2FF][b]Yo[/b][/color]: Eso no es bueno.
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Pero es lo que queda cuando lo has perdido todo.
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Si mañana no me ves…
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No te preocupes.
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Ya viví lo suficiente para saber cómo acaba esto.
 
 => END
