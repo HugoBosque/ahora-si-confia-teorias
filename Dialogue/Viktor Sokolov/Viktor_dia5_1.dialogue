@@ -1,51 +1,51 @@
 ~ start
 
-[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Buen día.
-[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: No esperaba verte fuera tan temprano.
+[color=#1451d4][b]Viktor Sokolov[/b][/color]: Buen día.
+[color=#1451d4][b]Viktor Sokolov[/b][/color]: No esperaba verte fuera tan temprano.
 
 - Vengo a darte las noticias
 	set Global.dia5_hablar_Viktor = true
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Adelante. Últimamente toda información llega tarde… o incompleta.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Adelante. Últimamente toda información llega tarde… o incompleta.
 
 	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
 		set GameManager.preocupacion_viktor += 10
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Luces…
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: La gente mira al cielo cuando ya no confía en el suelo.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Anota esto: cuando empiezan las historias, alguien pierde el control de la situación.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Luces…
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: La gente mira al cielo cuando ya no confía en el suelo.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Anota esto: cuando empiezan las historias, alguien pierde el control de la situación.
 
 	- “Hospital regional aumenta vigilancia médica”
 		set GameManager.preocupacion_viktor += 15
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Era cuestión de tiempo.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Cuando los médicos se preparan, es porque ya han visto algo que no les gusta.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Y créeme… ellos no exageran.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Era cuestión de tiempo.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Cuando los médicos se preparan, es porque ya han visto algo que no les gusta.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Y créeme… ellos no exageran.
 
 	- “Reordenación del transporte: solo rutas priorizadas”
 		set GameManager.preocupacion_viktor += 5	
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Menos movimiento.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Eso calma a algunos… y pone nerviosos a otros.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: A mí me facilita el trabajo.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Menos movimiento.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Eso calma a algunos… y pone nerviosos a otros.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: A mí me facilita el trabajo.
 
 - Venía a hablar contigo
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Ya...
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Ya...
 
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: La gente cree que mi trabajo es arrestar culpables.
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Se equivocan.
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Mi trabajo es evitar que el miedo decida por ellos.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: La gente cree que mi trabajo es arrestar culpables.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Se equivocan.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Mi trabajo es evitar que el miedo decida por ellos.
 
 	[color=#89C2FF][b]Yo[/b][/color]: ¿Y lo estás consiguiendo?
 
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Cada día es más difícil.
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Cuando la gente empieza a cerrar puertas sin que nadie se lo ordene…
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: …es que algo ya se ha roto.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Cada día es más difícil.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Cuando la gente empieza a cerrar puertas sin que nadie se lo ordene…
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: …es que algo ya se ha roto.
 
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Si descubres algo más, por pequeño que parezca…
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Dímelo antes de que el pueblo empiece a actuar por su cuenta.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Si descubres algo más, por pequeño que parezca…
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Dímelo antes de que el pueblo empiece a actuar por su cuenta.
 
 	if Global.dia3_pista_tendero_viktor:
 		[color=#89C2FF][b]Yo[/b][/color]: ¿Se sabe algo de Iván?
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: He encontrado algo. Creo que será suficiente para incriminarlo.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: No soy mucho de decir esto, pero gracias. Tu ayuda ha sido imprescindible en este caso.
-		[color=#89C2FF][b]Yo[/b][/color]: De nada. Solo intento hacer de este pueblo un lugar mejor.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Me alegra saber que compartimos objetivo.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: He encontrado algo. Creo que será suficiente para incriminarlo.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: No soy mucho de decir esto, pero gracias. Tu ayuda ha sido imprescindible en este caso.
+		[color=#1451d4][b]Yo[/b][/color]: De nada. Solo intento hacer de este pueblo un lugar mejor.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Me alegra saber que compartimos objetivo.
 
 => END
