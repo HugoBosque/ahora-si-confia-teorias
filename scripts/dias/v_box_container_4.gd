@@ -4,12 +4,12 @@ func _process(delta):
 	
 	
 
-	$preocupacion_nina.text = "Preocupación de la nina: " + str(GameManager.preocupacion_nina)
+	$preocupacion_nina.text = "Preocupación de la Baba nina: " + str(GameManager.preocupacion_nina)
 
-	$vida_nina.text = "Vida de la nina: " + str(GameManager.vida_nina)
-	$preocupacion_mikhail.text = "Preocupación del Mikhail: " + str(GameManager.preocupacion_mikhail)
+	$vida_nina.text = "Vida de la Baba nina: " + str(GameManager.vida_nina)
+	$preocupacion_mikhail.text = "Preocupación de Mikhail: " + str(GameManager.preocupacion_mikhail)
 
-	$vida_mikhail.text = "Vida del Mikhail: " + str(GameManager.vida_mikhail)
-	$preocupacion_viktor.text = "Preocupación del Viktor: " + str(GameManager.preocupacion_viktor)
+	$vida_mikhail.text = "Vida de Mikhail: " + str(GameManager.vida_mikhail)
+	$preocupacion_viktor.text = "Preocupación de Viktor: " + str(GameManager.preocupacion_viktor)
 
-	$vida_viktor.text = "Vida del Viktor: " + str(GameManager.vida_viktor)
+	$vida_viktor.text = "Vida de Viktor: " + str(GameManager.vida_viktor)
