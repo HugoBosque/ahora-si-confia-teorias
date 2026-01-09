@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://gx6xnpi02rqm"]
+[gd_scene load_steps=15 format=3 uid="uid://gx6xnpi02rqm"]
 
 [ext_resource type="Script" uid="uid://clseiacx744iu" path="res://scripts/prueba_enseñar/node_2d.gd" id="1_veasc"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="2_4m7c4"]
@@ -8,6 +8,12 @@
 [ext_resource type="PackedScene" uid="uid://du7cqyabdkhix" path="res://scenes/personajes/cura.tscn" id="6_n05a0"]
 [ext_resource type="PackedScene" uid="uid://cnrc57uvl7y3e" path="res://scenes/cama.tscn" id="7_q4rka"]
 [ext_resource type="PackedScene" uid="uid://cqp7ku0jid2n1" path="res://scenes/jumpscare.tscn" id="8_tcyfl"]
+[ext_resource type="PackedScene" uid="uid://cxtpcgjg6gdb2" path="res://scenes/personajes/medico.tscn" id="9_a2gw4"]
+[ext_resource type="PackedScene" uid="uid://dnixgus7v1a65" path="res://scenes/personajes/viudo.tscn" id="10_rgnkp"]
+[ext_resource type="PackedScene" uid="uid://2m5ntiodhxqw" path="res://scenes/personajes/baba_nina.tscn" id="11_u4lds"]
+[ext_resource type="PackedScene" uid="uid://b3o4e0083jnmn" path="res://scenes/personajes/Mikhail Belov.tscn" id="12_uveid"]
+[ext_resource type="PackedScene" uid="uid://vl5po0vq2iaa" path="res://scenes/personajes/Viktor Sokolov.tscn" id="13_pocvo"]
+[ext_resource type="PackedScene" uid="uid://cd3vpfv1uqroa" path="res://scenes/personajes/esceptico en casa.tscn" id="14_cggie"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_veasc")
@@ -32,3 +38,24 @@ position = Vector2(313, 211)
 
 [node name="Area2D" parent="." instance=ExtResource("8_tcyfl")]
 position = Vector2(647, 99)
+
+[node name="Medico" parent="." instance=ExtResource("9_a2gw4")]
+position = Vector2(388, 383)
+
+[node name="Viudo" parent="." instance=ExtResource("10_rgnkp")]
+position = Vector2(814, 264)
+
+[node name="Baba nina" parent="." instance=ExtResource("11_u4lds")]
+position = Vector2(918, 269)
+
+[node name="Mikhail Belov" parent="." instance=ExtResource("12_uveid")]
+position = Vector2(700, 418)
+
+[node name="Viktor Sokolov" parent="." instance=ExtResource("13_pocvo")]
+position = Vector2(833, 421)
+
+[node name="Cura2" parent="." instance=ExtResource("6_n05a0")]
+position = Vector2(333, 470)
+
+[node name="Esceptico2" parent="." instance=ExtResource("14_cggie")]
+position = Vector2(267, 454)
