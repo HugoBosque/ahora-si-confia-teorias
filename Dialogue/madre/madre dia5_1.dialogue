@@ -33,7 +33,7 @@
 	set Global.dia5_madre_sabe_marido_muerto = true
 	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=10]Aunque tenga que cerrar la puerta al mundo.
 	- Vengo a darte las noticias
-	set Global.dia5_hablar_madre = true
+		set Global.dia5_hablar_madre = true
 
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Dime… aunque últimamente cada noticia pesa más que la anterior.
 
@@ -71,7 +71,7 @@
 	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Aun así…
 	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Algo dentro de mí no está en calma.
 	- Vengo a darte las noticias
-	set Global.dia5_hablar_madre = true
+		set Global.dia5_hablar_madre = true
 
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Dime… aunque últimamente cada noticia pesa más que la anterior.
 

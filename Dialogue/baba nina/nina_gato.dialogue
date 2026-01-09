@@ -13,5 +13,6 @@
 
 [color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Exacto. Y ahora que ha vuelto, cuidaré de él hasta que sane.  
 [color=#C47FFF][b]Baba Nina[/b][/color]: Gracias por traerlo… aunque no fue casualidad.
-
+set GameManager.preocupacion_nina += 100
+set Global.hablar_gato = true
 => END

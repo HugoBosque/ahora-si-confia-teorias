@@ -9,7 +9,7 @@
 	[color=#A0A0A0][b]Alexei[/b][/color]: Últimamente, la información pesa más que el silencio.
 
 	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
-	set GameManager.preocupacion_esceptico += 15
+		set GameManager.preocupacion_esceptico += 15
 		
 		[color=#A0A0A0][b]Alexei[/b][/color]: Luces… claro.
 		[color=#A0A0A0][b]Alexei[/b][/color]: Siempre hay alguien mirando al cielo cuando no entiende lo que ocurre en el suelo.
