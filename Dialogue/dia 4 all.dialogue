@@ -142,12 +142,12 @@
 	set GameManager.preocupacion_mikhail += 5
 	set GameManager.preocupacion_madre += 10
 	set GameManager.preocupacion_tendero += 20
-	set GameManager.preocupacion_cura += 0
-	set GameManager.preocupacion_esceptico += 0
-	set GameManager.preocupacion_medico += 0
+	set GameManager.preocupacion_cura += 5
+	set GameManager.preocupacion_esceptico += 5
+	set GameManager.preocupacion_medico += 5
 	set GameManager.preocupacion_viudo += 10
 	set GameManager.preocupacion_nina += 5
-	set GameManager.preocupacion_viktor += 0
+	set GameManager.preocupacion_viktor += 5
 	set GameManager.preocupacion_yerik += 20
 	[color=#D8A15F][b]Iván Petrovich[/b][/color]: ¿Qué?
 	[color=#D8A15F][b]Iván Petrovich[/b][/color]: Eso es una locura.

@@ -1,26 +1,32 @@
 ~ start
 [color=#1451d4][b]Viktor Sokolov[/b][/color]: Buenas.
+
 - Venía a hablar contigo
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Perfecto, requiero cierta información.
+	[color=#89C2FF][b]Yo[/b][/color]: Claro, ¿qué necesitas?
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Todo lo que te diga es estrictamente confidencial, ¿estamos?
+	[color=#89C2FF][b]Yo[/b][/color]: Sí, claro.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Alguien está colando mercancía que no debería.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Nada declarado. Nada limpio.
 
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: ¿Hablar? Adelante. Pero no pierdas el tiempo.
+	if Global.dia3_tendero_contrabando:
 
-	[color=#89C2FF][b]Yo[/b][/color]: Te noto… más implicado que otros.
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Porque lo estoy.
+		- Decirle que sospechas del tendero
+			[color=#89C2FF][b]Yo[/b][/color]: No tengo pruebas.
+			[color=#89C2FF][b]Yo[/b][/color]: Pero Iván ha hecho comentarios… raros. Habla de cargamentos, de latas, de “mejorar la salud del pueblo”.
+			[color=#1451d4][b]Viktor Sokolov[/b][/color]: ¿Solo latas?
+			[color=#89C2FF][b]Yo[/b][/color]: Eso dice él.
+			[color=#1451d4][b]Viktor Sokolov[/b][/color]: Nadie arriesga tanto solo por comida.
+			[color=#1451d4][b]Viktor Sokolov[/b][/color]: Gracias. Con esto basta para mirar más de cerca.
+			set Global.dia3_pista_tendero_viktor = true
 
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: La mayoría solo quiere que el problema desaparezca.
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Yo quiero saber quién lo causó.
+		- Restarle importancia
+			[color=#89C2FF][b]Yo[/b][/color]: En el pueblo se exagera mucho últimamente.
+			[color=#89C2FF][b]Yo[/b][/color]: No he visto nada que justifique una investigación.
+			[color=#1451d4][b]Viktor Sokolov[/b][/color]: Entiendo.
+			[color=#1451d4][b]Viktor Sokolov[/b][/color]: Pero si sabes algo más y callas… recuerda que el silencio también es una elección.
 
-	[color=#89C2FF][b]Yo[/b][/color]: ¿Incluso si es alguien del pueblo?
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Especialmente si es alguien del pueblo.
-
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: La justicia no funciona si empieza a hacer excepciones.
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Y aquí todos se conocen demasiado como para ser objetivos.
-
-	[color=#89C2FF][b]Yo[/b][/color]: ¿Y tú? ¿No te afecta?
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Claro que afecta.
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Pero si dejo que eso decida por mí, no sirvo para este trabajo.
-
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Tú eliges qué contar.
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Yo elijo qué investigar.
-	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Y créeme… acabaré encontrando la verdad.
+	else:
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Aún no tengo nombres.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Pero los tendré.
 => END

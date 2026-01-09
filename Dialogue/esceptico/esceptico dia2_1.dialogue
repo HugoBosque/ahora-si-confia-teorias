@@ -20,7 +20,7 @@
 		
 		
 	- "Medidas de mantenimiento industrial"
-		set GameManager.preocupacion_esceptico -= 5
+		set GameManager.preocupacion_esceptico += 0
 		[color=#A0A0A0][b]Alexei[/b][/color]: ¿Mantenimiento? Sí, claro. Seguro que es otra chapuza para tapar lo que se les cae encima.
 
 - Venia a hablar contigo
