@@ -8,7 +8,7 @@ Machakeve (Presidente): [speed=0.5]El repartidor del pueblucho.
 Machakeve (Presidente): [speed=0.4]Durante días llevaste la prensa de puerta en puerta,[wait=0.5] eligiendo quién sabía qué.
 Machakeve (Presidente): [speed=0.4]Algunos creyeron,[wait=0.5] otros dudaron,[wait=0.5] y yo observé.
 Machakeve (Presidente): [speed=0.4][shake] Este es mi veredicto...[/shake]
-if Global.final_dialogo_muertos:
+if Global.final_dialogo_muertos == true:
 	Machakeve (Presidente): [speed=0.2][shake]Ha habido muertos.[/shake][wait=1]
 	Machakeve (Presidente): [speed=0.4]El gas dejó su marca,[wait=0.5] y la historia siguió su curso.
 	Machakeve (Presidente): [speed=0.3]No hiciste todo bien,[wait=0.5] pero ya se ha pagado un precio justo...
