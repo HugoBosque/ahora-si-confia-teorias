@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://einbgxd8lotf"]
+[gd_scene load_steps=7 format=3 uid="uid://einbgxd8lotf"]
 
 [ext_resource type="Script" uid="uid://bedyne663axes" path="res://scripts/dias/continuar.gd" id="1_xnrna"]
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="2_ieot8"]
 [ext_resource type="Script" uid="uid://b11u0xywxcgxm" path="res://scripts/dias/dia_3.gd" id="3_fgi56"]
 [ext_resource type="Script" uid="uid://cpr6oi278wats" path="res://scripts/dias/v_box_container_3.gd" id="4_hke4g"]
 [ext_resource type="Script" uid="uid://b65arltcjh8ac" path="res://scripts/dias/v_box_container_4.gd" id="5_44wu1"]
+[ext_resource type="Script" uid="uid://cnce2qnbd213k" path="res://scenes/dias/button_2.gd" id="6_ieot8"]
 
 [node name="Dia1" type="Control"]
 layout_mode = 3
@@ -110,6 +111,7 @@ theme_override_fonts/font = ExtResource("2_ieot8")
 theme_override_font_sizes/font_size = 20
 
 [node name="Button" type="Button" parent="."]
+visible = false
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
@@ -232,5 +234,16 @@ theme_override_font_sizes/font_size = 20
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_ieot8")
 theme_override_font_sizes/font_size = 20
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 488.0
+offset_top = 546.0
+offset_right = 665.0
+offset_bottom = 647.0
+theme_override_fonts/font = ExtResource("2_ieot8")
+theme_override_font_sizes/font_size = 30
+text = "CONTINUAR"
+script = ExtResource("6_ieot8")
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

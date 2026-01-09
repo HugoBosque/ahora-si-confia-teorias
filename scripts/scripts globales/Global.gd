@@ -93,6 +93,8 @@ var dia7_hablar_tendero = false
 
 var hablar_gato = false
 
+var final_dialogo_muertos = false
+
 # Nodo de menú de pausa registrado por la escena actual
 var pause_menu_controller: Node = null
 var is_game_paused: bool = false

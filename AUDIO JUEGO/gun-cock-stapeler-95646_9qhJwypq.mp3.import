@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b6wng6qmc5ekm"
+path="res://.godot/imported/gun-cock-stapeler-95646_9qhJwypq.mp3-f8f57b7ce2f366fe3cd6ce91272235c2.mp3str"
+
+[deps]
+
+source_file="res://AUDIO JUEGO/gun-cock-stapeler-95646_9qhJwypq.mp3"
+dest_files=["res://.godot/imported/gun-cock-stapeler-95646_9qhJwypq.mp3-f8f57b7ce2f366fe3cd6ce91272235c2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

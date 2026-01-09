@@ -1,0 +1,27 @@
+~ start
+
+Machakeve: ¡Firme ante el presidente!
+Yo: [speed=0.4]¿Por fin esto ha acabado? 
+
+Machakeve (Presidente): [speed=0.3]Hombre mira quien tenemos aquí...
+Machakeve (Presidente): [speed=0.5]El repartidor del pueblucho.
+Machakeve (Presidente): [speed=0.4]Durante días llevaste la prensa de puerta en puerta,[wait=0.5] eligiendo quién sabía qué.
+Machakeve (Presidente): [speed=0.4]Algunos creyeron,[wait=0.5] otros dudaron,[wait=0.5] y yo observé.
+Machakeve (Presidente): [speed=0.4][shake] Este es mi veredicto...[/shake]
+if Global.final_dialogo_muertos:
+	Machakeve (Presidente): [speed=0.2][shake]Ha habido muertos.[/shake][wait=1]
+	Machakeve (Presidente): [speed=0.4]El gas dejó su marca,[wait=0.5] y la historia siguió su curso.
+	Machakeve (Presidente): [speed=0.3]No hiciste todo bien,[wait=0.5] pero ya se ha pagado un precio justo...
+	Machakeve (Presidente): [speed=0.4][shake]Te perdono la vida.[/shake]
+	Machakeve (Presidente): [speed=0.3]Vivirás para cargar con lo que provocaste.
+else:
+	Machakeve (Presidente): [speed=0.3][wait=1]Nadie murió.
+	Machakeve (Presidente): [speed=0.2][shake]Demasiado control.[/shake]
+	Machakeve (Presidente): [speed=0.4]Contuviste al pueblo, protegiste a todos.
+	Machakeve (Presidente): [speed=0.2][wait=0.5][shake]Y eso… es imperdonable.
+	Machakeve (Presidente): [speed=0.5]Plupsovia no necesita héroes.
+	Machakeve (Presidente): [speed=0.3]No hemos podido probar nuestro experimento...
+	Machakeve (Presidente): [speed=0.2][wait=0.5][shake][color=#FF0000]Que esto quede como la última noticia.[/color][/shake]
+	Machakeve (Presidente): [speed=0.3]Gloria a Plupsovia.
+
+=> END
