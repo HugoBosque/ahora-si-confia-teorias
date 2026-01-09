@@ -6,7 +6,7 @@
 	
 
 	- "Algunos animales salvajes fueron vistos cerca del bosque"
-		set GameManager.preocupacion_viudo += 5
+		set GameManager.preocupacion_viudo += 10
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6] Espero que no molesten mucho, no querría que les pasase nada.
 		
 		

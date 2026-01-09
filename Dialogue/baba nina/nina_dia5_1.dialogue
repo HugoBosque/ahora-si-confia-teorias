@@ -13,7 +13,7 @@
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]El cielo también se cansa de mirar en silencio.
 
 	- “Hospital regional aumenta vigilancia médica”
-		set GameManager.preocupacion_nina += 5
+		set GameManager.preocupacion_nina += 10
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Vigilar no es curar.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Los médicos miran el cuerpo.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Pero nadie escucha a la tierra.

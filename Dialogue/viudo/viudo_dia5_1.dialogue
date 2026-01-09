@@ -6,7 +6,7 @@
 	set Global.dia5_hablar_viudo = true
 	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Adelante.
 	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
-		set GameManager.preocupacion_viudo += 5
+		set GameManager.preocupacion_viudo += 10
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Luces…
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Cuando todo se viene abajo, la gente mira al cielo.
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Yo ya no espero nada de ahí arriba.

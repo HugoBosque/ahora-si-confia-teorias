@@ -115,7 +115,7 @@
 	set GameManager.preocupacion_esceptico += 0
 	set GameManager.preocupacion_medico += 5
 	set GameManager.preocupacion_viudo += 10
-	set GameManager.preocupacion_nina += 5
+	set GameManager.preocupacion_nina += 10
 	set GameManager.preocupacion_viktor += 5
 	set GameManager.preocupacion_yerik += 10
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Es una recomendación sensata.
@@ -145,8 +145,8 @@
 	set GameManager.preocupacion_cura += 0
 	set GameManager.preocupacion_esceptico += 0
 	set GameManager.preocupacion_medico += 0
-	set GameManager.preocupacion_viudo += 5
-	set GameManager.preocupacion_nina += 0
+	set GameManager.preocupacion_viudo += 10
+	set GameManager.preocupacion_nina += 5
 	set GameManager.preocupacion_viktor += 0
 	set GameManager.preocupacion_yerik += 20
 	[color=#D8A15F][b]Iván Petrovich[/b][/color]: ¿Qué?

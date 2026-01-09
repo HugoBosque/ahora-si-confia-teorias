@@ -7,7 +7,7 @@
 	[color=#C47FFF][b]Baba Nina[/b][/color]: Dime.
 
 	- “Grave abarrotamiento de los servicios de emergencia”
-		set GameManager.preocupacion_nina += 15
+		set GameManager.preocupacion_nina += 10
 		[color=#C47FFF][b]Baba Nina[/b][/color]: Los lugares de cura siempre se llenan antes del silencio.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: Después… ya no sirven.
 
