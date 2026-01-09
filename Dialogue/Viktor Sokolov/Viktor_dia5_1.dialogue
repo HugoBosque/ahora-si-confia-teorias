@@ -19,7 +19,7 @@
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Cuando los médicos se preparan, es porque ya han visto algo que no les gusta.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Y créeme… ellos no exageran.
 
-	- “Reordenación del transporte: solo rutas priorizadas”
+	- “Reordenación del transporte, solo rutas priorizadas”
 		set GameManager.preocupacion_viktor += 5	
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Menos movimiento.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Eso calma a algunos… y pone nerviosos a otros.

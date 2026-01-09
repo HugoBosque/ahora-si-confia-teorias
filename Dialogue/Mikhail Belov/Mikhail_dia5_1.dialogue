@@ -5,20 +5,20 @@
 
 - Vengo a darte las noticias
 	set Global.dia5_hablar_mikhail = true
-
+	[color=#9de841][b]Mikhail Belov[/b][/color]: Escucho.
 	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
-	set GameManager.preocupacion_mikhail += 15
+		set GameManager.preocupacion_mikhail += 15
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Anoche no se veía oscuro.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Ni siquiera las estrellas parecían en su sitio.
 
 	- “Hospital regional aumenta vigilancia médica”
-	set GameManager.preocupacion_mikhail += 10
+		set GameManager.preocupacion_mikhail += 10
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Entonces no soy el único que ha notado cosas raras.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Las hojas se caen antes de tiempo.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Y el trigo… no huele como debería.
 
 	- “Reordenación del transporte, solo rutas priorizadas”
-	set GameManager.preocupacion_mikhail += 10
+		set GameManager.preocupacion_mikhail += 10
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Cuando los caminos se vacían, es porque nadie espera volver pronto.
 
 - Venía a hablar contigo
