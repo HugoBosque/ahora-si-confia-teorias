@@ -185,7 +185,9 @@ func _actualizar_personaje_según_preocupacion():
 			activar_yerik(yerik_pavel_3)
 
 	# 🔹 --- TENDERO ---
-	if Global.dia3_pista_tendero_viktor and GameManager.dia == 6 or Global.dia3_pista_tendero_viktor and GameManager.dia == 7:
+	if GameManager.vida_tendero <= 0:
+		print("tendero muerto")
+	elif Global.dia3_pista_tendero_viktor and GameManager.dia == 6 or Global.dia3_pista_tendero_viktor and GameManager.dia == 7:
 		Global.tendero_des = true
 	elif GameManager.dia == 4:
 		activar_tenderos(tendero_2)
