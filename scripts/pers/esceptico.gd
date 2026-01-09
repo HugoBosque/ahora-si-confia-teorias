@@ -73,11 +73,11 @@ func _process(delta):
 # ------------------------------------------------------
 func _on_area_entered(area):
 	if not GameManager.dia == 4:
-		self.visible = true
+		sprite_2d.visible = true
 	player_close = true
 
 func _on_area_exited(area):
-	self.visible = false
+	sprite_2d.visible = false
 	player_close = false
 
 
