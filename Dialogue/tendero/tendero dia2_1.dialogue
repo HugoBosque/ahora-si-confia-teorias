@@ -10,17 +10,20 @@ elif not Global.dia2_madre_noticia1:
 	
 	
 	- "Algunos animales salvajes fueron vistos cerca del bosque"
+		set GameManager.preocupacion_tendero += 5
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: La gente se asusta fácil con estas cosas.
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Quizá debería traer más velas y comida enlatada... Por si acaso, ya sabes.
 		 
 		
 		
 	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
+		set GameManager.preocupacion_tendero += 5
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: ¿Otra vez la electricidad? No me sorprende.
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Es una noticia importante, amigo. Yo, de ti, se la contaría a los otros; así yo también puedo [shake]ayudar[/shake] vendiendo velas.
 		
 		
 	- "Medidas de mantenimiento industrial"
+		set GameManager.preocupacion_tendero -= 
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: ¿Mantenimiento? Eso suena… demasiado bonito.
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Cuando dicen “mantenimiento”, suele significar “algo se rompió pero no quieren que lo sepas”.
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: En fin… la gente igual se preocupará. Y cuando la gente se preocupa [shake]...

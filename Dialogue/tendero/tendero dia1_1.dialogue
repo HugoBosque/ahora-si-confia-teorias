@@ -11,12 +11,12 @@
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: [speed=0.7]Yo, si fuera tú, iría con cuidado por el camino del bosque, que es más seguro, aunque más largo.
 
 	- "Llegan nuevas provisiones desde la capital"
-		set GameManager.preocupacion_tendero += 5
+		set GameManager.preocupacion_tendero -= 5
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: [speed=0.7]Ah, eso sí que es una buena noticia. Siempre es un alivio que traigan comida y suministros.
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: [speed=0.7]Aunque ya sabes cómo se ponen algunos: “¿Llegará para todos?”… y los rumores no se hacen esperar.
 
 	- "Se planea una mejora en el alumbrado público"
-		set GameManager.preocupacion_tendero += 2
+		set GameManager.preocupacion_tendero -= 5
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: [speed=0.7]Mmm… más luz para la plaza, dicen. Algunos vecinos se alegrarán, pero ya sabes cómo es la gente, enseguida empiezan los comentarios y chismes.
 		[color=#fe7a1b][b]Iván Petrovich[/b][/color]: [speed=0.7]Solo espero que no nos hagan pagar demasiado por ello.
 
