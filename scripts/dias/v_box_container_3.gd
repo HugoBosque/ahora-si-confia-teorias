@@ -12,3 +12,5 @@ func _process(delta):
 	$preocupacion_viudo.text = "Preocupación del Romanov Morozov: " + str(GameManager.preocupacion_viudo)
 
 	$vida_viudo.text = "Vida del Romanov Morozov: " + str(GameManager.vida_viudo)
+	$preocupacion_yerik.text = "Preocupación de Yerik Pavel: " + str(GameManager.preocupacion_yerik)
+	$vida_yerik.text = "Vida de Yerik Pavel: " + str(GameManager.vida_yerik)

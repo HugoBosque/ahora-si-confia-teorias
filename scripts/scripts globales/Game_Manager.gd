@@ -11,7 +11,7 @@ var has_animation_done = false
 var dia: int = 1
 # -------------------- VARIABLES DE PERSONAJES --------------------
 var vida_cura: int = 100
-var preocupacion_cura: int = 75
+var preocupacion_cura: int = 0
 var cura_en_iglesia: bool = false  # 🔹 NUEVA VARIABLE GLOBAL DE UBICACIÓN DEL CURA
 
 var vida_esceptico: int = 100

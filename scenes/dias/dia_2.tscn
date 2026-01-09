@@ -55,12 +55,28 @@ Cuando eso pasa, no reaccionan con miedo, sino con rechazo. Empiezo a entender p
 a todo el mundo. Si quiero que se queden en casa, tengo que tocar justo lo que más les preocupa a cada uno."
 vertical_alignment = 1
 
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -87.0
+offset_top = -102.0
+offset_right = 89.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_avcyx")
+theme_override_font_sizes/font_size = 30
+text = "CONTINUAR"
+
 [node name="VBoxContainer2" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_left = 157.0
-offset_top = 234.0
-offset_right = 410.0
-offset_bottom = 628.0
+offset_left = 127.0
+offset_top = 242.0
+offset_right = 380.0
+offset_bottom = 636.0
 size_flags_vertical = 3
 script = ExtResource("3_nbegp")
 
@@ -109,28 +125,12 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("2_avcyx")
 theme_override_font_sizes/font_size = 20
 
-[node name="Button" type="Button" parent="."]
-layout_mode = 1
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -87.0
-offset_top = -102.0
-offset_right = 89.0
-grow_horizontal = 2
-grow_vertical = 0
-theme_override_fonts/font = ExtResource("2_avcyx")
-theme_override_font_sizes/font_size = 30
-text = "CONTINUAR"
-
 [node name="VBoxContainer3" type="VBoxContainer" parent="."]
 layout_mode = 0
 offset_left = 445.0
-offset_top = 234.0
+offset_top = 242.0
 offset_right = 698.0
-offset_bottom = 525.0
+offset_bottom = 533.0
 size_flags_vertical = 3
 script = ExtResource("4_6yhc3")
 
@@ -179,12 +179,22 @@ layout_mode = 2
 theme_override_fonts/font = ExtResource("2_avcyx")
 theme_override_font_sizes/font_size = 20
 
+[node name="vida_yerik" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_avcyx")
+theme_override_font_sizes/font_size = 20
+
+[node name="preocupacion_yerik" type="Label" parent="VBoxContainer3"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_avcyx")
+theme_override_font_sizes/font_size = 20
+
 [node name="VBoxContainer4" type="VBoxContainer" parent="."]
 layout_mode = 0
-offset_left = 732.0
-offset_top = 235.0
-offset_right = 985.0
-offset_bottom = 636.0
+offset_left = 757.0
+offset_top = 242.0
+offset_right = 1010.0
+offset_bottom = 643.0
 size_flags_vertical = 3
 script = ExtResource("5_ogxdf")
 
