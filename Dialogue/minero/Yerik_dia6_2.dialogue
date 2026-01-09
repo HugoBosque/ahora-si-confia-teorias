@@ -1,11 +1,19 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+- Venía a hablar contigo
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]¿Hablar?
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Con todo lo que está pasando, nadie viene solo a charlar. Igualmente...
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Dime, te escucho.
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Qué tal por la mina?
+
+	if Global.yerik_miedo_afueras:
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Después de lo que has dicho…
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Bajar a la mina o salir a las afueras es casi lo mismo.
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]No pienso ser el siguiente en la lista.
+	else:
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Mal momento para preguntar eso.
+
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Con cómo están las cosas en el pueblo… prefiero no bajar.
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]La mina no se va a mover de sitio.
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Esperaré a que todo se tranquilice antes de volver a entrar ahí abajo.
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Ahora mismo hay demasiadas cosas raras como para tentar a la suerte.
 => END

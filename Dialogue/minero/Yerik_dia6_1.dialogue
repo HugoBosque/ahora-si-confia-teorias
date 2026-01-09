@@ -1,11 +1,45 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#90580d][b]Yerik[/b][/color]: [speed=0.5]¿No te cansas? Qué estrés hoy…
+
+- Vengo a lo de siempre
+	set Global.dia6_hablar_yerik = true
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]A ver… dime.
+
+	- “Grave abarrotamiento de los servicios de emergencia”
+		set GameManager.preocupacion_yerik += 10
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]No me sorprende.
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Llevan días avisando de que no dan abasto.
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]La gente empieza a entenderlo… cuando ya es tarde.
+
+	- “Campaña de concienciación, quedarse en casa salva vidas”
+		set GameManager.preocupacion_yerik += 10
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Ojalá hiciera falta repetirlo menos.
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Pero ya sabes cómo funciona esto… hasta que no pasa algo cerca, nadie escucha.
+
+	- “Dos vecinos encontrados sin vida en las afueras”
+		set GameManager.preocupacion_yerik += 25
+		set Global.yerik_miedo_afueras = true
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.5]...
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]¿En serio...?
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Esto va a empezar a calar de verdad ahora.
+
+
+- Venía a hablar contigo
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]¿Hablar?
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Con todo lo que está pasando, nadie viene solo a charlar. Igualmente...
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Dime, te escucho.
+	[color=#89C2FF][b]Yo[/b][/color]: [speed=0.6]¿Qué tal por la mina?
+
+	if Global.yerik_miedo_afueras:
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Después de lo que has dicho…
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Bajar a la mina o salir a las afueras es casi lo mismo.
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]No pienso ser el siguiente en la lista.
+	else:
+		[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Mal momento para preguntar eso.
+
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Con cómo están las cosas en el pueblo… prefiero no bajar.
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]La mina no se va a mover de sitio.
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Esperaré a que todo se tranquilice antes de volver a entrar ahí abajo.
+	[color=#90580d][b]Yerik[/b][/color]: [speed=0.6]Ahora mismo hay demasiadas cosas raras como para tentar a la suerte.
+
 => END
