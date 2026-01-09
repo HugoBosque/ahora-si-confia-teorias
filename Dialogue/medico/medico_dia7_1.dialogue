@@ -1,17 +1,23 @@
 ~ start
-medico: hola
-- noticias
-	set Global.dia1_hablar_medico = true
-	medico: si
-	- "noticia1"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-	- "noticia2"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-	- "noticia3"
-		set GameManager.preocupacion_medico +=20
-		medico: si
-- demas
+[color=#5FB7FF][b]Dra. Alina[/b][/color]: ...
+- Vengo a darte las noticias
+	set Global.dia7_hablar_medico = true
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Ya las imagino… pero dime.
+
+	- “Hospital regional atiende un pico de cuadros febriles”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Lo sabía.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: El patrón ya es claro.
+
+	- “Toque de queda obligatorio”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Tarde, pero necesario.
+
+	- “Se comienza a restaurar la circulación para la movilidad de tropas”
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Entonces han aceptado que no pueden curarlo.
+		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Solo aislarlo.
+
+- Venía a hablar contigo
+
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Cuida tu respiración.
+	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Lo que viene… no avisa.
 
 => END

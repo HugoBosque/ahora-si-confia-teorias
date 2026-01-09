@@ -1,17 +1,23 @@
 ~ start
-viktor: hola
-- noticias
+[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Claro.
+- Vengo a darte las noticias
 	set Global.dia7_hablar_Viktor = true
-	viktor: si
-	- "noticia1"
-		set GameManager.preocupacion_viktor +=20
-		viktor: si
-	- "noticia2"
-		set GameManager.preocupacion_viktor +=20
-		viktor: si
-	- "noticia3"
-		set GameManager.preocupacion_viktor +=20
-		viktor: si
-- demas
+	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Adelante.
+
+	- “Hospital regional atiende un pico de cuadros febriles”
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Entonces ya no es un caso.
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Es una crisis.
+
+	- “Toque de queda obligatorio”
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Era inevitable.
+
+	- “Se comienza a restaurar la circulación para la movilidad de tropas”
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Cuando entra el ejército…
+		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: la verdad deja de importar.
+
+- Venía a hablar contigo
+
+	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Hiciste tu trabajo.
+	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Ahora sobrevives… como todos.
 
 => END

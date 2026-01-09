@@ -1,11 +1,22 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#7A7A7A][b]Yerik[/b][/color]: ...
+- Vengo a darte las noticias
+	set Global.dia7_hablar_yerik = true
+	[color=#7A7A7A][b]Yerik[/b][/color]: Escupo polvo, no palabras.
+
+	- “Hospital regional atiende un pico de cuadros febriles”
+		[color=#7A7A7A][b]Yerik[/b][/color]: Arriba siempre caéis primero.
+
+	- “Toque de queda obligatorio”
+		[color=#7A7A7A][b]Yerik[/b][/color]: Entonces el pueblo se queda quieto.
+		[color=#7A7A7A][b]Yerik[/b][/color]: Mala señal.
+
+	- “Se comienza a restaurar la circulación para la movilidad de tropas”
+		[color=#7A7A7A][b]Yerik[/b][/color]: Si bajan a la mina, será el final.
+
+- Venía a hablar contigo
+
+	[color=#7A7A7A][b]Yerik[/b][/color]: Hoy no bajo.
+	[color=#7A7A7A][b]Yerik[/b][/color]: Hoy espero que el aire aguante.
+
 => END

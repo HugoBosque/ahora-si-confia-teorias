@@ -9,6 +9,7 @@ if Global.dia5_alina_recomienda_reduccion_contacto:
 [color=#D8A15F][b]Iván Petrovich[/b][/color]: [shake][speed=0.2]Cof, cof...[/shake][speed=1]
 
 - Vengo a darte las noticias
+	set Global.dia6_hablar_tendero= true
 	[color=#D8A15F][b]Iván Petrovich[/b][/color]: Claro...
 	
 	- “Grave abarrotamiento de los servicios de emergencia”

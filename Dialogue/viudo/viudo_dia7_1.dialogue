@@ -1,17 +1,26 @@
 ~ start
-viudo: hola
-- noticias
-	set Global.dia1_hablar_viudo = true
-	viudo: si
-	- "noticia1"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia2"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-	- "noticia3"
-		set GameManager.preocupacion_viudo +=20
-		viudo: si
-- demas
+[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Inevitable.
+- Vengo a darte las noticias
+	set Global.dia7_hablar_viudo= true
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Ya nada me sorprende.
+
+	- “Hospital regional atiende un pico de cuadros febriles”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Mi mujer murió así.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Sin aire.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: ...
+
+	- “Toque de queda obligatorio”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Nadie huye del todo.
+
+	- “Se comienza a restaurar la circulación para la movilidad de tropas”
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Llegan tarde.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Siempre llegan tarde.
+
+- Venía a hablar contigo
+
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Ahora sabéis lo que es esperar sin esperanza.
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Ahora sabéis que es estar en la boca del lobo y solo ver dientes...
+	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Toma mi consejo; sé fuerte.
+	
 
 => END

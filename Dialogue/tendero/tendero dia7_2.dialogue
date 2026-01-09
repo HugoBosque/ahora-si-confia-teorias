@@ -1,11 +1,8 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: Dime...
+- Venía a hablar contigo
+
+	[color=#D8A15F][b]Iván Petrovich[/b][/color]: Siempre pensé que el dinero me sacaría de cualquier problema.
+	[color=#D8A15F][b]Iván Petrovich[/b][/color]: Resulta que no compra aire.
+
 => END
