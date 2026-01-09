@@ -14,8 +14,11 @@ func _on_dia_cambiado(nuevo_dia: int):
 
 # -------------------- CURA --------------------
 func _actualizar_cura():
-	var debe_aparecer = GameManager.preocupacion_cura >= 75
-	_set_personaje_activo(cura, debe_aparecer)
+	if GameManager.vida_cura > 0 and GameManager.preocupacion_cura >= 75:
+		var debe_aparecer = true
+		_set_personaje_activo(cura, debe_aparecer)
+	else:
+		_set_personaje_activo(cura, false)
 
 # -------------------- MADRE --------------------
 func _actualizar_madre():
@@ -28,7 +31,7 @@ func _actualizar_madre():
 
 	var debe_aparecer = false
 
-	if dia == 2 and Global.dia2_madre_noticia1:
+	if dia == 2 and Global.dia2_madre_noticia1 and GameManager.vida_madre > 0:
 		debe_aparecer = true
 
 	_set_personaje_activo(madre, debe_aparecer)
