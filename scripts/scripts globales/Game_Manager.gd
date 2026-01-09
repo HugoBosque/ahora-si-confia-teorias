@@ -45,6 +45,30 @@ signal dia_cambiado(nuevo_dia: int)
 
 # -------------------- FUNCIONES --------------------
 
+func comprobar_vidas():
+	if vida_cura <= 0:
+		Global.final_dialogo_muertos = true
+	elif vida_esceptico <= 0:
+		Global.final_dialogo_muertos = true
+	elif vida_madre <= 0:
+		Global.final_dialogo_muertos = true
+	elif vida_viktor <= 0:
+		Global.final_dialogo_muertos = true
+	elif vida_viudo <= 0:
+		Global.final_dialogo_muertos = true
+	elif vida_medico <= 0:
+		Global.final_dialogo_muertos = true
+	elif vida_nina <= 0:
+		Global.final_dialogo_muertos = true
+	elif vida_mikhail <= 0:
+		Global.final_dialogo_muertos = true
+	elif vida_tendero <= 0:
+		Global.final_dialogo_muertos = true
+	elif vida_yerik <= 0:
+		Global.final_dialogo_muertos = true
+
+
+
 func get_dano_por_dia() -> int:
 	match dia:
 		1: return 0
