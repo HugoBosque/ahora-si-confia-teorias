@@ -1,17 +1,23 @@
 ~ start
-cura: hola
-- noticias
-	set Global.dia1_hablar_cura = true
-	cura: si
-	- "noticia1"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-	- "noticia2"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-	- "noticia3"
-		set GameManager.preocupacion_cura +=20
-		cura: si
-- demas
+[color=#B98A56][b]Padre Zhukov[/b][/color]: Claro.
+- Vengo a darte las noticias
+	set Global.dia7_hablar_cura = true
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Habla, hijo.
+
+	- “Hospital regional atiende un pico de cuadros febriles”
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: El cuerpo cae antes que el alma.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Siempre ha sido así.
+
+	- “Toque de queda obligatorio”
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: El silencio forzado también es una forma de oración.
+
+	- “Se comienza a restaurar la circulación para la movilidad de tropas”
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: El castigo ya no es divino.
+		[color=#B98A56][b]Padre Zhukov[/b][/color]: Ahora es organizado.
+
+- Venía a hablar contigo
+
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Dios no ha abandonado este lugar.
+	[color=#B98A56][b]Padre Zhukov[/b][/color]: Simplemente… está observando.
 
 => END

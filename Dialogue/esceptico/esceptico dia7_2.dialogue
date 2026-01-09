@@ -1,11 +1,9 @@
 ~ start
-Alexei: [speed=0.7] ¿Se te ha perdido algo?
+[color=#A0A0A0][b]Alexei[/b][/color]: Ajá…
+- Venía a hablar contigo
 
-
-- Sólo quiero hablar.
-	Alexei: [speed=0.7] No te lo tomes personal, no tengo de que hablar.
-	- Por ejemplo, ¿porque vives alejado?
-	Alexei: [speed=0.7] La gente me toma como loco por pensar diferente, paso de eso.	
-- Perdona sólo pasaba por aquí.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Me duele el pecho al respirar.
+	[color=#A0A0A0][b]Alexei[/b][/color]: Y por primera vez…
+	[color=#A0A0A0][b]Alexei[/b][/color]: no tengo una explicación que me tranquilice.
 
 => END

@@ -1,11 +1,25 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+[color=#D8A15F][b]Iván Petrovich[/b][/color]: ...
+- Vengo a darte las noticias
+	set Global.dia7_hablar_tendero = true
+	[color=#D8A15F][b]Iván Petrovich[/b][/color]: Dime rápido… hoy me cuesta hasta estar de pie.
+
+	- “Hospital regional atiende un pico de cuadros febriles”
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Claro…
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Primero se llenan los hospitales.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Luego se vacían las tiendas.
+
+	- “Toque de queda obligatorio”
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Entonces ya está.
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: El negocio puede esperar… si es que alguien queda para comprar.
+
+	- “Se comienza a restaurar la circulación para la movilidad de tropas”
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Tropas…
+		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Cuando llegan los soldados, el pueblo ya ha perdido.
+
+- Venía a hablar contigo
+
+	[color=#D8A15F][b]Iván Petrovich[/b][/color]: Siempre pensé que el dinero me sacaría de cualquier problema.
+	[color=#D8A15F][b]Iván Petrovich[/b][/color]: Resulta que no compra aire.
+
 => END

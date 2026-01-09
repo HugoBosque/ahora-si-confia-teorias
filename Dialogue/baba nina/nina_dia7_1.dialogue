@@ -1,17 +1,22 @@
 ~ start
-nina: hola
-- noticias
-	set Global.dia1_hablar_nina = true
-	nina: si
-	- "noticia1"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-	- "noticia2"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-	- "noticia3"
-		set GameManager.preocupacion_nina +=20
-		nina: si
-- demas
+[color=#C47FFF][b]Baba Nina[/b][/color]: El fin ha llegado.
+- Vengo a darte las noticias
+	set Global.dia7_hablar_nina= true
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Ya las he oído… en la tierra.
+
+	- “Hospital regional atiende un pico de cuadros febriles”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: La plaga ya está sentada en las camas.
+
+	- “Toque de queda obligatorio”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: Cerrar puertas no cierra destinos.
+
+	- “Se comienza a restaurar la circulación para la movilidad de tropas”
+		[color=#C47FFF][b]Baba Nina[/b][/color]: Guerra vuelve a caminar.
+
+- Venía a hablar contigo
+
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Ya no hay advertencias.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Solo desenlace.
+	[color=#C47FFF][b]Baba Nina[/b][/color]: Es el momento de que se compruebe si hemos sido buenos o no...
 
 => END

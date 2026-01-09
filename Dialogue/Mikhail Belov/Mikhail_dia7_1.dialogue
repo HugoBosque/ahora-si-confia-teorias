@@ -1,17 +1,22 @@
 ~ start
-mikhail: hola
-- noticias
-	set Global.dia1_hablar_mikhail = true
-	mikhail: si
-	- "noticia1"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-	- "noticia2"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-	- "noticia3"
-		set GameManager.preocupacion_mikhail +=20
-		mikhail: si
-- demas
+[color=#9de841][b]Mikhail[/b][/color]: ...
+- Vengo a darte las noticias
+	set Global.dia7_hablar_mikhail = true
+	[color=#9de841][b]Mikhail[/b][/color]: [shake][speed=0.2]Cof…[/shake] dime…
+
+	- “Hospital regional atiende un pico de cuadros febriles”
+		[color=#9de841][b]Mikhail[/b][/color]: Yo no llegaría hasta allí…
+
+	- “Toque de queda obligatorio”
+		[color=#9de841][b]Mikhail[/b][/color]: Mejor.
+		[color=#9de841][b]Mikhail[/b][/color]: Así me quedo en casa.
+
+	- “Se comienza a restaurar la circulación para la movilidad de tropas”
+		[color=#9de841][b]Mikhail[/b][/color]: La tierra no entiende de soldados.
+
+- Venía a hablar contigo
+
+	[color=#9de841][b]Mikhail[/b][/color]: Si no me ves mañana…
+	[color=#9de841][b]Mikhail[/b][/color]: ya sabes por qué.
 
 => END
