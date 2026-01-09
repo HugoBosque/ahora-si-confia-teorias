@@ -90,7 +90,7 @@ var dia4_hablar_tendero = false
 var dia5_hablar_tendero = false
 var dia6_hablar_tendero = false
 var dia7_hablar_tendero = false
-
+var yerik_miedo_afueras = false 
 var hablar_gato = false
 
 var final_dialogo_muertos = false
