@@ -108,7 +108,7 @@ func _actualizar_personaje_según_preocupacion():
 			activar_medico(medico_3)
 
 	# 🔹 --- CURA ---
-	if GameManager.vida_cura >= 0:
+	if GameManager.vida_cura <= 0:
 		print("cura muerto")
 	elif GameManager.dia == 4:
 		activar_cura(cura_2)
