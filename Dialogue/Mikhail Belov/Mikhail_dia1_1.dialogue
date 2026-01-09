@@ -11,10 +11,12 @@
 		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Siempre que nieva fuerte pasa lo mismo. Mi padre ya lo decía: “Si el camino se tapa, mejor quedarse en casa”.
 
 	- "Llegan nuevas provisiones desde la capital"
+	set GameManager.preocupacion_mikhail -= 5
 		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]¿De verdad? Bueno, pues mira qué bien.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Yo, con que traigan harina y algo de mantequilla, ya me conformo.
 
 	- "Se planea una mejora en el alumbrado público"
+	set GameManager.preocupacion_mikhail -= 5
 		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]¿Más luz? Pues no sé si hace falta…
 		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Pero si lo dicen los que mandan, será por algo, ¿no?
 		[color=#9de841][b]Mikhail Belov[/b][/color]: [speed=0.7]Solo espero que no nos hagan pagar a nosotros…

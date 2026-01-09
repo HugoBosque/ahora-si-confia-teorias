@@ -7,14 +7,17 @@
 	[color=#C47FFF][b]Baba Nina[/b][/color]: Dime.
 
 	- “Grave abarrotamiento de los servicios de emergencia”
+		set GameManager.preocupacion_nina += 15
 		[color=#C47FFF][b]Baba Nina[/b][/color]: Los lugares de cura siempre se llenan antes del silencio.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: Después… ya no sirven.
 
 	- “Campaña de concienciación, quedarse en casa salva vidas”
+		set GameManager.preocupacion_nina += 20
 		[color=#C47FFF][b]Baba Nina[/b][/color]: Las casas no protegen.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: Pero ayudan a esperar.
 
 	- “Dos vecinos encontrados sin vida en las afueras”
+		set GameManager.preocupacion_nina += 15
 		[color=#C47FFF][b]Baba Nina[/b][/color]: Afuera siempre caen primero.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: La tierra lo recuerda todo.
 

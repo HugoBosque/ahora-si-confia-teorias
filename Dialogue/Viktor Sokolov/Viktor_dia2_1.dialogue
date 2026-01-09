@@ -9,14 +9,17 @@
 	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Prosigue.
 
 	- "Algunos animales salvajes fueron vistos cerca del bosque"  
+		set GameManager.preocupacion_viktor += 10
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Los animales no se acercan sin motivo, algo pasa…  
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Oye, chico, no te acerques demasiado al bosque. No me gustaría que te pasara nada malo…
 
-	- "Pequeñas fluctuaciones eléctricas en la zona industrial"  
+	- "Pequeñas fluctuaciones eléctricas en la zona industrial" 
+		set GameManager.preocupacion_viktor += 10 
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Ya lo esperaba. Las irregularidades técnicas no son solo técnicas.  
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Tomo nota, veré qué puedo hacer.
 
 	- "Medidas de mantenimiento industrial"  
+		set GameManager.preocupacion_viktor -= 5
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Mantenimiento dicen… Los mayores desastres son provocados con palabras.
 
 - Venía a hablar contigo  

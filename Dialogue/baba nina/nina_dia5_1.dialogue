@@ -7,16 +7,19 @@
 	set Global.dia5_hablar_nina = true
 
 	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+		set GameManager.preocupacion_nina += 15
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]No son luces.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Son avisos.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]El cielo también se cansa de mirar en silencio.
 
 	- “Hospital regional aumenta vigilancia médica”
+		set GameManager.preocupacion_nina += 5
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Vigilar no es curar.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Los médicos miran el cuerpo.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Pero nadie escucha a la tierra.
 
 	- “Reordenación del transporte: solo rutas priorizadas”
+		set GameManager.preocupacion_nina += 10
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Cerrar caminos…
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Es el primer gesto de los que saben que no habrá regreso.
 

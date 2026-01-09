@@ -7,18 +7,18 @@
 	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Adelante… que sea lo que Dios quiera.
 
 	- “Vecinos reportan un olor extraño en el aire”
-		
+		set GameManager.preocupacion_madre += 5
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Lo he notado…
 		[color=#F9E07F][b]Svetlana[/b][/color]: Me arden los ojos y me cuesta respirar.
 		[color=#F9E07F][b]Svetlana[/b][/color]: ¿Crees que puede afectar a los niños?
 
 	- “Se recomienda ventilar las casas durante el día”
-	
+		set GameManager.preocupacion_madre += 20
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Abriré las ventanas, aunque entre el frío.
 		[color=#F9E07F][b]Svetlana[/b][/color]: Prefiero que mis hijos tiemblen a que no respiren.
 
 	- “Autoridades investigan posibles fugas de gas en la región”
-		
+		set GameManager.preocupacion_madre += 10
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gas…
 		[color=#F9E07F][b]Svetlana[/b][/color]: Todo parece peligroso últimamente.
 		[color=#F9E07F][b]Svetlana[/b][/color]: Como si el mundo se estuviera agrietando poco a poco.

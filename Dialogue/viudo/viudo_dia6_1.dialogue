@@ -9,14 +9,17 @@
 	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Adelante.
 
 	- “Grave abarrotamiento de los servicios de emergencia”
+		set GameManager.preocupacion_viudo += 15
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Siempre pasa lo mismo.
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Cuando ya no sirve de nada, entonces llegan las palabras.
 
 	- “Campaña de concienciación, quedarse en casa salva vidas”
+		set GameManager.preocupacion_viudo += 15
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Mi casa está vacía.
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No hay nada que salvar ahí dentro.
 
 	- “Dos vecinos encontrados sin vida en las afueras”
+		set GameManager.preocupacion_viudo += 15
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Dos más.
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: El silencio se apodera de Plupsovia.
 

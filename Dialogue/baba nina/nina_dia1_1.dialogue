@@ -12,12 +12,15 @@
 	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]¿Qué me trae esta vez el destino?
 
 	- "La carretera principal sigue bloqueada por la nieve"
+		set GameManager.preocupacion_nina += 0
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Esos tercos van a acabar enterrados en nieve.
 
 	- "Llegan nuevas provisiones desde la capital"
+		set GameManager.preocupacion_nina += 0
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Cerdos lucrándose de otros cerdos.
 
 	- "Se planea una mejora en el alumbrado público"
+		set GameManager.preocupacion_nina += 0
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Más luz… siempre quieren más luz.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Pero, hijo, no toda luz alumbra. Algunas desvelan lo que es mejor dejar dormido.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.3]Que no se quejen luego si las sombras empiezan a moverse…

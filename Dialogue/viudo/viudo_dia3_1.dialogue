@@ -6,16 +6,19 @@
 	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Dime. Que sea rápido.
 
 	- “Vecinos reportan un olor extraño en el aire”
+		set GameManager.preocupacion_viudo += 5
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Lo he notado.
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Huele a metal… como cuando algo se quema sin fuego.
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: La gente se asusta demasiado rápido.
 
 	- “Se recomienda ventilar las casas durante el día”
+		set GameManager.preocupacion_viudo += 5
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Ya lo hago.
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Aire dentro, aire fuera… nada cambia realmente.
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Pero si les tranquiliza, que abran las ventanas.
 
 	- “Autoridades investigan posibles fugas de gas en la región”
+		set GameManager.preocupacion_viudo += 10
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Las autoridades siempre investigan cuando ya es tarde.
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Si hubiera peligro real, no nos lo dirían.
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Nunca lo hacen.

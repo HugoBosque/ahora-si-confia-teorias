@@ -8,16 +8,19 @@
 	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Adelante. Últimamente toda información llega tarde… o incompleta.
 
 	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+		set GameManager.preocupacion_viktor += 10
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Luces…
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: La gente mira al cielo cuando ya no confía en el suelo.
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Anota esto: cuando empiezan las historias, alguien pierde el control de la situación.
 
 	- “Hospital regional aumenta vigilancia médica”
+		set GameManager.preocupacion_viktor += 15
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Era cuestión de tiempo.
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Cuando los médicos se preparan, es porque ya han visto algo que no les gusta.
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Y créeme… ellos no exageran.
 
 	- “Reordenación del transporte: solo rutas priorizadas”
+		set GameManager.preocupacion_viktor += 5	
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Menos movimiento.
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Eso calma a algunos… y pone nerviosos a otros.
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: A mí me facilita el trabajo.

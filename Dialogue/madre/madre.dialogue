@@ -10,16 +10,18 @@
 
 	- “La carretera principal sigue bloqueada por la nieve”
 		set Global.dia2_madre_noticia1 = true
-		set GameManager.preocupacion_madre += 30
+		set GameManager.preocupacion_madre += 20
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]No me digas eso... Mi marido se encuentra de camino al frente. Ay, ¿llegará bien? Por favor, te pido, Dios, que lleguen sanos y salvos. Si pasa algo, házmelo saber de inmediato.
 		[color=#89C2FF][b]Yo[/b][/color]: No se preocupe, en cuanto sepa algo se lo comunicaré.
 
 	- “Llegan nuevas provisiones desde la capital”
+		set GameManager.preocupacion_madre -= 5
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Dios, una vez más demostrando su infinita generosidad... A ver si su mano llega también a nuestro pueblo. Lo paso mal con mis pequeños.
 		[color=#89C2FF][b]Yo[/b][/color]: Tranquila, señora, seguro que nuestro gobierno nos proveerá de alguna manera.
 		[color=#F9E07F][b]Svetlana[/b][/color]: Eso espero, gracias.
 
 	- “Se planea una mejora en el alumbrado público”
+		set GameManager.preocupacion_madre -= 5
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]La luz nos acerca a Dios... Eso tiene que ser una señal divina.
 - Venía a hablar contigo
 	[color=#F9E07F][b]Svetlana[/b][/color]: ¿Hay algún problema? ¿Ha pasado algo?

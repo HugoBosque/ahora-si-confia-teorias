@@ -6,7 +6,7 @@
 	
 
 	- "Algunos animales salvajes fueron vistos cerca del bosque"
-		
+		set GameManager.preocupacion_viudo += 5
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6] Espero que no molesten mucho, no querría que les pasase nada.
 		
 		
@@ -16,6 +16,7 @@
 		
 		
 	- "Medidas de mantenimiento industrial"
+	set GameManager.preocupacion_viudo -= 5
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6] A veces hasta se preocupan por nosotros.
 - Venía a hablar contigo
 	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Claro. Nunca me niego a una conversación… mientras no sea ruido inútil.

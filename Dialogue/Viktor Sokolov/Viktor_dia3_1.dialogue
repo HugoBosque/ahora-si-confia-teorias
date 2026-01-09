@@ -34,16 +34,19 @@ else:
 	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Adelante. Veamos qué preocupa hoy a Plupsovia.
 
 	- “Vecinos reportan un olor extraño en el aire”
+		set GameManager.preocupacion_viktor += 5
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Demasiados testimonios para ser sugestión colectiva.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Algo flota en el aire… y no hablo solo del gas.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Cuando la amenaza es invisible, el pánico corre más rápido que la verdad.
 
 	- “Se recomienda ventilar las casas durante el día”
+		set GameManager.preocupacion_viktor += 10
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Una medida simple.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Aunque me pregunto quién ha decidido que eso bastará.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: A veces se dan consejos no para proteger, sino para ganar tiempo.
 
 	- “Autoridades investigan posibles fugas de gas en la región”
+		set GameManager.preocupacion_viktor += 10
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: “Investigan”… bonita palabra.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Significa que alguien ya sabe algo y espera a ver cómo reacciona el pueblo.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Yo no espero. Yo observo.

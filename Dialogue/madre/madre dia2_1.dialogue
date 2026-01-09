@@ -5,18 +5,19 @@
 	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Te lo agradezco mucho.
 
 	- “Algunos animales salvajes fueron vistos cerca del bosque”
-		set GameManager.preocupacion_madre += 30
+		set GameManager.preocupacion_madre += 10
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Animales por aquí? Qué raro, ¿no? No creo que se acerquen al pueblo... ¿verdad?
 		[color=#89C2FF][b]Yo[/b][/color]: No te preocupes, seguro que no pasa nada.
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Eso espero... Con los niños, cualquier ruido me asusta.
 
 	- “Pequeñas fluctuaciones eléctricas en la zona industrial”
-		set GameManager.preocupacion_madre += 15
+		set GameManager.preocupacion_madre += 5
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Fluctuaciones eléctricas? No entiendo mucho de eso, pero suena peligroso.
 		[color=#89C2FF][b]Yo[/b][/color]: Tranquila, señora, los técnicos ya están trabajando en ello.
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Menos mal... No quiero que mis hijos pasen miedo si se va la luz.
 
 	- “Medidas de mantenimiento industrial”
+		set GameManager.preocupacion_madre -= 10
 		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Ah, entonces todo está bajo control. Gracias por avisarme, me dejas más tranquila.
 
 - Venía a hablar contigo

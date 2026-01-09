@@ -6,14 +6,17 @@
 	[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Correcto. Procede.
 
 	- "La carretera principal sigue bloqueada por la nieve"
+		set GameManager.preocupacion_viktor += 10
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Tsk... Esa carretera es vital para los suministros.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Haré un informe. No podemos permitir retrasos, no ahora.
 
 	- "Llegan nuevas provisiones desde la capital"
+		set GameManager.preocupacion_viktor -= 5
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Bien. Eso mantendrá la moral estable.
 
 
 	- "Se planea una mejora en el alumbrado público"
+		set GameManager.preocupacion_viktor -= 5
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Eso ayudará en las rondas nocturnas.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: [speed=0.6]Menos sombras donde ocultarse… y menos problemas para mí.
 

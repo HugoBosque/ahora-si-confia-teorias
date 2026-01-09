@@ -6,12 +6,15 @@
 	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6]Lo aprecio.
 
 	- "La carretera principal sigue bloqueada por la nieve"
+		set GameManager.preocupacion_viudo += 5
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6]Es una pena. Aunque no me gusta la guerra, mejor que se queden donde están.
 
 	- "Llegan nuevas provisiones desde la capital"
+		set GameManager.preocupacion_viudo -= 5
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6]Como siempre, solo miran por ellos mismos.
 
 	- "Se planea una mejora en el alumbrado público"
+		set GameManager.preocupacion_viudo -= 5
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: [speed=0.6]No está mal que inviertan en la gente.
 
 - Venía a hablar contigo

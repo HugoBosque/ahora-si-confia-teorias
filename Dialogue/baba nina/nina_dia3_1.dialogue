@@ -7,15 +7,18 @@
 	[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Habla. Las palabras también dejan rastro.
 
 	- “Vecinos reportan un olor extraño en el aire”
+		set GameManager.preocupacion_nina += 0
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Ya no es solo un susurro, entonces…
 		[color=#C47FFF][b]Baba Nina[/b][/color]: El aire se envenena cuando algo quiere permanecer oculto.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: Mishka jamás se habría alejado sin razón.
 
 	- “Se recomienda ventilar las casas durante el día”
+		set GameManager.preocupacion_nina += 10
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Abrir ventanas no limpia las culpas.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: Pero tranquiliza a los que prefieren no mirar más allá.
 
 	- “Autoridades investigan posibles fugas de gas en la región”
+		set GameManager.preocupacion_nina += 5
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Las autoridades siempre investigan…
 		[color=#C47FFF][b]Baba Nina[/b][/color]: Lo que nunca dicen es *qué esperan encontrar*.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: O a quién desean proteger.

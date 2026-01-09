@@ -16,16 +16,19 @@ else:
 		[color=#F9E07F][b]Svetlana[/b][/color]: Dímelo tú.
 
 		- “Grave abarrotamiento de los servicios de emergencia”
+			set GameManager.preocupacion_madre += 15
 			[color=#F9E07F][b]Svetlana[/b][/color]: Lo imaginaba.
 			[color=#F9E07F][b]Svetlana[/b][/color]: Ayer fui al ambulatorio… y me mandaron de vuelta.
 			[color=#F9E07F][b]Svetlana[/b][/color]: Dijeron que esperara. Siempre dicen eso.
 
 		- “Campaña de concienciación, quedarse en casa salva vidas”
+			set GameManager.preocupacion_madre += 15
 			[color=#F9E07F][b]Svetlana[/b][/color]: No hemos salido.
 			[color=#F9E07F][b]Svetlana[/b][/color]: Ni hoy, ni ayer.
 			[color=#F9E07F][b]Svetlana[/b][/color]: Aquí dentro… al menos puedo fingir que todo está bien.
 
 		- “Dos vecinos encontrados sin vida en las afueras”
+			set GameManager.preocupacion_madre += 20
 			[color=#F9E07F][b]Svetlana[/b][/color]: …
 			[color=#F9E07F][b]Svetlana[/b][/color]: Entonces ya no son rumores.
 			[color=#F9E07F][b]Svetlana[/b][/color]: Gracias por decírmelo.

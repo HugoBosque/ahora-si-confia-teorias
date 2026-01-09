@@ -19,15 +19,17 @@
 	
 
 	- "Algunos animales salvajes fueron vistos cerca del bosque"
-		
+		set GameManager.preocupacion_nina += 5
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Lo presentía… los animales sienten lo que nosotros ignoramos.
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Seguro que mi Mishka ha detectado alguna señal que nosotros no[speed=0.2]...
 
 	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
+		set GameManager.preocupacion_nina += 0
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Las máquinas también tiemblan, igual que las almas.  
 		[color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Cuando la luz titubea… algo intenta hablar desde la oscuridad.
 
 	- "Medidas de mantenimiento industrial"
+		set GameManager.preocupacion_nina -= 5
 		 [color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Ah… parches humanos para males más profundos.  
 		 [color=#C47FFF][b]Baba Nina[/b][/color]: [speed=0.6]Los corazones más débiles se sentirán seguros… incluso si es solo una mentira más.
 - Venía a hablar contigo

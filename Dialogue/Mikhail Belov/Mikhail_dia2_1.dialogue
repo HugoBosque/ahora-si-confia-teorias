@@ -10,16 +10,16 @@
 	[color=#9DE841][b]Mikhail Belov[/b][/color]: A ver… dime qué pasa ahora.
 
 	- "Algunos animales salvajes fueron vistos cerca del bosque"
-		
+		set GameManager.preocupacion_mikhail += 5
 		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]¿Animales, dices? Eso sí me preocupa. Mis cultivos están cerca del límite del bosque…
 		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Espero que no vengan hambrientos. Ya tengo suficiente trabajo.
 
 	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
-		
+		set GameManager.preocupacion_mikhail += 5
 		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Eso… bueno, mientras no afecte a mis herramientas, no es mi problema.
 		
 	- "Medidas de mantenimiento industrial"
-		
+		set GameManager.preocupacion_mikhail -= 5
 		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Por fin una noticia que no me da dolor de cabeza.  
 		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Si la fábrica funciona bien, al menos habrá suministros.
 

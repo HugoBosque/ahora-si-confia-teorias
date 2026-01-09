@@ -9,15 +9,18 @@
 	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Dime.
 
 	- “Grave abarrotamiento de los servicios de emergencia”
+		set GameManager.preocupacion_viktor += 15
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Lo sé.
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Los informes llegan antes que las ambulancias.
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Y aun así… nunca son suficientes.
 
 	- “Campaña de concienciación, quedarse en casa salva vidas”
+		set GameManager.preocupacion_viktor += 15
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Cuando el Estado pide quedarse en casa…
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Es porque ya ha perdido el control de las calles.
 
 	- “Dos vecinos encontrados sin vida en las afueras”
+		set GameManager.preocupacion_viktor += 20
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Afueras.
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Siempre pasa ahí primero.
 		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Donde nadie mira… y nadie responde.
