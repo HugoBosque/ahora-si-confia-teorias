@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://gx6xnpi02rqm"]
+[gd_scene load_steps=16 format=3 uid="uid://gx6xnpi02rqm"]
 
 [ext_resource type="Script" uid="uid://clseiacx744iu" path="res://scripts/prueba_enseñar/node_2d.gd" id="1_veasc"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="2_4m7c4"]
@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://b3o4e0083jnmn" path="res://scenes/personajes/Mikhail Belov.tscn" id="12_uveid"]
 [ext_resource type="PackedScene" uid="uid://vl5po0vq2iaa" path="res://scenes/personajes/Viktor Sokolov.tscn" id="13_pocvo"]
 [ext_resource type="PackedScene" uid="uid://cd3vpfv1uqroa" path="res://scenes/personajes/esceptico en casa.tscn" id="14_cggie"]
+[ext_resource type="PackedScene" uid="uid://mf0qdfkoab6f" path="res://scenes/personajes/minero.tscn" id="15_rgnkp"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_veasc")
@@ -59,3 +60,6 @@ position = Vector2(333, 470)
 
 [node name="Esceptico2" parent="." instance=ExtResource("14_cggie")]
 position = Vector2(267, 454)
+
+[node name="minero" parent="." instance=ExtResource("15_rgnkp")]
+position = Vector2(560, 520)
