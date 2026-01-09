@@ -90,7 +90,7 @@ var dia4_hablar_tendero = false
 var dia5_hablar_tendero = false
 var dia6_hablar_tendero = false
 var dia7_hablar_tendero = false
-
+var yerik_miedo_afueras = false 
 var hablar_gato = false
 
 var final_dialogo_muertos = false
@@ -128,8 +128,8 @@ func save_game():
 		save_data[prop.name] = get(prop.name)
 
 	# Guardar propiedades del GlobalManager
-	if Engine.has_singleton("GlobalManager"):
-		var gm = Engine.get_singleton("GlobalManager")
+	if Engine.has_singleton("GameManager"):
+		var gm = Engine.get_singleton("GameManager")
 		for prop in gm.get_property_list():
 			if prop.name in ["script"]:
 				continue
@@ -159,8 +159,8 @@ func load_game() -> bool:
 			set(key, save_data[key])
 
 	# Restaurar datos del GlobalManager
-	if Engine.has_singleton("GlobalManager"):
-		var gm = Engine.get_singleton("GlobalManager")
+	if Engine.has_singleton("GameManager"):
+		var gm = Engine.get_singleton("GameManager")
 		for key in save_data.keys():
 			if key.begins_with("GM_"):
 				var real_key = key.replace("GM_", "")
