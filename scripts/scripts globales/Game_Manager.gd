@@ -109,6 +109,7 @@ func cambiar_dia():
 
 	actualizar_cura()
 	verificar_condiciones_dia()
+	hacer_dano()
 
 	emit_signal("dia_cambiado", dia)
 
