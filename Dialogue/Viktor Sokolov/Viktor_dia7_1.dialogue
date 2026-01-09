@@ -1,23 +1,23 @@
 ~ start
-[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Claro.
+[color=#1451d4][b]Viktor Sokolov[/b][/color]: Claro.
 - Vengo a darte las noticias
 	set Global.dia7_hablar_Viktor = true
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Adelante.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Adelante.
 
 	- “Hospital regional atiende un pico de cuadros febriles”
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Entonces ya no es un caso.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Es una crisis.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Entonces ya no es un caso.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Es una crisis.
 
 	- “Toque de queda obligatorio”
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Era inevitable.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Era inevitable.
 
 	- “Se comienza a restaurar la circulación para la movilidad de tropas”
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Cuando entra el ejército…
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: la verdad deja de importar.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Cuando entra el ejército…
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: la verdad deja de importar.
 
 - Venía a hablar contigo
 
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Hiciste tu trabajo.
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Ahora sobrevives… como todos.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Hiciste tu trabajo.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Ahora sobrevives… como todos.
 
 => END

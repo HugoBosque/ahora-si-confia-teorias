@@ -1,57 +1,57 @@
 ~ start
 
-[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: No deberías estar aquí.
-[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Pero supongo que ya nadie hace caso a las recomendaciones.
+[color=#1451d4][b]Viktor Sokolov[/b][/color]: No deberías estar aquí.
+[color=#1451d4][b]Viktor Sokolov[/b][/color]: Pero supongo que ya nadie hace caso a las recomendaciones.
 
 - Vengo a darte las noticias
 	set Global.dia6_hablar_Viktor = true
 
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Dime.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Dime.
 
 	- “Grave abarrotamiento de los servicios de emergencia”
 		set GameManager.preocupacion_viktor += 15
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Lo sé.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Los informes llegan antes que las ambulancias.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Y aun así… nunca son suficientes.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Lo sé.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Los informes llegan antes que las ambulancias.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Y aun así… nunca son suficientes.
 
 	- “Campaña de concienciación, quedarse en casa salva vidas”
 		set GameManager.preocupacion_viktor += 15
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Cuando el Estado pide quedarse en casa…
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Es porque ya ha perdido el control de las calles.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Cuando el Estado pide quedarse en casa…
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Es porque ya ha perdido el control de las calles.
 
 	- “Dos vecinos encontrados sin vida en las afueras”
 		set GameManager.preocupacion_viktor += 20
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Afueras.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Siempre pasa ahí primero.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Donde nadie mira… y nadie responde.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Afueras.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Siempre pasa ahí primero.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Donde nadie mira… y nadie responde.
 
 - Venía a hablar contigo
 
 	if Global.dia3_pista_tendero_viktor:
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Iván ya no abrirá la tienda.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Esta mañana se lo han llevado.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Sin gritos. Sin espectáculo.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Iván ya no abrirá la tienda.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Esta mañana se lo han llevado.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Sin gritos. Sin espectáculo.
 
 		[color=#89C2FF][b]Yo[/b][/color]: ¿Era culpable?
 
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Era imprudente.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Y en momentos como este… eso es casi lo mismo.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Era imprudente.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Y en momentos como este… eso es casi lo mismo.
 
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Hiciste lo correcto.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Aunque el pueblo no te lo agradecerá.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Hiciste lo correcto.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Aunque el pueblo no te lo agradecerá.
 
 	else:
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Hay gente que sigue caminando libremente…
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: como si nada de esto fuera con ellos.
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Y eso me preocupa más que cualquier enfermedad.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Hay gente que sigue caminando libremente…
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: como si nada de esto fuera con ellos.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Y eso me preocupa más que cualquier enfermedad.
 
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Si sabes algo que aún no has dicho…
-		[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: hoy es el último buen momento para hacerlo.
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Si sabes algo que aún no has dicho…
+		[color=#1451d4][b]Viktor Sokolov[/b][/color]: hoy es el último buen momento para hacerlo.
 
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Mañana ya no hablaré con nadie en la calle.
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Mañana… las puertas estarán cerradas.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Mañana ya no hablaré con nadie en la calle.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Mañana… las puertas estarán cerradas.
 
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: Cuídate.
-	[color=#FF5E5E][b]Viktor Sokolov[/b][/color]: El pueblo va a necesitar testigos cuando todo esto termine.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Cuídate.
+	[color=#1451d4][b]Viktor Sokolov[/b][/color]: El pueblo va a necesitar testigos cuando todo esto termine.
 
 => END

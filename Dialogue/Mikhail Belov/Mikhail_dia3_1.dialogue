@@ -6,19 +6,19 @@
 	[color=#9de841][b]Mikhail Belov[/b][/color]: Ya decía yo que hoy el aire estaba raro… A ver, dime.
 
 	- “Vecinos reportan un olor extraño en el aire”
-	set GameManager.preocupacion_mikhail += 15
+		set GameManager.preocupacion_mikhail += 15
 		[color=#9de841][b]Mikhail Belov[/b][/color]: ¿Olor? Bah… cosas de la gente.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Aunque… ahora que lo dices, esta mañana me mareé un poco en el campo.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Pero será el cansancio, seguro.
 
 	- “Se recomienda ventilar las casas durante el día”
-	set GameManager.preocupacion_mikhail += 10
+		set GameManager.preocupacion_mikhail += 10
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Eso ya lo hago, siempre he dicho que el aire limpio es bueno.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Mi mujer decía lo mismo… bueno, decía muchas cosas.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: En fin, ventilar nunca hace daño.
 
 	- “Autoridades investigan posibles fugas de gas en la región”
-	set GameManager.preocupacion_mikhail += 10
+		set GameManager.preocupacion_mikhail += 10
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Gas, autoridades… palabras grandes.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Si fuera tan grave ya nos lo habrían dicho claramente, ¿no?
 		[color=#9de841][b]Mikhail Belov[/b][/color]: No creo que nadie nos mienta así como así.
