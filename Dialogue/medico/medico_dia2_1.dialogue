@@ -7,7 +7,7 @@
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Adelante.
 	
 	- "Algunos animales salvajes fueron vistos cerca del bosque"
-		set GameManager.preocupacion_medico += 15
+		set GameManager.preocupacion_medico += 10
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Animales cerca… Hm. Si se acercan demasiado podrían traer enfermedades. Tendré que estar atenta.
 
 	- "Pequeñas fluctuaciones eléctricas en la zona industrial"
@@ -15,7 +15,7 @@
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]¿Fluctuaciones? Genial... Lo último que necesito son accidentes por fallos eléctricos.
 		
 	- "Medidas de mantenimiento industrial"
-		set GameManager.preocupacion_medico += 5
+		set GameManager.preocupacion_medico -= 5
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Bueno, al menos eso suena a algo positivo. Si mantienen todo en orden habrá menos heridos.
 
 - Venía a hablar contigo

@@ -15,6 +15,7 @@ elif not Global.dia2_tendero_sus:
 	[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Cómo no.
 	
 	- “Vecinos reportan un olor extraño en el aire”
+		set GameManager.preocupacion_tendero += 10
 		if Global.dia2_tendero_sus:
 			[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Seguro que no tiene nada que ver con lo que hablamos, ¿verdad?
 			[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Si algo no es habitual, es que alguna cosa ha cambiado, y si no lo quieres decir es por algo.
@@ -25,6 +26,7 @@ elif not Global.dia2_tendero_sus:
 			[color=#fe7a1b][b]Iván Petrovich[/b][/color]: La gente empieza a teorizar y a emparanoiarse; para evitarlo tienes que adaptarte como lo hago yo.
 			
 	- “Se recomienda ventilar las casas durante el día”
+		set GameManager.preocupacion_tendero += 10
 		if Global.dia2_tendero_sus:
 			[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Seguro que no tiene nada que ver con lo que hablamos, ¿verdad?
 			[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Es raro que con tanto frío se tengan que ventilar las casas, ¿no?
@@ -35,6 +37,7 @@ elif not Global.dia2_tendero_sus:
 
 		
 	- “Autoridades investigan posibles fugas de gas en la región”
+		set GameManager.preocupacion_tendero += 5
 		if Global.dia2_tendero_sus:
 			[color=#fe7a1b][b]Iván Petrovich[/b][/color]: Empiezo a pensar que no eres quien creo. Supongo que tú estarás igual de desprotegido que nosotros, ¿cierto?
 			[color=#89C2FF][b]Yo[/b][/color]: Soy uno más de vosotros, esto me preocupa a mí el primero.

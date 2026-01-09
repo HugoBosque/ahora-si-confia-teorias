@@ -9,11 +9,14 @@
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Estos días, cada palabra cuenta.
 
 	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+		set GameManager.preocupacion_medico += 5
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: No me interesan las luces.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Cuando la gente mira al cielo es porque no quiere mirar los síntomas.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Y los síntomas están aquí, no arriba.
 
 	- “Hospital regional aumenta vigilancia médica”
+		set GameManager.preocupacion_medico += 15
+		
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Era inevitable.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Se han detectado patrones que no me gustan.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Nada concluyente todavía…
@@ -22,6 +25,8 @@
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Es prevención.
 
 	- “Reordenación del transporte, solo rutas priorizadas”
+		set GameManager.preocupacion_medico += 5
+		
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Eso confirma lo que sospechaba.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Cuando el movimiento se controla, es para ganar tiempo.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Tiempo para observar.

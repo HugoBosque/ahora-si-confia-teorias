@@ -11,12 +11,16 @@ set Global.dia1_hablar_medico = true
 [color=#5FB7FF][b]Dra. Alina[/b][/color]: Dime, ¿qué me traes?
 
 - "La carretera principal sigue bloqueada por la nieve"
+	set GameManager.preocupacion_medico += 5
+
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Luego vendrán con zonas del cuerpo congeladas...
 
 - "Llegan nuevas provisiones desde la capital"
+	set GameManager.preocupacion_medico -= 5
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Yo ya voy servida de medicamentos y provisiones durante mi estancia.
 
 - "Se planea una mejora en el alumbrado público"
+	set GameManager.preocupacion_medico -= 5
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Innecesario, en mi opinión.
 
 => END

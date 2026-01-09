@@ -20,16 +20,19 @@ elif not Global.dia2_tendero_sus:
 	[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Un día más informado… así Dios lo quiera. Prosigue.
 
 	- “Vecinos reportan un olor extraño en el aire”
+		set GameManager.preocupacion_cura += 10
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]He oído esos susurros...  
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: Los signos del aire no deben tomarse a la ligera.  
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: A veces, el Señor avisa antes de que el peligro se muestre.
 
 	- “Se recomienda ventilar las casas durante el día”
+		set GameManager.preocupacion_cura += 10
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Una recomendación sensata.  
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: La pureza del aire es tan necesaria como la pureza del alma.  
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: Aunque… cuando los hombres recomiendan prudencia, suele ser por temor a lo que no admiten.
 
 	- “Autoridades investigan posibles fugas de gas en la región”
+		set GameManager.preocupacion_cura += 10
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: [speed=0.6]Gas… fugas…  
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: El peligro invisible es el más mortal.  
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: Rezaré para que no sea otro intento de ocultar algo mayor bajo palabras tranquilizadoras.

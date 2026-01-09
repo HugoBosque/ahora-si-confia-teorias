@@ -12,12 +12,14 @@
 	[color=#B98A56][b]Padre Zhukov[/b][/color]: La verdad siempre acaba llamando a la puerta.
 
 	- “Grave abarrotamiento de los servicios de emergencia”
+		set GameManager.preocupacion_cura += 10
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Los hombres corren a curar el cuerpo…
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: …cuando el alma ya lleva días enferma.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Esto no es caos.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Es consecuencia.
 
 	- “Campaña de concienciación, quedarse en casa salva vidas”
+		set GameManager.preocupacion_cura += 15
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Quedarse en casa…
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Como en los tiempos antiguos, cuando Dios cerraba las puertas
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: para que el castigo pasara de largo.
@@ -25,6 +27,7 @@
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Otros no llegarán a hacerlo.
 
 	- “Dos vecinos encontrados sin vida en las afueras”
+		set GameManager.preocupacion_cura += 15
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: …
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Salieron cuando se les pidió prudencia.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Desafiaron las señales.

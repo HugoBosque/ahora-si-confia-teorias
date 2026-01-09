@@ -5,15 +5,15 @@
 	[color=#ffc100][b]Padre Zhukov[/b][/color]: ¿Y qué es lo que tienes?
 
 	- "La carretera principal sigue bloqueada por la nieve"
-		set GameManager.preocupacion_cura += 10
+		set GameManager.preocupacion_cura += 5
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: Rezaré por todos ellos. Gracias por esta información.
 
 	- "Llegan nuevas provisiones desde la capital"
-		set GameManager.preocupacion_cura += 0
+		set GameManager.preocupacion_cura -= 5
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: ¡Alabado sea Dios todopoderoso!
 
 	- "Se planea una mejora en el alumbrado público"
-		set GameManager.preocupacion_cura += 0
+		set GameManager.preocupacion_cura -= 5
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: Cuanta más luz haya, más se parecerá al Reino de los Cielos.
 
 - Venía a hablar contigo

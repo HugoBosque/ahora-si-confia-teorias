@@ -21,14 +21,17 @@
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Adelante. Necesito saber qué versión de la realidad circula hoy.
 
 	- “Vecinos reportan un olor extraño en el aire”
+		set GameManager.preocupacion_medico += 15
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]No me sorprende.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: El cuerpo suele notar el peligro antes que la mente.
 
 	- “Se recomienda ventilar las casas durante el día”
+		set GameManager.preocupacion_medico += 10
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]Eso ayudará… un poco.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Pero si el aire está contaminado, abrir ventanas no basta.
 
 	- “Autoridades investigan posibles fugas de gas en la región”
+		set GameManager.preocupacion_medico += 10
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: [speed=0.6]¿Investigando?
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Entonces ya llegan tarde.
 

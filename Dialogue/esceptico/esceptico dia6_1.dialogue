@@ -13,16 +13,19 @@
 	[color=#A0A0A0][b]Alexei[/b][/color]: Total… ya da igual.
 
 	- “Grave abarrotamiento de los servicios de emergencia”
+		set GameManager.preocupacion_esceptico += 15
 		[color=#A0A0A0][b]Alexei[/b][/color]: Claro.
 		[color=#A0A0A0][b]Alexei[/b][/color]: Cuando todo falla a la vez, nadie llega a tiempo.
 		[color=#A0A0A0][b]Alexei[/b][/color]: [shake][speed=0.2]Ni para ayudar… ni para huir.[/shake][speed=1]
 
 	- “Campaña de concienciación, quedarse en casa salva vidas”
+		set GameManager.preocupacion_esceptico += 15
 		[color=#A0A0A0][b]Alexei[/b][/color]: Quedarse en casa…
 		[color=#A0A0A0][b]Alexei[/b][/color]: Antes eso era cobardía.
 		[color=#A0A0A0][b]Alexei[/b][/color]: Ahora es sentido común.
 
 	- “Dos vecinos encontrados sin vida en las afueras”
+		set GameManager.preocupacion_esceptico += 20
 		[color=#A0A0A0][b]Alexei[/b][/color]: …
 		[color=#A0A0A0][b]Alexei[/b][/color]: Siempre hay quien cree que puede escapar.
 		[color=#A0A0A0][b]Alexei[/b][/color]: El pueblo no perdona a los impacientes.

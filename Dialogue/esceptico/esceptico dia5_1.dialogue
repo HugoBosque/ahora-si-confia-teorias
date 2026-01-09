@@ -9,17 +9,21 @@
 	[color=#A0A0A0][b]Alexei[/b][/color]: Últimamente, la información pesa más que el silencio.
 
 	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+	set GameManager.preocupacion_esceptico += 15
+		
 		[color=#A0A0A0][b]Alexei[/b][/color]: Luces… claro.
 		[color=#A0A0A0][b]Alexei[/b][/color]: Siempre hay alguien mirando al cielo cuando no entiende lo que ocurre en el suelo.
 		[color=#A0A0A0][b]Alexei[/b][/color]: No creo en presagios, pero sí en distracciones.
 		[color=#A0A0A0][b]Alexei[/b][/color]: Y esto… huele a distracción.
 
 	- “Hospital regional aumenta vigilancia médica”
+		set GameManager.preocupacion_esceptico += 15
 		[color=#A0A0A0][b]Alexei[/b][/color]: Eso ya es más serio.
 		[color=#A0A0A0][b]Alexei[/b][/color]: Cuando los médicos observan más de lo habitual, no es por curiosidad.
 		[color=#A0A0A0][b]Alexei[/b][/color]: No me tranquiliza… pero al menos alguien está mirando los datos.
 
 	- “Reordenación del transporte, solo rutas priorizadas”
+		set GameManager.preocupacion_esceptico += 5
 		[color=#A0A0A0][b]Alexei[/b][/color]: Ajá.
 		[color=#A0A0A0][b]Alexei[/b][/color]: Esto es lo que de verdad me preocupa.
 		[color=#A0A0A0][b]Alexei[/b][/color]: Cuando empiezan a ordenar movimientos, es porque esperan que algo empeore.

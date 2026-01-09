@@ -9,16 +9,21 @@
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Dímelas. Prefiero saberlo antes de que me lo griten en la calle.
 
 	- “Grave abarrotamiento de los servicios de emergencia”
+		set GameManager.preocupacion_medico += 15
+	
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Lo sé.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Ya estamos derivando pacientes fuera… y aun así no damos abasto.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Cuando un sistema sanitario se satura, lo siguiente ya no depende de la medicina.
 
 	- “Campaña de concienciación, quedarse en casa salva vidas”
+		set GameManager.preocupacion_medico += 25
+		
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: No es una consigna.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Es la única medida que aún reduce daños.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: La gente cree que exageramos hasta que les falta el aire.
 
 	- “Dos vecinos encontrados sin vida en las afueras”
+		set GameManager.preocupacion_medico += 25
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: …
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Eso confirma lo que temía.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Ya no es un problema localizado.

@@ -8,16 +8,19 @@
 	[color=#D8A15F][b]Iván Petrovich[/b][/color]: A ver qué dicen hoy los papeles… últimamente mandan más que las personas.
 
 	- “Algunos habitantes han presentado leves mareos”
+		set GameManager.preocupacion_tendero += 10
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Normal.
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Después de escuchar al cura y a la doctora, la gente ya se convence de que algo pasa.
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Palabras medidas, caras serias… eso asusta más que el propio mareo.
 
 	- “Los expertos sugieren limitar las salidas innecesarias”
+		set GameManager.preocupacion_tendero += 15
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Limitar salidas… claro.
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Primero te dicen que mantengas la calma y luego que no salgas de casa.
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Al final todos obedecen, sobre todo si lo dice alguien con bata blanca.
 
 	- “Se suspende temporalmente el mercado semanal”
+		set GameManager.preocupacion_tendero += 20
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Esto sí que no gusta.
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: El mercado era donde la gente hablaba, negociaba, se desahogaba…
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Sin eso, cada uno rumia sus miedos en casa.

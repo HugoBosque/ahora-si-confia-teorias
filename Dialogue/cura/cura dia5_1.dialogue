@@ -9,17 +9,20 @@
 	[color=#B98A56][b]Padre Zhukov[/b][/color]: Adelante. La información, bien guiada, puede ser una bendición.
 
 	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+		set GameManager.preocupacion_cura += 10
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Ah… luces.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Nada desestabiliza más que lo que no tiene explicación inmediata.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Por eso es importante no alimentar interpretaciones… innecesarias.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: El pueblo necesita certezas, no preguntas.
 
 	- “Hospital regional aumenta vigilancia médica”
+		set GameManager.preocupacion_cura += 5
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: La doctora es diligente.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Aunque a veces la ciencia crea más alarma de la que resuelve.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: La gente confía demasiado rápido en batas blancas… y demasiado poco en la palabra que calma.
 
 	- “Reordenación del transporte, solo rutas priorizadas”
+		set GameManager.preocupacion_cura += 5
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Medidas necesarias.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Cuando el movimiento se reduce, el orden se mantiene.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Y el orden… siempre ha sido frágil aquí.

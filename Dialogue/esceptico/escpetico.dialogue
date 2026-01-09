@@ -10,11 +10,13 @@
 	[color=#A0A0A0][b]Alexei[/b][/color]: Si no hay más remedio...
 	[color=#A0A0A0][b]Alexei[/b][/color]: ¿Qué traes hoy?
 	- “La carretera principal sigue bloqueada por la nieve.”
-		set GameManager.preocupacion_esceptico += 0
+		set GameManager.preocupacion_esceptico += 5
 		[color=#A0A0A0][b]Alexei[/b][/color]: Me da igual si hay mucha nieve. Que la quiten y ya.
 	- “Llegan nuevas provisiones desde la capital.”
+		set GameManager.preocupacion_esceptico += 0
 		[color=#A0A0A0][b]Alexei[/b][/color]: Como siempre, más para los que más tienen... y nosotros pasando frío y hambre aquí.
 	- “Se planea una mejora en el alumbrado público.”
+		set GameManager.preocupacion_esceptico += 0
 		[color=#A0A0A0][b]Alexei[/b][/color]: Como si no hubiera algo más importante.
 
 

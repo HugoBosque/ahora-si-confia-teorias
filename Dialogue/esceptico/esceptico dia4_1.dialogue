@@ -9,14 +9,14 @@ Alexei: [speed=0.7] ¿Se te ha perdido algo?
 		- Como quieras, pero estoy obligado a entregarte el periódico.
 		Alexei: Si no hay más remedio...
 		- “La carretera principal sigue bloqueada por la nieve”.
-			set GameManager.preocupacion_esceptico -= 20
+			set GameManager.preocupacion_esceptico += 10
 			Alexei: Me da igual si hay mucha nieve, que la quiten.
 		- “Llegan nuevas provisiones desde la capital”.
-			set GameManager.preocupacion_esceptico -= 20
+			set GameManager.preocupacion_esceptico += 0
 			Alexei: Como siempre más a los que más tienen, y nosotros pasando frío y hambre aquí.
 		- “Se planea una mejora en el alumbrado público”.
-			Alexei: Que me alumbren esta.
-			set GameManager.preocupacion_esceptico -= 20
+			Alexei: Eso no solucionaria nada.
+			set GameManager.preocupacion_esceptico += 0
 
 
 - Sólo quiero hablar.

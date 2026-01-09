@@ -12,13 +12,16 @@ if Global.dia5_alina_recomienda_reduccion_contacto:
 	[color=#D8A15F][b]Iván Petrovich[/b][/color]: Claro...
 	
 	- “Grave abarrotamiento de los servicios de emergencia”
+		set GameManager.preocupacion_tendero += 10
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Llevamos unos días de locos, normal que pase esto. Lo que me preocupa es el motivo, qué pasa, qué cojones pasa.
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: No puedo más...
 
 	- “Campaña de concienciación, quedarse en casa salva vidas” 
+		set GameManager.preocupacion_tendero += 20
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: La carretera no va a subir sola, aunque no sé si puedo más...
 
 	- “Dos vecinos encontrados sin vida en las afueras” 
+		set GameManager.preocupacion_tendero += 20
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: ¿Qué? [speed=0.2]Muer... tos...[/speed][speed=0.2] Eso... eso no es normal, lo que pasa nos supera, a todos.
 
 - Venía a hablar contigo

@@ -77,7 +77,11 @@
 [color=#B98A56][b]Padre Zhukov[/b][/color]: Claro hijo, aprovecha que estamos todos aquí y comunica lo que debas.
 
 - “Algunos habitantes han presentado leves mareos”
-
+	
+	set GameManager.preocupacion_tendero += 10
+	set GameManager.preocupacion_cura += 10
+	set GameManager.preocupacion_esceptico += 10
+	set GameManager.preocupacion_medico += 10
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: No son casos aislados.
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Si siguen saliendo como hasta ahora, empeorará.
 
@@ -99,7 +103,10 @@
 
 
 - “Los expertos sugieren limitar las salidas innecesarias”
-
+	set GameManager.preocupacion_tendero += 15
+	set GameManager.preocupacion_cura += 10
+	set GameManager.preocupacion_esceptico += 0
+	set GameManager.preocupacion_medico += 5
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Es una recomendación sensata.
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Menos exposición, menos riesgo.
 
@@ -121,7 +128,10 @@
 
 
 - “Se suspende temporalmente el mercado semanal”
-
+	set GameManager.preocupacion_tendero += 20
+	set GameManager.preocupacion_cura += 10
+	set GameManager.preocupacion_esceptico += 0
+	set GameManager.preocupacion_medico += 0
 	[color=#D8A15F][b]Iván Petrovich[/b][/color]: ¿Qué?
 	[color=#D8A15F][b]Iván Petrovich[/b][/color]: Eso es una locura.
 

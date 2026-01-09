@@ -8,14 +8,17 @@
 	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Dime qué se inventan hoy.
 
 	- “Vecinos reportan un olor extraño en el aire”
+		set GameManager.preocupacion_esceptico += 5
 		[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Los olores no aparecen por arte de magia.  
 		[color=#A0A0A0][b]Alexei[/b][/color]: Pero tampoco me creo todo lo que dice la gente.
 
 	- “Se recomienda ventilar las casas durante el día”
+		set GameManager.preocupacion_esceptico += 15
 		[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Recomendaciones vagas para problemas vagos.  
 		[color=#A0A0A0][b]Alexei[/b][/color]: Así nadie se hace responsable.
 
 	- “Autoridades investigan posibles fugas de gas en la región”
+		set GameManager.preocupacion_esceptico += 10
 		[color=#A0A0A0][b]Alexei[/b][/color]: [speed=0.6]Cuando “investigan” suele significar que ya es tarde.  
 		[color=#A0A0A0][b]Alexei[/b][/color]: O que no quieren decirte la verdad.
 

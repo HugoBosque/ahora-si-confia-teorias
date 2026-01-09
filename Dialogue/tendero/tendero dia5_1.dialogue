@@ -8,6 +8,7 @@
 	[color=#D8A15F][b]Iván Petrovich[/b][/color]: Claro. A ver qué dicen hoy los sabios de fuera.
 
 	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
+		set GameManager.preocupacion_tendero += 5
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: ¿Luces ahora?
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Primero el olor, luego los mareos, ahora el cielo…
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Esto ya parece un circo.
@@ -15,6 +16,7 @@
 			[color=#D8A15F][b]Iván Petrovich[/b][/color]: Y los de uniforme encantados, claro. Cuanto más miedo, más poder.
 
 	- “Hospital regional aumenta vigilancia médica”
+		set GameManager.preocupacion_tendero += 5
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Vigilancia…
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Bonita palabra para decir que nos están mirando como ratas.
 		if Global.dia3_tendero_contrabando:
@@ -23,6 +25,7 @@
 			[color=#D8A15F][b]Iván Petrovich[/b][/color]: Aunque algunos solo saben mandar y señalar culpables.
 
 	- “Reordenación del transporte: solo rutas priorizadas”
+		set GameManager.preocupacion_tendero += 15
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Ahí está.
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Cierran caminos, controlan entradas…
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Luego dirán que es por nuestra seguridad.
