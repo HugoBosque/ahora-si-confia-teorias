@@ -5,7 +5,7 @@ extends Area2D
 const DIA_4_ALL = preload("uid://mpgrj23dxrgk")
 
 var player_in_area = false
-
+var dialogue_talked = false
 func _ready():
 	exclamacion.visible = false
 	connect("body_entered", Callable(self, "_on_body_entered"))
@@ -24,8 +24,9 @@ func _on_body_exited(area) -> void:
 		exclamacion.visible = false
 
 func _process(_delta):
-	if player_in_area and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active:
+	if player_in_area and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active and not dialogue_talked:
 		DialogueManager.show_dialogue_balloon(DIA_4_ALL, "start")
+		dialogue_talked = true
 
 func _on_dialogue_started(dialogue):
 	GameManager.is_dialogue_active = true
