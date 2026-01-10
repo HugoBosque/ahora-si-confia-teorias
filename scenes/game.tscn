@@ -42545,7 +42545,7 @@ shape = SubResource("RectangleShape2D_lbhrr")
 [node name="Sprite2D" type="Sprite2D" parent="DoorToHouse"]
 
 [node name="DoorToChurch" type="Area2D" parent="."]
-position = Vector2(782, 116)
+position = Vector2(782, 120)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DoorToChurch"]
 position = Vector2(-4, -9.5)
@@ -42673,4 +42673,5 @@ position = Vector2(1567, 1551)
 position = Vector2(0, 6)
 
 [connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]
+[connection signal="body_entered" from="DoorToChurch" to="." method="_on_door_to_church_body_entered"]
 [connection signal="body_entered" from="DoorToCave" to="." method="_on_door_to_cave_body_entered"]
