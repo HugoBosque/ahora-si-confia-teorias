@@ -1,6 +1,7 @@
 extends Control
 @onready var house_scene = preload("res://scenes/House.tscn")
 @onready var town_scene = preload("res://scenes/game.tscn")
+@onready var escena_final = preload("res://scenes/cinemarografia/escena_final.tscn")
 @onready var button: Button = $Button
 @export var continuar_player_position: Vector2 = Vector2(712, 227)
 func _ready() -> void:
