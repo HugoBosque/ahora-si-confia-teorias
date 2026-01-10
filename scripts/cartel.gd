@@ -2,7 +2,8 @@ extends Area2D
 
 @onready var exclamacion: Sprite2D = $Exclamacion
 
-const DIA_4_ALL = preload("uid://mpgrj23dxrgk")
+
+const CARTEL = preload("uid://dyucsmxecjt5q")
 
 var player_in_area = false
 var dialogue_talked = false
@@ -25,7 +26,7 @@ func _on_body_exited(area) -> void:
 
 func _process(_delta):
 	if player_in_area and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active and not dialogue_talked:
-		DialogueManager.show_dialogue_balloon(DIA_4_ALL, "start")
+		DialogueManager.show_dialogue_balloon(CARTEL, "start")
 		dialogue_talked = true
 
 func _on_dialogue_started(dialogue):
