@@ -1,5 +1,5 @@
 ~ start
-[color=#fdff00][b]Padre Zhukov[/b][/color]: ¿Qué es lo que buscas, muchacho?
+[color=#ffc100][b]Padre Zhukov[/b][/color]: ¿Qué es lo que buscas, muchacho?
 - Vengo a darte las noticias
 	set Global.dia1_hablar_cura = true
 	[color=#ffc100][b]Padre Zhukov[/b][/color]: ¿Y qué es lo que tienes?
