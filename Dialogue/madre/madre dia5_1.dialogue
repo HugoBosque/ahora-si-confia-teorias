@@ -1,59 +1,59 @@
 ~ start
 
-[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Oh… hola.
-[color=#F9E07F][b]Svetlana[/b][/color]: No pensaba salir hoy, pero los niños necesitaban pan.
-[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Ocurre algo…?
-[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Tienes esa cara que solo se pone cuando las noticias no son buenas.
+[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Oh… hola.
+[color=#F9E07F][b]Svetlana Falcov[/b][/color]: No pensaba salir hoy, pero los niños necesitaban pan.
+[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]¿Ocurre algo…?
+[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Tienes esa cara que solo se pone cuando las noticias no son buenas.
 
 [color=#89C2FF][b]Yo[/b][/color]: Svetlana… quería hablar contigo sobre tu marido.
 
-[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.3]…
-[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Dime.
+[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.3]…
+[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Dime.
 
 - Decirle la verdad
 	[color=#89C2FF][b]Yo[/b][/color]: Fue trasladado hace unos días.
 	[color=#89C2FF][b]Yo[/b][/color]: Su estado empeoró rápidamente.
 
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.3]…
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Ya lo sabía.
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Cuando alguien tarda tanto en volver… el cuerpo lo entiende antes que la cabeza.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.3]…
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Ya lo sabía.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Cuando alguien tarda tanto en volver… el cuerpo lo entiende antes que la cabeza.
 
 	[color=#89C2FF][b]Yo[/b][/color]: Lo siento.
 
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]¿Sufrió?
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]¿Sufrió?
 
 	[color=#89C2FF][b]Yo[/b][/color]: No estuvo solo.
 
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias…
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Eso es lo único que necesitaba saber.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Gracias…
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Eso es lo único que necesitaba saber.
 
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Haré lo que haga falta para proteger a mis hijos.
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Aunque tenga que cerrar la puerta al mundo.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Haré lo que haga falta para proteger a mis hijos.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Aunque tenga que cerrar la puerta al mundo.
 
 	set Global.dia5_madre_sabe_marido_muerto = true
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=10]Aunque tenga que cerrar la puerta al mundo.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=10]Aunque tenga que cerrar la puerta al mundo.
 	- Vengo a darte las noticias
 		set Global.dia5_hablar_madre = true
 
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Dime… aunque últimamente cada noticia pesa más que la anterior.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Dime… aunque últimamente cada noticia pesa más que la anterior.
 
 		- “Luces extrañas en el cielo desconciertan a algunos vecinos”
 			set GameManager.preocupacion_madre += 15
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Mi hijo las vio anoche desde la ventana.
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Lloró… decía que era una señal.
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Yo le dije que no, pero… no supe qué más decirle.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Mi hijo las vio anoche desde la ventana.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Lloró… decía que era una señal.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Yo le dije que no, pero… no supe qué más decirle.
 
 		- “Hospital regional aumenta vigilancia médica”
 			set GameManager.preocupacion_madre += 15
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Eso me tranquiliza un poco.
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Si la doctora está atenta, quizá aún haya esperanza.
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Aunque cada vez conozco a más gente que se marea sin motivo…
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Eso me tranquiliza un poco.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Si la doctora está atenta, quizá aún haya esperanza.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Aunque cada vez conozco a más gente que se marea sin motivo…
 
 		- “Reordenación del transporte: solo rutas priorizadas”
 			set GameManager.preocupacion_madre += 10
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Entonces es verdad…
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Si empiezan a cerrar caminos, es que algo va muy mal.
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Quizá debería dejar a los niños en casa.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Entonces es verdad…
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Si empiezan a cerrar caminos, es que algo va muy mal.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Quizá debería dejar a los niños en casa.
 
 
 		
@@ -62,33 +62,33 @@
 	[color=#89C2FF][b]Yo[/b][/color]: Sigue en observación.
 	[color=#89C2FF][b]Yo[/b][/color]: Los médicos dicen que hay que esperar.
 
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]…
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Entiendo.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]…
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Entiendo.
 
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias por decírmelo.
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Supongo que es mejor no perder la esperanza.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Gracias por decírmelo.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Supongo que es mejor no perder la esperanza.
 
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Aun así…
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Algo dentro de mí no está en calma.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Aun así…
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Algo dentro de mí no está en calma.
 	- Vengo a darte las noticias
 		set Global.dia5_hablar_madre = true
 
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Dime… aunque últimamente cada noticia pesa más que la anterior.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Dime… aunque últimamente cada noticia pesa más que la anterior.
 
 		- “Luces extrañas en el cielo desconciertan a algunos vecinos”
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Mi hijo las vio anoche desde la ventana.
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Lloró… decía que era una señal.
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Yo le dije que no, pero… no supe qué más decirle.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Mi hijo las vio anoche desde la ventana.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Lloró… decía que era una señal.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Yo le dije que no, pero… no supe qué más decirle.
 
 		- “Hospital regional aumenta vigilancia médica”
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Eso me tranquiliza un poco.
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Si la doctora está atenta, quizá aún haya esperanza.
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Aunque cada vez conozco a más gente que se marea sin motivo…
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Eso me tranquiliza un poco.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Si la doctora está atenta, quizá aún haya esperanza.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Aunque cada vez conozco a más gente que se marea sin motivo…
 
 		- “Reordenación del transporte, solo rutas priorizadas”
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Entonces es verdad…
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Si empiezan a cerrar caminos, es que algo va muy mal.
-			[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Quizá debería dejar a los niños en casa.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Entonces es verdad…
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Si empiezan a cerrar caminos, es que algo va muy mal.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Quizá debería dejar a los niños en casa.
 
 
 => END

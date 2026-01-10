@@ -1,23 +1,23 @@
 ~ start
-[color=#F9E07F][b]Svetlana[/b][/color]: Oh no...
+[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Oh no...
 - Vengo a darte las noticias
 	set Global.dia7_hablar_madre = true
-	[color=#F9E07F][b]Svetlana[/b][/color]: ¿Son malas, verdad?
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: ¿Son malas, verdad?
 
 	- “Hospital regional atiende un pico de cuadros febriles”
-		[color=#F9E07F][b]Svetlana[/b][/color]: Mi hijo también tiene fiebre…
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Mi hijo también tiene fiebre…
 
 	- “Toque de queda obligatorio”
-		[color=#F9E07F][b]Svetlana[/b][/color]: No saldremos.
-		[color=#F9E07F][b]Svetlana[/b][/color]: Lo prometo.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: No saldremos.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Lo prometo.
 
 	- “Se comienza a restaurar la circulación para la movilidad de tropas”
-		[color=#F9E07F][b]Svetlana[/b][/color]: Entonces ya no nos protegen…
-		[color=#F9E07F][b]Svetlana[/b][/color]: Se protegen ellos.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Entonces ya no nos protegen…
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Se protegen ellos.
 
 - Venía a hablar contigo
 
-	[color=#F9E07F][b]Svetlana[/b][/color]: Tengo mucho miedo...
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Tengo mucho miedo...
 
 
 => END
