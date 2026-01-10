@@ -1,33 +1,33 @@
 ~ start
-[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Oh, hola.
+[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Oh, hola.
 [color=#89C2FF][b]Yo[/b][/color]: Hola, buenas.
-[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias a Dios que estás aquí.
+[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Gracias a Dios que estás aquí.
 
 
 - Vengo a darte las noticias
 	set Global.dia1_hablar_madre = true
-	[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Adelante.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Adelante.
 
 	- “La carretera principal sigue bloqueada por la nieve”
 		set Global.dia2_madre_noticia1 = true
 		set GameManager.preocupacion_madre += 20
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]No me digas eso... Mi marido se encuentra de camino al frente. Ay, ¿llegará bien? Por favor, te pido, Dios, que lleguen sanos y salvos. Si pasa algo, házmelo saber de inmediato.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]No me digas eso... Mi marido se encuentra de camino al frente. Ay, ¿llegará bien? Por favor, te pido, Dios, que lleguen sanos y salvos. Si pasa algo, házmelo saber de inmediato.
 		[color=#89C2FF][b]Yo[/b][/color]: No se preocupe, en cuanto sepa algo se lo comunicaré.
 
 	- “Llegan nuevas provisiones desde la capital”
 		set GameManager.preocupacion_madre -= 5
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Dios, una vez más demostrando su infinita generosidad... A ver si su mano llega también a nuestro pueblo. Lo paso mal con mis pequeños.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Dios, una vez más demostrando su infinita generosidad... A ver si su mano llega también a nuestro pueblo. Lo paso mal con mis pequeños.
 		[color=#89C2FF][b]Yo[/b][/color]: Tranquila, señora, seguro que nuestro gobierno nos proveerá de alguna manera.
-		[color=#F9E07F][b]Svetlana[/b][/color]: Eso espero, gracias.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Eso espero, gracias.
 
 	- “Se planea una mejora en el alumbrado público”
 		set GameManager.preocupacion_madre -= 5
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]La luz nos acerca a Dios... Eso tiene que ser una señal divina.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]La luz nos acerca a Dios... Eso tiene que ser una señal divina.
 - Venía a hablar contigo
-	[color=#F9E07F][b]Svetlana[/b][/color]: ¿Hay algún problema? ¿Ha pasado algo?
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: ¿Hay algún problema? ¿Ha pasado algo?
 	- De hecho, no. Todo está bien.
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]Gracias a Dios.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Gracias a Dios.
 	- No, pero me gustaría preguntarle por su situación. ¿Cómo está?
-		[color=#F9E07F][b]Svetlana[/b][/color]: [speed=0.6]La verdad es que estoy en una situación difícil. Mi querido marido se ha ido a luchar al frente por nuestro país, y... [wait=0.5] yo estoy aquí con mis dos hijos.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]La verdad es que estoy en una situación difícil. Mi querido marido se ha ido a luchar al frente por nuestro país, y... [wait=0.5] yo estoy aquí con mis dos hijos.
 
 => END

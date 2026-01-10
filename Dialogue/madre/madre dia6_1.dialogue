@@ -1,50 +1,50 @@
 ~ start
 if Global.dia5_madre_sabe_marido_muerto:
 	set Global.dia6_hablar_madre = true
-	[color=#F9E07F][b]Svetlana[/b][/color]: ...
-	[color=#F9E07F][b]Svetlana[/b][/color]: Lo siento...
-	[color=#F9E07F][b]Svetlana[/b][/color]: Ya no quiero hablar con nadie...
-	[color=#F9E07F][b]Svetlana[/b][/color]: Agradezco tus intenciones pero no hace falta que me informes, de verdad, gracias por todo.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: ...
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Lo siento...
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Ya no quiero hablar con nadie...
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Agradezco tus intenciones pero no hace falta que me informes, de verdad, gracias por todo.
 else:
 	
-	[color=#F9E07F][b]Svetlana[/b][/color]: Oh… hola.
-	[color=#F9E07F][b]Svetlana[/b][/color]: Perdona si hablo bajo. El niño duerme.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Oh… hola.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Perdona si hablo bajo. El niño duerme.
 	- Vengo a darte las noticias
 		set Global.dia6_hablar_madre = true
 
-		[color=#F9E07F][b]Svetlana[/b][/color]: Ya casi no escucho la radio…
-		[color=#F9E07F][b]Svetlana[/b][/color]: Dímelo tú.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Ya casi no escucho la radio…
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Dímelo tú.
 
 		- “Grave abarrotamiento de los servicios de emergencia”
 			set GameManager.preocupacion_madre += 15
-			[color=#F9E07F][b]Svetlana[/b][/color]: Lo imaginaba.
-			[color=#F9E07F][b]Svetlana[/b][/color]: Ayer fui al ambulatorio… y me mandaron de vuelta.
-			[color=#F9E07F][b]Svetlana[/b][/color]: Dijeron que esperara. Siempre dicen eso.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Lo imaginaba.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Ayer fui al ambulatorio… y me mandaron de vuelta.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Dijeron que esperara. Siempre dicen eso.
 
 		- “Campaña de concienciación, quedarse en casa salva vidas”
 			set GameManager.preocupacion_madre += 15
-			[color=#F9E07F][b]Svetlana[/b][/color]: No hemos salido.
-			[color=#F9E07F][b]Svetlana[/b][/color]: Ni hoy, ni ayer.
-			[color=#F9E07F][b]Svetlana[/b][/color]: Aquí dentro… al menos puedo fingir que todo está bien.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: No hemos salido.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Ni hoy, ni ayer.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Aquí dentro… al menos puedo fingir que todo está bien.
 
 		- “Dos vecinos encontrados sin vida en las afueras”
 			set GameManager.preocupacion_madre += 20
-			[color=#F9E07F][b]Svetlana[/b][/color]: …
-			[color=#F9E07F][b]Svetlana[/b][/color]: Entonces ya no son rumores.
-			[color=#F9E07F][b]Svetlana[/b][/color]: Gracias por decírmelo.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: …
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Entonces ya no son rumores.
+			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Gracias por decírmelo.
 
 	- Venía a hablar contigo
 
-		[color=#F9E07F][b]Svetlana[/b][/color]: Dime una cosa…
-		[color=#F9E07F][b]Svetlana[/b][/color]: ¿Crees que hice bien en quedarme?
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Dime una cosa…
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: ¿Crees que hice bien en quedarme?
 
 		[color=#89C2FF][b]Yo[/b][/color]: Creo que hiciste lo que pudiste.
 
-		[color=#F9E07F][b]Svetlana[/b][/color]: Eso no siempre es suficiente.
-		[color=#F9E07F][b]Svetlana[/b][/color]: Pero ahora… solo quiero que pase.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Eso no siempre es suficiente.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Pero ahora… solo quiero que pase.
 
-		[color=#F9E07F][b]Svetlana[/b][/color]: Si sabes algo más…
-		[color=#F9E07F][b]Svetlana[/b][/color]: No me lo endulces.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Si sabes algo más…
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: No me lo endulces.
 
 	
 => END

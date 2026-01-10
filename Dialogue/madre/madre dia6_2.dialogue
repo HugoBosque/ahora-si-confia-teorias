@@ -1,20 +1,20 @@
 ~ start
 if Global.dia5_madre_sabe_marido_muerto:
-	[color=#F9E07F][b]Svetlana[/b][/color]: ...
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: ...
 else:
-	[color=#F9E07F][b]Svetlana[/b][/color]: Hola de nuevo.
+	[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Hola de nuevo.
 	- Venía a hablar contigo
 
-		[color=#F9E07F][b]Svetlana[/b][/color]: Dime una cosa…
-		[color=#F9E07F][b]Svetlana[/b][/color]: ¿Crees que hice bien en quedarme?
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Dime una cosa…
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: ¿Crees que hice bien en quedarme?
 
 		[color=#89C2FF][b]Yo[/b][/color]: Creo que hiciste lo que pudiste.
 
-		[color=#F9E07F][b]Svetlana[/b][/color]: Eso no siempre es suficiente.
-		[color=#F9E07F][b]Svetlana[/b][/color]: Pero ahora… solo quiero que pase.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Eso no siempre es suficiente.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Pero ahora… solo quiero que pase.
 
-		[color=#F9E07F][b]Svetlana[/b][/color]: Si sabes algo más…
-		[color=#F9E07F][b]Svetlana[/b][/color]: No me lo endulces.
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: Si sabes algo más…
+		[color=#F9E07F][b]Svetlana Falcov[/b][/color]: No me lo endulces.
 
-	
+
 => END
