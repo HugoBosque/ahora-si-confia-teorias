@@ -9,14 +9,14 @@
 	[color=#9de841][b]Mikhail Belov[/b][/color]: Dime… mientras pueda escucharlas.
 
 	- “Grave abarrotamiento de los servicios de emergencia”
-	set GameManager.preocupacion_mikhail += 15
+		set GameManager.preocupacion_mikhail += 15
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Ya…
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Los fuertes ocupan las camas primero.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Los que trabajamos la tierra siempre esperamos al final.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: [shake][speed=0.3]Cof…[/shake][speed=1]
 
 	- “Campaña de concienciación, quedarse en casa salva vidas”
-	set GameManager.preocupacion_mikhail += 15
+		set GameManager.preocupacion_mikhail += 15
 		[color=#9de841][b]Mikhail Belov[/b][/color]: La casa…
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Hace días que no salgo del campo.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Allí al menos el aire parece… menos pesado.
@@ -24,7 +24,7 @@
 		[color=#9de841][b]Mikhail Belov[/b][/color]: [shake][speed=0.3]Cof…[/shake][speed=1]
 
 	- “Dos vecinos encontrados sin vida en las afueras”
-	set GameManager.preocupacion_mikhail += 20
+		set GameManager.preocupacion_mikhail += 20
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Sí…
 		[color=#9de841][b]Mikhail Belov[/b][/color]: La tierra los reclamó antes de tiempo.
 		[color=#9de841][b]Mikhail Belov[/b][/color]: Siempre lo hace cuando algo va mal.
