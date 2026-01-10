@@ -18,7 +18,7 @@ const NINA_DIA_6_2 = preload("uid://bnxidyp4ffdtk")
 const NINA_DIA_7_1 = preload("uid://6qpcxk5ymckb")
 const NINA_DIA_7_2 = preload("uid://iju3mll11rha")
 
-var gato_hablado = false
+
 
 
 var player_close: bool = false
@@ -41,41 +41,41 @@ func _process(delta):
 			elif Global.dia2_hablar_nina:
 				DialogueManager.show_dialogue_balloon(NINA_DIA_2_2, "start")
 		elif GameManager.dia == 3:
-			if not gato_hablado and Global.hablar_gato:
+			if not Global.gato_hablado and Global.hablar_gato:
 				DialogueManager.show_dialogue_balloon(NINA_GATO, "start")
-				gato_hablado = true
+				Global.gato_hablado = true
 			elif not Global.dia3_hablar_nina:
 				DialogueManager.show_dialogue_balloon(NINA_DIA_3_1, "start")
 			elif Global.dia3_hablar_nina:
 				DialogueManager.show_dialogue_balloon(NINA_DIA_3_2, "start")
 #		elif GameManager.dia == 4:
-#			if not gato_hablado and Global.hablar_gato:
+#			if not Global.gato_hablado and Global.hablar_gato:
 #				DialogueManager.show_dialogue_balloon(NINA_GATO, "start")
-#				gato_hablado = true
+#				Global.gato_hablado = true
 #			elif not Global.dia4_hablar_nina:
 #				DialogueManager.show_dialogue_balloon(NINA_DIA_4_1, "start")
 #			elif Global.dia4_hablar_nina:
 #				DialogueManager.show_dialogue_balloon(NINA_DIA_4_2, "start")
 		elif GameManager.dia == 5:
-			if not gato_hablado and Global.hablar_gato:
+			if not Global.gato_hablado and Global.hablar_gato:
 				DialogueManager.show_dialogue_balloon(NINA_GATO, "start")
-				gato_hablado = true
+				Global.gato_hablado = true
 			elif not Global.dia5_hablar_nina:
 				DialogueManager.show_dialogue_balloon(NINA_DIA_5_1, "start")
 			elif Global.dia5_hablar_nina:
 				DialogueManager.show_dialogue_balloon(NINA_DIA_5_2, "start")
 		elif GameManager.dia == 6:
-			if not gato_hablado and Global.hablar_gato:
+			if not Global.gato_hablado and Global.hablar_gato:
 				DialogueManager.show_dialogue_balloon(NINA_GATO, "start")
-				gato_hablado = true
+				Global.gato_hablado = true
 			elif not Global.dia6_hablar_nina:
 				DialogueManager.show_dialogue_balloon(NINA_DIA_6_1, "start")
 			elif Global.dia6_hablar_nina:
 				DialogueManager.show_dialogue_balloon(NINA_DIA_6_2, "start")
 		elif GameManager.dia == 7:
-			if not gato_hablado and Global.hablar_gato:
+			if not Global.gato_hablado and Global.hablar_gato:
 				DialogueManager.show_dialogue_balloon(NINA_GATO, "start")
-				gato_hablado = true
+				Global.gato_hablado = true
 			elif not Global.dia7_hablar_nina:
 				DialogueManager.show_dialogue_balloon(NINA_DIA_7_1, "start")
 			elif Global.dia7_hablar_nina:

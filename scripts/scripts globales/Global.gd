@@ -92,7 +92,7 @@ var dia6_hablar_tendero = false
 var dia7_hablar_tendero = false
 var yerik_miedo_afueras = false 
 var hablar_gato = false
-
+var gato_hablado = false
 var final_dialogo_muertos = false
 
 # Nodo de menú de pausa registrado por la escena actual
