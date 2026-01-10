@@ -24,7 +24,7 @@
 		else:
 			[color=#D8A15F][b]Iván Petrovich[/b][/color]: Aunque algunos solo saben mandar y señalar culpables.
 
-	- “Reordenación del transporte: solo rutas priorizadas”
+	- “Reordenación del transporte, solo rutas priorizadas”
 		set GameManager.preocupacion_tendero += 15
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Ahí está.
 		[color=#D8A15F][b]Iván Petrovich[/b][/color]: Cierran caminos, controlan entradas…
