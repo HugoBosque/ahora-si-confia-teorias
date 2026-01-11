@@ -1,0 +1,60 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkhgyupcoj8j6"]
+
+[ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="1_qvrjs"]
+[ext_resource type="Script" uid="uid://b7m8e1ey86dam" path="res://scenes/dias/botonalepilogo.gd" id="3_wktj4"]
+
+[node name="FinalVives" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 20.0
+offset_right = 1120.0
+offset_bottom = 65.0
+size_flags_vertical = 2
+theme_override_fonts/font = ExtResource("1_qvrjs")
+theme_override_font_sizes/font_size = 40
+text = "FINAL 2/2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 236.0
+offset_top = 87.0
+offset_right = 916.0
+offset_bottom = 222.0
+theme_override_fonts/font = ExtResource("1_qvrjs")
+theme_override_font_sizes/font_size = 20
+text = "Fuiste una pieza más en el engranaje del presidente.
+Gracias a ti, pudo probar exactamente lo que quería demostrar: la eficacia de su gas. 
+Tal vez intentaste salvarlos. Tal vez miraste hacia otro lado.
+Ahora ya no importa, ¿verdad?…
+Los ciudadanos cayeron, el experimento funcionó,
+y el arrepentimiento llega siempre cuando ya no puede cambiar nada."
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 474.0
+offset_top = 264.0
+offset_right = 649.0
+offset_bottom = 360.0
+theme_override_fonts/font = ExtResource("1_qvrjs")
+theme_override_font_sizes/font_size = 30
+text = "CONTINUAR"
+script = ExtResource("3_wktj4")

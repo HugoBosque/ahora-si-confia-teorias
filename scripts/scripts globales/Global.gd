@@ -93,7 +93,7 @@ var dia7_hablar_tendero = false
 var yerik_miedo_afueras = false 
 var hablar_gato = false
 var gato_hablado = false
-var final_dialogo_muertos = false
+var final_dialogo_muertos = false # DE ESTO DEPENDE FINAL FALSE=MUERES TRUE=VIVES
 
 # Nodo de menú de pausa registrado por la escena actual
 var pause_menu_controller: Node = null
