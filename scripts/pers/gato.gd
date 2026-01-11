@@ -22,7 +22,7 @@ func _ready() -> void:
 
 func _process(delta):
 	if player_close \
-	and Input.is_action_just_pressed("ui_accept") \
+	and Input.is_action_just_pressed("accept") \
 	and not GameManager.is_dialogue_active:
 		DialogueManager.show_dialogue_balloon(GATO, "start")
 

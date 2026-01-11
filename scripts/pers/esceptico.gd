@@ -30,7 +30,7 @@ func _ready() -> void:
 # 🔥 NO TOCO NADA DEL PROCESS (TAL COMO PEDISTE)
 # ------------------------------------------------------
 func _process(delta):
-	if player_close and Input.is_action_just_pressed("ui_accept") and not GameManager.is_dialogue_active:
+	if player_close and Input.is_action_just_pressed("accept") and not GameManager.is_dialogue_active:
 		if GameManager.dia == 1:
 			if not Global.dia1_halbar_esceptico: 
 				DialogueManager.show_dialogue_balloon(ESCPETICO, "start")

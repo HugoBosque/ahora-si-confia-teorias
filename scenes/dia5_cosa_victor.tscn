@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://cc0vsong3im1c"]
+
+[ext_resource type="Script" uid="uid://bvg8kho7wmck2" path="res://scripts/dia_5_cosa_victor.gd" id="1_q1mib"]
+[ext_resource type="Texture2D" uid="uid://cgyh5dwq5e0qx" path="res://imagenes/descarga.webp" id="2_kngm0"]
+[ext_resource type="AudioStream" uid="uid://13jl2qu6vfje" path="res://AUDIO JUEGO/jumpscare-94984.mp3" id="3_k4ff5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_25u87"]
+radius = 22.36068
+
+[node name="Jumpscare" type="Area2D"]
+script = ExtResource("1_q1mib")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_25u87")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.18897636, 0.18897639)
+texture = ExtResource("2_kngm0")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_k4ff5")
+volume_db = -10.829
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

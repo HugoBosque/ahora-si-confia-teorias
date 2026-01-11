@@ -24,7 +24,7 @@ func _on_body_exited(area) -> void:
 		exclamacion.visible = false
 
 func _process(delta: float) -> void:
-	if player_in_area and Input.is_action_just_pressed("ui_accept") and GameManager.has_done_cinematic1:
+	if player_in_area and Input.is_action_just_pressed("accept") and GameManager.has_done_cinematic1:
 		_on_click()
 		
 func _on_click() -> void:
