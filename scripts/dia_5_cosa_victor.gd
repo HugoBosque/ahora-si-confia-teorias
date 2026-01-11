@@ -20,5 +20,5 @@ func _on_body_exited(area) -> void:
 
 
 func _process(_delta):
-	if player_in_area and Input.is_action_just_pressed("accept"):
+	if player_in_area and Input.is_action_just_pressed("accept") and GameManager.dia == 5:
 		print("vicniga")

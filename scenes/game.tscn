@@ -1,4 +1,4 @@
-[gd_scene load_steps=50 format=4 uid="uid://cg0ysj07cxfnp"]
+[gd_scene load_steps=51 format=4 uid="uid://cg0ysj07cxfnp"]
 
 [ext_resource type="Script" uid="uid://dk4i6ny4oi7h3" path="res://scripts/game.gd" id="1_1kice"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="1_uwrxv"]
@@ -38,6 +38,7 @@
 [ext_resource type="PackedScene" uid="uid://cybrxvtxrj7k0" path="res://scenes/personajes/viudo en casa.tscn" id="32_nepv3"]
 [ext_resource type="PackedScene" uid="uid://cymrn2scq3qyh" path="res://scenes/personajes/minero en casa.tscn" id="34_7025r"]
 [ext_resource type="Script" uid="uid://cqt47onfhomka" path="res://scripts/dia4all.gd" id="37_nepv3"]
+[ext_resource type="PackedScene" uid="uid://cc0vsong3im1c" path="res://scenes/dia5_cosa_victor.tscn" id="39_7025r"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_no12j"]
 texture = ExtResource("2_kvpfn")
@@ -42673,6 +42674,9 @@ position = Vector2(1567, 1551)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(0, 6)
+
+[node name="Jumpscare" parent="." instance=ExtResource("39_7025r")]
+position = Vector2(1567, 1580)
 
 [connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]
 [connection signal="body_entered" from="DoorToChurch" to="." method="_on_door_to_church_body_entered"]
