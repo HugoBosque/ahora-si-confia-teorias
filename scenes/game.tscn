@@ -42676,7 +42676,7 @@ position = Vector2(1567, 1551)
 position = Vector2(0, 6)
 
 [node name="Jumpscare" parent="." instance=ExtResource("39_7025r")]
-position = Vector2(1567, 1580)
+position = Vector2(1567, 1575)
 
 [connection signal="body_entered" from="DoorToHouse" to="DoorToHouse" method="_on_body_entered"]
 [connection signal="body_entered" from="DoorToChurch" to="." method="_on_door_to_church_body_entered"]

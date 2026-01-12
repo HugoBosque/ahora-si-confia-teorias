@@ -101,7 +101,7 @@ var is_game_paused: bool = false
 
 var has_seen_presi_scene: bool = false
 var next_spawn: Vector2 = Vector2.ZERO
-var dia: int = 1  # día actual
+var dia: int = 5  # día actual
 
 func _ready():
 	print("🌍 Global cargado — preparado para guardar y cargar partidas.")

@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cnfewcryynldq"
+path="res://.godot/imported/dia 5 muerto.dialogue-24811e72163a29b130c1b813063a65dc.tres"
+
+[deps]
+
+source_file="res://Dialogue/dia 5 muerto.dialogue"
+dest_files=["res://.godot/imported/dia 5 muerto.dialogue-24811e72163a29b130c1b813063a65dc.tres"]
+
+[params]
+
+defaults=true
