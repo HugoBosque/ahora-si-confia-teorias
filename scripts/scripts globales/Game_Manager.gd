@@ -8,7 +8,7 @@ var has_done_cinematic1 = false
 var has_animation_done = false
 
 # -------------------- PROGRESO GENERAL --------------------
-var dia: int = 5
+var dia: int = 1
 # -------------------- VARIABLES DE PERSONAJES --------------------
 var vida_cura: int = 100
 var preocupacion_cura: int = 0
@@ -74,10 +74,10 @@ func get_dano_por_dia() -> int:
 		1: return 0
 		2: return 5
 		3: return 10
-		4: return 20
-		5: return 35
-		6: return 55
-		7: return 75
+		4: return 15
+		5: return 20
+		6: return 25
+		7: return 30
 	return 0
 
 func hacer_dano():
@@ -128,9 +128,10 @@ func cambiar_dia():
 	"""
 	Aumenta el día actual, emite la señal de cambio y actualiza la lógica global.
 	"""
+	hacer_dano()
 	dia += 1
 	print("📆 Día cambiado a:", dia)
-
+	
 	actualizar_cura()
 	verificar_condiciones_dia()
 	

@@ -5,4 +5,5 @@ func _ready():
 
 func _on_button_pressed():
 	# Cambiar a la escena final usando la ruta directamente
+	GameManager.comprobar_vidas()
 	get_tree().change_scene_to_file("res://scenes/cinemarografia/escena_final.tscn")
