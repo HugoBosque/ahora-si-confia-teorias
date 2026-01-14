@@ -10,9 +10,10 @@ func _ready():
 	connect("body_exited", Callable(self, "_on_body_exited"))
 
 func _on_body_entered(area) -> void:
-	if area.name == "Player":
-		player_in_area = true
-		exclamacion.visible = true
+	if GameManager.has_done_cinematic1:
+		if area.name == "Player":
+			player_in_area = true
+			exclamacion.visible = true
 
 func _on_body_exited(area) -> void:
 	if area.name == "Player":
