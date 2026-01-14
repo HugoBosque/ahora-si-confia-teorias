@@ -6,9 +6,13 @@ extends Area2D
 
 const SoldadoMuerto = preload("uid://cnfewcryynldq")
 var player_in_area = false
-var soldado_muerto_hablado = false
+
 func _ready():
 	sprite_2d.visible = false
+	
+	if Global.soldado_muerto_hablado:
+		desactivar_soldado()
+		return
 
 	# Solo activo el personaje el día 5
 	var activo := GameManager.dia == 5
@@ -27,6 +31,9 @@ func _ready():
 	connect("body_exited", Callable(self, "_on_body_exited"))
 
 func _on_body_entered(area) -> void:
+	if Global.soldado_muerto_hablado:
+		desactivar_soldado()
+		return
 	if GameManager.dia == 5:
 		if area.name == "Player":
 			player_in_area = true
@@ -39,9 +46,9 @@ func _on_body_exited(area) -> void:
 			sprite_2d.visible = false
 	
 func _process(delta):
-	if player_in_area and Input.is_action_just_pressed("accept") and not GameManager.is_dialogue_active and not soldado_muerto_hablado:
+	if player_in_area and Input.is_action_just_pressed("accept") and not GameManager.is_dialogue_active and not Global.soldado_muerto_hablado:
 		DialogueManager.show_dialogue_balloon(SoldadoMuerto, "start")
-		soldado_muerto_hablado = true
+		Global.soldado_muerto_hablado = true
 		desactivar_soldado()
 		
 func _on_dialogue_started(dialogue):

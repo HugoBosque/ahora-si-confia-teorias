@@ -16,6 +16,8 @@ func _ready():
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 
 func _on_body_entered(area) -> void:
+	if dialogue_talked:
+		return
 	if area.name == "Player":
 		player_in_area = true
 		exclamacion.visible = true
