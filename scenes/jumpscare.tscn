@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cqp7ku0jid2n1"]
 
 [ext_resource type="Script" uid="uid://bhqsudbtaxuel" path="res://scripts/jumpscare.gd" id="1_yfyrm"]
-[ext_resource type="Texture2D" uid="uid://03i53dqkqbp" path="res://imagenes/P1020209-1-scaled.webp" id="2_uhh4h"]
+[ext_resource type="Texture2D" uid="uid://dhi48fsvcx4wm" path="res://imagenes/ratahugobsoque.png" id="2_uhh4h"]
 [ext_resource type="AudioStream" uid="uid://13jl2qu6vfje" path="res://AUDIO JUEGO/jumpscare-94984.mp3" id="3_uhh4h"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_25u87"]
@@ -14,7 +14,8 @@ script = ExtResource("1_yfyrm")
 shape = SubResource("CircleShape2D_25u87")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.09583331, 0.09583333)
+position = Vector2(-0.9999924, -1)
+scale = Vector2(0.22109371, 0.23401284)
 texture = ExtResource("2_uhh4h")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
