@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://qpi0a34eaf1g"]
+[gd_scene load_steps=11 format=3 uid="uid://qpi0a34eaf1g"]
 
 [ext_resource type="PackedScene" uid="uid://bhobjfjvn12qw" path="res://Tile Maps/ciudad_01.tscn" id="1_8twys"]
+[ext_resource type="Script" uid="uid://bursciufcd1xo" path="res://scripts/house.gd" id="1_ea8vi"]
 [ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="1_nwrc1"]
 [ext_resource type="PackedScene" uid="uid://l72ufl7a8fxw" path="res://Tile Maps/DetailsFront.tscn" id="2_etd6b"]
 [ext_resource type="PackedScene" uid="uid://d14mpxdyt4fcp" path="res://scenes/personajes/Player.tscn" id="2_r2usd"]
@@ -13,6 +14,7 @@
 size = Vector2(33, 48)
 
 [node name="House" type="Node2D"]
+script = ExtResource("1_ea8vi")
 
 [node name="menustop" parent="." instance=ExtResource("1_nwrc1")]
 
@@ -47,5 +49,13 @@ position = Vector2(747, 188)
 
 [node name="mesa" parent="." instance=ExtResource("8_nwrc1")]
 position = Vector2(747, 397)
+
+[node name="ConfirmarDormir" type="ConfirmationDialog" parent="."]
+oversampling_override = 1.0
+title = "Pasar el día"
+size = Vector2i(259, 100)
+ok_button_text = "Si"
+dialog_text = "¿Quieres pasar al siguiente día?"
+cancel_button_text = "No"
 
 [connection signal="body_entered" from="DoorToTown" to="DoorToTown" method="_on_body_entered"]

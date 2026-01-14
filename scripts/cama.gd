@@ -23,5 +23,6 @@ func _on_body_exited(area) -> void:
 func _process(_delta):
 	if player_in_area and Input.is_action_just_pressed("accept") and GameManager.has_done_cinematic1:
 		# Cargar la escena del video
+		GameManager.is_dialogue_active = true
 		GameManager.comprobar_vidas()
-		get_tree().change_scene_to_file("res://scenes/cinemarografia/video_stream_player.tscn")
+		get_parent().mostrar_confirmacion_dormir()
