@@ -1,48 +1,48 @@
 ~ start
 [color=#6F6F6F][b]Romanov Morozov[/b][/color]: ¿Qué quieres?
 - Venía a hablar contigo
-if Global.dia2_tendero_sus:
-	[color=#A0A0A0][b]Alexei[/b][/color]: Mira, he escuchado por ahí alguna cosa. Te lo digo de corazón: no dejes que sus palabras nublen tu camino. Si algo he aprendido, es que a veces hay que avanzar sin importar lo que digan los demás.
+	if Global.dia2_tendero_sus:
+		[color=#A0A0A0][b]Alexei[/b][/color]: Mira, he escuchado por ahí alguna cosa. Te lo digo de corazón: no dejes que sus palabras nublen tu camino. Si algo he aprendido, es que a veces hay que avanzar sin importar lo que digan los demás.
 
-	[color=#89C2FF][b]Yo[/b][/color]: Te noto más cansado que otros días.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No es cansancio.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Es costumbre.
+		[color=#89C2FF][b]Yo[/b][/color]: Te noto más cansado que otros días.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No es cansancio.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Es costumbre.
 
-	[color=#89C2FF][b]Yo[/b][/color]: ¿Costumbre a qué?
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A que las cosas vayan mal.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A no preguntar demasiado.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A seguir adelante aunque nadie explique nada.
+		[color=#89C2FF][b]Yo[/b][/color]: ¿Costumbre a qué?
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A que las cosas vayan mal.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A no preguntar demasiado.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A seguir adelante aunque nadie explique nada.
 
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Este pueblo ha sobrevivido a cosas peores.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y los que no… ya no se quejan.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Este pueblo ha sobrevivido a cosas peores.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y los que no… ya no se quejan.
+	
+		[color=#89C2FF][b]Yo[/b][/color]: ¿No te preocupa lo que está pasando?
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Preocuparme no cambiaría nada.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y ya he perdido suficiente intentando cambiar cosas.
 
-	[color=#89C2FF][b]Yo[/b][/color]: ¿No te preocupa lo que está pasando?
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Preocuparme no cambiaría nada.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y ya he perdido suficiente intentando cambiar cosas.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Haz tu trabajo, chico.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Yo haré lo mismo que siempre: aguantar.
+	elif not Global.dia2_tendero_sus:
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: ¿Hablar?
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No soy buena compañía.
 
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Haz tu trabajo, chico.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Yo haré lo mismo que siempre: aguantar.
-elif not Global.dia2_tendero_sus:
-	[color=#A0A0A0][b]Alexei[/b][/color]: [speed=10]¿Qué quieres ahora?
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: ¿Hablar?
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No soy buena compañía.
+		[color=#89C2FF][b]Yo[/b][/color]: Te noto más cansado que otros días.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No es cansancio.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Es costumbre.
 
-	[color=#89C2FF][b]Yo[/b][/color]: Te noto más cansado que otros días.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No es cansancio.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Es costumbre.
+		[color=#89C2FF][b]Yo[/b][/color]: ¿Costumbre a qué?
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A que las cosas vayan mal.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A no preguntar demasiado.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A seguir adelante aunque nadie explique nada.
 
-	[color=#89C2FF][b]Yo[/b][/color]: ¿Costumbre a qué?
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A que las cosas vayan mal.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A no preguntar demasiado.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: A seguir adelante aunque nadie explique nada.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Este pueblo ha sobrevivido a cosas peores.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y los que no… ya no se quejan.
 
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Este pueblo ha sobrevivido a cosas peores.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y los que no… ya no se quejan.
+		[color=#89C2FF][b]Yo[/b][/color]: ¿No te preocupa lo que está pasando?
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Preocuparme no cambiaría nada.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y ya he perdido suficiente intentando cambiar cosas.
 
-	[color=#89C2FF][b]Yo[/b][/color]: ¿No te preocupa lo que está pasando?
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Preocuparme no cambiaría nada.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Y ya he perdido suficiente intentando cambiar cosas.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Haz tu trabajo, chico.
+		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Yo haré lo mismo que siempre: aguantar.
 
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Haz tu trabajo, chico.
-	[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Yo haré lo mismo que siempre: aguantar.
 => END

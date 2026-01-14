@@ -49,7 +49,7 @@
 			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Si la doctora está atenta, quizá aún haya esperanza.
 			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Aunque cada vez conozco a más gente que se marea sin motivo…
 
-		- “Reordenación del transporte: solo rutas priorizadas”
+		- “Reordenación del transporte, solo rutas priorizadas”
 			set GameManager.preocupacion_madre += 10
 			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Entonces es verdad…
 			[color=#F9E07F][b]Svetlana Falcov[/b][/color]: [speed=0.6]Si empiezan a cerrar caminos, es que algo va muy mal.
