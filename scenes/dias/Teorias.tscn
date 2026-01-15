@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dm2cla1s1igb"]
+[gd_scene load_steps=8 format=3 uid="uid://dm2cla1s1igb"]
 
 [ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="1_fbvkc"]
 [ext_resource type="Texture2D" uid="uid://yw1ckoq1hb8r" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_171907-removebg-preview.png" id="2_oepww"]
@@ -7,7 +7,6 @@
 [ext_resource type="Texture2D" uid="uid://8kux57eyuu55" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_172001-removebg-preview.png" id="5_bwndf"]
 [ext_resource type="Texture2D" uid="uid://dcls7evkaodnu" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_172040-removebg-preview.png" id="6_asyx5"]
 [ext_resource type="Texture2D" uid="uid://dcgj2fx2g212s" path="res://imagenes/epilogo fotos/Captura_de_pantalla_2026-01-07_172053-removebg-preview.png" id="7_inmdg"]
-[ext_resource type="PackedScene" uid="uid://i8k8q583smpi" path="res://scenes/menustop.tscn" id="8_3cjfv"]
 
 [node name="Teorias" type="Control"]
 layout_mode = 3
@@ -128,6 +127,16 @@ La repetición elimina la sensación de imposición. Las acciones se vuelven rut
 Como ocurre en los sistemas de control modernos, nadie sintió que obedecía. Cuando una conducta se repite 
 lo suficiente, deja de parecer una orden y comienza a parecer una elección."
 
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 875.0
+offset_top = 16.0
+offset_right = 1126.0
+offset_bottom = 55.0
+theme_override_fonts/font = ExtResource("1_fbvkc")
+theme_override_font_sizes/font_size = 25
+text = "CONTINUAR"
+
 [node name="CapturaDePantalla20260107171907RemovebgPreview" type="Sprite2D" parent="."]
 position = Vector2(1072, 583)
 scale = Vector2(0.5861244, 0.5197373)
@@ -157,6 +166,3 @@ texture = ExtResource("6_asyx5")
 position = Vector2(1076, 198)
 scale = Vector2(0.35486877, 0.44863015)
 texture = ExtResource("7_inmdg")
-
-[node name="menustop" parent="." instance=ExtResource("8_3cjfv")]
-visible = false

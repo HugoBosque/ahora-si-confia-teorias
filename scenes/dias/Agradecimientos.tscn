@@ -1,0 +1,83 @@
+[gd_scene load_steps=2 format=3 uid="uid://djoflwrg7gyo6"]
+
+[ext_resource type="FontFile" uid="uid://dhqb677wbwrwx" path="res://VT323-Regular.ttf" id="1_78sxk"]
+
+[node name="Agradecimientos" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -5.0
+offset_right = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Agradecimientos" type="Label" parent="."]
+layout_mode = 0
+offset_left = 26.0
+offset_top = 29.0
+offset_right = 1114.0
+offset_bottom = 74.0
+size_flags_vertical = 2
+theme_override_fonts/font = ExtResource("1_78sxk")
+theme_override_font_sizes/font_size = 40
+text = "Agradecimientos"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="dia1" type="Label" parent="."]
+layout_mode = 0
+offset_left = 234.0
+offset_top = 97.0
+offset_right = 906.0
+offset_bottom = 462.0
+theme_override_fonts/font = ExtResource("1_78sxk")
+theme_override_font_sizes/font_size = 20
+text = "Gracias por recorrer Plupsovia.
+Gracias por leer, por decidir y por cargar con el peso de cada noticia entregada.
+
+Este videojuego no solo habla de un pueblo, una guerra o un gas invisible; 
+habla del poder de la información y de la responsabilidad que implica transmitirla. 
+Si durante el camino algo te ha incomodado, te ha hecho dudar o reflexionar, 
+entonces el viaje ha tenido sentido.
+
+Nada de esto habría sido posible sin todas las referencias,
+ teorías y aprendizajes que han dado forma a esta experiencia. 
+Por eso, si lo vivido y lo aprendido durante el juego te ha resultado interesante, 
+más abajo encontrarás un enlace con información adicional donde se profundiza 
+en las teorías de la comunicación que inspiran este proyecto y su desarollo.
+
+Gracias por jugar.
+Gracias por cuestionar."
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 444.0
+offset_top = 547.0
+offset_right = 695.0
+offset_bottom = 636.0
+theme_override_fonts/font = ExtResource("1_78sxk")
+theme_override_font_sizes/font_size = 30
+text = "VOLVER AL MENÚ"
+
+[node name="dia2" type="Label" parent="."]
+modulate = Color(0, 0.52156866, 1, 1)
+layout_mode = 0
+offset_left = 180.0
+offset_top = 481.0
+offset_right = 948.0
+offset_bottom = 501.0
+theme_override_fonts/font = ExtResource("1_78sxk")
+theme_override_font_sizes/font_size = 20
+text = "https://docs.google.com/document/d/1AvCTRr_x4a_c2-qgdHwieeC5KJgmbTR5LLis2nAMFHk/edit?usp=sharing"
+horizontal_alignment = 1
