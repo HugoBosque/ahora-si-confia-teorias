@@ -3,12 +3,12 @@ extends Node
 # -------------------- ESTADOS GLOBALES --------------------
 var has_met_tendero = false
 var is_dialogue_active = false
-var has_done_dialogue1 = false
-var has_done_cinematic1 = false
+var has_done_dialogue1 = true
+var has_done_cinematic1 = true
 var has_animation_done = false
 
 # -------------------- PROGRESO GENERAL --------------------
-var dia: int = 1
+var dia: int = 5
 # -------------------- VARIABLES DE PERSONAJES --------------------
 var vida_cura: int = 100
 var preocupacion_cura: int = 0

@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://cc0vsong3im1c"]
+[gd_scene load_steps=8 format=3 uid="uid://cc0vsong3im1c"]
 
 [ext_resource type="Script" uid="uid://bvg8kho7wmck2" path="res://scripts/dia_5_cosa_victor.gd" id="1_q1mib"]
 [ext_resource type="Texture2D" uid="uid://bhllyay1p322v" path="res://Dialogue/Captura de pantalla 2026-01-12 173926 (1).png" id="2_jefuw"]
 [ext_resource type="Texture2D" uid="uid://jv3vnln3slee" path="res://imagenes/8819420.png" id="3_q1mib"]
+[ext_resource type="Texture2D" uid="uid://lxgswc026m1q" path="res://imagenes/FOTOS DE PRENSA/DIA 5 (Militar).png" id="4_kngm0"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_q1mib"]
 radius = 28.0
@@ -43,6 +44,11 @@ shape = SubResource("RectangleShape2D_k4ff5")
 position = Vector2(0, -23)
 scale = Vector2(0.05809375, 0.05809375)
 texture = ExtResource("3_q1mib")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(-1.4210855e-14, -105)
+scale = Vector2(0.3148148, 0.31481484)
+texture = ExtResource("4_kngm0")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="body_exited" from="." to="." method="_on_body_exited"]
