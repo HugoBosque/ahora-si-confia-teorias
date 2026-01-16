@@ -10,7 +10,7 @@
 	[color=#9DE841][b]Mikhail Belov[/b][/color]: A ver… dime qué pasa ahora.
 
 	- "Algunos animales salvajes fueron vistos cerca del bosque"
-		set GameManager.preocupacion_mikhail += 5
+		set GameManager.preocupacion_mikhail += 15
 		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]¿Animales, dices? Eso sí me preocupa. Mis cultivos están cerca del límite del bosque…
 		[color=#9DE841][b]Mikhail Belov[/b][/color]: [speed=0.6]Espero que no vengan hambrientos. Ya tengo suficiente trabajo.
 

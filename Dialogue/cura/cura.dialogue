@@ -5,7 +5,7 @@
 	[color=#ffc100][b]Padre Zhukov[/b][/color]: ¿Y qué es lo que tienes?
 
 	- "La carretera principal sigue bloqueada por la nieve"
-		set GameManager.preocupacion_cura += 5
+		set GameManager.preocupacion_cura += 10
 		[color=#ffc100][b]Padre Zhukov[/b][/color]: Rezaré por todos ellos. Gracias por esta información.
 
 	- "Llegan nuevas provisiones desde la capital"

@@ -2,7 +2,7 @@
 [color=#A0A0A0][b]Alexei[/b][/color]: ¿Se te ha perdido algo?
 
 - Vengo a darte las noticias
-	set Global.dia1_hablar_esceptico = true
+	set Global.dia1_halbar_esceptico = true
 	[color=#A0A0A0][b]Alexei[/b][/color]: No me las leeré.
 	[color=#89C2FF][b]Yo[/b][/color]: Es importante que estés informado.
 	[color=#A0A0A0][b]Alexei[/b][/color]: Prefiero informarme yo mismo.

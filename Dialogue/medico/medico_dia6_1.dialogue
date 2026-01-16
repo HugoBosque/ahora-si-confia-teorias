@@ -9,7 +9,7 @@
 	[color=#5FB7FF][b]Dra. Alina[/b][/color]: Dímelas. Prefiero saberlo antes de que me lo griten en la calle.
 
 	- “Grave abarrotamiento de los servicios de emergencia”
-		set GameManager.preocupacion_medico += 15
+		set GameManager.preocupacion_medico += 20
 	
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Lo sé.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Ya estamos derivando pacientes fuera… y aun así no damos abasto.

@@ -19,7 +19,7 @@
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Es consecuencia.
 
 	- “Campaña de concienciación, quedarse en casa salva vidas”
-		set GameManager.preocupacion_cura += 15
+		set GameManager.preocupacion_cura += 25
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Quedarse en casa…
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Como en los tiempos antiguos, cuando Dios cerraba las puertas
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: para que el castigo pasara de largo.

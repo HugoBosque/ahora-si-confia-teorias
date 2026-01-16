@@ -15,7 +15,7 @@
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Y los síntomas están aquí, no arriba.
 
 	- “Hospital regional aumenta vigilancia médica”
-		set GameManager.preocupacion_medico += 15
+		set GameManager.preocupacion_medico += 20
 		
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Era inevitable.
 		[color=#5FB7FF][b]Dra. Alina[/b][/color]: Se han detectado patrones que no me gustan.

@@ -19,7 +19,7 @@
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Tomo nota, veré qué puedo hacer.
 
 	- "Medidas de mantenimiento industrial"  
-		set GameManager.preocupacion_viktor -= 5
+		set GameManager.preocupacion_viktor += 0 
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Mantenimiento dicen… Los mayores desastres son provocados con palabras.
 
 - Venía a hablar contigo  

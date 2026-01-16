@@ -9,7 +9,7 @@
 	[color=#1451d4][b]Viktor Sokolov[/b][/color]: Dime.
 
 	- “Grave abarrotamiento de los servicios de emergencia”
-		set GameManager.preocupacion_viktor += 15
+		set GameManager.preocupacion_viktor += 20
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Lo sé.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Los informes llegan antes que las ambulancias.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Y aun así… nunca son suficientes.
@@ -20,7 +20,7 @@
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Es porque ya ha perdido el control de las calles.
 
 	- “Dos vecinos encontrados sin vida en las afueras”
-		set GameManager.preocupacion_viktor += 20
+		set GameManager.preocupacion_viktor += 30
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Afueras.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Siempre pasa ahí primero.
 		[color=#1451d4][b]Viktor Sokolov[/b][/color]: Donde nadie mira… y nadie responde.
