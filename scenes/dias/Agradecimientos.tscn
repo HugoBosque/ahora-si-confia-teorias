@@ -81,7 +81,7 @@ offset_right = 948.0
 offset_bottom = 501.0
 theme_override_fonts/font = ExtResource("1_78sxk")
 theme_override_font_sizes/font_size = 20
-text = "https://drive.google.com/file/d/1ryMQ-dbG5Ve45wU_B0Hob2g9h8GAPWHU/view?usp=drive_link"
+text = "https://drive.google.com/file/d/1ryMQ-dbG5Ve45wU_B0Hob2g9h8GAPWHU/view?usp=sharing"
 horizontal_alignment = 1
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
