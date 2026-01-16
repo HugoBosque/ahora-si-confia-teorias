@@ -9,7 +9,7 @@
 	[color=#B98A56][b]Padre Zhukov[/b][/color]: Adelante. La información, bien guiada, puede ser una bendición.
 
 	- “Luces extrañas en el cielo desconciertan a algunos vecinos”
-		set GameManager.preocupacion_cura += 10
+		set GameManager.preocupacion_cura += 20
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Ah… luces.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Nada desestabiliza más que lo que no tiene explicación inmediata.
 		[color=#B98A56][b]Padre Zhukov[/b][/color]: Por eso es importante no alimentar interpretaciones… innecesarias.

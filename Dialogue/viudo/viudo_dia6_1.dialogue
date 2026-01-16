@@ -19,7 +19,7 @@
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: No hay nada que salvar ahí dentro.
 
 	- “Dos vecinos encontrados sin vida en las afueras”
-		set GameManager.preocupacion_viudo += 15
+		set GameManager.preocupacion_viudo += 20
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: Dos más.
 		[color=#6F6F6F][b]Romanov Morozov[/b][/color]: El silencio se apodera de Plupsovia.
 
